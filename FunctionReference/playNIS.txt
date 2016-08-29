@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionplayNIS
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Probably works the same way as the nisPlay function.
+Page History :: 2006-01-19 16:52:26  :: Owner: MiKail :: 
+:: :: 

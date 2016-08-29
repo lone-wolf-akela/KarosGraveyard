@@ -1,0 +1,23 @@
+Homeworld 2 : Functiontan
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tan(<fNumber>)
+
+Description
+
+Returns the tangent (in degrees) of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 14:04:32  :: Owner: ThoughtProcess :: 
+:: :: 

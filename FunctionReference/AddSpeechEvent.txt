@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionAddSpeechEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+data\locale\animatics\a00_speech.lua
+Page History :: 2006-01-18 20:56:24  :: Owner: MiKail :: 
+:: :: 

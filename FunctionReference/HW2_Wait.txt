@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionHW2_Wait
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_Wait(<fTime>)
+
+Description:
+
+This function must be called from within an event table. It specifies the time after which the next item in the event table will be executed.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+Note: use Wait_Start and Wait_End or Universe_GameTime or Rule_AddInterval to set up timed events outside event tables.
+
+Example:
+
+HW2_Wait(5)
+
+Argument:
+
+<fTime>: the length of time (in seconds) before the next item in the event table is executed.
+
+Scope:
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-07 08:15:02  :: Owner: MiKail :: 
+:: :: 

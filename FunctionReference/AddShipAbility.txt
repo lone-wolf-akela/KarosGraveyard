@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionAddShipAbility
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+AddShipAbility(<rShipTable>, <sString>, <iInteger>, <sString>, <bBool>)
+
+Description
+
+Quote from Mecha (discussion thread "AddShipAbility is part of the modifier system, it says that this ship enables the defense field ability in other ships. You've set it to "ThisShipOnly" so it enables an already present defense field ability on the same ship. This is kind of pointless, just set the defense field ability to be active by default, no need for using the modifier system."
+
+
+Used by eg. the cloaking and defense field abilities. Is this function required/obsolete? -VarisWiki
+It works the same way as AddSubSystemAbility.
+
+Example
+
+AddShipAbility(NewShipType, "DefenseField", 1, "ThisShipOnly", 0)
+
+Arguments
+
+Related Pages:
+
+Function Reference 
+AddSubSystemAbility
+
+There are 4 comments on this page. [Display comments]
+Page History :: 2006-08-28 10:05:32  :: Owner: VarisWiki :: 
+:: :: 

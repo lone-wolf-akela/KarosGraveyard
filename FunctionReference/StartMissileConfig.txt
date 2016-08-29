@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStartMissileConfig
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+StartMissileConfig()
+
+Description
+
+Instantiates and returns a Ship object to build a missile or mine around. This is always the first non-commented line in a .miss file.
+Create a Ship for missile construction.
+Returns a new Ship object.
+
+Example
+
+NewShipType = StartMissileConfig()
+
+Arguments
+
+None.
+
+Related Pages:
+
+StartShipConfig() 
+Ship Variable Reference 
+Missile Variable Reference 
+Function Reference
+
+Page History :: 2004-03-26 03:02:50  :: Owner: ToxicFrog :: 
+:: :: 

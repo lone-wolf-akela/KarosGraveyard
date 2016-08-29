@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionFE_GetCurrentPlayerIndex
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_GetCurrentPlayerIndex()
+
+Description
+
+Returns the index number of the local player.
+Note: this function is equivalent to Universe_CurrentPlayer.
+
+Example
+
+FE_GetCurrentPlayerIndex()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference 
+Universe_CurrentPlayer
+
+Page History :: 2006-01-26 01:09:53  :: Owner: MiKail :: 
+:: :: 

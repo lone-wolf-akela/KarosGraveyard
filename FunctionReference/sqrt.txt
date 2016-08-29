@@ -1,0 +1,23 @@
+Homeworld 2 : Functionsqrt
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+sqrt(<fNumber>)
+
+Description
+
+Returns the square root of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:59:31  :: Owner: ThoughtProcess :: 
+:: :: 

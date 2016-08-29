@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionNISComplete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISComplete(<iNISIndex>)
+
+Description
+
+Returns true if the given NIS is complete.
+
+Example
+
+NISComplete(g_currentNISPlaying_id)
+
+Arguments
+
+<iNISIndex>: the index number of the NIS.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:43:13  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionATI_Display3D
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_Display3D(<stemplateName>, <v3Position>, <v3Scale>, <real32ScreenSize>, <iVisibility>)
+
+Description
+
+Not Implemented.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+UI
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-07 10:35:52  :: Owner: ThoughtProcess :: 
+:: :: 

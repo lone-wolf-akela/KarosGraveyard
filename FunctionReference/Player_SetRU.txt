@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_SetRU
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetRU(<iPlayerIndex>, <iRU>)
+
+Description
+
+Sets the RU total for the player.
+
+Example
+
+Player_SetRU(1, 1000)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iRU>: the amount of RUs.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:32:28  :: Owner: ThoughtProcess :: 
+:: :: 

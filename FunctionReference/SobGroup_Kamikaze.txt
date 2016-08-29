@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_Kamikaze
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Kamikaze(<sSobGroupName>, <sSobGroupTargetName>)
+
+Description
+
+Makes <sSobGroupName> fly straight into <sSobGroupTargetName> in a suicide attack.
+
+Example
+
+SobGroup_Kamikaze("KamikazeAttackers", "KamikazeTargets")
+
+Arguments
+
+<sSobGroupName>: the sobGroup containing the suicide bombers; they must have the ability to act as such (see 'CanAttack' in addAbility)
+<sSobGroupTargetName>: the sobGroup containing the target ships
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-31 16:27:58  :: Owner: ThoughtProcess :: 
+:: :: 

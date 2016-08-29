@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUI_ToggleScreenGameRubrick
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ToggleScreenGameRubrick(<sScreenName>, <sScreenOrElementName>, <bToggle>, <iType>)
+
+Description
+
+Unknown.
+
+Example
+
+UI_ToggleScreenGameRubrick("InGameMenu","UnitCapInfoPopup", 0, gr_all)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sScreenOrElementName>: the name of a screen or the name of a screen element.
+<bToggle>: 0 = off, 1 = on.
+<iType>: unknown. Can be gr_campaign or gr_all.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:51:04  :: Owner: MiKail :: 
+:: :: 

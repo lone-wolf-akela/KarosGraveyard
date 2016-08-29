@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUniverse_AllowSelect
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_AllowSelect(<bEnable>)
+
+Description
+
+Disables/enables whether a player is allowed to issue a select/deselect command.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:52:50  :: Owner: ThoughtProcess :: 
+:: :: 

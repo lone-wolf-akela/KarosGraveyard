@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSound_SpeechPlay
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_SpeechPlay(<sFileName>)
+
+Description
+
+Plays the <sFilePath&Name> fda audio file.
+
+Example
+
+Sound_SpeechPlay("data:sound\\speech\\nis\\nis_03\\56062") Example taken from the Complex mod
+
+Arguments
+
+<sFileName>: full path and name of the file to play (without the .fda extension) as a quoted string
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-11 04:15:08  :: Owner: ThoughtProcess :: 
+:: :: 

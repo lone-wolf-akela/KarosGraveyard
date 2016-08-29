@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionCPU_SetAttackTargetPriority
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_SetAttackTargetPriority(<iPlayerIndex>, <iAttackGroup>, <iAttackPriority>)
+
+Description
+
+Presumably sets the priority level of a certain type of enemy ships.
+
+Example
+
+CPU_SetAttackTargetPriority(2, TT_MotherShip, 50)
+
+Arguments
+
+<iPlayerIndex>: the index number of a CPU player.
+<iAttackGroup>: the index number (or variable) of the attack group. TT_MotherShip, TT_Refinery and TT_Builder variables can be found in the AI dumps. They presumably correspond to the class definitions of the AI files.
+<iAttackPriority>: the attack priority value.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-08-28 05:35:46  :: Owner: ThoughtProcess :: 
+:: :: 

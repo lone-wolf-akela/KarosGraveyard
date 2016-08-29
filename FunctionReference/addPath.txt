@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionaddPath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addPath(<sPathName>, <sPoint>, <sPoint>, ...)
+
+Description
+
+Creates a path out of any number of points.
+
+Example
+
+addPath("DustVeinPath2", "DustVeinPath2_0", "DustVeinPath2_1", "DustVeinPath2_2", "DustVeinPath2_3")
+
+Arguments
+
+<sPathName>: the name of the path. Is referenced later by the SobGroup_FollowPath function.
+<sPoint>: the name of the point. Is created using the addPoint function.
+
+Scope
+
+Level
+
+Related Pages:
+
+addPoint 
+SobGroup_FollowPath 
+FunctionReference
+
+There is one comment on this page. [Display comment]
+Page History :: 2005-07-06 16:26:15  :: Owner: MiKail :: 
+:: :: 

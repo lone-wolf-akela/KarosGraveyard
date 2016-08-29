@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUniverse_AllowClicks
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_AllowClicks(<bEnable>)
+
+Description
+
+Disables/enables left and right mouse button click events.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:51:59  :: Owner: ThoughtProcess :: 
+:: :: 

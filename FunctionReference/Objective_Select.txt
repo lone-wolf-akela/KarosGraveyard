@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionObjective_Select
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Objective_Select(<iObjectiveIndex>)
+
+Description
+
+Makes an objective selectable in the Objective List.
+
+Example
+
+
+Arguments
+
+<iObjectiveIndex>: the index number of the objective (returned by Objective_Add).
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 01:04:36  :: Owner: ThoughtProcess :: 
+:: :: 

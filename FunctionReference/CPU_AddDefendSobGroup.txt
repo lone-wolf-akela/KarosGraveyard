@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCPU_AddDefendSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_AddDefendSobGroup(<iPlayerIndex>, <sSobGroupName>, <iUnknown>)
+
+Description
+
+Unknown. Presumably tells a CPU player to defend the named sobgroup. 
+Presumably returns an index number of the target.
+
+Example
+
+CPU_AddDefendSobGroup(3, "inhibitor_1", 50)
+
+Arguments
+
+<iPlayerIndex>: the index number of the CPU player.
+<sSobGroupName>: the name of the sobgroup.
+<iUnknown>: unknown. The third argument looks like a weighting factor to balance the defense task against the CPU normal behavior. Tests needed - SunTzu
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-03-03 13:09:53  :: Owner: MiKail :: 
+:: :: 

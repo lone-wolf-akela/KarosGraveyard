@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionATI_Display2D
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_Display2D(<sTemplateName>, <tRectangle>, <bVisibility>)
+
+Description
+
+Displays an ATI template using the current parameters.
+
+Example
+
+ATI_Display2D("progressTitle", TitleRect, 0)
+
+Arguments
+
+<sTemplateName>: the name of the template loaded using ATI_LoadTemplates.
+<tRectangle>: a table containing four floats that define the ATI rectangle: x, y, w, h. Those are normalized screen coordinates from the bottom left corner (eg {0, 0, w, h} is bottom left and {1, 1, w, h} is top right)
+<bVisibility>: 0 = invisible, 1 = visible. This does not apply to the text displayed. Perhaps to the rectangle. Tests needed. -SunTzu
+
+Related Pages:
+
+ATI_LoadTemplates 
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-25 14:39:07  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionCPU_Exist
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_Exist(<iPlayerIndex>)
+
+Description
+
+Returns true if the player is a CPU player, and false if it is a human player or if the player-slot is empty.
+
+Example
+
+CPU_Exist(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 14:53:18  :: Owner: ThoughtProcess :: 
+:: :: 

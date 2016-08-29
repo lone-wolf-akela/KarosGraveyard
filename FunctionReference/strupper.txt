@@ -1,0 +1,22 @@
+Homeworld 2 : Functionstrupper
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strupper(<sString>)
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Receives a string and returns a copy of that string with all lower case letters changed to upper case. All other characters are left unchanged. The definition of what is a lower case letter depends on the current locale."
+
+Example
+
+
+Arguments
+
+<sString>: the string to return an upper-case copy of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:02:57  :: Owner: ThoughtProcess :: 
+:: :: 

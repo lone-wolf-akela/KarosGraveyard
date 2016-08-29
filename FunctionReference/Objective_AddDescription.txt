@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionObjective_AddDescription
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Objective_AddDescription(<iObjectiveIndex>, <sDescription>)
+
+Description
+
+Adds a description to an objective.
+
+Example
+
+
+Arguments
+
+<iObjectiveIndex>: the index number of the objective (returned by Objective_Add).
+<sDescription>: the text description of the objective. Can be a raw string or localization ID.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 01:03:47  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_SetInterfaceVisible
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetInterfaceVisible(?)
+
+Description
+
+Unknown.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Unkown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:43:53  :: Owner: ThoughtProcess :: 
+:: :: 

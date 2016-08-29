@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionWait_Start
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Wait_Start(<fTime>)
+
+Description
+
+Waits for a time, then returns the index number of the wait instance.
+
+Example
+
+
+Arguments
+
+<fTime>: the amount of time in seconds to wait.
+
+Related Pages:
+
+Wait_End 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:42:05  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionCPU_GetDebugFlag
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_GetDebugFlag(?)
+
+Description
+
+Unknown.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+Unknown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 14:53:39  :: Owner: ThoughtProcess :: 
+:: :: 

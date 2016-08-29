@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionPing_AddDescription
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Ping_AddDescription(<iPingIndex>, <iLineNum>, <sDescription>)
+
+Description
+
+Adds a description to a ping.
+
+Example
+
+Ping_AddDescription(ping_resource_operation_id, 0, "$40900")
+
+Arguments
+
+<iPingIndex>: the index number of the ping.
+<iLineNum>: the line number of the description. Note: the target drones in M01 are an example of a multiple-line ping description.
+<sDescription>: the text description of the ping. Can be a raw string or a localization ID.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Gamerule 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-24 03:38:29  :: Owner: ThoughtProcess :: 
+:: :: 

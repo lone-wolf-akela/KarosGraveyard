@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionFX_PlayEffectBetweenPoints
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_PlayEffectBetweenPoints(<sEffectName>, <sVolumeName1>, <sVolumeName2>, <fScale>)
+
+Description
+
+Spawns the given effect at a point between the two given points. Scales the effect by <fScale>. Returns the <iIndex> of the effect which can be used to stop it.
+Returns an index number.
+
+Example
+
+FX_PlayEffectBetweenPoints("pro_tech_beam_combo", "EffectPoint03", "EffectPoint01", 10)
+
+Arguments
+
+<sEffectName>: the name of the effect; must match a file name in data:art/fx/ directory
+<sVolumeName1> and <sVolumeName2>: the name of the volumes between which the effect is to appear.
+<fScale>: a float number that sets the scale of the effect. Larger values increase the size of the effect.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 05:26:17  :: Owner: ThoughtProcess :: 
+:: :: 

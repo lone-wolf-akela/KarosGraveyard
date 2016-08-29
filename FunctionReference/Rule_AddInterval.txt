@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionRule_AddInterval
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Rule_AddInterval(<sRuleName>, <iFrameInterval>)
+
+Description
+
+Call the function <sRuleName> every <iFrameInterval> seconds.
+Note: the docs say once every 10 * <iFrameInterval> game frames (variable between ~.1 and .3 seconds) -- which is wrong.
+
+Example
+
+
+function updateTimer()
+
+...code...
+
+end
+
+
+Rule_AddInterval("updateTimer", 1)
+
+
+Related Pages:
+
+Rule_Add 
+Function Reference
+
+Page History :: 2006-05-07 18:51:19  :: Owner: ThoughtProcess :: 
+:: :: 

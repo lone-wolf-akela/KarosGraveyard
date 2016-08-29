@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionStatusUpdgradeNoRUs
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Defined in "data\soundscripts\speechlogic\status.html".
+Page History :: 2006-01-19 00:51:20  :: Owner: MiKail :: 
+:: :: 

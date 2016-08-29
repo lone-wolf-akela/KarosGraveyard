@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_CancelResearch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_CancelResearch(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Cancels the named research.
+Only works if the reseach is actually in progress.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research to cancel.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 21:50:05  :: Owner: ThoughtProcess :: 
+:: :: 

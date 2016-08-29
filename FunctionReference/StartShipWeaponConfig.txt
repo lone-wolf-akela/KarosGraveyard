@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionStartShipWeaponConfig
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+StartShipWeaponConfig(<rShip>, <sWeapon>, <sHardpoint>, <sAnimation>)
+StartSubSystemWeaponConfig(<rSubSystem>, <sWeapon>, <sHardpoint>, <sAnimation>)
+
+Description
+
+StartShipWeaponConfig is called within a .ship file, while StartSubSystemWeaponConfig is called within a .subs file. These functions give a ship or subsystem a weapon, and are called once per weapon mounted on the ship, although turrets with two barrels must only call this function once despite the turret effectively having two weapons. A ship or subsystem may have more than one weapon fire from the same hardpoint and use the same or different animation. However, a ship or subsystem should not have more than one weapon mounted in the same turret, as each weapon will attempt to control the rotation and elevation of the turret separately, often preventing all weapons from firing in that turret. Only weapons of the type Gimble or Fixed can safely fire from the same hardpoint (see the StartWeaponConfig function).
+
+Example
+
+StartShipWeaponConfig(NewShipType, "Hgn_KineticAutoGun", "Weapon_FrontGun", "Fire")
+StartSubSystemWeaponConfig(NewSubSystemType, "Hgn_BattleCruiserTurretedIonCannon", "Weapon_IonCan1", "Weapon_IonCan1")
+
+Arguments
+
+<rShip> and <rSubSystem>: Reference to the ship or subsystem. Generally, this will be NewShipType or NewSubSystemType, respectively. 
+<sWeapon>: The weapon to be mounted in the indicated sHardpoint. The value corresponds to the base name of the .wepn file. 
+<sHardpoint>: The node on the model from where the weapon will fire, as coded in the ship's .hod file. 
+<sAnimation>: The name given to one of the animations defined in the ship's .events file. The animation provides the muzzle flash, sound of firing, and other special effects related to firing.
+
+Related Pages:
+
+AddWeaponResult 
+Function Reference 
+StartWeaponConfig
+
+Page History :: 2006-02-04 17:13:58  :: Owner: RangerHW :: 
+:: :: 

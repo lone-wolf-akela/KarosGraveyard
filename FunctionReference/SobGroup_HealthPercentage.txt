@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_HealthPercentage
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_HealthPercentage(<sSobGroupName>)
+
+Description
+
+Returns the health of all the ships in <sSobGroupName> as a number between 0 and 1.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:37:42  :: Owner: ThoughtProcess :: 
+:: :: 

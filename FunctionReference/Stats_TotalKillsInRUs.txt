@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStats_TotalKillsInRUs
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalKillsInRUs(<iPlayerIndex>)
+
+Description
+
+Returns the size in RUs of the ships destroyed by a player during a game (SP or skirmish). It can be called during the game.
+
+Example
+
+Stats_TotalKillsInRUs(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 16:32:13  :: Owner: ThoughtProcess :: 
+:: :: 

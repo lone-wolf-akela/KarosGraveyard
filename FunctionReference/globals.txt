@@ -1,0 +1,22 @@
+Homeworld 2 : Functionglobals
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+globals([<tTable>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Returns the current table of globals. If the argument <tTable> is given, then it also sets this table as the table of globals."
+
+Example
+
+
+Arguments
+
+<tTable>: the table to set as the new table of globals. (optional)
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:24:05  :: Owner: ThoughtProcess :: 
+:: :: 

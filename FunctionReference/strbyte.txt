@@ -1,0 +1,24 @@
+Homeworld 2 : Functionstrbyte
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strbyte(<sString> [, <iPos>])
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Returns the internal numerical code of the character at position <iPos>[sic] in <sString>. If <iPos> is absent, then it is assumed to be 1. <iPos> may be negative. 
+Numerical codes are not necessarily portable across platforms."
+
+Example
+
+
+Arguments
+
+<sString>: the string.
+<iPos>: the position of the character within <sString> to return the character code of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:00:07  :: Owner: ThoughtProcess :: 
+:: :: 

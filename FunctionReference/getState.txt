@@ -1,0 +1,29 @@
+Homeworld 2 : FunctiongetState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getState(<sShipName>, <sStateName>)
+
+Description
+
+Queries the specified state within the ship's MADState class.
+Returns bool (0/1) Is state on or off
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sStateName>: string Name of state. See state name table above.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 03:55:43  :: Owner: MiKail :: 
+:: :: 

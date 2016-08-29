@@ -1,0 +1,25 @@
+Homeworld 2 : Functionexecute
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+execute(<sCommand>)
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"This function is equivalent to the C function system. It passes command to be executed by an operating system shell. It returns a status code, which is system-dependent."
+
+Example
+
+execute("dir > dir.text")
+This example will output the directory contents (from the DOS command "dir") to the file dir.text, which will be in the same folder as the homeworld2.exe (bin\release).
+
+Arguments
+
+<sCommand>: a string containing the command to execute.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities 
+MS DOS Commands
+
+Page History :: 2006-01-16 13:06:15  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_Research
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_Research(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Start the named research item for the player.
+Note: will not work if the item is not available for research (e.g. it is restricted, already being researched, or done).
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 22:28:21  :: Owner: ThoughtProcess :: 
+:: :: 

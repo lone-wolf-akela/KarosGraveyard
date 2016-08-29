@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_UseHyperspaceGate
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_UseHyperspaceGate(<sSobGroupName>, <sGateName>)
+
+Description
+
+Makes <sSobGroupName> use the gate <sGateName>.
+Note: <sGateName> must already be deployed. To check if a gate has been deployed, use the SobGroup_IsGateDeployed function.
+
+Example
+
+SobGroup_UseHyperspaceGate("Vgr_Gate_Attack_Second_1", "Gate_1_A")
+
+Arguments
+
+<sSobGroupName>: the hyperspacing sobGroup.
+<sGateName>: the sobGroup containing the gate to use.
+
+Related Pages:
+
+Function Reference 
+SobGroup_IsGateDeployed 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-15 07:51:13  :: Owner: ThoughtProcess :: 
+:: :: 

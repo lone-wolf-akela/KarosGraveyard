@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_GetAttackers
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetAttackers(<sSobGroupName>, <sOutputSobGroupName>)
+
+Description
+
+Adds all the attackers of <sSobGroupName> to <sOutputSobGroupName>.
+Creates the group, after emptying it, if it does not already exist.
+
+Example
+
+SobGroup_GetAttackers("Universe_TeamShips1", "allEnemySob")
+
+Arguments
+
+<sSobGroupName>: the sobgroup being attacked.
+<sOutputSobGroupName>: the sobgroup that the attackers will be added to.
+
+Related Pages:
+
+FunctionReference
+
+Page History :: 2004-02-21 00:09:16  :: Owner: ThoughtProcess :: 
+:: :: 

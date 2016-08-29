@@ -1,0 +1,24 @@
+Homeworld 2 : Functionfrexp
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+frexp(<fNumber>, <vVariable>)
+
+Description
+
+Splits a number into a normalized fraction and an exponent which is stored in <vVariable>.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+<vVariable>: the variable to store the exponent in.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:20:19  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionaddShield
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addShield(<rShipTable>,<sShieldType>,<iMaxShield>,<iShieldRechargeTime>)
+
+Description:
+
+Adds a shield of <sShieldType> to a ship.
+
+Example:
+
+addShield(NewShipType,"EMP",220,20)
+
+Arguments:
+
+<rShipTable>: Reference to the ship; this should be NewShipType.
+<sShieldType>: The type of shield; only "EMP" seems available.
+<iMaxShield>: Max value of the shield for this ship; the value is in the same units as health and damage.
+<iShieldRechargeTime>: Time in seconds for the shield to go from 0 to max value.
+
+Scope:
+
+Object
+
+Page History :: 2006-03-13 03:59:03  :: Owner: MiKail :: 
+:: :: 

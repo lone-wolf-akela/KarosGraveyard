@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionChatter_Init
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Defined in "data\soundscripts\speechlogic\chatter.lua".
+Page History :: 2006-01-19 00:08:08  :: Owner: MiKail :: 
+:: :: 

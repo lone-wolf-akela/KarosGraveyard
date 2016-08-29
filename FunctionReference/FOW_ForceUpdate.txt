@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionFOW_ForceUpdate
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FOW_ForceUpdate()
+
+Description
+
+Forces an update to the fog-of-war (FOW) only if the universe is paused. Otherwise, the FOW is updated the regular way.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 01:00:05  :: Owner: ThoughtProcess :: 
+:: :: 

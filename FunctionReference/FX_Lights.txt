@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionFX_Lights
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_Lights(<iMaxPriority>)
+
+Description
+
+Sets the maximum visible light priority (-1 is no lights).
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 22:27:17  :: Owner: ThoughtProcess :: 
+:: :: 

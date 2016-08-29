@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionfogAddInterpolator
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogAddInterpolator(<sBuf>, <fDuration>, <fTarget>)
+
+Description
+
+Adds an interpolator for fog.
+
+Example
+
+
+Arguments
+
+<sBuf>: can: "fogStart", "fogEnd", "fogDensity", "fogR", "fogG", or "fogB".
+<fDuration>: duration of the event.
+<fTarget>: final value of the modified parameter.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 22:07:24  :: Owner: MiKail :: 
+:: :: 

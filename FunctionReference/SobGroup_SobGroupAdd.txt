@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SobGroupAdd
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SobGroupAdd(<sSobGroupName1>, <sSobGroupName2>)
+
+Description
+
+Adds the contents of <sSobGroupName2> to <sSobGroupName1>.
+
+Example
+
+SobGroup_SobGroupAdd("g_Players_Ships_Docked", "g_Players_Ships_Hyperspace")
+
+Arguments
+
+<sSobGroupName2>, <sSobGroupName1>: the names of the sobgroups.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:17:05  :: Owner: ThoughtProcess :: 
+:: :: 

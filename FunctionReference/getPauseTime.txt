@@ -1,0 +1,28 @@
+Homeworld 2 : FunctiongetPauseTime
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getPauseTime(<sShipName>, <sAnimName>)
+
+Description
+
+Returns the time when the specified animation will pause. A very large number means it will not pause.
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: the name of the mesh animation from the ".mad" file.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-25 17:12:02  :: Owner: MiKail :: 
+:: :: 

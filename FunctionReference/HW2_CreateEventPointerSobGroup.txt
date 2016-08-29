@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionHW2_CreateEventPointerSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_CreateEventPointerSobGroup(<sSobGroupName>)
+
+Description:
+
+Creates an event pointer to the specified sobgroup and return a pointer index.
+Note: this function is defined in "data\scripts\scar\scar_util.lua". It is the same function as EventPointer_AddSobGroup with a predefined white colour.
+
+Example
+
+g_pointer_default1 = HW2_CreateEventPointerSobGroup( "tempSobGroup" )
+
+Arguments:
+
+<sSobGroupName>: the name of the sobgroup to point to.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-03-07 07:11:20  :: Owner: Evaders99 :: 
+:: :: 

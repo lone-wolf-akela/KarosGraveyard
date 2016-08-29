@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_CanDoAbility
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_CanDoAbility(<sSobGroupName>, <iAbility>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> can perform the specified ability.
+Note: to activate an ability us SobGroup_AbilityActivate.
+
+Example
+
+if (SobGroup_CanDoAbility("V_Inf_Carrier", AB_Builder) == 1) then ...code... end
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<iAbility>: Valid abilities are:
+
+AB_None AB_Move AB_Attack AB_Guard AB_Repair AB_Cloak AB_Harvest AB_Mine AB_Capture AB_Dock AB_AcceptDocking AB_Builder AB_Stop AB_Hyperspace AB_Parade AB_FormHyperspaceGate AB_HyperspaceViaGate AB_SensorPing AB_SpecialAttack AB_Retire AB_DefenseField AB_DefenseFieldShield AB_HyperspaceInhibitor AB_Salvage AB_Steering AB_Targeting AB_Sensors AB_Lights AB_Scuttle AB_UseSpecialWeaponsInNormalAttack
+
+Related Pages:
+
+Function Reference 
+SobGroup_AbilityActivate
+
+Page History :: 2006-01-20 13:44:22  :: Owner: ThoughtProcess :: 
+:: :: 

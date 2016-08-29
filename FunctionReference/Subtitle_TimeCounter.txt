@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSubtitle_TimeCounter
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_TimeCounter(<Index>, <LocalizedString>)
+
+Description:
+
+Displays a subtitle at the bottom of the screen including the remaining time in the <Index> countdown timer. It is also used in ascension mission 15 to display the population of Hiigara
+
+Example:
+
+Subtitle_TimeCounter( 0, 42025 )
+
+Arguments:
+
+<Index>: the index (integer or string) of the timer.
+<LocalizedString>: the number of the localized string (without quotes or $); the string must contain %1MINUTES% and/or %2SECONDS% to display respectively minutes and seconds. The localized string must be in a dat file referenced in the level datfiles.lua file.
+
+Related Pages:
+
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-25 16:25:38  :: Owner: ThoughtProcess :: 
+:: :: 

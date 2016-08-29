@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetAutoLaunch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetAutoLaunch(<sSobGroupName>, <iLaunchSetting>)
+
+Description
+
+Sets the auto-launch setting for <sSobGroupName>.
+
+Example
+
+SobGroup_SetAutoLaunch("Mothership", ShipHoldStayDockedAlways)
+
+Arguments
+
+<iLaunchSetting>: valid settings are: ShipHoldLaunch, ShipHoldStayDockedUpToLimit and ShipHoldStayDockedAlways.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:55:02  :: Owner: ThoughtProcess :: 
+:: :: 

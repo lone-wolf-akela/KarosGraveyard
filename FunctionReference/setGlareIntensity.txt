@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionsetGlareIntensity
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setGlareIntensity (<fIntensity>)
+
+Description
+
+Changes the global value of the glare.
+Note: setting glare above 0 doesn't work with all graphics chipsets/drivers. See this thread.
+
+Example
+
+setGlareIntensity(0.10)
+
+Arguments
+
+<fIntensity>: a float value between 0 and 1.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-05-21 12:11:51  :: Owner: ThoughtProcess :: 
+:: :: 

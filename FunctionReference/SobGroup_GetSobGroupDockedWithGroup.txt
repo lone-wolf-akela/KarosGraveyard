@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_GetSobGroupDockedWithGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSobGroupDockedWithGroup(<sDockedWithName>, <sOutputName>)
+
+Description
+
+Fills <sOutputName> with all the squadrons docked to any ship in <sDockedWithName>.
+
+Example
+
+SobGroup_GetSobGroupDockedWithGroup("Gehenna", "ShipsDockedWithGehenna")
+
+Arguments
+
+<sDockedWithName>: name of the queried sobGroup (variable or quoted string)
+<sOutputName>: name of the sobGroup where the found squadrons are put(variable or quoted string)
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-09-12 07:52:55  :: Owner: ThoughtProcess :: 
+:: :: 

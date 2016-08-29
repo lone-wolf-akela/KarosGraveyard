@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_SetMadState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetMadState(<sSobGroupName>, <sStateName>)
+
+Description
+
+Makes all ships in <sSobGroupName> play the named animation.
+
+Example
+
+SobGroup_SetMadState("Droid_1", "Docked")
+
+Arguments
+
+<sSobGroupName>: name of the sobgroup
+<sStateName>: name of the animation as defined in the ship .madstate file
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:09:25  :: Owner: ThoughtProcess :: 
+:: :: 

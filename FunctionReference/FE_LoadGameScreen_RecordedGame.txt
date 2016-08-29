@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_LoadGameScreen_RecordedGame
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_LoadGameScreen_RecordedGame()
+
+Description
+
+Loads the "Load Game" screen for recorded games.
+
+Example
+
+FE_LoadGameScreen_RecordedGame()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:39:17  :: Owner: MiKail :: 
+:: :: 

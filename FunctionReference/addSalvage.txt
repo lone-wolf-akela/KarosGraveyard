@@ -1,0 +1,34 @@
+Homeworld 2 : FunctionaddSalvage
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addSalvage(<sChunkType>, <tPosition>, <fRU>, ?, ?, ?, ?)
+
+Description
+
+Adds a piece of salvageable debris to a ".level" file.
+
+Example
+
+addSalvage("Slv_Chunk_Lrg03", {0.0, 0.0, 0.0,}, 100, 0, 0, 0, 0)
+
+Arguments
+
+<sChunkType>: the type of debris. Ranges from Slv_Chunk_Lrg01 to Slv_Chunk_Lrg05, with 1 being the smallest and 5 being the largest. You can also put in Slv_Chunk_Sml01 through to 08.
+<tPosition>: a table containing the X, Z, and Y coordinates.
+<fRU>: a multiplier applied to the default RU amount contained in each debris type.
+?: dunno.
+?: dunno.
+?: dunno.
+?: dunno.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+Malignus's Mapping Tutorial
+
+Page History :: 2005-07-06 17:11:51  :: Owner: MiKail :: 
+:: :: 

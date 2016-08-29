@@ -1,0 +1,29 @@
+Homeworld 2 : Functiondr_text2d
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dr_text2d(sName, fX, fY, sText, iColourR, iColourG, iColourB)
+
+Draws 2d text on the screen. Used in timer script.
+
+Example
+
+dr_text2d("timer", 0.0, 0.98, str, 255, 255, 255)
+
+Arguments
+
+sName Name of the drawing surface (could be wrong). 
+fX X position (ratio of full width) from left. 
+fY Y position (ratio of full heigth) from bottom. 
+sText String to display. Variable reference, or, presumably, quoted text. 
+iColourR RGB value for red. 
+iColourG RGB value for green. 
+iColourB RGB value for blue.
+
+Related Pages:
+
+dr_clear 
+dr_setautoclear 
+Function Reference
+
+Page History :: 2003-10-21 19:08:14  :: Owner: NickersonM :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionFX_StopEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_StopEvent(<sSobGroupName>, <sEventName>)
+
+Description
+
+Stop playing an effect event started with FX_StartEvent.
+
+Example
+
+FX_StopEvent("Keeper", "Phase_loop")
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup containing the ships playing the event.
+<sEventName>: the name of the event you wish to stop.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 05:30:33  :: Owner: ThoughtProcess :: 
+:: :: 

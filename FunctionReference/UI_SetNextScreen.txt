@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_SetNextScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetNextScreen(<sNextScreenName>, <sCurrentScreenName>)
+
+Description
+
+Sets (preloads?) the next screen before loading it using UI_NextScreen().
+
+Example
+
+UI_SetNextScreen("UserProfile", "NewMainMenu")
+
+Arguments
+
+<sNextScreenName>: the name of the screen to load next.
+<sCurrentScreenName>: the name of the current screen.
+
+Related Pages:
+
+UI_NextScreen() 
+Function Reference
+
+Page History :: 2005-08-09 15:45:09  :: Owner: ThoughtProcess :: 
+:: :: 

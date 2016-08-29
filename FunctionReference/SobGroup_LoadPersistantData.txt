@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_LoadPersistantData
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_LoadPersistantData(<sShipType>)
+
+Description
+
+Causes the persistant fleet to spawn at "PlayerStartPoint" in formation around [...presumably the first occurance of...] <sShipType>.
+
+Example
+
+SobGroup_LoadPersistantData("Hgn_Mothership")
+
+Arguments
+
+<sShipType>: the type of ship within the persistant fleet to serve as the center of the parade formation.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-16 22:13:37  :: Owner: ThoughtProcess :: 
+:: :: 

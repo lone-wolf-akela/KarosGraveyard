@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionAddSubSystemAbility
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+AddSubSystemAbility(<rSubSystem>, <sAbility>, <?>, <sTarget>, <fRadius>)
+
+Description:
+
+This function is called within a .subs file. It grants the ability specified with <sAbility> to the ships defined with <sTarget>.
+
+Example:
+
+AddSubSystemAbility(NewSubSystemType, "Cloak", 1, "ThisShipOnly", 0)
+
+Arguments:
+
+<rSubSystem>: Reference to the subsystem. This should be NewSubSystemType.
+<sAbility>: Specifies the ability that is granted. "Cloak", "Hyperspace" and "HyperspaceInhibitor" are available. "DefenseField" might be available as well. Note that the names of the abilities are not the same as in addAbility.
+<?>: Possibly an active/inactive boolean flag.
+<sTarget>: Specifies which ships within the fRadius receive the specified ability. Possible values are "OwnShipsWithinRadius" and "ThisShipOnly", both used within the stock HW2 subsystems. Other definitions might be available.
+<fRadius>: The radius within which any ship allowed by the <sTarget> setting is granted the specified ability.
+
+Scope
+
+Level
+
+Related Pages:
+
+addShipAbility 
+addAbility
+
+Page History :: 2006-08-28 05:23:39  :: Owner: SunTzu :: 
+:: :: 

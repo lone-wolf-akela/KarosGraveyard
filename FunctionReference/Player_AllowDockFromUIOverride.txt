@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionPlayer_AllowDockFromUIOverride
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_AllowDockFromUIOverride(<iPlayerIndex>, <sShipType>)
+
+Description
+
+Every <sShipType> in the player's fleet is granted the ability to dock by the UI, even if they are prohibited from doing so by ship tuning.
+Will not grant the ability to ships which don't have it.
+
+Example
+
+Player_AllowDockFromUIOverride(0, "Hgn_MarineFrigate")
+
+Arguments
+
+<iPlayerIndex>: the index number of a player
+<sShipType>: the ship type as a quoted string
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 03:44:28  :: Owner: ThoughtProcess :: 
+:: :: 

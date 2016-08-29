@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionsetGlobalFrequencyModifier
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+data\soundscripts\speechlogic\chatter.lua
+Page History :: 2006-01-19 00:08:54  :: Owner: MiKail :: 
+:: :: 

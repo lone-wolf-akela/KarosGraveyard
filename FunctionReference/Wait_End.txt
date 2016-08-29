@@ -1,0 +1,16 @@
+Homeworld 2 : FunctionWait_End
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Wait_End(<iWaitIndex>)
+
+Description
+
+Returns true if the given wait instance has finished.
+
+Example
+
+Arguments
+
+<iWaitIndex>: the index number of the wait instance. This number is returned by Wait_Start.
+Page History :: 2005-07-06 15:36:00  :: Owner: ThoughtProcess :: 
+:: :: 

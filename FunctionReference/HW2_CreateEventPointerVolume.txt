@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionHW2_CreateEventPointerVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_CreateEventPointerVolume(<sVolumeName>)
+
+Description:
+
+Creates an event pointer to the specified volume.
+Note: this function is defined in "data\scripts\scar\scar_util.lua". It is the same function as EventPointer_AddVolume with a predefined white colour.
+
+Example:
+
+g_pointer_default = HW2_CreateEventPointerVolume( "vol_TargetDronesLocation" )
+
+Arguments:
+
+<sVolumeName>: the name of the volume to point to.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-03-07 07:32:31  :: Owner: Evaders99 :: 
+:: :: 

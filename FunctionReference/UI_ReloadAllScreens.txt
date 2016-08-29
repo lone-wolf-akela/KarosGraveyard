@@ -1,0 +1,21 @@
+Homeworld 2 : FunctionUI_ReloadAllScreens
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ReloadAllScreens(?)
+
+Description
+
+Unknown. Presumably causes all screens to update.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:38:50  :: Owner: ThoughtProcess :: 
+:: :: 

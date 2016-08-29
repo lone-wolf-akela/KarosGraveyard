@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_IsAlive
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_IsAlive(<iPlayerIndex>)
+
+Description
+
+Returns true if the player is alive.
+
+Example
+
+if Player_IsAlive(playerIndex)==1 then ...code... end
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:23:31  :: Owner: ThoughtProcess :: 
+:: :: 

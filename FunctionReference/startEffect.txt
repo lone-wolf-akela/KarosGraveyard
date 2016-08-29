@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionstartEffect
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+startEffect(<sShipName>, <sEventName>)
+
+Description
+
+Starts playing an effect event as defined in the ship's .events file.
+Returns Effect handle (Handle to started effect). This is mentioned in the RDN document but does not seem to be working.
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sEffectName>: string Name of the effect to play.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2006-12-27 06:41:05  :: Owner: MiKail :: 
+:: :: 

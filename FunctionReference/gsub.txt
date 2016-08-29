@@ -1,0 +1,55 @@
+Homeworld 2 : Functiongsub
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+gsub(<sString>, <sPattern>, <Replacement> [, <iLimit>])
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Returns a copy of <sString> in which all occurrences of the pattern <sPattern> have been replaced by a replacement string specified by <Replacement>. gsub also returns, as a second value, the total number of substitutions made. 
+If <Replacement> is a string, then its value is used for replacement. Any sequence in <Replacement> of the form %n with n between 1 and 9 stands for the value of the n-th captured substring. 
+If <Replacement> is a function, then this function is called every time a match occurs, with all captured substrings passed as arguments, in order (see below). If the value returned by this function is a string, then it is used as the replacement string; otherwise, the replacement string is the empty string. 
+The last, optional parameter <iLimit> limits the maximum number of substitutions to occur. For instance, when <iLimit> is 1 only the first occurrence of <sPattern> is replaced." 
+
+Example (from LUA 4 Manual: 6.2 String Manipulation 
+x = gsub("hello world", "(%w+)", "%1 %1")
+--> x="hello hello world world"
+
+
+x = gsub("hello world", "(%w+)", "%1 %1", 1)
+--> x="hello hello world"
+
+
+x = gsub("hello world from Lua", "(%w+)%s*(%w+)", "%2 %1")
+--> x="world hello Lua from"
+
+
+x = gsub("home = $HOME, user = $USER", "%$(%w+)", getenv)
+--> x="home = /home/roberto, user = roberto" (for instance)
+
+
+x = gsub("4+5 = $return 4+5$", "%$(.-)%$", dostring)
+--> x="4+5 = 9"
+
+
+local t = {name="lua", version="4.0"}
+x = gsub("$name - $version", "%$(%w+)", function (v) return %t[v] end)
+--> x="lua - 4.0"
+
+
+t = {n=0}
+gsub("first second word", "(%w+)", function (w) tinsert(%t, w) end)
+--> t={"first", "second", "word"; n=3}
+
+Arguments
+
+<sString>: the string to search in.
+<sPattern>: the pattern to search for.
+<Replacement>: the pattern used as a replacement for <sPattern>. (May be a string or a function; see Description.)
+<iLimit>: a limit on the number of replacements that will be made.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 13:29:35  :: Owner: ThoughtProcess :: 
+:: :: 

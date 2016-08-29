@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionNISLoad
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISLoad(<sNISPath>)
+
+Description
+
+(Pre?)loads the given NIS.
+
+Example
+
+NISLoad("nis/NIS03")
+
+Arguments
+
+<sNISPath>: the path of the NIS file, relative to the "Data: directory, and minus the file extension.
+
+Related Pages:
+
+Function Reference
+
+
+
+
+nisLoad(<sNISPath>)
+
+Description
+
+A variant of the above that uses a different spelling. Probably does the same thing, but is a different function (Lua is case-sensitive).
+This variant is found in "data\scripts\macros\*.mc" files.
+Page History :: 2006-01-18 21:42:03  :: Owner: ThoughtProcess :: 
+:: :: 

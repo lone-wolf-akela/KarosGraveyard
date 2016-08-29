@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_EnterHyperSpaceOffMap
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_EnterHyperSpaceOffMap(<sGroupName>)
+
+Description
+
+Makes <sSobGroupName> enter hyperspace and stay off the map.
+Note: to make a sobgroup exit hyperspace and return to the map, use SobGroup_ExitHyperSpace.
+
+Example
+
+SobGroup_EnterHyperSpaceOffMap("Keeper")
+
+Arguments
+
+<sSobGroupName>: the name of the sobGroup to send into hyperspace.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference 
+Function: SobGroup_ExitHyperSpace
+
+Page History :: 2006-07-18 01:22:08  :: Owner: ThoughtProcess :: 
+:: :: 

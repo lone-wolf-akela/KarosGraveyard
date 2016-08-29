@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionpostLevelComplete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+postLevelComplete()
+
+Description
+
+Tells the game to proceed with the next mission in the campaign.
+Only works if the mission is set to "completed" using the setMissionComplete function.
+
+Example
+
+postlevel = function() postLevelComplete() end
+postlevel = postLevelComplete
+Note: the above two examples are equivalent.
+
+Arguments
+
+None.
+
+Related Pages:
+
+Campaign 
+Function Reference 
+Campaign Tutorial
+
+Page History :: 2006-01-10 00:14:42  :: Owner: IcePirate :: 
+:: :: 

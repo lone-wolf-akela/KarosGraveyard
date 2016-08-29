@@ -1,0 +1,22 @@
+Homeworld 2 : Functionstrlen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strlen(<sString>)
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Receives a string and returns its length. The empty string "&Quot; has length 0. Embedded zeros are counted, and so 'a\000b\000c' has length 5."
+
+Example
+
+
+Arguments
+
+<sString>: the string to return the length of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:01:18  :: Owner: ThoughtProcess :: 
+:: :: 

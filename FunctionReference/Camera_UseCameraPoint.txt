@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionCamera_UseCameraPoint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_UseCameraPoint(<sCameraName>)
+
+Description
+
+Uses a camera point created in a .level file with addCamera.
+
+Example
+
+Camera_UseCameraPoint( "Cam_Start" )
+
+Arguments
+
+<sCameraName>: name of the camera point
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-10 12:35:35  :: Owner: ThoughtProcess :: 
+:: :: 

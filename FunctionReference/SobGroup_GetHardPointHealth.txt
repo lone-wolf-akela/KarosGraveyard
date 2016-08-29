@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_GetHardPointHealth
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetHardPointHealth(<sSobGroupName>, <sHardPointName>)
+
+Description
+
+Returns the health of the subsystem on the first <sHardPointName> in <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:35:56  :: Owner: ThoughtProcess :: 
+:: :: 

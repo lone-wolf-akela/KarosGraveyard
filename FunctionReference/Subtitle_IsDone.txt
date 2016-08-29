@@ -1,0 +1,41 @@
+Homeworld 2 : FunctionSubtitle_IsDone
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_IsDone(<iActor>)
+
+Description
+
+Returns true if the actor has finished reading a subtitle.
+
+Example
+
+Subtitle_IsDone(Actor_Talorn)
+
+Arguments
+
+<iActor>: the index number of the actor.
+Note: you can use the following variables in place of the actor's index number:
+
+Actor_LocationCard
+Actor_Talorn
+Actor_AllShips3
+Actor_AllShips2
+Actor_AllShips
+Actor_Bentusi
+Actor_Chimera
+Actor_Keeper
+Actor_Makaan
+Actor_FleetCommand
+Actor_FleetIntel
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 11:45:35  :: Owner: ThoughtProcess :: 
+:: :: 

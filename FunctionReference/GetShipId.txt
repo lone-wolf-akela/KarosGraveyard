@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionGetShipId
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetShipId(<sShipType>)
+
+Description
+
+Returns the identifying number of <sShipType>.
+Note: Returns the number, 3437363409, if the given ship type does not exist. -Grey_Ghost
+
+Example
+
+if (Stats_ShipsCreated(g_playerID, GetShipId("Hgn_Interceptor")) >= 5) then
+
+...code...
+
+end
+Note: this is it being used in Mission 1 to determine if you've built at least 1 Squadron interceptors. -Grey_Ghost
+
+Arguments
+
+<sShipType>: the type of ship.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-06-17 02:01:44  :: Owner: ThoughtProcess :: 
+:: :: 

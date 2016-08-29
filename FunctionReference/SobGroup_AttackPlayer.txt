@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_AttackPlayer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AttackPlayer(<sSobGroupName>, <iPlayerIndex>)
+
+Description
+
+Makes <sSobGroupName> attack Player <iPlayerIndex>.
+
+Example
+
+SobGroup_AttackPlayer("Mover_1", 0)
+
+Arguments
+
+<sSobGroupName>: the sobgroup to issue the order to.
+<iPlayerIndex>: the player that <sSobGroupName> should attack.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-04-21 23:27:50  :: Owner: ThoughtProcess :: 
+:: :: 

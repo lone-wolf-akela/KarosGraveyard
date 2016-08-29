@@ -1,0 +1,28 @@
+Homeworld 2 : Functionnext
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+next(<tTable>, [<Index>])
+
+Description
+
+"Allows a program to traverse all fields of a table. Its first argument is a table and its second argument is an index in this table. next returns the next index of the table and the value associated with the index. When called with nil as its second argument, next returns the first index of the table and its associated value. When called with the last index, or with nil in an empty table, next returns nil. If the second argument is absent, then it is interpreted as nil. 
+Lua has no declaration of fields; semantically, there is no difference between a field not present in a table or a field with value nil. Therefore, next only considers fields with non-nil values. The order in which the indices are enumerated is not specified, even for numeric indices (to traverse a table in numeric order, use a numerical for or the function foreachi). 
+
+
+The behavior of next is undefined if you change the table during the traversal."
+
+Example
+
+
+Arguments
+
+<tTable>: the table to traverse.
+<Index>: the index of the table element immediately prior to the table element to return. (may be a string or number; optional)
+
+Related Functions
+
+Function Reference 
+foreachi
+
+Page History :: 2006-01-16 13:33:07  :: Owner: ThoughtProcess :: 
+:: :: 

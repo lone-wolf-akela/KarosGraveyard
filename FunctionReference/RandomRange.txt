@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionRandomRange
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+RandomRange(<fMin>, <fMax>)
+
+Description
+
+Returns a random, floating-point number between <fMin> and <fMax> (inclusive).
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Global SCAR
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-25 17:05:28  :: Owner: ThoughtProcess :: 
+:: :: 

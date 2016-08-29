@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_InstantDockAndParade
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_InstantDockAndParade(<iPlayerIndex>, <sSobGroupName>, <bUseHyperspaceEffect>)
+
+Description
+
+Makes the player's fleet instantly dock (or parade, if they can't dock) with the first ship in <sSobGroupName>.
+Note: this function temporarily overrides the default launching behavior for ships that enter the shiphold: you will have to manually order the ships (or use the SobGroup_Launch function) to force them to exit the shiphold.
+
+Example
+
+Player_InstantDockAndParade( 0, "PlayerMothership", 0 )
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sSobGroupName>: the name of the sobgroup.
+<bUseHyperspaceEffect>: enable/disable the hyperspace effect.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SobGroup_Launch 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-12 07:58:30  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionProfile_UnlockMovies
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Profile_UnlockMovies(?)
+
+Description
+
+Unknown. Presumably unlocks all movies for viewing in the current campaign in the player's profile.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+Unknown. Probably none.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:46:12  :: Owner: MiKail :: 
+:: :: 

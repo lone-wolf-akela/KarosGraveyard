@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionAreAllied
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+AreAllied(<iPlayerIndex1>, <iPlayerIndex2>)
+
+Description
+
+Returns true if <iPlayerIndex1> and <iPlayerIndex2> are allies.
+
+Example
+
+if AreAllied(0, 1) == 1 then .. script .. end
+
+Arguments
+
+<iPlayerIndex1>: the index number of Player 1.
+<iPlayerIndex2>: the index number of Player 2.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 11:32:54  :: Owner: ThoughtProcess :: 
+:: :: 

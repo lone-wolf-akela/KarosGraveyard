@@ -1,0 +1,29 @@
+Homeworld 2 : Functiongetn
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getn(<tTable>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Returns the 'size' of a table, when seen as a list. If the table has an n field with a numeric value, this value is the 'size' of the table. Otherwise, the 'size' is the largest numerical index with a non-nil value in the table. This function could be defined in Lua:"
+function getn (t)
+	if type(t.n) == "number" then return t.n end
+	local max = 0
+	for i, _ in t do
+		if type(i) == "number" and i>max then max=i end
+	end
+	return max
+end
+Example
+
+
+Arguments
+
+<tTable>: the table to get the size of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:22:04  :: Owner: ThoughtProcess :: 
+:: :: 

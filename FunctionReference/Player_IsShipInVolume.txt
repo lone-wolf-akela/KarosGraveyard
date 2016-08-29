@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_IsShipInVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_IsShipInVolume(<iPlayerIndex>, <sVolumeName>)
+
+Description
+
+Returns true if any ships belonging to <iPlayerIndex> are within <sVolumeName>.
+Note: this function doesn't accept Point Volumes.
+
+Example
+
+if Player_IsShipInVolume(1, "Vol_Shipyard_Prox")==1 then ...Code... end
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sVolumeName>: the name of the volume.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:24:37  :: Owner: ThoughtProcess :: 
+:: :: 

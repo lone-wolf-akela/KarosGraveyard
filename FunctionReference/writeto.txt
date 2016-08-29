@@ -1,0 +1,24 @@
+Homeworld 2 : Functionwriteto
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+writeto([<sFilename>])
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"This function may be called in two ways. When called with a file name, it opens the named file, sets its handle as the value of _OUTPUT, and returns this value. It does not close the current output file. Note that, if the file already exists, then it will be completely erased with this operation. When called without parameters, this function closes the _OUTPUT file, and restores stdout as the value of _OUTPUT. If this function fails, it returns nil, plus a string describing the error. 
+If filename starts with a |, then a piped input is opened, via function popen. Not all systems implement pipes. Moreover, the number of files that can be open at the same time is usually limited and depends on the system."
+
+Example
+
+
+Arguments
+
+<sFilename>: the name of the file to write to. Closes the _OUTPUT file, and restores stdout as the value of _OUTPUT if omitted.
+
+Related Functions
+
+Function Reference 
+popen 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 14:10:20  :: Owner: ThoughtProcess :: 
+:: :: 

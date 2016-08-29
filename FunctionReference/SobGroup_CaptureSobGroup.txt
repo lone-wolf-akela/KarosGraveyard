@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_CaptureSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_CaptureSobGroup(<sSobGroupName>, <sSobGroupTargetName>)
+
+Description
+
+Makes <sSobGroupName> capture <sSobGroupTargetName>.
+
+Example
+
+SobGroup_CaptureSobGroup("V_Inf_01_Spawn", "Shipyard")
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-20 06:42:57  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionShowInfo
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ShowInfo(<iFlag>)
+
+Description
+
+Turns a debug display on. Mostly obsure data to the untrained eye, but it does show FPS. :)
+
+Example
+
+In autoexec.lua, add the following:
+
+function TurnInfoOn()
+	ShowInfo(1)
+	Rule_Remove("TurnInfoOn")
+end
+Rule_AddInterval("TurnInfoOn",5)
+
+Arguments
+
+<iFlag>: 1 = Display on, 0 = Display off
+
+Notes
+
+- can only be used in the autoexec.lua
+Page History :: 2004-02-19 01:40:51  :: Owner: NickersonM :: 
+:: :: 

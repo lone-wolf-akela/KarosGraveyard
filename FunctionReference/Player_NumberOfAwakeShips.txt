@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionPlayer_NumberOfAwakeShips
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_NumberOfAwakeShips(<iPlayerIndex>)
+
+Description
+
+Returns the number of awake (e.g. not in hyperspace or docked) ships in the player's fleet.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 22:26:37  :: Owner: ThoughtProcess :: 
+:: :: 

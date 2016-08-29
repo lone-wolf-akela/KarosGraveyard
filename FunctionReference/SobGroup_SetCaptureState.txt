@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_SetCaptureState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetCaptureState(<sSobGroupName>, <iState>)
+
+Description
+
+Sets the capture state of all ships in <sSobGroupName>.
+Once a ship is has been captured, it will revert back to its normal settings.
+Only affects ships without a capture point or the "can be captured" ability.
+
+Example
+
+SobGroup_SetCaptureState("Communications_Station", 0)
+
+Arguments
+
+<iState>: 0 = not capturable, 1 = normal capture settings, 2 = always capturable.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:56:47  :: Owner: ThoughtProcess :: 
+:: :: 

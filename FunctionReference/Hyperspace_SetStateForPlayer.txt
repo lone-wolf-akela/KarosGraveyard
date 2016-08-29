@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionHyperspace_SetStateForPlayer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Hyperspace_SetStateForPlayer(<iPlayerIndex>, <bHyperspaceState>)
+
+Description
+
+Enable/disable hyperspacing for a player.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<bHyperspaceState>: 0 = disable, 1 = enable.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 00:48:39  :: Owner: ThoughtProcess :: 
+:: :: 

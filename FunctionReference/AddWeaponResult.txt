@@ -1,0 +1,33 @@
+Homeworld 2 : FunctionAddWeaponResult
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+AddWeaponResult(<rWeapon>, <sCondition>, <sEffect>, <sTarget>, <fMinimumEffect>, <fMaximumEffect>, <sSpawnedWeaponEffect>)
+
+Description
+
+This function is called in a ".wepn" file, and is used to define the effect that will occur when a weapon hits or misses its target. The most common usage is to cause damage to the target, although this function can also be used to disable the target as per the scout's EMP burst, or to push or pull the target closer to or away from the attacker. You may call AddWeaponResult multiple times in one weapon, with each calling being used to add a different effect.
+
+Example
+
+AddWeaponResult(NewWeaponType, "Hit", "SpawnWeaponFire", "Target", 0, 0, "Hgn_BurstCannonBurst")
+
+Arguments
+
+<rWeapon>: Reference to the weapon variable. Generally, this will be NewWeaponType. 
+<sCondition>: Condition upon which the specified effect will occur. Possible values are "Hit" and "Miss". If set to "Hit", the effect occurs if the weapon hits the target. If set to "Miss", the effect occurs if the weapon misses the target. 
+<sEffect>: Effect to apply to the target if the specified condition is met. Possible values are "DamageHealth", "Disable", "Push", "SpawnWeaponFire". "DamageHealth" reduces the target's health by a randomly determined value between the fMinimumEffect and fMaximumEffect arguments. "Disable" reduces the target's EMP shields a random amount based on the value of the fMinimumEffect and fMaximumEffect arguments. If the shields are reduced to 0, the ship becomes disabled. "Push" moves the target toward or away from the attacker a random amount based on the value of the fMinimumEffect and fMaximumEffect arguments. Positive numbers push targets away, while negative numbers pull them closer. The actual amount the target is moved depends on the target's mass. If the weapon also has "SpawnWeaponFire" defined, "Push" only has an effect if defined in the spawning weapon, not the weapon that is spawned. "SpawnWeaponFire" causes the specified <sSpawnedWeaponEffect> to be created. This is used to create weapons with a blast radius (e.g., flak frigate guns and the scout's EMP) and other special effects. 
+<sTarget>: The recipient of the specified Effect. "Target" seems to be the only possible value. It looks that "Owner" is possible too, self-damaging the ship or subsystem where the weapon is mounted. --SunTzu 
+<fMinimumEffect>: The minimum power of the specified Effect, such as minimum damage. Set this to 0 if sSpawnedWeaponEffect is set. 
+<fMaximumEffect>: The maximum power of the specified Effect, such as maximum damage. Set this to 0 if sSpawnedWeaponEffect is set. 
+<sSpawnedWeaponEffect>: This is a weapon effect that is spawned if <sEffect> equals "SpawnWeaponFire" and the Condition is met. Generally, the name of another weapon is input here, most notably those that create areas of effect (e.g., "hgn_smallempburst" and "hgn_burstcannonburst").
+
+Related Pages:
+
+Function Reference 
+StartShipWeaponConfig 
+StartWeaponConfig 
+setPenetration
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-08-28 10:07:50  :: Owner: RangerHW :: 
+:: :: 

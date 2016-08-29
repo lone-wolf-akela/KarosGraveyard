@@ -1,0 +1,38 @@
+Homeworld 2 : FunctionaddPebble
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addPebble(<sPebbleType>, <tPosition>, ?, ?, ?)
+
+Description
+
+Adds a pebble (the little brown specks which show up in sensors manager but do nothing) to the map.
+
+Example
+
+addPebble("Pebble_0", {0.0, 0.0, 0.0}, 0.0, 0.0, 0.0)
+
+Arguments
+
+<sPebbleType>: the type of pebble being added. Can be any of the following:
+
+"Pebble_0"
+"Pebble_1"
+"Pebble_2"
+"Pebble_3" crashes the game
+
+<tPosition>: a table containing the pebble's X, Z, and Y coordinates.
+?: dunno.
+?: dunno.
+?: dunno.
+
+Scope:
+
+Level
+
+Related Pages:
+
+FunctionReference 
+Malignus's Mapping Tutorial
+
+Page History :: 2005-07-02 03:44:01  :: Owner: MiKail :: 
+:: :: 

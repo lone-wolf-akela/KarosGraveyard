@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_HideScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_HideScreen(<sScreenName>)
+
+Description
+
+Hides (closes) the named screen.
+
+Example
+
+UI_HideScreen("GenericScreen")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:30:55  :: Owner: ThoughtProcess :: 
+:: :: 

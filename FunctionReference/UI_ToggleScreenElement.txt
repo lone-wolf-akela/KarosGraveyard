@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionUI_ToggleScreenElement
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ToggleScreenElement(<sScreenName>, <sScreenName>, <sElementName>, <sScreenName>, <sElementName>)
+
+Description
+
+Unknown.
+
+Example
+
+UI_ToggleScreenElement("InGameMenu", "NewTaskbar", "specialButtons", "NewTaskbar", "commandButtons")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sScreenName>: the name of the screen.
+<sElementName>: the name of the screen element.
+<sScreenName>: the name of the screen.
+<sElementName>: the name of the screen element.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:50:32  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionfogSetActive
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetActive(<bActive>)
+
+Description
+
+Enables fog for the level.
+
+Example
+
+fogSetActive(1)
+
+Arguments
+
+<bActive>: 0 = disable, 1 = enable.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:51:18  :: Owner: MiKail :: 
+:: :: 

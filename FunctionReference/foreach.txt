@@ -1,0 +1,31 @@
+Homeworld 2 : Functionforeach
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+foreach(<tTable>, <fFunction>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Executes the given <fFunction> over all elements of <tTable>. For each element, the function is called with the index and respective value as arguments. If the function returns any non-nil value, then the loop is broken, and this value is returned as the final value of foreach. This function could be defined in Lua:"
+function foreach (t, f)
+	for i, v in t do
+		local res = f(i, v)
+		if res then return res end
+	end
+end
+
+"The behavior of foreach is undefined if you change the table t during the traversal."
+
+Example
+
+
+Arguments
+
+<tTable>: the table to traverse.
+<fFunction>: the function to execute over all elements of <tTable>. Note: do not add trailing parentheses when entering the function name.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:17:08  :: Owner: ThoughtProcess :: 
+:: :: 

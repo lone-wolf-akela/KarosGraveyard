@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_SalvagedByPlayer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SalvagedByPlayer(<sSobGroupName>, <iPlayerID>)
+
+Description
+
+Returns true if <sSobGroupName> is owned by the player and is sleeping.
+
+Example
+
+if SobGroup_SalvagedByPlayer("Derelict_Mover", 0)==1 then ...code... end
+
+Arguments
+
+<sSobGroupName>: name of the salvaged sobgroup
+<iPlayerID>: player index number
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-27 12:49:28  :: Owner: ThoughtProcess :: 
+:: :: 

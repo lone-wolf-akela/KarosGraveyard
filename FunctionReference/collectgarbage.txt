@@ -1,0 +1,22 @@
+Homeworld 2 : Functioncollectgarbage
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+collectgarbage([<iLimit>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sets the garbage-collection threshold for the given limit (in Kbytes), and checks it against the byte counter. If the new threshold is smaller than the byte counter, then Lua immediately runs the garbage collector (see Section 5.6). If <iLimit> is absent, it defaults to zero (thus forcing a garbage-collection cycle)."
+
+Example
+
+
+Arguments
+
+<iLimit>: the limit (in Kbytes). (optional)
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 12:59:48  :: Owner: ThoughtProcess :: 
+:: :: 

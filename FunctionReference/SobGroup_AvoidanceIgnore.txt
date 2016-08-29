@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_AvoidanceIgnore
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AvoidanceIgnore(<sSobGroupName1>, <sSobGroupName2>)
+
+Description
+
+Makes <sSobGroupName1> ignore the collision boxes of <sSobGroupName2>, so that it can fly through it (without damage). Ironically enough, that does not seem to work with the Balcora Gate, perhaps due to its 'SuperPriority' avoidance family --SunTzu
+
+Example
+
+SobGroup_AvoidanceIgnore("group1", "group2")
+
+Arguments
+
+<sSobGroupName1>, <sSobGroupName2>: the names of the sobgroups
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-28 08:32:09  :: Owner: ThoughtProcess :: 
+:: :: 

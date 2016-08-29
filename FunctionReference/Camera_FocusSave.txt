@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionCamera_FocusSave
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_FocusSave()
+
+Description
+
+Saves a focus point for later use with FocusRestore.
+
+Example
+
+Camera_FocusSave()
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-10 12:56:54  :: Owner: ThoughtProcess :: 
+:: :: 

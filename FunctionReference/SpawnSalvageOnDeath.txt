@@ -1,0 +1,43 @@
+Homeworld 2 : FunctionSpawnSalvageOnDeath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SpawnSalvageOnDeath(..see Arguments..)
+
+Description
+
+Example
+
+SpawnSalvageOnDeath(NewShipType, "Slv_Chunk_Sml01", 50, 0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1, 100, -600, 0, 0, 0)
+
+Arguments
+
+Note: there are (sometimes rather severe) radomizations applied to all arguments - which is a good thing, but makes understanding and mapping them that much harder -TheBlind
+
+
+NewShipType 
+The type of resource/salvage. 
+The number of chunks to spawn (integer). 
+The percent of the total ship RU value. the total value governed by build cost and multiplier in tuning.lua / If all chunks don¡ät add up to 100% the engine will re-assign percentages evenly 
+x-location 
+y-location All locations relative to the spawning ship 
+z-location 
+random add to spawn location 
+initial vertical direction (around x) 
+initial horizontal direction (around y) 
+unknown 
+unknown 
+initial x speed 
+initial y speed The chunk will use its build in thruster capability to slow down 
+initial z speed 
+cloud dispersion spawn multiple chunks under 2) to really see this in action, but works with single chunks as well 
+turns around port/starboard axis of spawning ship during dispertion (will slow down after dispersion is finished) 
+turns around top/bottom axis of spawning ship during dispertion (will slow down after dispersion is finished) 
+turns around aft/front axis of spawning ship during dispertion (will slow down after dispersion is finished) 
+initital random tumble modifier
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-07-12 20:12:20  :: Owner: TheBlind :: 
+:: :: 

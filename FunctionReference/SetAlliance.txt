@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSetAlliance
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SetAlliance(<iPlayerIndex1>, <iPlayerIndex2>)
+
+Description
+
+Makes <iPlayerIndex1> allied to <iPlayerIndex2> .
+
+Example
+
+SetAlliance(0,1)
+SetAlliance(1,0)
+Need to do it both ways to be properly allied.
+eg.
+
+Arguments
+
+<iPlayerIndex1>: the index number of a player.
+<iPlayerIndex2>: the index number of a player.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2007-02-11 16:18:13  :: Owner: ThoughtProcess :: 
+:: :: 

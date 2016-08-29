@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_SetSwitchOwnerFlag
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetSwitchOwnerFlag(<sSobGroupName>, <bEnable>)
+
+Description
+
+Makes all ships in <sSobGroupName> remain in the sobgroup even after ownership has changed.
+Note: seems a necessary function to assess whether a sobGroup is captured later on. -SunTzu
+
+Example
+
+SobGroup_SetSwitchOwnerFlag("Shipyard", 0)
+
+Arguments
+
+<sSobGroupName>: the name of the sobGroup.
+<bEnable>: 0 to disable (e.g., the ship remains in the same group after its ownership has changed); 1 to enable
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-15 20:33:21  :: Owner: ThoughtProcess :: 
+:: :: 

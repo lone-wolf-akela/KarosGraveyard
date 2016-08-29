@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSubtitle_IsMessageDone
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_IsMessageDone()
+
+Description
+
+Returns true if there is no message displayed on screen when the function is called (and true if there is).
+
+Example
+
+if Subtitle_IsMessageDone() == 1 then ... code ... end
+
+Arguments
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 13:12:54  :: Owner: ThoughtProcess :: 
+:: :: 

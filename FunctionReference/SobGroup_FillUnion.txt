@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_FillUnion
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillUnion(<sSobGroupOutName>, <sSobGroupName1>, <sSobGroupName2>)
+
+Description
+
+Fills <sSobGroupOutName> with all squadrons in <sSobGroupName1> and all squadrons in <sSobGroupName2>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:55:28  :: Owner: ThoughtProcess :: 
+:: :: 

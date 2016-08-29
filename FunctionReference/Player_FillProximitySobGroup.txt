@@ -1,0 +1,35 @@
+Homeworld 2 : FunctionPlayer_FillProximitySobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_FillProximitySobGroup(<sSobGroupNameOut>, <iPlayerIndex>, <sSobGroupName>, <fDistance>)
+
+Description
+
+Puts all active ships belonging to <iPlayerIndex> that are within <fDistance> of <sSobGroupName> into <sSobGroupNameOut>.
+Returns true if there is at least one ship in <sSobGroupNameOut>; false if there is none.
+Note: if sSobGroupName belongs to iPlayerIndex, it is put in sSobGroupNameOut. --SunTzu
+
+Examples
+
+Player_FillProximitySobGroup("tempSobGroup", 0, "Patrol"..i, 5000)
+if (Player_FillProximitySobGroup("tempSobGroup", 0, "EnemyCarrier", 5000) == 1) then
+
+...code...
+
+end
+
+Arguments
+
+<sSobGroupNameOut>: the name of the sobgroup to place ships into. This sobgroup must be created before the function is called.
+<iPlayerIndex>: the index number of the player.
+<sSobGroupName>: the name of the sobgroup to check the distance against.
+<fDistance>: the distance (radius) from <sSobGroupName> that ships must lie within.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-08-20 13:16:29  :: Owner: ThoughtProcess :: 
+:: :: 

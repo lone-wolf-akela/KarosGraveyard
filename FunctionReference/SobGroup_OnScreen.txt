@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_OnScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_OnScreen(<sSobGroupName>)
+
+Description
+
+Returns true if any ships in <sSobGroupName> are currently on the screen.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:32:36  :: Owner: ThoughtProcess :: 
+:: :: 

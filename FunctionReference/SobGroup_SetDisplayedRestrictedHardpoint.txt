@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetDisplayedRestrictedHardpoint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetDisplayedRestrictedHardpoint(<sSobGroupName>, <iSlot>)
+
+Description
+
+Makes the UI display the proper number of hardpoints.
+
+Example
+
+SobGroup_SetDisplayedRestrictedHardpoint("PlayerMothership", 0)
+
+Arguments
+
+<iSlot>: 0 will cause all hardpoints to be displayed.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:59:15  :: Owner: ThoughtProcess :: 
+:: :: 

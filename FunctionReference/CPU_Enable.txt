@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCPU_Enable
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_Enable(<iPlayerIndex>, <bEnable>)
+
+Description
+
+Enables/disables the AI for a CPU player.
+Disabling the AI makes it possible to issue scripted orders to the CPU player without the AI overriding them.
+Note: the CPU squadrons' behavior in combat is unaffected by this setting.
+
+Example
+
+CPU_Enable(1, 0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the CPU player.
+<bEnable>: enable/disable AI (0 = disable, 1 = enable).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-10 02:13:43  :: Owner: ThoughtProcess :: 
+:: :: 

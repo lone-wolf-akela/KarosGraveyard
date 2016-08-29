@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionGetActualPlayerFleetSizeInRU
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetActualPlayerFleetSizeInRU()
+
+Description
+
+Returns the total value of the player's fleet, in RUs.
+Note: this function only takes Player 0 into account.
+
+Example
+
+local FleetWorth = GetActualPlayerFleetSizeInRU()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference 
+Scope: Gametype
+
+Page History :: 2006-05-30 23:38:21  :: Owner: ThoughtProcess :: 
+:: :: 

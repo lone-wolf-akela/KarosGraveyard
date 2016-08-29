@@ -1,0 +1,22 @@
+Homeworld 2 : Functiondate
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+date([<sFormat>])
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"Returns a string containing date and time formatted according to the given string format, following the same rules of the ANSI C function strftime. When called without arguments, it returns a reasonable date and time representation that depends on the host system and on the current locale."
+
+Example
+
+
+Arguments
+
+<sFormat>: the string that the date is formatted according to.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities
+
+Page History :: 2006-01-16 13:02:00  :: Owner: ThoughtProcess :: 
+:: :: 

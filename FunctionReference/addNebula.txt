@@ -1,0 +1,53 @@
+Homeworld 2 : FunctionaddNebula
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addNebula(<sNebulaName>, <sNebulaType>, <tPosition>, <tColor>, ?, <fSize>)
+
+Description
+
+Adds a nebula to a ".level" file. These damage ships!
+
+Example
+
+addNebula("MyNebula", "M11_Bentusi_Radiation", {0.0, 0.0, 0.0,}, {1, 1, 1, 1,}, 0.0, 0.0)
+
+Arguments
+
+<sNebulaName>: the name of the nebula.
+<sNebulaType>: the type of nebula. Can be any of the following:
+
+"M05_DustCloud_Nebula"
+"M05_NebualDustCloud_NoRes"
+"M05_NebualDustCloud_NoRes2"
+"M05_NebualDustCloud_NoRes3"
+"M07_Foundry_Radiation"
+"M08_NoDamage_Radiation"
+"M11_Bentusi_Debris"
+"M11_Bentusi_Radiation"
+"MP_Bentusi_Radiation"
+"Nebula01_Cream"
+"Nebula01_Teal"
+"Nebula_0"
+"Nebula_Hiding"
+"Radiation"
+
+<tPosition>: a table containing the nebula's X, Z, and Y coordinates.
+<tColor>: a table containing the nebula's red, green, and blue color values, as well as its opacity (alpha). Color values must be a between 0 and 255. Opacity (alpha) must be a value between 0 and 1.
+?: dunno.
+<fSize>: the size of the nebula.
+
+Notes
+
+This function must be called from within the DetermChunk() function.
+
+Scope
+
+Level
+
+Related Pages:
+
+FunctionReference 
+Malignus's Mapping Tutorial
+
+Page History :: 2005-07-06 17:10:20  :: Owner: MiKail :: 
+:: :: 

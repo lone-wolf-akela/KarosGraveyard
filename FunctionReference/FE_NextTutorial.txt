@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_NextTutorial
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_NextTutorial()
+
+Description
+
+Loads the next mission immediately. Works in any campaign, not just the "Tutorial" campaign.
+
+Example
+
+FE_NextTutorial()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-22 19:18:34  :: Owner: MiKail :: 
+:: :: 

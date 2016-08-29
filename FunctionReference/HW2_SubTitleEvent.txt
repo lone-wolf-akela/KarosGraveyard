@@ -1,0 +1,47 @@
+Homeworld 2 : FunctionHW2_SubTitleEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_SubTitleEvent(<iActor>, <sText>, <fTime>)
+
+Description
+
+This function must be called from within an event table. It displays at the left top of the screen an actor's image along with the specified text or pre-defined string. Use SubtitleAdd to call a similar function from a normal chunk (outside a table event).
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Examples
+
+HW2_SubTitleEvent(Actor_FleetCommand, "I am fleet Command", 5)
+HW2_SubTitleEvent(Actor_FleetIntel, "$40530", 5)
+
+Arguments
+
+<iActor>: the index number of the actor; it corresponds to the iThemeNumber used in addTheme.
+Note: you can use the following variables in place of the actor's index number:
+
+Actor_LocationCard
+Actor_Talorn
+Actor_AllShips3
+Actor_AllShips2
+Actor_AllShips
+Actor_Bentusi
+Actor_Chimera
+Actor_Keeper
+Actor_Makaan
+Actor_FleetCommand
+Actor_FleetIntel
+
+<sText>: the text you want to be displayed; it can be a quoted string or the index of a localised string.
+<fTime>: the length of time (in seconds) before the text disappears.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+addTheme 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-08-30 15:24:55  :: Nobody :: 
+:: :: 

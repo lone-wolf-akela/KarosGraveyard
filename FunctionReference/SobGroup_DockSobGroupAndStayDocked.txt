@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_DockSobGroupAndStayDocked
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_DockSobGroupAndStayDocked(<sSobGroupName>, <sSobGroupDockToName>)
+
+Description
+
+Makes <sSobGroupName> dock with <sSobGroupDockToName>.
+Once docked, the ships cannot launch until ordered to do so.
+
+Example
+
+SobGroup_DockSobGroupAndStayDocked(convoyGroups[i], "PlayerMothership")
+
+Arguments
+
+<sSobGroupName>,<sSobGroupDockToName>: the names of the sobgroups.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:31:11  :: Owner: ThoughtProcess :: 
+:: :: 

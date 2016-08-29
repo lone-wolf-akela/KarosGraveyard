@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionPlayer_FillShipsByType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_FillShipsByType(<sSobGroupNameOut>, <iPlayerIndex>, <sShipType>)
+
+Description
+
+Fills <sSobGroupNameOut> with only those ships of type <sShipType> that are active and belong to <iPlayerIndex>.
+Note: inactive ships (e.g., ships that are in hyperspace or docked) are ignored by this function. Use Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping to count the number of ships, regardless of whether they are active or inactive.
+Note: the sobgroup is cleared each time the function is called: i.e., the sobgroup is emptied before being filled again with all ships of <sShipType>.
+Note: <sSobGroupNameOut> must be created before the function is called.
+
+Example (from the HW Classic Mod)
+
+Player_FillShipsByType("CrateMothership", 0, "Vgr_Mothership")
+
+Arguments
+
+<sSobGroupNameOut>: the name of the sobgroup to place ships into.
+<iPlayerIndex>: the index number of the player.
+<sShipType>: the type of ship.
+
+Related Pages:
+
+Function Reference 
+Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping 
+SCAR (SCripting at Relic) Reference
+
+There are 16 comments on this page. [Display comments]
+Page History :: 2006-02-03 11:25:20  :: Owner: ThoughtProcess :: 
+:: :: 

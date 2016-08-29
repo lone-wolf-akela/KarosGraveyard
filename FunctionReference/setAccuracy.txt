@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetAccuracy
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setAccuracy(<vObjectType>, <bEnable>, {<vFamilyName1> = <fValue1>,}, {<vFamilyName2> = <fValue2>,}, ... , {<vFamilyNameN> = <fValueN>,},)
+
+Description
+
+
+Example (from "hgn_pulsar.wepn")
+
+setAccuracy(NewWeaponType, 1, {Fighter = 0.25,}, {Corvette = 0.4,}, {munition = 0.2,}, {Frigate = 0.6, damage = 1,}, {SmallCapitalShip = 0.6, damage = 1,}, {BigCapitalShip = 0.6, damage = 1,}, {ResourceLarge = 0.6, damage = 1,})
+
+Arguments
+
+<vObjectType>: should always be NewWeaponType.
+<bEnable>: enables/disables the ability. 0 means that the ability is added by something else, while 1 means that the ship has that ability from the beginning.
+<vFamilyName1> to <vFamilyNameN>: the name of a family.
+<fValue1> to <fValueN>: the accuracy multiplier versus the named family. Must be between 0 and 1.
+
+Scope:
+
+Object Scope
+
+Related Pages:
+
+Function Reference
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-11-06 10:33:03  :: Owner: MultiPlicity :: 
+:: :: 

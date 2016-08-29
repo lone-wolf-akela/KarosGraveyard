@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUniverse_AllowPlayerOrders
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_AllowPlayerOrders(<bEnable>)
+
+Description
+
+Disables/enables mouse selection, cursor, mouse-over, and all user commands except "cancel".
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:51:43  :: Owner: ThoughtProcess :: 
+:: :: 

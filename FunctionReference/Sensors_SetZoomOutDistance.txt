@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSensors_SetZoomOutDistance
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sensors_SetZoomOutDistance(<fDistance>)
+
+Description
+
+Sets the sensors manager zoom out distance.
+The distance will be fixed somewhere between the min and max values of the SM.
+These can be modified using Sensors_SetCameraMinMax.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 01:52:20  :: Owner: ThoughtProcess :: 
+:: :: 

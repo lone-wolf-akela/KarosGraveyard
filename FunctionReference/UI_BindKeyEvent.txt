@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUI_BindKeyEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_BindKeyEvent(<iKey>, <sFunctionName>)
+
+Description
+
+Binds the named function to the given key on the keyboard.
+Unbind the function using UI_UnbindKeyEvent().
+
+Example
+
+UI_BindKeyEvent(HKEY, "HelloWorld")
+
+Arguments
+
+<iKey>: the index number (or variable) corresponding to a key on the keyboard. For example IKEY for the "I" key and JKEY for the "J" key.
+<sFunctionName>: the name of the function, in the form of a quoted string and without the trailing parentheses, to be called upon pressing the key.
+
+Related Pages:
+
+UI_UnbindKeyEvent() 
+Function Reference
+
+Page History :: 2005-08-09 15:24:41  :: Owner: ThoughtProcess :: 
+:: :: 

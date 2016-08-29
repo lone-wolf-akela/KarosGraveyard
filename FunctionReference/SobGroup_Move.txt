@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_Move
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Move(<iPlayerIndex>, <sSobGroupName>, <sVolumeName>)
+
+Description
+
+Makes all ships in <sSobGroupName> belonging to player <iPlayerIndex> move to <sVolumeName>.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sSobGroupName>: the name of the sobgroup.
+<sVolumeName>: the name of the volume.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-26 05:20:25  :: Owner: ThoughtProcess :: 
+:: :: 

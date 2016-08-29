@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionNISPlayFromGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISPlayFromGroup(<sNISPath>, <sSobGroupName>)
+
+Description
+
+Unknown. Presumably plays the given NIS from the point of view of the named sobgroup.
+
+Example
+
+NISPlayFromGroup("nis/NIS02B", "Convoy_4")
+
+Arguments
+
+<sNISPath>: the path of the NIS file, relative to the "Data: directory, and minus the file extension.
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:44:05  :: Owner: ThoughtProcess :: 
+:: :: 

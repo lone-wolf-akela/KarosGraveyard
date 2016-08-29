@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_IsDockedSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsDockedSobGroup(<sSobGroupName>, <sSobGroupNameDockedWith>)
+
+Description
+
+Returns true if <sSobGroupName> is docked with <sSobGroupNameDockedWith>.
+
+Example
+
+SobGroup_IsDockedSobGroup("Dreadnaught", "Shipyard")==0 then ... code ... end
+
+Arguments
+
+<sSobGroupName>: name of the sobgroup containing docking squadrons (quoted string)
+<sSobGroupNameDockedWith>: name of the sobgroup where the other sobgroup can dock (quoted string)
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-09-12 07:57:29  :: Owner: ThoughtProcess :: 
+:: :: 

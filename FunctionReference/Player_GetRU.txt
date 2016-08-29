@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_GetRU
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GetRU(<iPlayerIndex>)
+
+Description
+
+Returns the total RUs belonging to <iPlayerIndex>. Note: the number returned is not accurate -SunTzu
+
+Example
+
+PlayerStartingRUs = Player_GetRU(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-04 12:30:49  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionHyperspace_SetStateForVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Hyperspace_SetStateForVolume(<sVolumeName>, <bHyperspaceState>)
+
+Description
+
+Enable/disable hyperspacing within the specified volume.
+
+Example
+
+
+Arguments
+
+<sVolumeName>: the name of the volume.
+<bHyperspaceState>: 0 = disable, 1 = enable.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 00:49:52  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionfogSetEnd
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetEnd(<fEnd>)
+
+Description
+
+Sets the end plane for fog.
+
+Example
+
+fogSetEnd(9000)
+
+Arguments
+
+<fEnd>: a float value.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:52:10  :: Owner: MiKail :: 
+:: :: 

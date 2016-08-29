@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionObjective_Add
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Objective_Add(<sObjectiveName>, <iType>)
+
+Description
+
+Adds a new objective. Returns the index number of the objective.
+
+Example
+
+
+Arguments
+
+<sObjectiveName>: the name of the objective. This can be a raw string or localization ID.
+<iType>: index number of the type of objective. Can use OT_Primary or OT_Secondary instead.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 01:03:15  :: Owner: ThoughtProcess :: 
+:: :: 

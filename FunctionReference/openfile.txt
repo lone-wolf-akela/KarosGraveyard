@@ -1,0 +1,42 @@
+Homeworld 2 : Functionopenfile
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+openfile(<sFilename>, <sMode>)
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"This function opens a file, in the mode specified in the string <sMode>. It returns a new file handle, or, in case of errors, nil plus a string describing the error. This function does not modify either _INPUT or _OUTPUT.
+
+
+The mode string can be any of the following: 
+"r"
+read mode; 
+"w"
+write mode; 
+"a"
+append mode; 
+"r+"
+update mode, all previous data is preserved; 
+"w+"
+update mode, all previous data is erased; 
+"a+"
+append update mode, previous data is preserved, writing is only allowed at the end of file. 
+
+
+The mode string may also have a 'b' at the end, which is needed in some systems to open the file in binary mode. This string is exactlty what is used in the standard C function fopen."
+
+Example
+
+
+Arguments
+
+<sFilename>: the name of the file to open.
+<sMode>: the mode in which to open the file.
+
+Related Functions
+
+Function Reference 
+fopen() - Stndard C I-O - C Programming Reference - eLook_org 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 13:38:14  :: Owner: ThoughtProcess :: 
+:: :: 

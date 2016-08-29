@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_Attack
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Attack(<iPlayerIndex>, <sSobGroupName>, <sTargetSobGroupName>)
+
+Description
+
+Makes all ships in <sSobGroupName> belonging to player <iPlayerIndex> attack <sTargetSobGroupName>.
+
+Example
+
+SobGroup_Attack(1, "Vgr_Wave1", "Player_Ships0")
+
+Arguments
+
+<iPlayerIndex>: a player index number.
+<sSobGroupName>: the name of the attacking sobgroup.
+<sTargetSobGroupName>: the name of the sobgroup to attack.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-20 06:13:07  :: Owner: ThoughtProcess :: 
+:: :: 

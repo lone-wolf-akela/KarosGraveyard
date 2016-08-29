@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_ForceStayDockedIfDocking
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ForceStayDockedIfDocking(<sSobGroupName>)
+
+Description
+
+Makes ships in <sSobGroupName> stay docked if they are docking.
+
+Example
+
+SobGroup_ForceStayDockedIfDocking("Dreadnaught")
+
+Arguments
+
+<sSobGroupName>: name of the sobGroup (quoted string)
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-12 07:54:40  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_InStrikeGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_InStrikeGroup(<sSobGroupName>)
+
+Description
+
+Returns true if <sSobGroupName> is in a strikegroup.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:36:08  :: Owner: ThoughtProcess :: 
+:: :: 

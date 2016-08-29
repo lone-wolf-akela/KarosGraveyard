@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_SetBadgeTexture
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetBadgeTexture(<iPlayerIndex>, <sBadgeTexture>)
+
+Description
+
+Sets the badge texture for a player.
+
+Example
+
+Player_SetBadgeTexture(1, "DATA:badges/VAYGR.TGA")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sBadgeTexture>: the path and filename of the badge texture.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:30:31  :: Owner: ThoughtProcess :: 
+:: :: 

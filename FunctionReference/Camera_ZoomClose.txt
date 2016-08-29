@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_ZoomClose
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_ZoomClose(<bClose>)
+
+Description
+
+Toggles between setting the camera zoom to close or far.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:18:17  :: Owner: ThoughtProcess :: 
+:: :: 

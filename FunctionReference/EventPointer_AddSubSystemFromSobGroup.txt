@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionEventPointer_AddSubSystemFromSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+EventPointer_AddSubSystemFromSobGroup(<sSubSystemType>, <sSobGroupName>, <iColour>, <fRadius>)
+
+Description
+
+Displays an event pointer around the first subsystem of <sSubSystemType> in the lead ship of <sSobGroupName> and returns a pointer index.
+
+Example
+
+pointerID = EventPointer_AddSubSystemFromSobGroup( "FighterProduction", "Mothership", HW2_rgb( 230, 230, 230), 0)
+
+Arguments
+
+<sSubSystemName>: the subsystem type to point to (as defined with NewSubSystemType.typeString within the subsystem files).
+<sSobGroupName>: the sobgroup containing the subsystem.
+<iColour>: an integer representation of an RGB color code. Note: use the HW2_rgb function to convert standard RGB color values (ranging from 0 to 255) to the required integer.
+<fRadius>: in meters. If set to 0, the bounding radius will be used, instead.
+
+Related Pages:
+
+Function Reference 
+HW2_rgb 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-07 07:28:22  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionaddReactiveFleetSlot
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addReactiveFleetSlot(<sSobGroupName>, <iPlayerIndex>, ?, <tPosition>, ?, ?, ?, <sShipType>)
+
+Description
+
+Adds a reactive fleet slot in singleplayer.
+See this post by Mecha.
+
+Example
+
+
+Arguments
+
+<sSobGroupName>:
+<iPlayerIndex>:
+?: dunno.
+<tPosition>: a table containing the XYZ coordinates on the map to insert the reactive reinforcements at.
+?, ?, ?: best guess: rotation angles of the entry point.
+<sShipType>:
+
+Related Pages:
+
+Function Reference 
+Post by Mecha
+
+Page History :: 2006-05-14 22:43:13  :: Owner: IcePirate :: 
+:: :: 

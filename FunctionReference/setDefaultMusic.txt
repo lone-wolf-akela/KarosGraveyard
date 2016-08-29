@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionsetDefaultMusic
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setDefaultMusic(<sScriptName>)
+
+Description
+
+Sets the music to the named track for the level.
+
+Example
+
+setDefaultMusic("Data:sound/music/AMBIENT/AMB_13")
+
+Arguments
+
+<sScriptName>: the pathname of the audio track as a quoted string.
+
+Scope
+
+Gamerule 
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:35:57  :: Owner: ThoughtProcess :: 
+:: :: 

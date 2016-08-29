@@ -1,0 +1,19 @@
+Homeworld 2 : FunctionsetLevelOfDifficulty
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setsLevelOfDifficulty(<iLOD>)
+
+Description
+
+Sets the level of difficulty (LOD) to the specified level.
+The current level of difficulty is returned by getLevelOfDifficulty.
+
+Example
+
+setLevelOfDifficulty(2)
+
+Arguments
+
+<iLOD>: an integer ranging between 0 and 2. 0 is "Easy", 1 is "Standard" and 2 is "Hard". Note: LOD 3 is "Expert", but cannot be set using this function.
+Page History :: 2005-09-11 21:12:08  :: Owner: MiKail :: 
+:: :: 

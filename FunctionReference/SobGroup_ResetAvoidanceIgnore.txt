@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_ResetAvoidanceIgnore
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ResetAvoidanceIgnore(<sSobGroupName>)
+
+Description
+
+Makes <sSobGroupName1> respect all collision boxes that have been ignored with SobGroup_AvoidanceIgnore
+
+Example
+
+SobGroup_ResetAvoidanceIgnore("group1")
+
+Arguments
+
+<sSobGroupName1>: the name of the sobgroup
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-28 08:36:00  :: Owner: ThoughtProcess :: 
+:: :: 

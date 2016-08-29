@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionFE_RestartGame
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_RestartGame(<bConfirm>)
+
+Description
+
+Restarts the current mission/skirmish from the beginning.
+
+Example
+
+FE_RestartGame(1)
+
+Arguments
+
+<bConfirm>: 0 = restart without asking for confirmation, 1 = ask for confirmation before restarting.
+
+Related Pages
+
+UI Scope 
+Function Reference
+
+Page History :: 2005-08-06 14:47:57  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_GetSobGroupCapturingGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSobGroupCapturingGroup(<sSobGroupName>, <sOutputSobGroupName>)
+
+Description
+
+Fills <sOutputSobGroupName> with all the squadrons that are in the process of capturing <sSobGroupName> (they're capturing and latched).
+If <sOutputSobGroupName> does not exist it will be created. If it does exist it will be cleared first.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:36:10  :: Owner: ThoughtProcess :: 
+:: :: 

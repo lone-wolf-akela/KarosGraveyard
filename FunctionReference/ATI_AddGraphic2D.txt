@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionATI_AddGraphic2D
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddGraphic2D(<iATIIndex>, <sParameter>)
+
+Description
+
+Add a 2D graphic parameter.
+
+Example
+
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<sParameter>: the name of the graphic loaded using ATI_LoadTemplates.
+
+Scope
+
+UI
+
+Related Pages:
+
+ATI_LoadTemplates 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-07 10:27:08  :: Owner: ThoughtProcess :: 
+:: :: 

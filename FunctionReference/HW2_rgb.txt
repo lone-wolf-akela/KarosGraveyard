@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionHW2_rgb
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_rgb(, , )
+
+Description
+
+Converts standard RGB color components to an integer value required by the EventPointer_AddSobGroup function.
+Note: this function is defined in "\Homeworld2\Data\Scripts\SCAR\SCAR_Util.lua".
+
+Example
+
+HW2_rgb(230, 230, 230)
+
+Arguments
+
+<iRed>: the red component of the color. (0 to 255)
+<iGreen>: the green component of the color. (0 to 255)
+<iBlue>: the blue component of the color. (0 to 255)
+
+Related Pages:
+
+Function Reference 
+EventPointer_AddSobGroup
+
+Page History :: 2006-01-15 20:14:19  :: Owner: MiKail :: 
+:: :: 

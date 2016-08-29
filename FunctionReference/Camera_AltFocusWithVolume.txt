@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionCamera_AltFocusWithVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_AltFocusWithVolume(<sSobGroupName>, <bCloseZoom>, <sVolumeName>)
+
+Description
+
+Same as Camera_AltFocus, except a volume can be added to the focus.
+
+Example
+
+
+Arguments
+
+<sSobGroupName>: the sobGroup to focus on.
+<bCloseZoom>: will zoom in close if set to 1.
+<sVolumeName>: the name of the volume that can be added to the focus selection.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:11:57  :: Owner: ThoughtProcess :: 
+:: :: 

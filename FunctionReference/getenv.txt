@@ -1,0 +1,23 @@
+Homeworld 2 : Functiongetenv
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getenv(<sVarName>)
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"Returns the value of the process environment variable <sVarName>, or nil if the variable is not defined."
+
+Example
+
+
+Arguments
+
+<sVarName>: the name of the process environment variable.
+Note: not sure what this means. Would "%HW2_PATH%" work? -Mikail
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities
+
+Page History :: 2006-01-16 13:20:53  :: Owner: ThoughtProcess :: 
+:: :: 

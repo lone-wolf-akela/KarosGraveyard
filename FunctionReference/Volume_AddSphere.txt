@@ -1,0 +1,34 @@
+Homeworld 2 : FunctionVolume_AddSphere
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Volume_AddSphere(<sVolumeName>, <tPosition>, <fRadius>)
+
+Description
+
+Create a spherical volume during execution.
+
+Example
+
+Volume_AddSphere("ThisVolume", {1000, 5000, 3000,}, 3000)
+
+Arguments
+
+<sVolumeName>: the name of the volume.
+<tPosition>: a table containing the X, Z and Y coordinates of the volume.
+<fRadius>: the radius of the volume.
+
+Notes
+
+HW 1.1 and up only.
+
+Scope
+
+Autoexec
+Gamerule
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-03-05 13:38:12  :: Owner: NickersonM :: 
+:: :: 

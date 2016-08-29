@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_SubSystemSelected
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SubSystemSelected(<sSobGroupName>)
+
+Description
+
+Returns true if a subsystem on any ship in <sSobGroupName> is selected.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:58:58  :: Owner: ThoughtProcess :: 
+:: :: 

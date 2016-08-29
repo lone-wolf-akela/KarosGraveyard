@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSetStartFleetSuffix
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SetStartFleetSuffix()
+
+Description
+
+Loads the starting fleet whose filename ends with the suffix (e.g., "hiigaran00suffix.lua").
+Note: this function must be called from within the OnInit function.
+
+Example (from the HW Classic Mod)
+
+SetStartFleetSuffix("Carrier")
+
+Arguments
+
+<sSuffix>: the string appended to the end of the starting fleet's filename.
+
+Related Pages:
+
+Function Reference 
+OnInit
+
+Page History :: 2006-01-24 02:13:28  :: Owner: MiKail :: 
+:: :: 

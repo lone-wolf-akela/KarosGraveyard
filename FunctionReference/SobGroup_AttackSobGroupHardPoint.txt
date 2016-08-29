@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_AttackSobGroupHardPoint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AttackSobGroupHardPoint(<sSobGroupName>, <sSobGroupTargetName>, <sTargetHardPoint>)
+
+Description
+
+Makes <sSobGroupName> attack all the subsystems on <sTargetHardPoint> that belong to <sSobGroupTargetName>.
+
+Example
+
+SobGroup_AttackSobGroupHardPoint("chunkAttackersLarge1", "Balcora_Gate", "generator1")
+
+Arguments
+
+<sSobGroupName>: name of the sobGroup containing the attacker(s).
+<sSobGroupTargetName>: name of the sobGroup containing the target(s).
+<sTargetHardPoint>: name of the targeted hardpoint.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-20 06:37:59  :: Owner: ThoughtProcess :: 
+:: :: 

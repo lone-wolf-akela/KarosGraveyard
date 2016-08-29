@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionUI_IsNamedElementVisible
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_IsNamedElementVisible(<sScreenName>, <sElementName>)
+
+Description
+
+Returns true if the named screen element on the named screen is visible.
+
+Example
+
+UI_IsNamedElementVisible("NewTaskbar", "btnHide1")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sElementName>: the name of the screen element.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:32:09  :: Owner: ThoughtProcess :: 
+:: :: 

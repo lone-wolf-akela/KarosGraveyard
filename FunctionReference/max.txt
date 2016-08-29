@@ -1,0 +1,23 @@
+Homeworld 2 : Functionmax
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+max(<fNumber1>, <fNumber2>, ...)
+
+Description
+
+Returns the maximum value of its numeric arguments.
+
+Example
+
+
+Arguments
+
+<fNumber1> to <fNumberN>: a series of numbers.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:31:31  :: Owner: ThoughtProcess :: 
+:: :: 

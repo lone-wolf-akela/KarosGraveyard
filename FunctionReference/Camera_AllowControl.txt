@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionCamera_AllowControl
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_AllowControl(<bEnable>)
+
+Description
+
+Turns camera rotation on/off.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 00:51:56  :: Owner: ThoughtProcess :: 
+:: :: 

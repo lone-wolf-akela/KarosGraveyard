@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionHW2_LocationCardEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_LocationCardEvent(<sText>, <fTime>)
+
+Description:
+
+This function must be called from within an event table. It displays a text at the bottom of the screen with <sText> for <fTime>. Use LocationCard for an equivalent function called from a normal chunk (outside an event table).
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Example:
+
+HW2_LocationCardEvent( "Tanis Base - Great Wastelands", 5 )
+
+Arguments:
+
+<sText>: the text to display; it can be either a quoted string or the index of a localised string.
+<fTime>: the length of time (in seconds) before the text disappears.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-03-07 07:33:46  :: Nobody :: 
+:: :: 

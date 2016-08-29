@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SalvageSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SalvageSobGroup(<sSobGroupName>, <sSobGroupTargetName>)
+
+Description
+
+Makes <sSobGroupName> salvage the first ship in <sSobGroupTargetName>.
+
+Example
+
+SobGroup_SalvageSobGroup("Vaygr_Time_Attack_1_Resource", "Core_Piece_1")
+
+Arguments
+
+<sSobGroupName>, <sSobGroupTargetName>: names of the sobGroups.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:51:14  :: Owner: ThoughtProcess :: 
+:: :: 

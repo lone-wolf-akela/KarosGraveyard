@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionATI_AddPosition
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddPosition(<iATIIndex>, <tPosition>)
+
+Description
+
+Add a 3D position parameter.
+
+Example
+
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<tPosition>: a table containing XYZ coordinates.
+
+Scope
+
+UI
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-07 10:28:40  :: Owner: ThoughtProcess :: 
+:: :: 

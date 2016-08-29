@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_UnRestrictBuildOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_UnRestrictBuildOption(<sSobGroupName>, <sBuildTypeName>)
+
+Description
+
+Un-restricts all build capable ships in <sSobGroupName> from building <sBuildTypeName>.
+This will not remove research or subsystem dependancies.
+It will only work with normally buildable, restricted items.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:19:04  :: Owner: ThoughtProcess :: 
+:: :: 

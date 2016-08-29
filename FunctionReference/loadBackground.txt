@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionloadBackground
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+loadBackground(<sBackgroundName>)
+
+Description
+
+Loads the background graphics of the level.
+
+Example
+
+loadBackground("m01")
+
+Arguments
+
+<sBackgroundName>: the name of the background.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-04-14 11:31:26  :: Owner: SunTzu :: 
+:: :: 

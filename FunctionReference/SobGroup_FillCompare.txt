@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_FillCompare
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillCompare(<sSobGroupOutName>, <sSobGroupName1>, <sSobGroupName2>)
+
+Description
+
+Fills <sSobGroupOutName> with all squadrons that <sSobGroupName1> and <sSobGroupName2> share in common.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:58:42  :: Owner: ThoughtProcess :: 
+:: :: 

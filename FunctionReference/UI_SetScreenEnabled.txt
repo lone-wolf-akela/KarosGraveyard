@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionUI_SetScreenEnabled
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetScreenEnabled(<sScreenName>, <bEnable>)
+
+Description
+
+Unknown.
+
+Example
+
+UI_SetScreenEnabled("InGameOptions", 1)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<bEnable>: boolian (0 = disable, 1 = enable).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:46:15  :: Owner: ThoughtProcess :: 
+:: :: 

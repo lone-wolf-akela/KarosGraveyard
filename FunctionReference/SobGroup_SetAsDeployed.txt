@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetAsDeployed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetAsDeployed(<sSobGroupName>)
+
+Description
+
+Disables further movement for all ships in <sSobGroupName> that have one-shot movement.
+
+Example
+
+SobGroup_SetAsDeployed("All_Platforms")
+
+Arguments
+
+<sSobGroupName>: name of the sobGroup in which ships will be deployed
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:53:20  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetBuildSpeedMultiplier
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetBuildSpeedMultiplier(<sSobGroupName>, <fNewMultiplier>)
+
+Description
+
+Sets the build speed multiplier for all build-capable ships in <sSobGroupName>.
+Returns the old multiplier.
+
+Example
+
+
+Arguments
+
+<fNewMultiplier>: default is 1.0.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:31:55  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,24 @@
+Homeworld 2 : Functionsettag
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+settag (<tTable>, <Tag>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sets the tag of a given table (see Section 3). <Tag> must be a value created with newtag (see Section 6.1). settag returns the value of its first argument (the table). For the safety of host programs, it is impossible to change the tag of a userdata from Lua."
+
+Example
+
+
+Arguments
+
+<tTable>: the table to set the tag of.
+<Tag>: the tag to set. Note: I'm not sure what type of variable this is. -Mikail
+
+Related Functions
+
+Function Reference 
+newtag 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:56:46  :: Owner: ThoughtProcess :: 
+:: :: 

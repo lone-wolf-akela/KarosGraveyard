@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionUniverse_SlowDown
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_SlowDown(<fFactor>, <fNumSeconds>)
+
+Description
+
+Slows down the universe to a multiple (specified by <fFactor>) of the normal speed.
+
+Example
+
+
+Arguments
+
+<fFactor>: multiple of the normal speed. Must be between 0 and 1. 0 = pause, 1 = normal speed.
+<fNumSeconds>: dunno.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:10:09  :: Owner: ThoughtProcess :: 
+:: :: 

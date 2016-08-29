@@ -1,0 +1,24 @@
+Homeworld 2 : Functionldexp
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ldexp(<fNumber>, <iExp>)
+
+Description
+
+Returns the result after multiplying a number <fNumber> by 2 raised to the power <iExp>.
+
+Example
+
+
+Arguments
+
+<fNumber>: the number to multiply.
+<iExp>: the exponent to raise 2 to.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:30:07  :: Owner: ThoughtProcess :: 
+:: :: 

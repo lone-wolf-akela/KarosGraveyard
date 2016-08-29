@@ -1,0 +1,36 @@
+Homeworld 2 : Functionseek
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+seek(<FileHandle> [, <sWhence>] [, <iOffset>])
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"Sets and gets the file position, measured in bytes from the beginning of the file, to the position given by <iOffset> plus a base specified by the string <sWhence>, as follows: 
+
+
+"set"
+base is position 0 (beginning of the file); 
+"cur"
+base is current position; 
+"end"
+base is end of file; 
+
+
+In case of success, function seek returns the final file position, measured in bytes from the beginning of the file. If the call fails, it returns nil, plus a string describing the error. 
+The default value for <sWhence> is "cur", and for <iOffset> is 0. Therefore, the call seek(file) returns the current file position, without changing it; the call seek(file, "set") sets the position to the beginning of the file (and returns 0); and the call seek(file, "end") sets the position to the end of the file, and returns its size."
+
+Example
+
+
+Arguments
+
+<FileHandle>: the handle of the file. Note: I'm not sure what type of variable this is. -Mikail
+<sWhence>: Note: not really sure... -Mikail
+<iOffset>: Note: not really sure... -Mikail
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 13:53:30  :: Owner: ThoughtProcess :: 
+:: :: 

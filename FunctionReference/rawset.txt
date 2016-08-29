@@ -1,0 +1,24 @@
+Homeworld 2 : Functionrawset
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+rawset(<tTable>, <Index>, <Value>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sets the real value of <tTable>[<Index>] to <Value>, without invoking any tag method. <tTable> must be a table, <Index> is any value different from nil, and <Value> is any Lua value."
+
+Example
+
+
+Arguments
+
+<tTable>: the table to traverse.
+<Index>: the index of the table element. (either a string or an integer)
+<Value>: the value to set the table element to. (can be any type of value)
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:46:20  :: Owner: ThoughtProcess :: 
+:: :: 

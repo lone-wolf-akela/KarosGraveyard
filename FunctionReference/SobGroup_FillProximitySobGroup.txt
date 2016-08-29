@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionSobGroup_FillProximitySobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillProximitySobGroup(<sSobGroupOut>, <sSobGroupName>, <sSobGroupProximityOf>, <fRadius>)
+
+Description
+
+Fills <sSobGroupOut> with all ships in <sSobGroupName> that are within a distance of <fRadius> from <sSobGroupProximityOf>.
+Returns true if any ships fall within this radius.
+Note: the average position of ships in <sSobGroupProximityOf> is used when calculating distances.
+Note: if <sSobGroupProximityOf> is part of <sSobGroupName>, it will be put in <sSobGroupOut>.
+Note: docked ships are put in <sSobGroupOut> if their carrier is within radius.
+Note: <sSobGroupOut> must already have been created before this function may be called.
+
+Example
+
+SobGroup_FillProximitySobGroup("TempSob", "Universe_TeamShips1", "AttackerSob2", 3000)
+
+Arguments
+
+<sSobGroupOut>: the sobgroup that ships will be added to.
+<sSobGroupName>: the sobgroup that ships will be taken from.
+<sSobGroupProximityOf>: the sobgroup that ships must be within a radius of.
+<fRadius>: the distance that ships must be from <sSobGroupProximityOf>.
+
+Related Pages:
+
+FunctionReference 
+Gametype Scope
+
+Page History :: 2006-02-01 05:29:28  :: Owner: ThoughtProcess :: 
+:: :: 

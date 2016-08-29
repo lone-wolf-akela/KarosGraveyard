@@ -1,0 +1,22 @@
+Homeworld 2 : Function_ALERT
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+_ALERT(<sMessage>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Prints its only string argument to stderr. All error messages in Lua are printed through the function stored in the _ALERT global variable (see Section 4.7). Therefore, a program may assign another function to this variable to change the way such messages are shown (for instance, for systems without stderr)."
+
+Example
+
+
+Arguments
+
+<sMessage>: the message to print.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 07:56:53  :: Owner: ThoughtProcess :: 
+:: :: 

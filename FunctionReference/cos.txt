@@ -1,0 +1,23 @@
+Homeworld 2 : Functioncos
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+cos(<fNumber>)
+
+Description
+
+Returns the cosine (in degrees) of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>:
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:01:39  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_IsScreenActive
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_IsScreenActive(<sScreenName>)
+
+Description
+
+Returns true if the named screen is active (visible).
+
+Example
+
+UI_IsScreenActive("ObjectivesList")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:32:24  :: Owner: ThoughtProcess :: 
+:: :: 

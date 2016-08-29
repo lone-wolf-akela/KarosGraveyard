@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionEvent_IsDone
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Event_IsDone(<sEventName>)
+
+Description
+
+Returns true if the event <sEventName> has finished playing.
+Used in SP scripts to prevent two events from running simultaneously or to wait for the end of an event before adding a new rule.
+
+Example
+
+if Event_IsDone("intelevent_beginharvesting")==1 then
+
+...code...
+
+end
+
+Arguments
+
+<sEventName>: the name of the event defined in the Events table.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-09 21:28:32  :: Owner: ThoughtProcess :: 
+:: :: 

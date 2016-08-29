@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_GetTactics
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetTactics(<sSobGroupName>)
+
+Description
+
+Returns the tactics setting for <sSobGroupName>.
+
+--Grey_Ghost--
+
+0=Aggressive
+1=Defensive
+2=Passive
+If ships in <sSobGroupName> have different Tactics set they get added together.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-07-27 04:18:51  :: Owner: ThoughtProcess :: 
+:: :: 

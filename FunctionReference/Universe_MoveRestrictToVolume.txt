@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionUniverse_MoveRestrictToVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_MoveRestrictToVolume(<bEnable>, <sVolumeName>)
+
+Description
+
+Locks the movement disc to the specified volume.
+Returns true if executed successfully.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+<sVolumeName>: the name of the volume.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:04:45  :: Owner: ThoughtProcess :: 
+:: :: 

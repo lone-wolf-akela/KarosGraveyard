@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionTimer_Start
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Timer_Start(<Index>, <iPeriod>)
+
+Description
+
+Sets up a countdown timer. Relic function included in the SCAR_Util.lua file.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Example
+
+
+Arguments
+
+<Index>: the index number of the timer; it can be an integer or a string.
+<iPeriod>: the period in seconds.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-18 22:14:42  :: Owner: SunTzu :: 
+:: :: 

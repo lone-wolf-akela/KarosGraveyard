@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSound_EnableAllSpeech
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_EnableAllSpeech(<bEnable>)
+
+Description
+
+Enable/disable all speech.
+
+Example
+
+Sound_EnableAllSpeech(1)
+
+Arguments
+
+<bEnable>: boolean, 0 to disable speech, 1 to enable it
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-11 04:09:12  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,22 @@
+Homeworld 2 : Functiondofile
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dofile(<sFileName>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Receives a file name, opens the named file, and executes its contents as a Lua chunk, or as pre-compiled chunks. When called without arguments, dofile executes the contents of the standard input (stdin). If there is any error executing the file, then dofile returns nil. Otherwise, it returns the values returned by the chunk, or a non-nil value if the chunk returns no values. It issues an error when called with a non-string argument."
+
+Example
+
+
+Arguments
+
+<sFileName>: the name of the file to execute as a Lua chunk.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:03:33  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionRecordGame
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+RecordGame(<iNumber>)
+
+Description
+
+Unknown.
+
+Example
+
+RecordGame(1)
+
+Arguments
+
+<iNumber>: takes one argument that seems to be an integer or float.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:20:54  :: Owner: NickersonM :: 
+:: :: 

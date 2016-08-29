@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionHW2_Pause
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_Pause(<bOn/Off>)
+
+Description
+
+This function must be called from within an event table. It pauses/unpauses the universe. 
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+Use Universe_Pause to call a similar function from a normal chunk.
+
+Example
+
+HW2_Pause(1)
+
+Argument
+
+<bOn/Off>: 0 = off; 1 = on.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 13:34:54  :: Owner: MiKail :: 
+:: :: 

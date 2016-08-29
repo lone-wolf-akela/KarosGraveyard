@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_GrantResearchOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GrantResearchOption(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Grants the named research item to <iPlayerIndex>.
+
+Example
+
+Player_GrantResearchOption(1, "SuperCapHealthUpgradeSPGAME")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:12:49  :: Owner: ThoughtProcess :: 
+:: :: 

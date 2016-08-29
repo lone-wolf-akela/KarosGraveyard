@@ -1,0 +1,41 @@
+Homeworld 2 : FunctionEnableBuildInBadges
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+EnableBuildInBadges()
+
+Description
+
+Enables built-in badges when one of the following profiles is used:
+
+TheSoupNazi
+SoupNazi
+TunaCommander
+TheDutch
+Mecha
+DanTheMan
+PouttePoutte
+Poutte
+KirkPunch
+BizouBizou
+Motte
+
+Arguments
+
+None.
+
+Notes
+
+The badge file- and path-names, and the profiles that they correspond to, are as follows:
+
+builtin:badges\3.tga
+builtin:badges\8.tga (TheSoupNazi, SoupNazi)
+builtin:badges\7.tga (TunaCommander)
+builtin:badges\6.tga (TheDutch)
+builtin:badges\5.tga (Mecha)
+builtin:badges\4.tga (DanTheMan, PouttePoutte, Poutte)
+builtin:badges\2.tga (KirkPunch)
+builtin:badges\1.tga (BizouBizou)
+builtin:badges\0.tga
+There are 5 comments on this page. [Display comments]
+Page History :: 2006-04-23 23:20:34  :: Owner: ThoughtProcess :: 
+:: :: 

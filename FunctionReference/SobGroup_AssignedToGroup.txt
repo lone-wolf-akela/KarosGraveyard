@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_AssignedToGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AssignedToGroup(<sSobGroupName>, <iGroup>)
+
+Description
+
+Returns true if <sSobGroupName> is assigned to the specified group.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:59:59  :: Owner: ThoughtProcess :: 
+:: :: 

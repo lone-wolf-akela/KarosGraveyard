@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionsetGameOver
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setGameOver()
+
+Description
+
+Ends the game.
+Note: this function is only used in multiplayer/skirmish. Use setMissionComplete() in singleplayer.
+
+Example
+
+setGameOver()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:48:03  :: Owner: ThoughtProcess :: 
+:: :: 

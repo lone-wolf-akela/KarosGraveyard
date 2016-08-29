@@ -1,0 +1,22 @@
+Homeworld 2 : Functiontype
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+type(<Value>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Allows Lua programs to test the type of a value. It receives one argument, and returns its type, coded as a string. The possible results of this function are 'nil' (a string, not the value nil), 'number', 'string', 'table', 'function', and 'userdata'."
+
+Example
+
+
+Arguments
+
+<Value>: the value to return the type of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 14:08:41  :: Owner: ThoughtProcess :: 
+:: :: 

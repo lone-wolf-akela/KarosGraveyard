@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStats_TotalLosses
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalLosses(<iPlayerIndex>)
+
+Description
+
+Returns the number of ships lost by a player during a game (SP or skirmish). It can be called during the game.
+
+Example
+
+Stats_TotalLosses(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 16:43:34  :: Owner: ThoughtProcess :: 
+:: :: 

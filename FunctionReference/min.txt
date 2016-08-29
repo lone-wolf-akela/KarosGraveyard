@@ -1,0 +1,23 @@
+Homeworld 2 : Functionmin
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+min(<fNumber1>, <fNumber2>, ...)
+
+Description
+
+Returns the minimum value of its numeric arguments.
+
+Example
+
+
+Arguments
+
+<fNumber1> to <fNumberN>: a series of numbers.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:32:00  :: Owner: ThoughtProcess :: 
+:: :: 

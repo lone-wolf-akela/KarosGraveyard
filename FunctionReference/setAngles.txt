@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionsetAngles
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setAngles(<vObjectType>, <fTriggerHappy>, <fMinAzimuth>, <fMaxAzimuth>, <fMinDeclination>, <fMaxDeclination>)
+
+Description
+
+This function determines the cone of fire of a weapon, as well as the range of movement of a turret.
+This function must be called from within a ".wepn" file.
+
+Example
+
+setAngles(NewWeaponType, 0, -180, 180, -5, 60)
+
+Arguments
+
+<vObjectType>: Reference to the weapon. This should always be NewWeaponType. 
+<fTriggerHappy>: Specifies the cone of fire of the weapon in any direction from center. The actual coverage is twice this value. For example, with a value of 10, the weapon can cover 10 degrees up, 10 degrees down, 10 degrees left, and 10 degrees right, plus all of the area in between. Thus, the weapon will actually have a firing cone of 20 degrees. A weapon of type "Gimble" can aim and fire at any targets within this cone. A weapon of type "Fixed" or "AnimatedTurret" can fire if any targets are within this cone, but the weapon will not actually aim at the target. However, a turreted weapon will attempt to aim at the target by moving its turret. See the StartWeaponConfig function for information on weapon types. 
+<fMinAzimuth>: Specifies the minimum azimuth (horizontal tracking) of a turret, in degrees. That is, how far a turret may rotate counterclockwise. This is in relation to the turret's orientation. A turret mounted on the bottom of a ship uses this value to rotate clockwise when viewing the ship from above. 
+<fMaxAzimuth>: Specifies the maximum azimuth (horizontal tracking) of a turret, in degrees. That is, how far a turret may rotate clockwise. This is in relation to the turret's orientation. (See <fMinAzimuth>.) 
+<fMinDeclination>: Specifies the minimum declination (vertical tracking) of a turret, in degrees. That is, how far a turret's barrels may swivel down. This is in relation to the turret's orientation. This value determines how far a turret may aim up if the turret is mounted on on the bottom of a ship, and how far it may aim right if mounted vertically on the left side. 
+<fMaxDeclination>: Specifies the maximum declination (vertical tracking) of a turret, in degrees. That is, how far a turret's barrels may swivel up. This is in relation to the turret's orientation. (See <fMinDeclination>.)
+
+Related Pages:
+
+Function Reference 
+Object Scope 
+StartShipWeaponConfig 
+StartWeaponConfig
+
+Page History :: 2006-11-06 10:28:18  :: Owner: RangerHW :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_FillShipsByType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillShipsByType(<sSobGroupToFillName>, <sSobGroupName>, <sShipTypeName>)
+
+Description
+
+Fills <sSobGroupToFillName> with all ships of type <sShipTypeName> from <sSobGroupName>. Inactive ships (e.g., ships that are docked or in hyperspace) are taken into account by the function.
+Note: inactive ships are not considered if "Player_Ships" is used, because it contains only active ships. -SunTzu
+
+Example
+
+SobGroup_FillShipsByType( "tempSobGroup", "Attackers", "Hgn_Interceptor" )
+
+Arguments
+
+<sSobGroupToFillName>: name of the sobGroup in which ships will be returned.
+<sSobgroupName>: name of the sobGroup whose ships are considered.
+<sShipTypeName>: type of the ships to be returned.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-30 18:10:09  :: Owner: ThoughtProcess :: 
+:: :: 

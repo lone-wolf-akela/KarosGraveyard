@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetTactics
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetTactics(<sSobGroupName>, <iTactics>)
+
+Description
+
+Sets the tactics for all the squadrons in <sSobGroupName>.
+
+Example
+
+SobGroup_SetTactics("Convoy3Bombers1", PassiveTactics)
+
+Arguments
+
+<iTactics>: valid tactics are: AggressiveTactics, DefensiveTactics and PassiveTactics.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:15:28  :: Owner: ThoughtProcess :: 
+:: :: 

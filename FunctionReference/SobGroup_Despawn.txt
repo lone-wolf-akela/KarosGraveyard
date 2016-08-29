@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_Despawn
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Despawn(<sSobGroupName>)
+
+Description
+
+Makes <sSobGroupName> despawn (hyperspace without any visual effect).
+This does not destroy <sSobGroupName>.
+Bring it back with SobGroup_Spawn, SobGroup_ExitHyperSpace or SobGroup_ExitHyperSpaceSobGroup.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:40:28  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,22 @@
+Homeworld 2 : Functionnewtag
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+newtag()
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Returns a new tag."
+
+Example
+
+
+Arguments
+
+None.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:32:46  :: Owner: ThoughtProcess :: 
+:: :: 

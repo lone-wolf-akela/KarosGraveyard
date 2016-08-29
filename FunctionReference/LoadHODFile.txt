@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionLoadHODFile
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+LoadHODFile(<rNewObjectType>, <bEnable>)
+
+Description
+
+The missile and subsystem equivalent of LoadModel.
+
+Example
+
+LoadHODFile(NewSubSystemType, 1)
+
+Arguments
+
+<rNewObjectType>: the type of object being loaded (subystem or missile).
+<bEnable>: 0 = false, 1 = true.
+
+Related Pages:
+
+Function Reference 
+Object Scope 
+LoadModel
+
+Page History :: 2006-05-03 23:54:17  :: Owner: MiKail :: 
+:: :: 

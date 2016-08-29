@@ -1,0 +1,19 @@
+Homeworld 2 : FunctiongetLevelOfDifficulty
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getLevelOfDifficulty()
+
+Description
+
+Returns the current level of difficulty (LOD) as an integer ranging between 0 and 3. 0 is "Easy", 1 is "Standard", 2 is "Hard" and 3 is "Expert".
+The level of difficulty can be set using the setLevelOfDifficulty function.
+
+Example
+
+getLevelOfDifficulty()
+
+Arguments
+
+None.
+Page History :: 2005-09-11 21:09:32  :: Owner: MiKail :: 
+:: :: 

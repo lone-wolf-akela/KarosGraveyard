@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_MoveToSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_MoveToSobGroup(<sSobGroupBeingMovedName>, <sSobGroupMovingToName>)
+
+Description
+
+Makes <sSobGroupBeingMovedName> move to and follow <sSobGroupMovingToName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:19:53  :: Owner: ThoughtProcess :: 
+:: :: 

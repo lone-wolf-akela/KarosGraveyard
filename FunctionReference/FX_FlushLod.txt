@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionFX_FlushLod
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_FlushLod()
+
+Description
+
+Flushes all loaded FX lods. They will be reloaded when played next.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 22:26:38  :: Owner: ThoughtProcess :: 
+:: :: 

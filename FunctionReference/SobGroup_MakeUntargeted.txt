@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_MakeUntargeted
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_MakeUntargeted(<sSobGroupName>)
+
+Description
+
+Makes it so that the named sobgroup is no longer targetted by any squadrons.
+
+Example
+
+SobGroup_MakeUntargeted(missilesAccelerated[i])
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:49:40  :: Owner: MiKail :: 
+:: :: 

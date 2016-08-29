@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionATI_AddScale
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddScale(<iATIIndex>, <tParameter>)
+
+Description
+
+Add a 3D scale parameter.
+
+Example
+
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<tParameter>: a table containing three floats: ScaleX, ScaleZ, ScaleY.
+
+Scope
+
+UI
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 11:33:47  :: Owner: ThoughtProcess :: 
+:: :: 

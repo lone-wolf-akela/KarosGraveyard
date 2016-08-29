@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_Retire
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_Retire(<sStringToEvaluate>)
+
+Description
+
+Evaluates a string as a chunk before retiring the player's fleet and exiting the game.
+
+Example
+
+#FE_Retire("UI_HideScreen('DiplomacyScreen')")
+
+Arguments
+
+<sStringToEvaluate>: the string to evaluate.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:40:09  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_Resource
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Resource(, )
+
+Description
+
+Makes all resource collectors in <sSobgroupName> belonging to player <iPlayerIndex> begin harvesting.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sSobgroupName>: the sobgroup containing the resource collectors.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-19 17:05:20  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,24 @@
+Homeworld 2 : Functionsettagmethod
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+settagmethod(<Tag>, <Event>, <NewMethod>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sets a new tag method to the given pair (<Tag>, <Event>) and returns the old method. If <NewMethod> is nil, then settagmethod restores the default behavior for the given event. This function cannot be used to set a tag method for the 'gc' event. (Such tag methods can only be manipulated by C code.)"
+
+Example
+
+
+Arguments
+
+<Tag>: the tag. Note: I'm not sure what type of variable this is. -Mikail
+<Event>: the event. Note: I'm not sure what type of variable this is. -Mikail
+<NewMethod>: the new method.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:57:33  :: Owner: ThoughtProcess :: 
+:: :: 

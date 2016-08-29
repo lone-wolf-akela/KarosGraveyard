@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionPing_AddSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Ping_AddSobGroup(<sPingName>, <sTemplateName>, <sSobGroupName>)
+
+Description
+
+Adds <sPingName> to <sSobGroupName> using <sTemplateName>.
+Returns the index number of the ping for later use.
+
+Example
+
+ping_communications_station_id = Ping_AddSobGroup(ping_communications_station, "anomaly", "Communications_Station")
+
+Arguments
+
+<sPingName>: can be a raw string or a localization ID.
+<sTemplateName>: the name of the ping's luaconfig table in "data/ui/pings/pings.lua". Valid templates are "objective", "anomaly", and "hyperspaceIn".
+<sSobGroupName>: the name of the sobgroup.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 03:36:59  :: Owner: ThoughtProcess :: 
+:: :: 

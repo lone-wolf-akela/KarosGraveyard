@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionUniverse_CurrentPlayer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_CurrentPlayer()
+
+Description
+
+Returns the local player's index number on the computer.
+Note: this should never be called in MP games, especially when modifying deterministic data.
+Note: not sure what the difference is between this function and FE_GetCurrentPlayerIndex. -Mikail
+
+Example
+
+
+Arguments
+
+none.
+
+Scope
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:55:52  :: Owner: ThoughtProcess :: 
+:: :: 

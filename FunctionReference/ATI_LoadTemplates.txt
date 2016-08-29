@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionATI_LoadTemplates
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_LoadTemplates(<sFileName>)
+
+Description
+
+Load one or more ATI templates from a particular script.
+Contents of table SCAR_ATITemplates will be loaded as ATI templates.
+Contents of table SCAR_UIGraphic2D will be loaded as UIGraphic2Ds.
+Contents of table SCAR_UIGraphic3D will be loaded as UIGraphic3Ds.
+Also loads UIGraphics if specified.
+
+Example
+
+ATI_LoadTemplates("data:LevelData\\Multiplayer\\ResourceRace\\ATI.lua")
+
+Arguments
+
+<sFileName>: the name and path of the file to load templates from.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference 
+Basic tutorial for ATI text templates
+
+There are 6 comments on this page. [Display comments]
+Page History :: 2006-06-01 08:30:58  :: Owner: ThoughtProcess :: 
+:: :: 

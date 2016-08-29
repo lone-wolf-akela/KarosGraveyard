@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_GroupInGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GroupInGroup(<sSobGroupName>, <sSobGroupNameToFind>)
+
+Description
+
+Returns true if any member of <sSobGroupToFind> is in <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:51:40  :: Owner: ThoughtProcess :: 
+:: :: 

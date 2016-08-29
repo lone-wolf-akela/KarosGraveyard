@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionATI_AddString
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddString(<iATIIndex>, <sParameter>)
+
+Description
+
+Adds a string parameter to an ATI display item.
+
+Example
+
+ATI_AddString(0, "$8010")
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<sParameter>: a localization ID or a raw string.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-25 14:30:31  :: Owner: ThoughtProcess :: 
+:: :: 

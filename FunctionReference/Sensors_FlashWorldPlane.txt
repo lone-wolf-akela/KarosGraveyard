@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSensors_FlashWorldPlane
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sensors_FlashWorldPlane(<bFlash>)
+
+Description
+
+Makes the world-plane flash. The world plane will continue to flash until turned off.
+
+Example
+
+Sensors_FlashWorldPane(1)
+
+Arguments
+
+<bFlash> : If 1, the world plane will start to flash. 0 will stop it.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-12-09 20:51:33  :: Owner: ThoughtProcess :: 
+:: :: 

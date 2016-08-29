@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_SaveGameScreen_Campaign
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_SaveGameScreen_Campaign()
+
+Description
+
+Loads the "Save Game" screen for singleplayer campaigns.
+
+Example
+
+FE_SaveGameScreen_Campaign()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:41:14  :: Owner: ThoughtProcess :: 
+:: :: 

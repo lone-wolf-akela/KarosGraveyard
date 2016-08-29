@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_PlayerIsInSensorRange
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_PlayerIsInSensorRange(<sSobGroupName>, <iPlayerID>)
+
+Description
+
+Returns true if at least one ship in <sSobGroupName> is within sensor range of <iPlayerID>.
+
+Example
+
+if SobGroup_PlayerIsInSensorRange("V_Probes", 0)~=1 then ...code... end
+
+Arguments
+
+<sSobGroupName>: name of the group to check
+<iPlayerID>: player index number (integer)
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-27 12:43:29  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,22 @@
+Homeworld 2 : Functiongetglobal
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+getglobal(<sVariableName>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Gets the value of a global variable, or calls a tag method for 'getglobal'. Its full semantics is explained in Section 4.8. The string name does not need to be a syntactically valid variable name."
+
+Example
+
+
+Arguments
+
+<sVariableName>: the name of the global variable to return the value of.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:21:33  :: Owner: ThoughtProcess :: 
+:: :: 

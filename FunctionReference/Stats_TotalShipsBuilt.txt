@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStats_TotalShipsBuilt
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalShipsBuilt(<iPlayerIndex>)
+
+Description
+
+Returns the total number of squadrons spawned or built by a player during a game (SP or skirmish). It can be called during the game.
+
+Example
+
+Stats_TotalShipsBuilt(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 17:16:41  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionRule_Exists
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Rule_Exists(<sRuleName>)
+
+Description
+
+Returns true if the named rule is currently active.
+
+Example
+
+Rule_Exists("attack_now_timer")
+
+Arguments
+
+<sRuleName>: the name of a rule (e.g., the name of a function).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:47:26  :: Owner: ThoughtProcess :: 
+:: :: 

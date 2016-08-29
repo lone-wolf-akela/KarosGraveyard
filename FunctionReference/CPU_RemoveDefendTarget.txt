@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCPU_RemoveDefendTarget
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_RemoveDefendTarget(<iPlayerIndex>, <iTargetIndex>)
+
+Description
+
+Unknown. Presumably tells a CPU player to cease defending a target.
+
+Example
+
+CPU_RemoveDefendTarget(3, g_AI_inhibitor_defend_id_1)
+
+Arguments
+
+<iPlayerIndex>: the index number of a CPU player.
+<iTargetIndex>: the index number of a target. This value is returned by CPU_AddDefendTarget(), CPU_AddDefendSobGroup() and possibly other functions.
+
+Related Pages:
+
+CPU_AddDefendTarget() 
+CPU_AddDefendSobGroup() 
+Function Reference
+
+Page History :: 2005-08-09 15:15:08  :: Owner: ThoughtProcess :: 
+:: :: 

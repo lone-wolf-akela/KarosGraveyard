@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionUI_AddToEventScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_AddToEventScreen(<sIndexString>)
+
+Description
+
+Causes a new message to appear in the Events log.
+The displayed message corresponds to the string indexed using <sIndexString> in "data/soundscripts/speechevent/eventtext.lua".
+
+Example (from Mission 1 of the Ascension campaign)
+
+UI_AddToEventScreen("STATUS_BuildAvaliable_1")
+Note: the example above is the only instance of this function found being used in the game.
+
+Arguments
+
+<sIndexString>: an index in "eventtext.lua", which sets a localized or quoted string.
+
+Scope:
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-15 20:40:55  :: Owner: ThoughtProcess :: 
+:: :: 

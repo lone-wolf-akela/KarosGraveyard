@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPing_LabelVisible
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Ping_LabelVisible(<iPingIndex>, <bVisible>)
+
+Description
+
+Sets the visibility of the text label for the ping with the given ID.
+
+Example
+
+Ping_LabelVisible(pingid, 1) Note: example taken from scar_util functions
+
+Arguments
+
+<iPingIndex>: index of a ping already created
+<bVisible>: 0 = invisible, 1 = visible
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 03:38:40  :: Owner: ThoughtProcess :: 
+:: :: 

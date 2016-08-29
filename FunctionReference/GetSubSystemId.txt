@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionGetSubSystemId
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetSubSystemId(<sSubSystemName>)
+
+Description
+
+Returns the ID for <sSubSystemName>.
+Always gives a number, even if there isn't a subsystem with the given name.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 01:00:35  :: Owner: ThoughtProcess :: 
+:: :: 

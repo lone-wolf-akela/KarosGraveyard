@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionSobGroup_SetTeamColours
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetTeamColours(<sSobGroupName>, <v3BaseColour>, <v3StripeColour>, <sBadgeName>)
+
+Description:
+
+Sets the team colours and badges for all ships in <sSobGroupName>.
+Only works in SP campaigns.
+
+Example:
+
+SobGroup_SetTeamColours("EscortInterceptors1", { 0.365, 0.553, 0.667, }, { 0.8, 0.8, 0.8, } , "DATA:Badges/Hiigaran.tga")
+
+Arguments:
+
+<sSobGroupName>: name of the sobgroup
+<v3BaseColour>: a RGB table (with floats from 0 to 1)
+<v3StripeColour>: a RGB table (with floats from 0 to 1)
+<sBadgeName>: the path to the badge picture file (64*64 pixels tga format)
+
+Scope:
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-12 15:53:53  :: Owner: ThoughtProcess :: 
+:: :: 

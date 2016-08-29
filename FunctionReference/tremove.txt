@@ -1,0 +1,35 @@
+Homeworld 2 : Functiontremove
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tremove(<tTable> [, <iPos>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Removes from table the element at position <iPos>, shifting other elements to close the space, if necessary. Returns the value of the removed element. The default value for <iPos> is n, where n is the result of getn(table) (see Section 6.1), so that a call tremove(t) removes the last element of table t. This function also sets or decrements the field n of the table to n-1. 
+This function is equivalent to the following Lua function, except that the table accesses are all raw (that is, without tag methods):"
+function tremove (t, pos)
+	local n = getn(t)
+	if n<=0 then return end
+	pos = pos or n
+	local value = t[pos]
+	for i=pos,n-1 do
+		t[i] = t[i+1]
+	end
+	t[n] = nil
+	t.n = n-1
+	return value
+end
+Example
+
+
+Arguments
+
+<tTable>: the table to remove an element from.
+<iPos>: the position of the element within the table to remove.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 14:07:08  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionUI_SetScreenVisible
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetScreenVisible(<sScreenName>, <bVisible>)
+
+Description
+
+Unknown.
+
+Example
+
+UI_SetScreenVisible("GameFilterScreen", 0)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<bVisible>: boolian (0 = invisible, 1 = visible).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:46:40  :: Owner: ThoughtProcess :: 
+:: :: 

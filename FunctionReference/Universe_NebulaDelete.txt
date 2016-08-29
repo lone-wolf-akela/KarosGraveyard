@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionUniverse_NebulaDelete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_NebulaDelete(<sNebulaName>, <fFadeTime>)
+
+Description
+
+Removes <sNebulaName> from the map.
+
+Example
+
+Universe_NebulaDelete("Nebula_1", 5)
+
+Arguments
+
+<sNebulaName>: the name of the nebula to remove.
+<fFadeTime>: the time it takes for the nebula to disappear.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:05:18  :: Owner: ThoughtProcess :: 
+:: :: 

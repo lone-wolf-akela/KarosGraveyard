@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionSobGroup_FollowPath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FollowPath(<sSobGroupName>, <sPathName>, <bForward>, <bLoop>, <bAttackMove>)
+
+Description
+
+Makes all squadrons in <sSobGroupName> follow <sPathName>.
+Each squadron will try and find the closest waypoint that lies along the path.
+
+Example
+
+SobGroup_FollowPath("Vgr_Carrier_Patrolling", "path_CarrierPatrol", 1, 1, 0)
+
+Arguments
+
+<sPathName>: created using addPath.
+<bForward>: the direction in which each squadron will follow the path. 1 = forward, 0 = reverse.
+<bLoop>: if 1, then the squadrons will loop back to the start point once they finish following the path. If 0, they will return to their original position.
+<bAttackMove>: if 1, then the squadrons will break off in order to attack anything that they encounter (as if they were on aggressive tactics).
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-12-31 11:12:04  :: Owner: ThoughtProcess :: 
+:: :: 

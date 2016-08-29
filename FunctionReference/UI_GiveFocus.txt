@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionUI_GiveFocus
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_GiveFocus(<sFieldName>, <sScreenName>)
+
+Description
+
+Gives focus to the named form field on the named screen.
+
+Example
+
+onShow = "UI_GiveFocus('m_txtInput', 'IPConnect')"
+
+Arguments
+
+<sFieldName>: the name of the form field.
+<sScreenName>: the name of the screen.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:31:45  :: Owner: ThoughtProcess :: 
+:: :: 

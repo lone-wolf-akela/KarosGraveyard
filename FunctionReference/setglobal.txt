@@ -1,0 +1,23 @@
+Homeworld 2 : Functionsetglobal
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setglobal(<sVariableName>, <Value>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sets the named global variable to the given value, or calls a tag method for 'setglobal'. Its full semantics is explained in Section 4.8. The string name does not need to be a syntactically valid variable name."
+
+Example
+
+
+Arguments
+
+<sVariableName>: the name of the global variable.
+<Value>: the value to set the global variable to.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:54:08  :: Owner: ThoughtProcess :: 
+:: :: 

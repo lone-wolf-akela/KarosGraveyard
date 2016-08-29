@@ -1,0 +1,23 @@
+Homeworld 2 : Functionceil
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ceil(<fNumber>)
+
+Description
+
+Returns a number rounded up to the nearest integer.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 12:58:25  :: Owner: ThoughtProcess :: 
+:: :: 

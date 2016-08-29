@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSubtitle_Message
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_Message(<sText>, <fTime>)
+
+Description
+
+Displays a text at the centre top of the screen during a given time.
+
+Example
+
+Subtitle_Message("$3651", 3)
+
+Arguments
+
+<sText>: the text to display; it can be either a quoted string or the index of a localised string.
+<fTime>: in seconds.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 11:49:52  :: Owner: ThoughtProcess :: 
+:: :: 

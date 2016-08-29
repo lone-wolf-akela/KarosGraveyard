@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_Kill
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_Kill(<iPlayerIndex>)
+
+Description
+
+Kills the player and all their ships.
+
+Example
+
+Player_Kill(playerIndex)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:25:40  :: Owner: ThoughtProcess :: 
+:: :: 

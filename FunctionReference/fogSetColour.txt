@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionfogSetColour
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetColour(<tColour>)
+
+Description
+
+Sets the colour and opacity for fog.
+
+Example
+
+fogSetColour(0.083984, 0.123047, 0.207031, 1)
+
+Arguments
+
+<tColour>: a table containing the RGBA components of the fog, where red, green and blue take values between 0 and 255, and alpha takes values between 0 and 1.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:52:37  :: Owner: MiKail :: 
+:: :: 

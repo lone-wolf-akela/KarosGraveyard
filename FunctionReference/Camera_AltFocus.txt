@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_AltFocus
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_AltFocus(<sSobGroupName>, <bCloseZoom>)
+
+Description
+
+Performs a simple Alt-focus on a sobgroup as a whole.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:12:31  :: Owner: ThoughtProcess :: 
+:: :: 

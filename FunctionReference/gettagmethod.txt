@@ -1,0 +1,24 @@
+Homeworld 2 : Functiongettagmethod
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+gettagmethod(<tag>, <event>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Returns the current tag method for a given pair (<tag>, <event>). This function cannot be used to get a tag method for the 'gc' event. (Such tag methods can only be manipulated by C code.)"
+
+Example
+
+
+Arguments
+
+<tag>: a tag.
+<event>: an event.
+Note: I'm not sure what types of elements these arguments are. -Mikail
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:23:41  :: Owner: ThoughtProcess :: 
+:: :: 

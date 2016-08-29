@@ -1,0 +1,35 @@
+Homeworld 2 : FunctionaddSquadron
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addSquadron(<sSquadronName>, <sSquadronType>, <tPosition>, <iPlayerIndex>, <tRotation>, <iNumberShips>, <bHyperspace>)
+
+Description
+
+Adds a ship or squadron to a player's fleet. Only used in ".level" files.
+
+Example
+
+addSquadron("Mommy", "Hgn_Mothership", {1614, 141, 5229,}, 0, {0, 0, 0,}, 0, 1)
+
+Arguments
+
+<sSquadronName>: the name of the squadron being added. Note: Can be anything you want. It is for future use with addToSOBGroup.
+<sSquadronType>: the type of the squadron being added.
+<tPosition>: a table containing the X, Y, and Z coordinates (in that order).
+<iPlayerIndex>: the index number of the squadron's owner.
+<tRotation>: a table containing the X, Y, and Z rotation angles (in that order; in degrees).
+<iNumberShips>: the number of ships spawned in the squadron. No effect on single ships.
+<bHyperspace>: determines if the squadron exists in hyperspace. 1 = in hyperspace, 0 = in real space.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+Malignus's Mapping Tutorial
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2007-01-10 01:52:39  :: Owner: MiKail :: 
+:: :: 

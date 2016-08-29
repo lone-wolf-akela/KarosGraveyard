@@ -1,0 +1,23 @@
+Homeworld 2 : Functionclosefile
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+closefile(<FileHandle>)
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"This function closes the given file. It does not modify either _INPUT or _OUTPUT."
+
+Example
+
+
+Arguments
+
+<FileHandle>: the handle of the file.
+Note: I'm not sure whether this is a string or some other type of element. -Mikail
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-04-14 16:25:57  :: Owner: ThoughtProcess :: 
+:: :: 

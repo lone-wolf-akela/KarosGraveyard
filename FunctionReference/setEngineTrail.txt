@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetEngineTrail
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setEngineTrail(<rNewObjectType>, <iIndex>, <fTrailLingerTime>, <sTrailTextureName>, <fBulgeFrequency>, <fTextureScrollFactor>, <fTextureScaleactor>, <fDiameterFactor>)
+
+Description
+
+Fill me.
+
+Example
+
+setEngineTrail(NewShipType, 0, 4, "trail_ribbon.tga", 1, 2, 0.025, 3)
+
+Arguments
+
+<rNewObjectType>: NewShipType or NewMissileType.
+<iIndex>:
+<fTrailLingerTime>:
+<sTrailTextureName>:
+<fBulgeFrequency>:
+<fTextureScrollFactor>:
+<fTextureScaleactor>:
+<fDiameterFactor>: thickness.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-11 18:32:59  :: Owner: MiKail :: 
+:: :: 

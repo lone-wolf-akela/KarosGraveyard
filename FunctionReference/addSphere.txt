@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionaddSphere
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addSphere(<sSphereName>, <tPosition>, <fRadius>)
+
+Description
+
+Adds a sphere to a ".level" file.
+
+Example
+
+addSphere("CarrierFleeSphere", {6010, 0, -30508,}, 434.294)
+
+Arguments
+
+<sSphereName>: the name of the sphere.
+<tPosition>: a table containing the X, Z, and Y coordinates.
+<fRadius>: the radius of the sphere.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-07-06 17:12:21  :: Owner: MiKail :: 
+:: :: 

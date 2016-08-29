@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionFX_PlayEffectOnBackgroundVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_PlayEffectOnBackgroundVolume(<sEffectName>, <sVolumeName>, <fScale>)
+
+Description
+
+Spawns the given effect on the background, in the direction and with the orientation specified by the volume.
+
+Example
+
+FX_PlayEffectOnBackgroundVolume("dmg_capital_explosion_combo_planet_killer", "fx_missile_explosion_2", 500)
+
+Arguments
+
+<sEffectName>: the name of the effect; must match a file name in data:art/fx/ directory
+<sVolumeName>: the name of the volumes between which the effect is to appear.
+<fScale>: a float number that sets the scale of the effect. Larger values increase the size of the effect.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 05:24:24  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_HasQueuedBuild
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_HasQueuedBuild(<iPlayerIndex>, <sShipType>)
+
+Description
+
+Returns true if <iPlayerIndex> is currently building <sShipType>.
+
+Example
+
+if Player_HasQueuedBuild(0, "Hgn_Interceptor")==1 then ...code... end
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sShipType>: the type of the ship being built.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:16:55  :: Owner: ThoughtProcess :: 
+:: :: 

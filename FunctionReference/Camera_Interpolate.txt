@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionCamera_Interpolate
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_Interpolate(<sFromCameraPoint>, <sToCameraPoint>, <fTransitTime>)
+
+Description
+
+Interpolates between a pair of camera points created a level file with addCamera.
+Use "here" for <sFromCameraPoint> in order to interpolate from the current camera position.
+
+Example
+
+Camera_Interpolate( "here", "Camera_Dreadnaught", 2)
+
+Arguments
+
+<sFromCameraPoint>: name of the first camera point (or "here" to start from the current position)
+<sToCameraPoint>: name of the second camera point
+<fTransitTime>: number of seconds for the camera movement
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-10 12:52:27  :: Owner: ThoughtProcess :: 
+:: :: 

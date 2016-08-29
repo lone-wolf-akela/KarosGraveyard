@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStats_TotalDuration
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalDuration()
+
+Description
+
+Returns the duration of the game in seconds.
+
+Example
+
+Stats_TotalDuration()
+
+Arguments
+
+none
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 16:33:15  :: Owner: ThoughtProcess :: 
+:: :: 

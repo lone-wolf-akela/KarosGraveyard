@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionHW2_CreateEventPointerSubSystem
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_CreateEventPointerSobGroup(<sSubSystemType>, <sSobGroupName>)
+
+Description:
+
+Creates an event pointer to the specified subsystem on the lead ship of the specified sobgroup and returns a pointer index.
+Note: this function is defined in "data\scripts\scar\scar_util.lua". It is the same function as AddSubSystemFromSobGroup with a predefined white colour.
+
+Example
+
+g_pointer_default = HW2_CreateEventPointerSubSystem( "FighterProduction", "Mothership" )
+
+Arguments:
+
+<sSubSystemType>: the type of the subsystem to point to (as defined with NewSubSystemType.typeString within the subsystem files)
+<sSobGroupName>: the name of the sobgroup containing the subsystem
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-03-07 07:29:16  :: Owner: MiKail :: 
+:: :: 

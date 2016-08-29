@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_GetSobGroupSalvagingGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSobGroupSalvagingGroup(<sSobGroupName>, <sOutputSobGroupName>)
+
+Description
+
+Fills <sOutputSobGroupName> with all the squadrons that are in the process of salvaging <sSobGroupName> (they're salvaging and latched). 
+If <sOutputSobGroupName> does not exist it will be created. If it does exist it will be cleared first.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:36:49  :: Owner: ThoughtProcess :: 
+:: :: 

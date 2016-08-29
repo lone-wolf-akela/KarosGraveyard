@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionGetGameSettingAsNumber
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetGameSettingAsNumber(<sSettingName>)
+
+Description
+
+Returns the value of the given game setting in the form of a number. Note: this function does not work on the Mac OS X version of HW2
+
+Example
+
+Arguments
+
+<sSettingName>: the name of the setting.
+
+Related Pages:
+
+GetGameSettingAsString 
+Function Reference
+
+Page History :: 2006-07-16 10:34:27  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_FillSubstract
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillSubstract(<sSobGroupReturnName>, <sSobGroupName1>, <sSobGroupName2>)
+
+Description
+
+Fills <sSobGroupReturnName> with the remainder obtained after substracting <sSobGroupName2> from <sSobGroupName1> (e.g., if <sSobGroupName1> contains A, B, and C, and <sSobGroupName2> contains B, then <sSobGroupReturnName> will contain only A and C).
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2007-02-14 13:04:31  :: Owner: ThoughtProcess :: 
+:: :: 

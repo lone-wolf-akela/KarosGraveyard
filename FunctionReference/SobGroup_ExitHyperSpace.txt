@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_ExitHyperSpace
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ExitHyperSpace(<sSobGroupName>, <sVolumeName>)
+
+Description
+
+Makes <sSobGroupName> exit hyperspace at the center of <sVolumeName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:38:06  :: Owner: ThoughtProcess :: 
+:: :: 

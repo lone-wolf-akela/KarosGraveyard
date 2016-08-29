@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_IsGuardingSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsGuardingSobGroup(<sGuardingSobGroupName>, <sTargetSobGroupName>)
+
+Description
+
+Returns true if any ship in <sGuardingSobGroupName> is guarding any ship in <sTargetSobGroupName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:00:51  :: Owner: ThoughtProcess :: 
+:: :: 

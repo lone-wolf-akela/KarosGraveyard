@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionRule_Remove
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Rule_Remove(<sRuleName>)
+
+Description
+
+Deactivates a rule.
+
+Example
+
+Rule_Remove("Animate_MothershipDoorOpen")
+
+Arguments
+
+<sRuleName>: the name of a rule (e.g., a name of a function).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:47:47  :: Owner: ThoughtProcess :: 
+:: :: 

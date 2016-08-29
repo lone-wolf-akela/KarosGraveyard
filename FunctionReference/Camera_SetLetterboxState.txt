@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionCamera_SetLetterboxState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_SetLetterboxState(<bState>, <fNumSeconds>)
+
+Description
+
+Sets the letter box state. The UI, if active, stays there. Note: the only reason to use this rather than Camera_SetLetterboxStateNoUI is to be able to display custom screens while the letterbox is on. In that case, elements of the UI like taskbars and RU counts must be disabled with UI_SetElementVisible and similar functions. --SunTzu
+
+Example
+
+Camera_SetLetterboxState(1, 2)
+
+Arguments
+
+<bState>: 0 = no letterbox; 1 = letterbox
+<fNumSeconds>: number of seconds for the letterbox to appear/disappear
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-10 12:48:22  :: Owner: ThoughtProcess :: 
+:: :: 
