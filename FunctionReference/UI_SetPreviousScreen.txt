@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_SetPreviousScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetPreviousScreen(<sCurrentScreenName>, <sPreviousScreenName>)
+
+Description
+
+Sets (preloads?) the previous screen before loading it using UI_PreviousScreen().
+
+Example
+
+UI_SetPreviousScreen("UserProfile", "NewMainMenu")
+
+Arguments
+
+<sCurrentScreenName>: the name of the current screen.
+<sPreviousScreenName>: the name of the screen to load previously.
+
+Related Pages:
+
+UI_PreviousScreen() 
+Function Reference
+
+Page History :: 2005-08-09 15:45:46  :: Owner: ThoughtProcess :: 
+:: :: 

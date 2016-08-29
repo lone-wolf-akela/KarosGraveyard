@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_PlayerHasPanned
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_PlayerHasPanned(<fDistance>)
+
+Description
+
+Returns true if the user has panned the camera.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:25:46  :: Owner: ThoughtProcess :: 
+:: :: 

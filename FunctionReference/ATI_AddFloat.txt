@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionATI_AddFloat
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddFloat(<iATIIndex>, <fParameter>)
+
+Description
+
+Adds a float parameter to an ATI display item.
+
+Example
+
+ATI_AddFloat(RRPI_PlayerProgress, progress)
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<fParameter>: the float parameter.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-25 14:28:32  :: Owner: ThoughtProcess :: 
+:: :: 

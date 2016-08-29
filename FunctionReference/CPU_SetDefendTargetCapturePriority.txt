@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionCPU_SetDefendTargetCapturePriority
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_SetDefendTargetCapturePriority(<iPlayerIndex>, <iTargetIndex>)
+
+Description
+
+Presumably sets the defense assignment indexed as <iTargetIndex> as a priority for the CPU with <iPlayerIndex>. I don't know if the priority is set only against enemy capturers, as the name of the function would suggest. Tests needed. - SunTzu
+
+Example
+
+CPU_SetDefendTargetCapturePriority(1, DefendGehenna)
+
+Arguments
+
+<iPlayerIndex>: integer index of the CPU
+<iTargetIndex>: index of the defense assignment set up with CPU_AddDefendTarget 
+
+Related Pages:
+
+CPU_AddDefendTarget 
+Function Reference
+
+Page History :: 2006-03-03 13:01:52  :: Owner: ThoughtProcess :: 
+:: :: 

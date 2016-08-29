@@ -1,0 +1,28 @@
+Homeworld 2 : Functionsort
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+sort(<tTable> [, <Comp>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Sorts table elements in a given order, in-place, from <tTable>[1] to <tTable>[n], where n is the result of getn(<tTable>) (see Section 6.1). If <Comp> is given, then it must be a function that receives two table elements, and returns true (that is, a value different from nil) when the first is less than the second (so that not comp(a[i+1], a[i]) will be true after the sort). If <Comp> is not given, then the standard Lua operator < is used instead. 
+The sort algorithm is not stable (that is, elements considered equal by the given order may have their relative positions changed by the sort)."
+
+Example
+
+names = {"Peter", "Paul", "Mary"}
+grades = {Mary = 10, Paul = 7, Peter = 8}
+sort(names) --> Mary, Paul, Peter
+sort(names, function (n1, n2) return grades[n1] > grades[n2] end) --> Mary, Peter, Paul
+
+Arguments
+
+<tTable>: the table to sort.
+<Comp>: Not really sure what this is. -Mikail. Example taken from 'Programming in lua' to show how the 'comp' function works; it is useful to sort complex tables or a table in accordance to another table with common entries. -Sun Tzu
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-18 06:23:39  :: Owner: ThoughtProcess :: 
+:: :: 

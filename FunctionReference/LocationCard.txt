@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionLocationCard
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+LocationCard(, )
+
+Description
+
+Displays a text at the bottom centre of the screen for a given time. HW2_LocationCardEvent is a similar function that can be called from within an event table.
+
+Example
+
+LocationCard("TANIS BASE - THE GREAT WASTELANDS", 5)
+
+Arguments
+
+<sLocationCardName>: the text to display; it can be either a quoted string or the index of a localised string.
+<fTime>: the time in seconds before the text disappears.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 12:45:47  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_SetElementPosition
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetElementPosition(?)
+
+Description
+
+Unknown. Presumably sets the position of a screen element.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Presumably the string name of a screen, the string name of a screen element, and a table containing screen coordinates.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:41:55  :: Owner: ThoughtProcess :: 
+:: :: 

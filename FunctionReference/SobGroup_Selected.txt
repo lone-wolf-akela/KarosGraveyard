@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_Selected
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Selected(<sSobGroupName>)
+
+Description
+
+Returns true if all the ships in <sSobGroupName> are selected.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:54:18  :: Owner: ThoughtProcess :: 
+:: :: 

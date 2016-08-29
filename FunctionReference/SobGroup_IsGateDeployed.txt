@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_IsGateDeployed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsGateDeployed(<sGate1Name>, <sGate2Name>)
+
+Description
+
+Returns true if the gates <sGate1Name> and <sGate2Name> are deployed and linked.
+Note: use SobGroup_FormHyperspaceGate to deploy the gates.
+
+Example
+
+if (SobGroup_IsGateDeployed("WaveOne_Gate_a", "WaveOne_Gate_b") == 1) then ...code... end
+
+Arguments
+
+<sGate1Name>, <sGate2Name>: the names of the sobGroups containing the gates to check.
+
+Related Pages:
+
+Function Reference 
+SobGroup_FormHyperspaceGate
+
+There are 3 comments on this page. [Display comments]
+Page History :: 2006-01-15 07:18:57  :: Owner: ThoughtProcess :: 
+:: :: 

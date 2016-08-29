@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionHW2_Fade
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_Fade(<bState>)
+
+Description:
+
+This function must be called from an event table. It fades/unfades the screen. Use Universe_Fade to do the same from a normal chunk.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Example:
+
+HW2_Fade(1)
+
+Arguments:
+
+<bState>: 1 = black screen; 0 = normal screen
+
+Scope:
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-07 08:15:16  :: Owner: MiKail :: 
+:: :: 

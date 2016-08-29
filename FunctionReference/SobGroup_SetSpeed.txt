@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_SetSpeed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetSpeed(<sSobGroupName>, <fSpeed>)
+
+Description
+
+Sets the speed of all ships in <sSobGroupName>.
+
+Example
+
+SobGroup_SetSpeed("Convoy_2", 3)
+
+Arguments
+
+<fSpeed>: a multiplier that can exceed 1.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-27 13:14:14  :: Owner: ThoughtProcess :: 
+:: :: 

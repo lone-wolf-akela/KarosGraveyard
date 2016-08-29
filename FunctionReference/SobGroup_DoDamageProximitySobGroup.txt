@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_DoDamageProximitySobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_DoDamageProximitySobGroup(<sSobGroupName>, <iPlayerIndex>, <fDamage>, <fProximity>)
+
+Description
+
+Makes all ships belonging to <iPlayerIndex> that are within <fProximity> of <sSobGroupName> take <fDamage> amount of damage.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:47:34  :: Owner: ThoughtProcess :: 
+:: :: 

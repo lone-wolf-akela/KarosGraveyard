@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUniverse_ClipToWorldBounds
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_ClipToWorldBounds(?)
+
+Description
+
+Unknown. Presumably enables/disables universe clipping set in the .level file using setWorldBoundsInner() and setWorldBoundsOuter().
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Presumably one boolian argument.
+
+Related Pages:
+
+setWorldBoundsInner() 
+setWorldBoundsOuter() 
+Function Reference
+
+Page History :: 2005-08-22 19:17:34  :: Owner: MiKail :: 
+:: :: 

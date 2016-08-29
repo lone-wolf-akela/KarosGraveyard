@@ -1,0 +1,23 @@
+Homeworld 2 : Functionappendto
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+appendto(<sFileName>)
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"Opens a file named <sFileName> and sets it as the value of _OUTPUT. Unlike the writeto operation, this function does not erase any previous contents of the file; instead, anything written to the file is appended to its end. If this function fails, it returns nil, plus a string describing the error."
+
+Example
+
+
+Arguments
+
+<sFileName>: the name of the file to append to.
+
+Related Functions
+
+Function Reference 
+writeto 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 12:53:23  :: Owner: ThoughtProcess :: 
+:: :: 

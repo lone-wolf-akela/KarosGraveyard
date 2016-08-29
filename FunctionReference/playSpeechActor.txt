@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionplaySpeechActor
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Used in "data\soundscripts\speechlogic\commands.lua" and "data\soundscripts\speechlogic\status.lua".
+Page History :: 2006-01-19 01:23:16  :: Owner: MiKail :: 
+:: :: 

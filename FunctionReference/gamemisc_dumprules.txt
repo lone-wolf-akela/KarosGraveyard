@@ -1,0 +1,18 @@
+Homeworld 2 : Functiongamemisc_dumprules
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+gamemisc_dumprules()
+
+Description:
+
+Prints the names of the currently active rules.
+
+Example:
+
+gamemisc_dumprules()
+
+Arguments:
+
+None.
+Page History :: 2005-09-10 19:35:35  :: Owner: MiKail :: 
+:: :: 

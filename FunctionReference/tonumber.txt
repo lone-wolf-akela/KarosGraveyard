@@ -1,0 +1,24 @@
+Homeworld 2 : Functiontonumber
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tonumber(<Element> [, <iBase>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Tries to convert its argument to a number. If the argument is already a number or a string convertible to a number, then tonumber returns that number; otherwise, it returns nil. 
+An optional argument specifies the base to interpret the numeral. The base may be any integer between 2 and 36, inclusive. In bases above 10, the letter `A' (either upper or lower case) represents 10, `B' represents 11, and so forth, with `Z' representing 35. In base 10 (the default), the number may have a decimal part, as well as an optional exponent part (see Section 4.2). In other bases, only unsigned integers are accepted."
+
+Example
+
+
+Arguments
+
+<Element>: a number or a string convertible to a number.
+<iBase>: the base to interpret the numeral. The base may be any integer between 2 and 36, inclusive.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 14:06:43  :: Owner: NickersonM :: 
+:: :: 

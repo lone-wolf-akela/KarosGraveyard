@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionEventPointer_AddVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+EventPointer_AddVolume(<sVolumeName>, <iColour>, <fRadius>)
+
+Description
+
+Displays an event pointer around <sVolumeName> and returns a pointer index.
+
+Example (from scar_util.lua)
+
+pingid = EventPointer_AddVolume("vol_Sphere1", HW2_rgb(230,230,230), 1000) 
+
+Arguments
+
+<sVolumeName>: the name of the volume to add an event pointer around.
+<iColour>: an integer representation of an RGB color code. Note: use the HW2_rgb function to convert standard RGB color values (ranging from 0 to 255) to the required integer.
+<fRadius>: in meters.
+
+Related Pages:
+
+Function Reference 
+HW2_rgb 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-15 20:20:16  :: Owner: ThoughtProcess :: 
+:: :: 

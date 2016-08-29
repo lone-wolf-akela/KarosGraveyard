@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_Create
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Create(<sSobGroupName>)
+
+Description
+
+Creates an empty <sSobGroupName> if it doesn't already exist.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:54:05  :: Owner: ThoughtProcess :: 
+:: :: 

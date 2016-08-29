@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_DialogCancel
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_DialogCancel()
+
+Description
+
+Signals that a "Yes/No" dialog has been canceled.
+
+Example
+
+onMouseClicked = "UI_DialogCancel()"
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:25:59  :: Owner: ThoughtProcess :: 
+:: :: 

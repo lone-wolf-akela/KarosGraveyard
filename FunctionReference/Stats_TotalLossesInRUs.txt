@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionStats_TotalLossesInRUs
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalLossesInRUs(<iPlayerIndex>)
+
+Description
+
+Returns the size in RUs of the ships lost by a player during a game (SP or skirmish). It can be called during the game.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-12-06 08:20:03  :: Owner: ThoughtProcess :: 
+:: :: 

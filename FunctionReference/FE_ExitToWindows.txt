@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_ExitToWindows
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_ExitToWindows()
+
+Description
+
+Exits the game to Windows.
+
+Example
+
+FE_ExitToWindows()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:17:44  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionPlayer_GetShipsByType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GetShipsByType (<iPlayerIndex>, <sShipType>)
+
+Description
+
+Creates a runtime SobGroup with only the ships of <sShipType> from <iPlayerIndex>. Returns only awake ships (ie not docked or in hyperspace).
+Note: it is the same function as Player_FillShipsByType except that it returns a runtime group. It is more convenient for issuing a complex query on a player's fleet (see second example). --SunTzu
+
+Examples
+
+sg_temp = Player_GetShipsByType (0, "hgn_interceptor")
+number_of_interceptors = SobGroup_Count(Player_GetShipsByType (0, "hgn_interceptor"))
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sShipType>: the type of ship.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-25 02:27:02  :: Owner: ThoughtProcess :: 
+:: :: 

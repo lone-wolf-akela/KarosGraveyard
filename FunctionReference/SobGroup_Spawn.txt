@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_Spawn
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Spawn(<sSobGroupName>, <sVolumeName>)
+
+Description
+
+Makes <sSobGroupName> spawn (hyperspace without any visual effect and without any inactive time) in <sVolumeName>.
+<sSobGroupName> must already be in in hyperspace (or despawned).
+
+Example
+
+"SobGroup_Spawn( "Lighthouse", "vol_LighthouseMoveToAfterMission" )
+
+Arguments
+
+<sSobGroupName>: name of the sobgroup.
+<sVolumeName>: name of the volume.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:18:57  :: Owner: ThoughtProcess :: 
+:: :: 

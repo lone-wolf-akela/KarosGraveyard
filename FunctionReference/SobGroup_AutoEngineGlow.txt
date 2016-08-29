@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_AutoEngineGlow
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AutoEngineGlow(<sSobGroupName>)
+
+Description
+
+Removes any manual overrides of the engine glow for all ships in <sSobGroupName>.
+
+Example
+
+SobGroup_AutoEngineGlow("Dreadnaught")
+
+Arguments
+
+<sSobGroupName>: name of the sobGroup.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-20 06:39:30  :: Owner: ThoughtProcess :: 
+:: :: 

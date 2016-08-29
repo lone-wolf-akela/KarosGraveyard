@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_DialogAccept
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_DialogAccept()
+
+Description
+
+Signals that a "Yes/No" dialog has been accepted.
+
+Example
+
+onMouseClicked = "UI_DialogAccept()"
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:25:20  :: Owner: ThoughtProcess :: 
+:: :: 

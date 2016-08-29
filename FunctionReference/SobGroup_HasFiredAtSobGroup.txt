@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_HasFiredAtSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_HasFiredAtSobGroup(<sSobGroupFiringName>, <sSobGroupBeingShotName>, <sWeaponBeingFiredName>)
+
+Description
+
+Returns true if any ship in <sSobGroupFiringName> has fired at any ship in <sSobGroupBeingShotName> with <sWeaponBeingFiredName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:56:10  :: Owner: ThoughtProcess :: 
+:: :: 

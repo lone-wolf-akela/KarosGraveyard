@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionTimer_Resume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Timer_Resume(<Index>)
+
+Description
+
+Resumes the countdown of a timer that has been paused.
+Note: the function does not check whether the timer has been paused or not, and will mess up the countdown if it is already running. It is wise to update a flag each time the timer is paused/run, and then verify it before calling the function. -SunTzu.
+Note: this function is defined in "\Homeworld2\Data\scripts\scar\scar_util.lua".
+
+Example
+
+
+Arguments
+
+<Index>: the index (integer or string) within the timer table.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-18 22:17:11  :: Owner: SunTzu :: 
+:: :: 

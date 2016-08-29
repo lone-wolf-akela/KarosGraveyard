@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionNISSeek
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISSeek(?)
+
+Description
+
+Unknown.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+Unknown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:44:23  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionEvent_Start
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Event_Start(sEventName)
+
+Description
+
+Starts an 'event' (list of functions executed sequentially within a set amount of time) defined in the Events table.
+Extensively used in SP scripts to display text/speech briefings and information related to scripted events.
+
+Example
+
+Event_Start("intelevent_intro")
+
+Arguments
+
+<sEventName> string with the name of the event defined as Events.sEventName in the Events table
+
+Scope
+
+Gametype
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-12-07 09:29:14  :: Owner: ThoughtProcess :: 
+:: :: 

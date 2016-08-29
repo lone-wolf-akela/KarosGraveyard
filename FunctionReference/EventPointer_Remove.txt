@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionEventPointer_Remove
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+EventPointer_Remove(<iPointerId>)
+
+Description
+
+Removes the event pointer.
+
+Example
+
+EventPointer_Remove(pingid)
+
+Arguments
+
+<iPointerId>: the index number returned by the function creating the pointer.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 11:42:15  :: Owner: ThoughtProcess :: 
+:: :: 

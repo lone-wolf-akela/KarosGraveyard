@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_ExitHyperSpaceSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ExitHyperSpaceSobGroup(<sSobGroupToExitName>, <sSobGroupExitCloseToName>, <fProximity>)
+
+Description
+
+Makes <sSobGroupToExitName> exit hyperspace along the axis of, and within <fProximity> of, <sSobGroupExitCloseToName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:38:54  :: Owner: ThoughtProcess :: 
+:: :: 

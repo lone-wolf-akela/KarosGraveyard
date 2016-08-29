@@ -1,0 +1,34 @@
+Homeworld 2 : FunctionShowLevelVolumes
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ShowLevelVolumes(<iFlag>)
+
+Description
+
+Shows all volumes in the game (from the .level file or created at runtime), by means of wire meshes. 
+
+Example
+
+In autoexec.lua, add the following:
+
+function ShowVolumes()
+	ShowLevelVolumes(1)
+	Rule_Remove("ShowVolumes")
+end
+Rule_AddInterval("ShowVolumes",5)
+
+Arguments
+
+<iFlag>: 0 = not visible, 1 = visible
+
+Notes
+
+only works in autoexec.lua 
+
+Related Functions:
+
+addSphere 
+Volume_AddSphere
+
+Page History :: 2004-02-19 18:08:46  :: Owner: NickersonM :: 
+:: :: 

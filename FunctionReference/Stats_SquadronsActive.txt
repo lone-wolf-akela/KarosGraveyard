@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionStats_SquadronsActive
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_SquadronsActive(<iPlayerIndex>, <iShipTypeNumber>)
+
+Description
+
+Returns the number of squadrons of type <iShipTypeNumber> currently owned by player <iPlayerIndex>.
+
+Example
+
+Stats_SquadronsActive(0, GetShipId("hgn_interceptor"))
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iShipTypeNumber>: the index number of the ship type. It can be returned with GetShipId
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 17:57:48  :: Owner: ThoughtProcess :: 
+:: :: 

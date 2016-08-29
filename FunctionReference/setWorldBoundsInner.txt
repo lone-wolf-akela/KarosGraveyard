@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionsetWorldBoundsInner
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setWorldBoundsInner(<tPosition>, <tDimensions>)
+
+Description
+
+Sets the size of the playing field centered around <tPosition> to the size specified using <tDimensions>.
+Note: while it is possible for ships to exist outside the playing area, it is not possible to move a ship outside this area.
+The dimensions set by this function also affect the size of compass world plane in the sensors manager.
+
+Example
+
+setWorldBoundsInner({0, 0, 0,}, {30724.5, 30724.5, 30724.5,})
+
+Arguments
+
+<tPosition>: a table containing the center coordinates of the playing space.
+<tDimensions>: a table, or vector, containing the dimensions of the map along each axis.
+
+Related Pages:
+
+Function Reference 
+Level Scope 
+setWorldBoundsOuter
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-12-04 07:37:53  :: Owner: SunTzu :: 
+:: :: 

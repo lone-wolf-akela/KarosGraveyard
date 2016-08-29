@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionPlayer_SetBounty
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetBounty(<iPlayerIndex>, <iMultiplier>)
+
+Description
+
+Sets the bounty multiplier for <iPlayerIndex>.
+Note: this function only applies within the Homeworld Classic mod by B1FF.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iMultiplier>: the bounty multiplier. An <iMultiplier> value of 1 will award a bounty equal to the build cost of any ships killed.
+
+Related Pages:
+
+Function Reference 
+Homeworld Classic mod
+
+Page History :: 2005-07-03 22:38:15  :: Nobody :: 
+:: :: 

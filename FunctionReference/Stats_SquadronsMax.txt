@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionStats_SquadronsMax
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_SquadronsMax(<iPlayerIndex>, <iShipTypeNumber>)
+
+Description
+
+Returns the maximum number of squadrons of type <iShipTypeNumber> ever owned by player <iPlayerIndex>.
+
+Example
+
+Stats_SquadronsMax(0, GetShipId("hgn_interceptor"))
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iShipTypeNumber>: the index number of the ship type. It can be returned with GetShipId
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 17:02:17  :: Owner: ThoughtProcess :: 
+:: :: 

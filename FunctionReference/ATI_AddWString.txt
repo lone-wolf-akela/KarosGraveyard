@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionATI_AddWString
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddWString(<iATIIndex>, <sParameter>)
+
+Description
+
+Adds a wide string parameter to an ATI display item.
+
+Example
+
+ATI_AddWString(RRPI_PlayerName, playerName)
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<sParameter>: a raw string only. No localization will be done.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-25 14:29:27  :: Owner: ThoughtProcess :: 
+:: :: 

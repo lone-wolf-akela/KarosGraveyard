@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_PlaySound
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_PlaySound(?)
+
+Description
+
+Unknown. Presumably plays a named sound.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Presumably the string pathname of the sound file to play.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:33:35  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_SetAvoidance
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_SetAvoidance(<bEnable>)
+
+Description
+
+Turns collision avoidance on/off.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:08:28  :: Owner: ThoughtProcess :: 
+:: :: 

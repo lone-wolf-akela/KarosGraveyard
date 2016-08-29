@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSensors_Switch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sensors_Switch(<bTurnOn>)
+
+Description
+
+Turns on/off sensors manager.
+
+Example
+
+Sensors_Switch(0)
+
+Arguments
+
+<bTurnOn>: boolean (1 turns on the sensors manager; 0 turns it off) 
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-17 17:30:54  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_IsFocused
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_IsFocused(<sSobGroupName>)
+
+Description
+
+Returns true if the camera is currently focused on <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:32:06  :: Owner: ThoughtProcess :: 
+:: :: 

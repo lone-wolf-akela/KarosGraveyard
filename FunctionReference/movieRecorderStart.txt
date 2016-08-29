@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionmovieRecorderStart
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+movieRecorderStart(<sString>, <iInteger>)
+
+Description
+
+Unknown.
+
+Example
+
+
+Arguments
+
+<sString>: unknown.
+<iInteger>: unknown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:20:31  :: Owner: NickersonM :: 
+:: :: 

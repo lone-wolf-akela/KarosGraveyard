@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionUniverse_Pause
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_Pause(<bPause>, <fNumSeconds>)
+
+Description
+
+Pauses the universe for <fNumSeconds>, and then unpauses it.
+Note: not sure why the first argument is necessary, unless the function works in the reverse manner, as well. -Mikail
+
+Example
+
+
+Arguments
+
+<bPause>: 0 = disable, 1 = enable.
+<fNumSeconds>: the duration in seconds of the pause.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:07:19  :: Owner: ThoughtProcess :: 
+:: :: 

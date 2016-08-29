@@ -1,0 +1,23 @@
+Homeworld 2 : Functiondeg
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+deg(<fNumber>)
+
+Description
+
+Returns a number converted from radians to degrees.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:03:02  :: Owner: ThoughtProcess :: 
+:: :: 

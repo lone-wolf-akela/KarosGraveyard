@@ -1,0 +1,36 @@
+Homeworld 2 : FunctionSound_MusicPlayType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_MusicPlayType(<sFileName>, <iType>)
+
+Description
+
+Play a looping music track.
+Will turn off any music that is already playing.
+
+Example
+
+Sound_MusicPlayType("data:sound/music/ambient/AMB_01", MUS_Ambient)
+
+Arguments
+
+<sFileName>: filename of the music to play (e.g., "data:sound/music/ambient/amb_14"). Note: no extension 
+<iType>: the index number of the music type.
+Note: the following variables can be used in place of index numbers:
+
+MUS_Ambient, MUS_Staging, MUS_Battle
+
+Note: serves what purpose, I don't know
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-04-14 11:38:32  :: Owner: ThoughtProcess :: 
+:: :: 

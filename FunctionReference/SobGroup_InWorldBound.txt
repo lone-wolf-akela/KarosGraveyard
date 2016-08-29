@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_InWorldBound
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_InWorldBound(<sSobGroupName>, <iBoundaries>)
+
+Description
+
+Returns true if all ships of <sSobGroupName> are within the world boundaries; depending on the <iBoundaries> settings, the function considers inner boundaries or outer boundaries. Note: inactive ships are not considered.
+
+Example
+
+if SobGroup_InWorldBound(missilesAccelerated[i], 1) == 0 then ... code ... end
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<iBoundaries>: 0 = outer boundaries, 1 = inner boundaries.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-28 12:04:36  :: Owner: MiKail :: 
+:: :: 

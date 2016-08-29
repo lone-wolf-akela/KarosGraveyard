@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUI_SetLabelTextHotkey
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetLabelTextHotkey(<sScreenName>, <sElementName>, <sTextLabel>, <iKeyNumber?>)
+
+Description
+
+Unknown.
+
+Example
+
+UI_SetLabelTextHotkey("GenericScreen", "lblText", txtMap[s].dat, txtMap[s].hkey)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sElementName>: the name of the screen element.
+<sTextLabel>: the screen element's text label (string or localization ID).
+<iKeyNumber?>: presumably the index number of a keyboard key. A variable like IKEY or JKEY can presumably be used in its place.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:44:12  :: Owner: ThoughtProcess :: 
+:: :: 

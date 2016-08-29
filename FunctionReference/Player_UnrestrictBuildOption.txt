@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_UnrestrictBuildOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_UnrestrictBuildOption(<iPlayerIndex>, <sBuildOption>)
+
+Description
+
+Unrestricts the named build option for the player.
+Note: will fail if the build option is not already restricted.
+
+Example
+
+Player_UnrestrictBuildOption(0, "Hgn_TorpedoFrigate")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sBuildOption>: the name of the build option to unrestrict.
+
+Scope
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-24 04:34:02  :: Owner: ThoughtProcess :: 
+:: :: 

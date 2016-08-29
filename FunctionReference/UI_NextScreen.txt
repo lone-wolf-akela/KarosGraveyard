@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionUI_NextScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_NextScreen(<rTransitionType>)
+
+Description
+
+Loads the screen previously set using UI_SetNextScreen().
+
+Example
+
+UI_NextScreen(eTransition)
+
+Arguments
+
+<rTransitionType>: can be either eTransition or ePopup.
+
+Related Pages:
+
+UI_SetNextScreen() 
+Function Reference
+
+Page History :: 2005-08-09 15:33:15  :: Owner: ThoughtProcess :: 
+:: :: 

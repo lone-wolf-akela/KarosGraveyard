@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionCamera_SetLetterboxStateNoUI
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_SetLetterboxStateNoUI(<bState>, <fNumSeconds>)
+
+Description
+
+Sets the letter box state and disables the UI.
+
+Example
+
+Camera_SetLetterboxStateNoUI( 1, 3 )
+
+Arguments
+
+<bState>: 0 = no letterbox; 1 = letterbox
+<fNumSeconds>: number of seconds for the letterbox to appear/disappear
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-10 12:41:15  :: Owner: ThoughtProcess :: 
+:: :: 

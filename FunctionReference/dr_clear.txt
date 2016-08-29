@@ -1,0 +1,19 @@
+Homeworld 2 : Functiondr_clear
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dr_clear(sName)
+
+Used in timer script. Clears text element sName from screen.
+
+Example
+
+dr_clear("timer")
+
+Related Pages:
+
+dr_setautoclear 
+dr_text2d 
+Function Reference
+
+Page History :: 2003-10-22 22:35:14  :: Owner: NickersonM :: 
+:: :: 

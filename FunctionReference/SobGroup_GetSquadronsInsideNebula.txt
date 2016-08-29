@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_GetSquadronsInsideNebula
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSquadronsInsideNebula(<sSobGroupName>, <sNebulaName>, <iPlayerIndex>)
+
+Description
+
+Returns true if any squadron from <sSobGroupName> is inside <sNebulaName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:47:03  :: Owner: ThoughtProcess :: 
+:: :: 

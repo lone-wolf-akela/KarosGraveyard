@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionStats_ShipsCreated
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_ShipsCreated(<iPlayerIndex>, <iShipTypeNumber>)
+
+Description
+
+Returns the number of ships of type <iShipTypeNumber> ever created/built by player <iPlayerIndex>. The function seems to work with subsystems too.
+It's used in Mission 1 to determine when you've built Fighter Module and Interceptors/Bombers. LuaDC does not decompile it correctly. -Grey_Ghost
+
+Example
+
+Stats_ShipsCreated(g_playerID, GetShipId("Hgn_MS_Production_Fighter"))>=1
+Stats_ShipsCreated(g_playerID, GetShipId("Hgn_Interceptor"))>=5
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iShipTypeNumber>: the index number of the ship type. It can be returned with GetShipId
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 17:15:26  :: Owner: ThoughtProcess :: 
+:: :: 

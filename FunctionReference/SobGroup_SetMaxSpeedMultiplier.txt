@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_SetMaxSpeedMultiplier
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetMaxSpeedMultiplier(<sSobGroupName>, <fSpeed>)
+
+Description
+
+Sets the max speed of all ships in <sSobGroupName>.
+
+Example
+
+SobGroup_SetMaxSpeedMultiplier(missilesAccelerated[j], 10)
+
+Arguments
+
+<fSpeed>: a multiplier that can exceed 1.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-27 13:12:36  :: Owner: ThoughtProcess :: 
+:: :: 

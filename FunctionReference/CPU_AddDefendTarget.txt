@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCPU_AddDefendTarget
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_AddDefendTarget(<iPlayerIndex>, <sVolumeName>, <fPriority>)
+
+Description
+
+Tells a CPU player to defend <sVolumeName> and sets the priority level of that task.
+Returns an index number of the target.
+
+Example
+
+CPU_AddDefendTarget(3, "Vol_InPosition", 500)
+
+Arguments
+
+<iPlayerIndex>: the index number of the CPU player.
+<sVolumeName>: the name of the volume.
+<fPriority>: float or integer, the priority level (the higher, the more important for the CPU).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-08-28 05:43:55  :: Owner: ThoughtProcess :: 
+:: :: 

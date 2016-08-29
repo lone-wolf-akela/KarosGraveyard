@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetPenetration
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setPenetration(, , , { = ,}, { = ,}, ..., { = ,})
+
+Description
+
+This function is called within a ".wepn" file, and is used to determine a weapon's penetration against shields and armor families. You may specify an armor penetration exception for one or more armor families, if desired. Any family without an exception uses the default penetration.
+
+Example
+
+setPenetration(NewWeaponType, 5, 1, {ResArmour = 0.2,}, {PlanetKillerArmour = 0,}, {SubSystemArmour = 2.5,}, {TurretArmour = 0.55,})
+
+Arguments
+
+<rWeapon>: Reference to the weapon. Generally, this will be NewWeaponType. 
+<iFieldPenetration>: Percent chance of the weapon to penetrate a defense field. Possible values range from 0 to 100. 
+<fDefaultPenetration>: Default penetration against any armor family for which an exception is not defined. The value is a multiplier to the weapon's damage. The weapon will not fire upon any target if set to 0, unless exceptions are defined. 
+<sFamily1> to <sFamilyN>: Name of an armor family that has an exception to the default penetration value. One exception may be defined for each armor family. Possible values are the names of the armor families as defined in the familylist.lua file. 
+<fPenetration1> to <fPenetrationN>: Penetration value for each corresponding armor family exception. (See <fDefaultPenetration>.)
+
+Related Pages:
+
+AddWeaponResult 
+Function Reference 
+StartShipWeaponConfig 
+StartWeaponConfig
+
+Page History :: 2006-01-20 14:06:27  :: Owner: RangerHW :: 
+:: :: 

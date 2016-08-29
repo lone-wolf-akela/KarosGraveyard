@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionsetMiscValues
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setMiscValues(, , )
+
+Description
+
+Determines barrel recoil and slave firing delay for the associated weapon (this function is found in the *.wepn file.)
+
+Example
+
+setMiscValues(NewWeaponType, 1, 2)
+
+Arguments
+
+<vObjectType>: should always be NewWeaponType. 
+<fRecoilDistance>: how far (in meters) the barrel recoils after firing. 
+<fSlaveFireDelay>: delay (in seconds) between the weapon firing and the slave firing. Note: The total time it takes to fire the weapon and all of its slaves must be less than the weapon's firing time (see StartWeaponConfig.)
+
+Related Pages:
+
+StartWeaponConfig 
+Object Scope 
+Function Reference
+
+Page History :: 2006-01-20 14:15:23  :: Owner: ZaTcH :: 
+:: :: 

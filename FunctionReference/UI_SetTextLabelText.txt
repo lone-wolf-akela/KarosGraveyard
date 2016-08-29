@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_SetTextLabelText
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetTextLabelText(<sScreenName>, <sElementName>, <sTextString>)
+
+Description
+
+Sets the text of screen element <sElementName> on screen <sScreenName> to the string <sText>.
+
+Example
+
+UI_SetTextLabelText("ResourceMenu", "lblResourceUnits", ..Player_GetRU( Universe_CurrentPlayer() ))""
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sElementName>: the name of the screen element.
+<sTextString>: the string to display on the element.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-07-03 07:25:29  :: Owner: ThoughtProcess :: 
+:: :: 

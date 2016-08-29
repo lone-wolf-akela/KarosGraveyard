@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_GetRace
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GetRace(<iPlayerIndex>)
+
+Description
+
+Returns the index number of the race of the player.
+Note: Player_GetRace returns 1 for Hiigaran, whereas Hiigaran is the second entry in the races table in "race.lua".
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2007-03-28 23:02:06  :: Owner: ThoughtProcess :: 
+:: :: 

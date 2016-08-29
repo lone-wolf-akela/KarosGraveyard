@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_DockSobGroupInstant
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_DockSobGroupInstant(<sSobGroupDockingName>, <sSobGroupDockWithName>)
+
+Description
+
+Makes <sSobGroupDockingName> instantly dock with the first available ship with a shiphold in <sSobGroupDockWithName>.
+Note: To be clear, the ship is teleported into the shiphold.
+
+Example
+
+SobGroup_DockSobGroupInstant("Convoy3Bombers1", "EnemyCarrier")
+
+Arguments
+
+<sSobGroupDockingName>: the name of the sobgroup doing the docking.
+<sSobGroupDockWithName>: the name of the sobgroup to dock into.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:32:01  :: Owner: ThoughtProcess :: 
+:: :: 

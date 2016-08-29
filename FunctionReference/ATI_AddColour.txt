@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionATI_AddColour
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_AddColour(<iATIIndex>, <tParameter>)
+
+Description
+
+Add a colour parameter.
+
+Example
+
+ATI_AddColour(HCPI_PlayerColour, {1,1,1,1,})
+
+Arguments
+
+<iATIIndex>: the index number of the parameter.
+<tParameter>: a table containing RGBA color components.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-26 01:06:32  :: Owner: ThoughtProcess :: 
+:: :: 

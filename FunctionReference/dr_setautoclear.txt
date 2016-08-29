@@ -1,0 +1,19 @@
+Homeworld 2 : Functiondr_setautoclear
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dr_setautoclear(sName, bClear)
+
+Used in timer script. Automatically clears text element sName after the next game frame if bClear is true, does not automatically clear text element if bClear is false.
+
+Example
+
+dr_setautoclear("timer", 0)
+
+Related Pages:
+
+dr_clear 
+dr_text2d 
+Function Reference
+
+Page History :: 2003-10-22 22:34:49  :: Owner: NickersonM :: 
+:: :: 

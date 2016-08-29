@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionEventPointer_AddSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+EventPointer_AddSobGroup(<sSobGroupName>, <iColour>, <fRadius>)
+
+Description
+
+Displays an event pointer around the lead ship of <sSobGroupName> and returns a pointer index.
+
+Example (from SCAR_Util.lua)
+
+pointerID = EventPointer_AddSobGroup(group, HW2_rgb(230, 230, 230), 0)
+
+Arguments
+
+<sSobGroupName>: the sobgroup to add the event pointer around.
+<iColour>: an integer representation of an RGB color code. Note: use the HW2_rgb function to convert standard RGB color values (ranging from 0 to 255) to the required integer.
+<fRadius>: in meters. If set to 0, the bounding radius will be used, instead.
+
+Related Pages:
+
+Function Reference 
+HW2_rgb 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-15 20:17:56  :: Owner: ThoughtProcess :: 
+:: :: 

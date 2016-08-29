@@ -1,0 +1,26 @@
+Homeworld 2 : Functionstrfind
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strfind(<sString>, <sPattern> [, <iInit> [, <bPlain>]])
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Looks for the first match of <sPattern> in <sString>. If it finds one, then strfind returns the indices[sic: e.g., positions] of <sString> where this occurrence starts and ends; otherwise, it returns nil. If the pattern specifies captures (see gsub below), the captured strings are returned as extra results. A third, optional numerical argument <iInit> specifies where to start the search; its default value is 1, and may be negative. A value of 1 as a fourth, optional argument <bPlain> turns off the pattern matching facilities, so the function does a plain 'find substring' operation, with no characters in pattern being considered 'magic'. Note that if plain is given, then <iInit> must be given too."
+
+Example
+
+
+Arguments
+
+<sString>: the string to search in.
+<sPattern>: the pattern to search for.
+<iInit>: the position to start searching at.
+<bPlain>: specifies that a 'plain' search should be done (i.e., one in which there are no 'magic' characters).
+
+Related Functions
+
+Function Reference 
+gsub 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:00:49  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setState(<sShipName>, <sStateName>, <bState>)
+
+Description
+
+Sets the specified state within the ship's MADState class. Will not trigger a call to the corresponding _OnSet Lua function. This is useful for making the setting of a state dependent upon an animation completing, or reaching a pause point.
+Returns nothing.
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sStateName>: string Name of state. See state name table above.
+<bState>: bool (0/1) Is state on or off
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 03:54:14  :: Owner: MiKail :: 
+:: :: 

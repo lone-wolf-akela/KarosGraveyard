@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionBreakAlliance
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+BreakAlliance(<iPlayerIndex1>, <iPlayerIndex2>)
+
+Description
+
+Makes <iPlayerIndex1> and <iPlayerIndex2> enemies.
+
+Example
+
+BreakAlliance(2, 3)
+
+Arguments
+
+<iPlayerIndex1>: the index number of the first player.
+<iPlayerIndex2>: the index number of the second player.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-08-28 05:29:48  :: Owner: ThoughtProcess :: 
+:: :: 

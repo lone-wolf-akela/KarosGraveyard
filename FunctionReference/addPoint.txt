@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionaddPoint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addPoint(<sPointName>, <tPosition>, <tRotation>)
+
+Description
+
+Adds a point to a ".level" file.
+
+Example
+
+addPoint("StartPos0", {-2, 9071, -18017,}, {0, 0, 0,})
+
+Arguments
+
+<sPointName>: the name of the point.
+<tPosition>: a table containing the X, Z, and Y coordinates.
+<tRotation>: a table containing the X, Z, and Y rotation angles (in degrees).
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+Malignus's Mapping Tutorial
+
+Page History :: 2005-07-06 17:11:20  :: Owner: MiKail :: 
+:: :: 

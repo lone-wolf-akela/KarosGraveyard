@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionCPU_DoFile
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_DoFile(?)
+
+Description
+
+Unknown.
+
+Example
+
+Note: no instances of this function being used can be found in the game files.
+
+Arguments
+
+Unknown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 14:50:41  :: Owner: ThoughtProcess :: 
+:: :: 

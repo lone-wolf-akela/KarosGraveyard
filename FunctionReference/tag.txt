@@ -1,0 +1,22 @@
+Homeworld 2 : Functiontag
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tag(<Value>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Allows Lua programs to test the tag of a value (see Section 3). It receives one argument, and returns its tag (a number)."
+
+Example
+
+
+Arguments
+
+<Value>: the value to test.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 14:03:44  :: Owner: ThoughtProcess :: 
+:: :: 

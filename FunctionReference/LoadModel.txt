@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionLoadModel
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+LoadModel(<rNewObjectType>, <bEnable>)
+
+Description
+
+Tells the game to load a HOD file with the same name and in the same directory as the ship file.
+Use LoadSharedModel to load a HOD file from another ship.
+According to this post, this function needs to appear near the end of the .ship file or else docking paths get screwed up.
+
+Example
+
+LoadModel(NewShipType, 1)
+
+Arguments
+
+<rNewObjectType>: the type of object being loaded (ship, resource, etc.).
+<bEnable>: 0 = false, 1 = true.
+
+Related Pages:
+
+Function Reference 
+Object Scope 
+LoadSharedModel
+
+Page History :: 2007-02-27 15:38:52  :: Owner: MiKail :: 
+:: :: 

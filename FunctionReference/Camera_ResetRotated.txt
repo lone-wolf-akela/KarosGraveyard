@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_ResetRotated
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_ResetRotated()
+
+Description
+
+Resets the camera rotation flag.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:22:35  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetHardPointHealth
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetHardPointHealth(<sSobGroupName>, <sHardPointName>, <fNewHealth>)
+
+Description
+
+Sets the health of the subsystem on the first <sHardPointName> in <sSobGroupName>.
+
+Example
+
+SobGroup_SetHardPointHealth("inhibitor_1", "Generic 1", 0)
+
+Arguments
+
+<fNewHealth>: must be between 0 and 1.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 13:00:22  :: Owner: ThoughtProcess :: 
+:: :: 

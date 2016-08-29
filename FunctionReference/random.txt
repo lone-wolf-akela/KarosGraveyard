@@ -1,0 +1,23 @@
+Homeworld 2 : Functionrandom
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+random([<fNumber1>] [, <fNumber2>])
+
+Description (from LUA 4 Manual: 6.3 Mathematical Functions 
+"The function random, when called without arguments, returns a pseudo-random real number in the range [0,1]. When called with a number <fNumber1>, random returns a pseudo-random integer in the range [1,<fNumber1>]. When called with two arguments, <fNumber1> and <fNumber2>, random returns a pseudo-random integer in the range [<fNumber1>,<fNumber2>]."
+
+Example
+
+
+Arguments
+
+<fNumber1>: a number.
+<fNumber2>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:43:00  :: Owner: ThoughtProcess :: 
+:: :: 

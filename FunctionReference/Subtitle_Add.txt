@@ -1,0 +1,46 @@
+Homeworld 2 : FunctionSubtitle_Add
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_Add(<iActor>, <sText>, <fTime>)
+
+Description
+
+Displays at the left top of the screen an actor's image along with the specified text or pre-defined string. See HW2_SubTitleEvent for an equivalent function to be called from within an event table.
+
+Example
+
+Subtitle_Add(Actor_FleetIntel, "This is Fleet Intel", 5)
+Subtitle_Add(Actor_FleetIntel, "$4520", 5)
+
+Arguments
+
+<iActor>: the index number of the actor; it corresponds to iThemeNumber in addTheme.
+Note: you can use the following variables in place of the actor's index number:
+
+Actor_LocationCard
+Actor_Talorn
+Actor_AllShips3
+Actor_AllShips2
+Actor_AllShips
+Actor_Bentusi
+Actor_Chimera
+Actor_Keeper
+Actor_Makaan
+Actor_FleetCommand
+Actor_FleetIntel
+
+<sText>: the text you want to be displayed; it can be a quoted string or the index of a localised string.
+<fTime>: the time in seconds that the subtitle should remain on the screen.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+addTheme 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-08-30 15:26:03  :: Owner: ThoughtProcess :: 
+:: :: 

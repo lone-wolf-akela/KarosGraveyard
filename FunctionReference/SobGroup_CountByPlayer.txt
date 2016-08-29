@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_CountByPlayer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_CountByPlayer(<sSobGroupName>, <iPlayerIndex>)
+
+Description
+
+Returns the number of ships within <sSobGroupName> that are owned by player <iPlayerIndex>. Both active and inactive (docked or in hyperspace) ships are counted.
+
+Example
+
+i = SobGroup_CountByPlayer("sg_Temp", 0)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup whose contents are checked
+<iPlayerIndex>: the index number of a player
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-28 11:29:07  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_RestrictResearchOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_RestrictResearchOption(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Restrict the named research item for the player.
+Note: will fail if the research does not exist, is not available, or is already done.
+
+Example
+
+Player_RestrictResearchOption(0, "SensorsBackToNormal1")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:27:56  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_GetPosition
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetPosition(<sSobGroupName>)
+
+Description
+
+Gets the position of <sSobGroupName>.
+Returns a table consisting of the sobgroup's X, Y, and Z coordinates (in that order).
+
+Example
+
+sob_position = SobGroup_GetPosition("sg_mygroup")
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference 
+Definition: handedness
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2007-03-03 00:39:17  :: Owner: NickersonM :: 
+:: :: 

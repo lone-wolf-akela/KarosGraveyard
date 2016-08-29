@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionGetActualPlayerFleetExtraRU
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetActualPlayerFleetExtraRU()
+
+Description
+
+Not sure what value this returns.
+Note: this function only takes Player 0 into account.
+
+Example
+
+local ExtraRU = GetActualPlayerFleetExtraRU()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference 
+Scope: Gametype
+
+Page History :: 2006-05-30 23:38:06  :: Owner: ThoughtProcess :: 
+:: :: 

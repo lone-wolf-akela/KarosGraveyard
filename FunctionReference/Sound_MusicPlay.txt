@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSound_MusicPlay
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_MusicPlay(<sFileName>)
+
+Description
+
+Play a looping music track.
+Will turn off any music that is already playing.
+
+Example
+
+Sound_MusicPlay("Data:sound/music/ambient/amb_02")
+
+Arguments
+
+<sFileName>: Full path and file name (without the fda extension) as a quoted string
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-10-07 17:35:45  :: Owner: ThoughtProcess :: 
+:: :: 

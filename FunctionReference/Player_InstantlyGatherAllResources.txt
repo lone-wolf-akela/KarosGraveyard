@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_InstantlyGatherAllResources
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_InstantlyGatherAllResources(<iPlayerIndex>)
+
+Description
+
+Gathers all the resources on the map and adds them to the player's RU total.
+Note: this function does not actually remove the resources from the map, it just adds their values to the player's total.
+Don't call this multiple times!
+
+Example
+
+Player_InstantlyGatherAllResources( 0 )
+
+Arguments
+
+iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:22:31  :: Owner: ThoughtProcess :: 
+:: :: 

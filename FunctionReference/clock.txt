@@ -1,0 +1,22 @@
+Homeworld 2 : Functionclock
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+clock()
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"Returns an approximation of the amount of CPU time used by the program, in seconds."
+
+Example
+
+
+Arguments
+
+None.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities
+
+Page History :: 2006-01-16 12:58:49  :: Owner: ThoughtProcess :: 
+:: :: 

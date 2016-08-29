@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionSobGroup_SwitchOwner
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SwitchOwner(<sSobGroupName>, <iPlayerIndex>)
+
+Description
+
+Switches ownership of <sSobGroupName> to <iPlayerIndex>.
+Note: The ships in <sSobGroupName> are removed from <sSobGroupName> unless this effect is disabled with SobGroup_SetSwitchOwnerFlag.
+
+Example
+
+SobGroup_SwitchOwner( "Dreadnaught", 3)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<iPlayerIndex>: a player index number.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2007-01-11 04:26:44  :: Owner: ThoughtProcess :: 
+:: :: 

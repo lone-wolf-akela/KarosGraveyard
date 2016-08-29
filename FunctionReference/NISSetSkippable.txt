@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionNISSetSkippable
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISSetSkippable(<bSkippable>)
+
+Description
+
+Makes it so that any NISs currently active can be skipped using the escape key.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+<bSkippable>: 0 = not skippable, 1 = skippable.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:45:00  :: Owner: ThoughtProcess :: 
+:: :: 

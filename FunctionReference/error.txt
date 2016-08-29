@@ -1,0 +1,22 @@
+Homeworld 2 : Functionerror
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+error(<sMessage>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Calls the error handler (see Section 4.7) and then terminates the last protected function called (in C: lua_dofile, lua_dostring, lua_dobuffer, or lua_callfunction; in Lua: dofile, dostring, or call in protected mode). If <sMessage> is nil, then the error handler is not called. Function error never returns."
+
+Example
+
+
+Arguments
+
+<sMessage>:
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:04:27  :: Owner: ThoughtProcess :: 
+:: :: 

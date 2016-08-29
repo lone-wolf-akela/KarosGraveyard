@@ -1,0 +1,576 @@
+Homeworld 2 : FunctionaddAbility
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addAbility(<rShipTable>, <sAbilityName>, ...see Abilities...)
+
+Description
+
+Adds an ability to the ship, such as the ability to attack, cloak, or turn on a defense field. Found in ".ship" files.
+Most abilities can either start out active or inactive. If inactive, the ability can be activated by researching an upgrade or building a subsystem (or by another ship using the addShipAbility function).
+
+Example
+
+Depends on the ability. See below...
+
+Arguments
+
+<rShipTable>: this will generally be a reference NewShipType.
+<sAbilityName>: the name of the ability.
+... : Depends on the ability. See below...
+
+
+
+
+
+Abilities
+
+
+MoveCommand
+
+
+addAbility(<rShip>, "MoveCommand", <bIsActive>, <bOneShot>)
+
+
+Example
+
+
+addAbility(NewShipType, "MoveCommand", 1, 0)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bOneShot>: can the ship move only a total of one times (e.g., platforms)? (0 = no, 1 = yes)
+
+
+
+CanDock
+
+
+addAbility(<rShip>, "CanDock", <bIsActive>, <bByPlayer>)
+
+
+Example
+
+
+addAbility(NewShipType, "CanDock", 1, 0)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bByPlayer>: can the player issue this command (otherwise, it can only be triggered via scripting)? (0 = no, 1 = yes)
+
+
+
+CanLaunch
+
+
+addAbility(<rShip>, "CanLaunch")
+
+
+Example
+
+
+addAbility(NewShipType, "CanLaunch")
+
+
+Arguments
+
+No additional arguments.
+
+
+
+ShipHold
+
+
+addAbility(<rShip>, "ShipHold", <bIsActive>, <fDropoffRate>, <iShipholdSize>, <sUnknown>, <sDockFamilyList>)
+
+
+Example
+
+
+addAbility(NewShipType, "ShipHold", 1, 40, 10, "rallypoint", "Fighter, Corvette, Utility", 35, {Fighter = "12"}, {Corvette = "75"})
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active) Note: this determines whether ships can dock and collectors come to this ship for resource dropoff. Also required for autolaunch.
+<fDropoffRate>: the number of RUs that can be unloaded here per second. Note: for Hgn_carrier/Vgr_resourcecollector, 40 -> 5 s, 4 -> 50 s.
+<iShipholdSize>: the total number of ships that can dock within the shiphold.
+<sEffectName>: the name of the effect to use for the rally point.
+<sDockFamilies>: a comma-separated list of dock families that may stay in the shiphold when docked.
+<fRepairRate>: the number of HP repaired per second (or per turn. dunno).
+<tRepairException1> thru <tRepairException4>: exceptions that override <fRepairRate> for the specified dock family.
+
+
+
+ParadeCommand
+
+
+addAbility(<rShip>, "ParadeCommand", <bIsActive>)
+
+
+Example
+
+
+addAbility(NewShipType, "ParadeCommand", 1)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+
+
+
+WaypointMove
+
+
+addAbility(<rShip>, "WaypointMove")
+
+
+Example
+
+
+addAbility(NewShipType, "WaypointMove")
+
+
+Arguments
+
+No additional arguments.
+
+
+
+CaptureCommand
+
+
+addAbility(<rShip>, "CaptureCommand", <bIsActive>, <fLatchOffset>)
+
+
+Example
+
+
+addAbility(NewShipType, "CaptureCommand", 1, -50)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fLatchOffset>: offset from target's latch point.
+
+
+
+SalvageCommand
+
+
+addAbility(<rShip>, "SalvageCommand", <bIsActive>)
+
+
+Example
+
+
+addAbility(NewShipType, "SalvageCommand", 1)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+
+
+
+HyperspaceCommand
+
+
+addAbility(<rShip>, "HyperspaceCommand", <bIsActive>, <fCostFactor>, <fCostMin>, <fCostMax>, <fRecoveryTime>, <fTransitTime>)
+
+
+Example
+
+
+addAbility(NewShipType, "HyperSpaceCommand", 0, 1, 600, 1200, 0, 3)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fCostFactor>: multiplier for the cost of hyperspace.
+<fCostMin>: minimum RU cost of hyperspacing.
+<fCostMax>: maximum RU cost of hyperspacing.
+<fRecoveryTime>: hyperspace recovery time. Note: this is kind of vague. -Mikail - this denotes time it takes till the ship responds to orders after arrival - Daton
+<fTransitTime> hyperspace transit time. Note: this is kind of vague. -Mikail - this denotes time it takes for the ship to arrive at the destination once it starts moving - Daton
+
+
+
+CanAttack
+
+
+addAbility("NewShipType", "CanAttack", <bIsActive>, <iNumberOfShips>, <bKamikaze>, <bInterpolate>, <fSplitDelay>, <fDistanceMultiplier>, <sAttackFamilies>, <sAttackStyle>, <tStyleException1>, ..., <tStyleExceptionN>)
+
+Example
+
+addAbility(NewShipType, "CanAttack", 1, 1, 0, 0, 0.35, 1.5, "Fighter, Corvette, Frigate, Utility, SmallCapitalShip, BigCapitalShip", "Frontal", {Fighter = "MoveToTargetAndShoot"}, {Corvette = "MoveToTargetAndShoot"}, {Munition = "MoveToTargetAndShoot"}, {SubSystem = "FrontalVsSubSystem"})
+
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<iNumberOfShips>: the number of ships in micro formations that ships form in combat (a value of 2 would cause the fighters to break in pairs).
+<bKamikaze>: can the ship use kamikaze tactics? Note: evillejedi's hotkey functions enable the player to use this in game, see this thread <bInterpolate>: can the ship interpolate targets?
+<fSplitDelay>: the delay between formation splitting (in seconds).
+<fDistanceMultiplier>: the distance multiplier from target before attack styles get control.
+<sAttackFamilies>: a comma-separated list of attack families, in order of highest to lowest attack priority.
+<sAttackStyle>: the default method (style) that the ship will use to engage all targets.
+<StyleException1> thru <tStyleExceptionN>: exceptions that override <sDefaultAttack> for the specified family.
+
+
+
+GuardCommand
+
+
+addAbility(<rShip>, "GuardCommand", <bIsActive>, <fGuardRadius>, <fGuardDistance>)
+
+
+Example
+
+
+addAbility(NewShipType, "GuardCommand", 1, 3000, 1000)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fGuardRadius>: the radius from the guarded ship within which an enemy ship fall for the guarding ship to pursue it.
+<fGuardDistance>: the distance from the guarded ship that the guarding ship will hover.
+
+
+
+Harvest
+
+
+addAbility(<rShip>, "Harvest", <bIsActive>, <fCapacity>, <fHarvestRate>, <fHarvestRadius>)
+
+
+Example
+
+addAbility(NewShipType, "Harvest", 1, 300, 4, 8)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fCapacity>: the ship can carry this many RUs before having to go unload.
+<fHarvestRate>: the collector can harvest this many RUs per second.
+<fHarvestRadius>: the distance from the resource object that the ship will hover while harvesting.
+
+
+
+CanBuildShips
+
+
+addAbility(<rShip>, "CanBuildShips", <bIsActive>, <sBuildFamilies>, <sDisplayFamilies>)
+
+
+Example
+
+
+addAbility(NewShipType, "CanBuildShips", 1, "Fighter_Vgr, Corvette_Vgr, Utility_Vgr, Frigate_Vgr, SubSystem_Vgr, Platform_Vgr, Shipyard_Vgr, Probe_Vgr", "Utility, Fighter, Corvette, Frigate, Platform, SubSystemModule, SubSystemSensors, Capital")
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<sBuildFamilies>: a comma-separated list of build families that the ship can build.
+<sDisplayFamilies>: a comma-separated list of display families that the ship can build.
+
+
+
+FormHyperspaceGateCommand
+
+
+addAbility(<rShip>, "FormHyperspaceGateCommand", <bIsActive>, <fEnterRadius>, <fExitRadius>, <fCostToLink>, <fCostToJump>)
+
+Example
+
+addAbility(NewShipType, "FormHyperspaceGateCommand", 1, 1000, 500, 1000, 0)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fEnterRadius>: the radius from the gate that ships will enter.
+<fExitRadius>: the radius from the gate that ships will exit.
+<fCostToLink>: the cost to link two gates.
+<fCostToJump>: the cost to jump, per squadron.
+
+
+
+HyperspaceViaGateCommand
+
+
+addAbility(<rShip>, "FormHyperspaceGateCommand", <bIsActive>, <fTransitTime>, <fCostMultiplier>, <fDamageMultiplier>)
+
+Example
+
+addAbility(NewShipType, "HyperspaceViaGateCommand", 1, 3, 1, 0.3)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fTransitTime>: hyperspace transit time.
+<fCostMultiplier>: multiplier for the cost of using a gate. Multiply this by the gate's cost to work out how much using a gate costs.
+<fDamageMultiplier>: damage due to gate destruction. Multiply this by the max health to ge the damage taken if we are in hyperspace and the gate blows up.
+
+
+
+CanBeCaptured
+
+
+addAbility(<rShip>, "CanBeCaptured", <fCaptureTime>, <fSlowFactor>)
+
+
+Example
+
+
+addAbility(NewShipType, "CanBeCaptured", 160, 0.1)
+
+
+Arguments
+
+<fCaptureTime>: the amount of time it takes for the ship to be captured.
+<fSlowFactor>: the ship is slowed by this factor when being captured.
+
+
+
+CanBeSalvaged
+
+
+addAbility(<rShip>, "CanBeSalvaged")
+
+
+Example
+
+
+Note: Function used in single player mission to salvage offline Mover. See file kpr_mover_salvage.ship for example. Also note that dock family is set to large salvage. not sure if that makes a difference to functionality though. -nyram
+
+
+Arguments
+
+No additional arguments.
+
+
+
+SensorPing
+
+
+addAbility(<rShip>, "SensorPing", <bIsActive>, <bInfinitePing>, <fPingDuration>, <fDetectionStrength>)
+
+
+Example
+
+
+addAbility(NewShipType, "SensorPing", 0, 1, 10, 2.5)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bInfinitePing>: Set this to true if sensor-ping extends the ship's primary sensor range to infinity. Set this to false if the primary sensor range is only extended to the secondary sensor range.
+<fPingDuration>: the amount of time the ping lasts (in seconds).
+<fDetectionStrength>: the anti-cloak detection strength.
+
+
+
+CanBeRepaired
+
+
+addAbility(<rShip>, "CanBeRepaired")
+
+
+Example
+
+
+addAbility(NewShipType, "CanBeRepaired")
+
+
+Arguments
+
+No additional arguments.
+
+
+
+RepairCommand
+
+
+addAbility(<rShip>, "RepairCommand", <bIsActive>, <fHoverDistance>, <fRepairRate>, <tRepairException1>, ..., <tRepairExceptionN>)
+
+
+Example
+
+
+addAbility(NewShipType, "RepairCommand", 0, 500, 9, {SuperCap = "18",}, {Flagship = "18",})
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fHoverDistance>: the ship will remain this far from the target when not repairing.
+<fRepairRate>: number of HP restored per turn (1 turn = 0.1 seconds).
+<tRepairException1> thru <tRepairExceptionN>: overrides <fRepairRate> for the named dock family.
+
+
+
+CloakAbility
+
+
+addAbility(<rShip>, "CloakAbility", <bIsActive>, <iCloakNumber>, <fCloakRadius>, <fEnergyCutoff>, <fEnergyUsage>, <fEnergyCost>, <fEnergyRegen>, <fEnergyMinimum>)
+
+
+Example
+
+addAbility(NewShipType, "CloakAbility", 1, 2, 2000, 0, 1, 100, 0.6, 200)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<iCloakNumber>: value of cloaking. note: this is kind of vague. -Mikail In tuning.xls, they say it is assessed against the enemy sensor detection strength to determine if the ship is detected -SunTzu
+<fCloakRadius>: the radius within which other ships will also be cloaked.
+<fEnergyCutoff>: if the remaining energy is this much or lower, the ship will decloak.
+<fEnergyUsage>: amount of energy used per second while cloaked.
+<fEnergyCost>: amount of energy used to initiate cloak.
+<fEnergyRegen>: amount of energy recharged per second.
+<fEnergyMinimum>: minimum amount of energy required for the ship to cloak.
+
+
+
+SpecialAttack
+
+
+addAbility(<rShip>, "SpecialAttack", <bIsActive>, <sAttackName>)
+
+
+Example
+
+addAbility(NewShipType, "SpecialAttack", 0, "EMP")
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<sAttackName>: the name of the special attack.
+
+
+
+RetireAbility
+
+
+addAbility(<rShip>, "RetireAbility", <bIsActive>, <bDisabledByRace>)
+
+
+Example
+
+
+addAbility(NewShipType, "RetireAbility", 1, 1)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bDisabledByRace>: is the ability disabled when in the possession of a player of another race? (0 = no, 1 = yes)
+
+
+
+MinelayerAbility
+
+
+addAbility(<rShip>, "MinelayerAbility", <bIsActive>, <bTimeToLay>)
+
+
+Example
+
+
+addAbility(NewShipType, "MinelayerAbility", 1, 3.5)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bTimeToLay>: the amount of time required to lay a mine (in seconds).
+Note: this ability must be enable if you want the ship able to shoot attackable missile
+
+
+
+DefenseFieldAbility
+
+
+addAbility(<rShip>, "DefenseFieldAbility", <bIsActive>, <bIsEngaged>, <fFieldRadius>, <fEnergyUsage>, <fEnergyCutoff>, <fEnergyCost>, <fEnergyRegen>, <fEnergyMinimum>, <sEffectName>)
+
+
+Example
+
+addAbility(NewShipType, "DefenseFieldAbility", 1, 0, 1200, 200, 200, 1, 0.6, 0, "defensefield_sphere_spray")
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bIsEngaged>: is the defense field turned on by default? (0 = field begins off, 1 = field begins on)
+<fFieldRadius>: the radius within which other ships will be defended.
+<fEnergyUsage>: amount of energy.
+<fEnergyCutoff>: if the remaining energy is <=[maximum - this] , you can disengage manually the ability.
+<fEnergyCost>: amount of energy used per second (if set to 1, it uses 10 per second).
+<fEnergyRegen>: amount of energy recharged per second when ability is off.(if set to 1 it recharges 10 per second)
+<fEnergyMinimum>: if the remaining energy is >=[maximum - this] , you can engage the ability.
+<sEffectName>: the name of the effect that determines the appearance of the field.
+
+
+
+DefenseFieldShieldAbility
+
+
+addAbility(<rShip>, "DefenseFieldShieldAbility", <bIsActive>, <fShieldRadius>, <fFieldMultiplier>, <fNebulaMultiplier>)
+
+
+Example
+
+addAbility(NewShipType, "DefenseFieldShieldAbility", 0, 1200, 0, 0)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<fShieldRadius>: the radius within which other ships are protected (should be the same as the <fFieldRadius> of the defense field ability.
+<fDustCloudMultiplier>: the amount of damage the ship receives fron dust clouds is factored by this amount.
+<fNebulaMultiplier>: the amount of damage the ship receives from nebulae is factored by this amount.
+
+
+
+HyperspaceInhibitorAbility
+
+
+addAbility(<rShip>, "HyperspaceInhibitorAbility", <bIsActive>, <bInhibitorRadius>)
+
+
+Example
+
+
+addAbility(NewShipType, "HyperspaceInhibitorAbility", 0, 12000)
+
+
+Arguments
+
+<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
+<bInhibitorRadius>: the radius within which other ships are affected by the ability.
+
+
+Related Pages:
+
+addShipAbility() 
+Information Provided by mecha 
+Function Reference
+
+There are 9 comments on this page. [Display comments]
+Page History :: 2007-04-22 14:35:47  :: Owner: NickersonM :: 
+:: :: 

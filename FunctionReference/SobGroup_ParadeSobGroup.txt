@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionSobGroup_ParadeSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ParadeSobGroup(<sSobGroupName>, <sSobGroupParadeRoundName>, <iParadeMode>)
+
+Description
+
+Makes all ships in <sSobGroupName> parade around either the first valid ship in <sSobGroupParadeRoundName> or the nearest ship (if <sSobGroupParadeRoundName> is invalid).
+
+Example
+
+SobGroup_ParadeSobGroup("Player0AdditionalShips", "Player0OriginalShips", 1)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup that will be doing the parading.
+<sParadeRoundName>: the sobgroup to parade around.
+<iParadeMode>: 0 = normal, 1 = instant parade with hyperspace effects, 2 = instant parade withot hyperspace effects (make sure that the screen is black or that the camera is looking elsewhere).
+Note: for the instant modes, the squadrons will be ripped out of whatever they are doing, even if that activity normally can't be interrupted.
+Note: the instant modes cause damage to small ships.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-10-11 00:55:42  :: Owner: ThoughtProcess :: 
+:: :: 

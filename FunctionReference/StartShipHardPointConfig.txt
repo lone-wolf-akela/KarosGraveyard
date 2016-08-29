@@ -1,0 +1,35 @@
+Homeworld 2 : FunctionStartShipHardPointConfig
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+StartShipHardPointConfig(<rObject>, <sHardpointName>, <sJointName>, <sHardpointType>, <sHardpointFamilyName>, <sHealthType>, <sDefaultSubsystem>, <sFittingSubsystem1>, <sFittingSubsystem2>, <sFittingSubsystem3>, <sFittingSubsystem4>, <sFittingSubsystem5>, <sFittingSubsystem6>, <sFittingSubsystem7>, <sFittingSubsystem8>)
+
+Description
+
+Defines a hardpoint that can contain a subsystem such as a production facility, a subsystems module (eg. platform control, research module), a sensor system or a buildable weapon.
+Note: it is recommended that the hardpoint is one that exists on the HOD file.
+Note: See this discussion Note: See this discussion on innate and indestructible hardpoints.
+
+Example
+
+StartShipHardPointConfig(NewShipType, "Production 1", "HardPoint_Production1", "System", "Production", "Destroyable", "", "Vgr_C_Production_Fighter", "Vgr_C_Production_Corvette", "Vgr_C_Production_Frigate", "", "", "", "", "")
+Note: the above example defines a hardpoint on a Vaygr carrier, able to build one of the three production facilities.
+
+Arguments
+
+<rObject>: A reference to the type of object. Should generally be NewShipType.
+<sHardPointName>: the name of the hardpoint.
+<sJointName>: the name of the joint in Maya.
+<sHardPointType>: the type of hardpoint. Can be "Weapon", "Production" or "System".
+<sHardpointFamilyName>: the name of the family this harpoint belongs to. Can be "Production", "Innate", "Sensors" or "Generic".
+<sHealthType>: determines the effect that damage has upon this subsystem. Can be "Indestructible", "Damagable" or "Destroyable".
+<sDefaultSubsystem>: the name of the subsystem that appears here by default (e.g. when the ship is built).
+<sFittingSubsystem1> to <sFittingSubsystem8>: the names of the subsystems that can be built on this hardpoint.
+
+Related Pages:
+
+Discussion 
+Discussion 
+Function Reference
+
+Page History :: 2005-07-12 20:03:56  :: Owner: VarisWiki :: 
+:: :: 

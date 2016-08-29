@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSound_StingerPlay
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_StingerPlay(<sFileName>)
+
+Description
+
+Play a non-looping stinger track.
+Will turn off any music that is already playing and restart it after stinger is finished.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 01:50:07  :: Owner: ThoughtProcess :: 
+:: :: 

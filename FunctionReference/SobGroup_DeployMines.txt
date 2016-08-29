@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_DeployMines
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_DeployMines(<sSobGroupName>, <sVolumeName>, <fDensity>)
+
+Description
+
+Makes all mine layers in <sSobGroupName> share a mine field in <sVolumeName>.
+The mine field will be a cuboid, although all volume types are handled.
+
+Example
+
+
+Arguments
+
+<fDensity>: must be between 0 and 1.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:17:05  :: Owner: ThoughtProcess :: 
+:: :: 

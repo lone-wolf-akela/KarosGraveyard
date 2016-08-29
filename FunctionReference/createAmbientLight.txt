@@ -1,0 +1,28 @@
+Homeworld 2 : FunctioncreateAmbientLight
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+createAmbientLight (<sLightName>, <tDiffuse>)
+
+Description
+
+Creates a new Ambient Light.
+
+Example
+
+
+Arguments
+
+<sLightName>: the name of the light.
+<tDiffuse>: a table containing the RGB components of the diffuse effect. Values greater than 1.0 are assumed to be byte values [0..255], and get scaled. So, we get a vector instead.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 17:16:02  :: Owner: ThoughtProcess :: 
+:: :: 

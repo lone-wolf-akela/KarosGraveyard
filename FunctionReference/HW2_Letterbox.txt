@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionHW2_Letterbox
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+HW2_LetterBox(<bSwitch)
+
+Description:
+
+This function must be called from within an event table. It enables/disables the letterbox mode (usually appears when speech is spoken). Use Camera_SetLetterboxStateNoUI for switching between letterbox modes from a normal chunk.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Arguments:
+
+<bSwitch>: 0 = disable, 1 = enable.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 13:28:04  :: Nobody :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_SetDefaultShipTactic
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetDefaultShipTactic(<iPlayerIndex>, <iTactic>)
+
+Description
+
+Sets the default tactics for all ships in the player's fleet.
+
+Example
+
+Player_SetDefaultShipTactic(1, AggressiveTactics)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<iTactic>: the index number of the tactic. Valid tactics are: AggressiveTactics, DefensiveTactics and PassiveTactics.
+Note: the above tactics are the same as entering an index number.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:31:25  :: Owner: ThoughtProcess :: 
+:: :: 

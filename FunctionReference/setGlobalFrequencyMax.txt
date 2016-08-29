@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionsetGlobalFrequencyMax
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+data\soundscripts\speechlogic\chatter.lua
+Page History :: 2006-01-19 00:09:38  :: Owner: MiKail :: 
+:: :: 

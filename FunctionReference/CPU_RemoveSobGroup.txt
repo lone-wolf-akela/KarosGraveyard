@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionCPU_RemoveSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_RemoveSobGroup(<iPlayerIndex>, <sSobGroupName>)
+
+Description
+
+Removes the sobgroup <sSobGroupName> belonging to the CPU player <iPlayerIndex> from AI control.
+This makes it possible to issue scripted orders to a sobgroup without the AI overriding them, and without having call the CPU_Enable function.
+Note: to restore AI control over a sobgroup, use the CPU_AddSobGroup function.
+
+Example
+
+CPU_RemoveSobGroup(1, "V_Shipyard_Att_Bomb")
+
+Arguments
+
+<iPlayerIndex>: the index number of a CPU player.
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference 
+CPU_AddSobGroup 
+CPU_Enable
+
+Page History :: 2006-01-10 02:23:26  :: Owner: ThoughtProcess :: 
+:: :: 

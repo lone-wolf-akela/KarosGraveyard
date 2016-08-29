@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSound_ExitIntelEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_ExitIntelEvent()
+
+Description
+
+Call this at the end of an Intel event to return volume levels to normal.
+
+Example
+
+Sound_ExitIntelEvent()
+
+Arguments
+
+none
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-11 04:11:21  :: Owner: ThoughtProcess :: 
+:: :: 

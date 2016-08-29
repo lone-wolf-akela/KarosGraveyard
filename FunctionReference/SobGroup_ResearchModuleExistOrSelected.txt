@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_ResearchModuleExistOrSelected
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ResearchModuleExistOrSelected(<sSobGroupName>)
+
+Description
+
+Returns an integer if a Research Module exists on any ship in <sSobGroupName>, and is selected.
+Returns 1 if RM exists but is not selected, 2 if RM exists and is selected, 0 if RM does not exist, -1 on error.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:59:27  :: Owner: ThoughtProcess :: 
+:: :: 

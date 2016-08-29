@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionShowBackground
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ShowBackground(<iFlag>)
+
+Description
+
+Turns the background on and off. 
+
+Example
+
+In autoexec.lua, add the following:
+
+function TurnBackGroundOff()
+	ShowBackground(0)
+	Rule_Remove("TurnBackgroundOff")
+end
+Rule_AddInterval("TurnBackgroundOff",5)
+
+Arguments
+
+<iFlag>: 0 = background off, 1 = background on 
+
+Notes
+
+only works in autoexec.lua
+
+There are 4 comments on this page. [Display comments]
+Page History :: 2004-02-19 01:41:37  :: Owner: NickersonM :: 
+:: :: 

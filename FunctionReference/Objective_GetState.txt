@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionObjective_GetState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Objective_GetState(<iObjectiveIndex>)
+
+Description
+
+Returns the current state of an objective as an index number. The index numbers correspond to the OS_Off, OS_Incomplete, OS_Complete, and OS_Failed variables.
+
+Example
+
+
+Arguments
+
+<iObjectiveIndex>: the index number of the objective (returned by Objective_Add).
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 01:04:11  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionSobGroup_SpawnNewShipInSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SpawnNewShipInSobGroup(<iPlayerIndex>, <sShipType>, <sSquadronName>, <sSobGroupToAddToName>, <sVolumeName>)
+
+Description
+
+Creates a <sShipType> named <sSquadronName>, places it in the middle of <sVolumeName>, adds it to <sSobGroupToAddToName>, and gives it to <iPlayerIndex>.
+Note: any type of ship may be spawned, unlike SobGroup_CreateShip.
+
+Example (from the HW Classic Mod)
+
+SobGroup_SpawnNewShipInSobGroup(0, "Hgn_Intercepter", "NewCrateShip", "Player_Ships0", "CrateDetectVolume0")
+
+Arguments
+
+<iPlayerIndex>: the player who the ship will belong to.
+<sShipType>: the type of ship being spawned.
+<sSquadronName>: the name of the squadron being spawned.
+<sSobGroupToAddToName>: the name of the sobgroup the ship will be added to.
+<sVolumeName>: the name of the volume the ship will spawn into.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference 
+Scope: Gametype 
+Function: SobGroup_CreateShip
+
+Page History :: 2006-07-18 01:18:26  :: Owner: ThoughtProcess :: 
+:: :: 

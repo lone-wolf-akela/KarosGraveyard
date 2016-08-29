@@ -1,0 +1,23 @@
+Homeworld 2 : Functionprint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+print (<Element1>, <Element2>, ...)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Receives any number of arguments, and prints their values using the strings returned by tostring. This function is not intended for formatted output, but only as a quick way to show a value, for instance for debugging. See Section 6.4 for functions for formatted output."
+
+Example
+
+
+Arguments
+
+<Element1> to <ElementN>: the elements to print. (may be any type of object; typically a string or string variable)
+
+Related Functions
+
+Function Reference 
+tostring 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:39:21  :: Owner: ThoughtProcess :: 
+:: :: 

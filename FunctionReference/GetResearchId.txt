@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionGetResearchId
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+GetResearchId(<sResearchName>)
+
+Description
+
+Returns the index number of <sResearchName>.
+Note: always returns a number, regardless of whether the research item exists.
+What number is returned if the research item doesn't exist? -Mikail
+
+Example
+
+
+Arguments
+
+<sResearchName>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 23:02:33  :: Owner: ThoughtProcess :: 
+:: :: 

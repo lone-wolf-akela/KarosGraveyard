@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSobGroup_RestrictBuildOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_RestrictBuildOption(<sSobGroupName>, <sBuildTypeName>)
+
+Description
+
+Restricts all build capable ships in <sSobGroupName> from building <sBuildTypeName>.
+
+Example
+
+SobGroup_RestrictBuildOption("Player_Ships0", "hgn_battlecruiser")
+
+Arguments
+
+<sSobGroupName>: name of the sobgroup
+<sBuildTypeName>: type of the ship
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-12 18:17:10  :: Owner: ThoughtProcess :: 
+:: :: 

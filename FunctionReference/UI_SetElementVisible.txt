@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_SetElementVisible
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetElementVisible(<sScreenName>, <sElementName>, <bVisibility>)
+
+Description
+
+Sets the visibility of the named screen element on the named screen.
+
+Example
+
+UI_SetElementVisible("MissionSelect", "frmgr1mmapbtga", 1)
+
+Arguments
+
+<sScreenName>: the name of a screen.
+<sElementName>: the name of a screen element.
+<bVisibility>: boolian (0 = invisible, 1 = visible).
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:43:15  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,35 @@
+Homeworld 2 : FunctionVolume_AddCube
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Volume_AddCube(<sVolumeName>, <tPosition>, <f_Length>)
+
+Description
+
+Creates a cube volume.
+
+Example
+
+Volume_AddCube("ThisVolume", {10000, 0, 10000,}, 1000)
+
+Arguments
+
+<sVolumeName>: the name of volume.
+<tPosition>: a table containing the cube's xyz coordinates.
+<f_Length>: the length of the cube's sides.
+
+Notes
+
+HW 1.1 and up only.
+
+Scope
+
+Autoexec
+Gamerule
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2005-07-06 15:47:02  :: Owner: TamerLane :: 
+:: :: 

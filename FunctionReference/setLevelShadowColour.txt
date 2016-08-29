@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionsetLevelShadowColour
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setLevelShadowColour(?, ?, ?, ?)
+
+Description
+
+Example
+
+setLevelShadowColour(0, 0, 0, 1)
+
+Arguments
+
+?: dunno. 
+?: dunno. 
+?: dunno. 
+?: dunno.
+
+Related Pages:
+
+Function Reference 
+Scope: Level
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-05-14 23:01:03  :: Owner: MiKail :: 
+:: :: 

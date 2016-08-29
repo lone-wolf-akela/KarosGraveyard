@@ -1,0 +1,9 @@
+Homeworld 2 : FunctionRestrictOptions
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Defined in data\scripts\scar\restrict.lua
+
+This is a declared function.
+We could create a special section for them, or put them in (or merge them with) the UserFunction section.
+Page History :: 2006-01-18 21:57:44  :: Owner: ThoughtProcess :: 
+:: :: 

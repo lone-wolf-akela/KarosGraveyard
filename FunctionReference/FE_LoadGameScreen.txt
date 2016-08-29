@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_LoadGameScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_LoadGameScreen()
+
+Description
+
+Loads the "Load Game" screen for multiplayer skirmishes.
+
+Example
+
+FE_LoadGameScreen()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:38:34  :: Owner: MiKail :: 
+:: :: 

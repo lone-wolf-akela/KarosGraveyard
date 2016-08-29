@@ -1,0 +1,36 @@
+Homeworld 2 : Functionread
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+read([<FileHandle>,] <sFormat1>, ...)
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"Reads file _INPUT, or <FileHandle> if this argument is given, according to the given formats, which specify what to read. For each format, the function returns a string (or a number) with the characters read, or nil if it cannot read data with the specified format. When called without formats, it uses a default format that reads the next line (see below). 
+The available formats are 
+
+
+"*n"
+reads a number; this is the only format that returns a number instead of a string. 
+"*l"
+reads the next line (skipping the end of line), or nil on end of file. This is the default format. 
+"*a"
+reads the whole file, starting at the current position. On end of file, it returns the empty string. 
+"*w"
+reads the next word (maximal sequence of non--white-space characters), skipping spaces if necessary, or nil on end of file. 
+number
+reads a string with up to that number of characters, or nil on end of file."
+
+Example
+
+
+Arguments
+
+<FileHandle>: the handle of the file to read. Note: I'm not sure what type of variable this is. -Mikail
+<sFormat1> to <sFormatN>: strings specifying what to read.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 13:48:01  :: Owner: ThoughtProcess :: 
+:: :: 

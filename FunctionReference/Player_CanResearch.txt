@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_CanResearch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_CanResearch(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Returns true if the reseach item is currently available to the player.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research to check.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 21:51:07  :: Owner: ThoughtProcess :: 
+:: :: 

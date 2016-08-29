@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_HasResearch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_HasResearch(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Returns true if the player has already completed the named research.
+
+Example
+
+if Player_HasResearch(g_playerID, "PlasmaBombs")==1 then ...code... end
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:18:10  :: Owner: ThoughtProcess :: 
+:: :: 

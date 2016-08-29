@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_GetSobGroupBeingCapturedGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSobGroupBeingCapturedGroup(<sSobGroup>, <sOutputSobGroup>)
+
+Description
+
+Puts all ships belonging to <sSobGroup> that are being captured into <sOutputSobGroup>, and returns <sOutputSobGroup>.
+
+Example
+
+SobGroup_GetSobGroupBeingCapturedGroup("Player_Ships1", "sg_temp")
+
+Arguments
+
+<sSobGroup>: the sobgroup to check.
+<sOutputSobGroup>: the sobgroup to put ships into.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope
+
+Page History :: 2006-01-24 02:32:29  :: Owner: MiKail :: 
+:: :: 

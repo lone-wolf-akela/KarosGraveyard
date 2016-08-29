@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_SetHealth
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetHealth(<sSobGroupName>, <fHealth>)
+
+Description
+
+Sets the health of all ships in <sSobGroupName> to <fHealth> times the maximum value.
+Note: this function is a mirror function of SobGroup_TakeDamage.
+Note: I think that setting a ships health to zero while it is in hyperspace causes the ship's debris to remain in hyperspace, as well. -Mikail
+
+Example
+
+SobGroup_SetHealth("Communications_Station", 0.4)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<fHealth>: a multiplier between 0 and 1.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-27 13:01:07  :: Owner: ThoughtProcess :: 
+:: :: 

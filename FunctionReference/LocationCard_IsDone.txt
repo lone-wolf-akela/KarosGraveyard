@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionLocationCard_IsDone
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+LocationCard_IsDone()
+
+Description
+
+Returns true if there is no location card being displayed when the function is called (and false if there is).
+
+Example
+
+if LocationCard_IsDone() == 1 then ... code ... end
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-05 13:09:17  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionCPU_EnableAll
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_EnableAll(<bEnable>)
+
+Description
+
+Enables/disables the AI for all CPU players.
+Note: this function doesn't affect sobgroups removed using CPU_RemoveSobGroup.
+
+Example
+
+CPU_EnableAll(0)
+
+Arguments
+
+<bEnable>: enable/disable AI (0 = disable, 1 = enable). 
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2007-01-10 01:42:20  :: Owner: ThoughtProcess :: 
+:: :: 

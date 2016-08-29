@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_SetCaptureAlwaysDisables
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SetCaptureAlwaysDisables(<sSobGroupName>, <bAlwaysDisable>)
+
+Description
+
+Makes all ships in <sSobGroupName> only be disabled instead of being captured.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:33:28  :: Owner: ThoughtProcess :: 
+:: :: 

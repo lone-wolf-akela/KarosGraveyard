@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_RemoveType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_RemoveType(<sSobGroupName>, <sShipTypeName>)
+
+Description
+
+Removes all ships of type <sShipTypeName> from <sSobGroupName>.
+
+Example
+
+SobGroup_RemoveType("Player_Ships3", "Meg_Asteroid")
+
+Arguments
+
+<sSobGroupName>: the name of the sobGroup to remove ships from.
+<sShipTypeName>: the type of ship to remove.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-10 02:08:50  :: Owner: ThoughtProcess :: 
+:: :: 

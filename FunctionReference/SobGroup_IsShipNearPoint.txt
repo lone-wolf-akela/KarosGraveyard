@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_IsShipNearPoint
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsShipNearPoint(<sSobGroupName>, <sVolumeName>, <fDistance>)
+
+Description
+
+Returns true if <sSobGroupName> is within <fDistance> of <sVolumeName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:33:35  :: Owner: ThoughtProcess :: 
+:: :: 

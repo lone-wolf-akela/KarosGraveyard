@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionfogSetType
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetType(<sFogType>)
+
+Description
+
+Sets the fog mode.
+
+Example
+
+fogSetType("linear")
+
+Arguments
+
+<sFogType>: The type of fog. Can be "linear", "exp", or "exp2".
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:53:15  :: Owner: MiKail :: 
+:: :: 

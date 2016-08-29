@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionRandomIntMax
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+RandomIntMax(<fMax>)
+
+Description
+
+Returns a random, integer number between 0 and <fMax> (inclusive).
+
+Example
+
+RandomIntMax(512)
+
+Arguments
+
+<fMax>: a number. Note: not sure if this needs to be an integer, or can be a float. -Mikail
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2005-12-19 17:55:47  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionsetMissionComplete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setMissionComplete(<bMissionComplete>)
+
+Description
+
+Ends the mission with either an "complete" or "incomplete" status.
+If the .campaign file associated with the gamerule uses the postLevelComplete function, then the next mission will automatically begin if <bMissionComplete> is set to 1.
+Note: this function can only be used inside singleplayer campaigns. Use setGameOver to end the game in multiplayer/skirmish or stand-alone/tutorial missions. setGameOver also works in a campaign mission with a postLevelComplete function; it ends the game and starts the next mission. -SunTzu
+
+Example
+
+setMissionComplete(0)
+
+Arguments
+
+<bMissionComplete>: 0 = incomplete, 1 = complete.
+
+Related Pages:
+
+Function Reference 
+postLevelComplete 
+setGameOver
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-01-15 07:46:01  :: Owner: ThoughtProcess :: 
+:: :: 

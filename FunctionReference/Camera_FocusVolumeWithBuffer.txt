@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionCamera_FocusVolumeWithBuffer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_FocusVolumeWithBuffer(<sVolumeName>, <fDistance>, <fBufferDistance>, <fTime>)
+
+Description
+
+Focus on the center of the volume. Any volume can be used.
+If ZoomClose is set to 1, it will zoom in close to the bounding sphere of the volume.
+If a time and distance is given, the ZoomClose flag will be set to false.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:17:41  :: Owner: ThoughtProcess :: 
+:: :: 

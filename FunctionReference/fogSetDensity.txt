@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionfogSetDensity
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetDensity(<fDensity>)
+
+Description
+
+Sets the fog density.
+
+Example
+
+fogSetDensity(0.3)
+
+Arguments
+
+<fDensity>: a float value between 0 and 1.
+
+Related Pages:
+
+Function Reference 
+Scope: Level 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-11-03 16:47:29  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_SetElementSize
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetElementSize(?)
+
+Description
+
+Unknown. Presumably sets the width and height parameters of a screen element.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Presumably the string name of a screen, the string name of a screen element, and a table containing width and height parameters.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:42:14  :: Owner: ThoughtProcess :: 
+:: :: 

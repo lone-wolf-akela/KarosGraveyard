@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionCPU_RemoveResourceBlob
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_RemoveResourceBlob(<iPlayerIndex>, <sVolumeName>)
+
+Description
+
+Tells a CPU player to not harvest within the named volume.
+
+Example
+
+CPU_RemoveResourceBlob(2, "vol_PlayerRU_1")
+
+Arguments
+
+<iPlayerIndex>: the index number of a CPU player.
+<sVolumeName>: the name of a volume.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-08-28 05:36:28  :: Owner: ThoughtProcess :: 
+:: :: 

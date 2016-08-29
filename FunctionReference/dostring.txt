@@ -1,0 +1,23 @@
+Homeworld 2 : Functiondostring
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dostring(<sString> [, <sChunkName>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Executes a given string as a Lua chunk. If there is any error executing the string, then dostring returns nil. Otherwise, it returns the values returned by the chunk, or a non-nil value if the chunk returns no values. The optional parameter <sChunkName> is the 'name of the chunk', used in error messages and debug information."
+
+Example
+
+
+Arguments
+
+<sString>: the string to execute as a Lua chunk.
+<sChunkName>: the 'name of the chunk', used in error messages and debug information.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:04:04  :: Owner: ThoughtProcess :: 
+:: :: 

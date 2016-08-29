@@ -1,0 +1,28 @@
+Homeworld 2 : Functionassert
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+assert(<vVariable> [, <sMessage>])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Issues an 'assertion failed!' error when its argument <vVariable> is nil. This function is equivalent to the following Lua function:"
+function assert (v, m)
+	if not v then
+		m = m or ""
+		error("assertion failed!  " .. m)
+	end
+end
+Example
+
+
+Arguments
+
+<vVariable>: any declared variable.
+<sMessage>: optional message to print. The message 'assertion failed!' is used by default.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 12:55:09  :: Owner: ThoughtProcess :: 
+:: :: 

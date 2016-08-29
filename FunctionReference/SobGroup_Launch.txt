@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_Launch
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Launch(<sSobGroupToLaunchName>, <sSobGroupToLaunchFromName>)
+
+Description
+
+Launches <sSobGroupToLaunchName> from <sSobGroupToLaunchFromName>.
+Only works if <sSobGroupToLaunchName> is currently docked with the first ship in <sSobGroupToLaunchFromName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-04-04 22:45:09  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionATI_CreateParameters
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+ATI_CreateParameters(<iLength>)
+
+Description
+
+Create a parameter list to be filled out and passed to ATI_Display2D and ATI_Display3D.
+
+Example
+
+ATI_CreateParameters(1)
+
+Arguments
+
+<iLength>: the length of the parameter list. In other words, the number of parameters passed to the ATI_Display function.
+
+Related Pages:
+
+ATI_Display2D 
+ATI_Display3D 
+Function Reference 
+Gametype Scope 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-06-26 09:55:58  :: Owner: ThoughtProcess :: 
+:: :: 

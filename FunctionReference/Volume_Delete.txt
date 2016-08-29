@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionVolume_Delete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Volume_Delete(<sVolumeName>)
+
+Description
+
+Deletes the given volume.
+
+Example
+
+
+Arguments
+
+<sVolumeName>: the name of the volume.
+
+Notes
+
+HW 1.1 and up only.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-07-06 15:49:56  :: Owner: NickersonM :: 
+:: :: 

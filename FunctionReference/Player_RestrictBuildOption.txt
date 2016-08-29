@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_RestrictBuildOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_RestrictBuildOption(<iPlayerIndex>, <sBuildOption>)
+
+Description
+
+Restricts the named build option for the player.
+Note: will fail if the build option does not exist, is not available, or is already done.
+
+Example
+
+Player_RestrictBuildOption(0, "CorvetteProduction")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sBuildOption>: the name of the build option.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:27:18  :: Owner: ThoughtProcess :: 
+:: :: 

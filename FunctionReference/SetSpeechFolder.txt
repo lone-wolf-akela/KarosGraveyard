@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionSetSpeechFolder
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+data\locale\animatics\a00_speech.lua
+Page History :: 2006-01-18 20:54:51  :: Owner: MiKail :: 
+:: :: 

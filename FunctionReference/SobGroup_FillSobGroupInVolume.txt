@@ -1,0 +1,35 @@
+Homeworld 2 : FunctionSobGroup_FillSobGroupInVolume
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillSobGroupInVolume(<sSobGroupOutName>, <sSobGroupName>, <sVolumeName>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> is inside <sVolumeName>, and false if all ships in <sSobGroupName> are outside of <sVolumeName>.
+Fills <sSobGroupOutName> with all squadrons in <sSobGroupName> that are inside <sVolumeName>.
+Note: <sSobGroupOutName> is automatically cleared each time the function is executed, prior to being filled again.
+Note: docked ships are put into <sSobGroupOutName> if the carrier they're docked with is inside the volume.
+Note: <sSobGroupOutName> must already have been created before this function may be called.
+
+Example
+
+if (SobGroup_FillSobGroupInVolume("shipsInVolume", "WaveOne_Gate_1b", "vol_WaveOne_Gate_1_B") == 1) then
+
+... code ...
+
+end
+
+Arguments
+
+<sSobGroupName>: the sobGroup containing the ships to test. 
+<sVolumeName>: the name of the volume.
+<sSobGroupOutName>: the sobGroup in which ships passing the condition are placed.
+
+Related Pages:
+
+Function Reference 
+Gametype Scope
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-02-01 05:30:04  :: Owner: ThoughtProcess :: 
+:: :: 

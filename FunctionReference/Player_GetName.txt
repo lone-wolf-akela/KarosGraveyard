@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_GetName
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GetName(<iPlayerIndex>)
+
+Description
+
+Returns the name of the player in wide string (userdata??) format.
+Note: this appears to be unusable for anything except ATI_AddWString().
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There are 6 comments on this page. [Display comments]
+Page History :: 2005-07-03 22:00:34  :: Owner: ThoughtProcess :: 
+:: :: 

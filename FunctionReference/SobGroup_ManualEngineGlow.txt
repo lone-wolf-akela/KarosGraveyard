@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_ManualEngineGlow
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ManualEngineGlow(<sSobGroupName>, <fThrust>)
+
+Description
+
+Manually sets the engine glow for all ships in <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+<fThrust>: must be between 0 and 1.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:25:00  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : Functionfloor
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+floor(<fNumber>)
+
+Description
+
+Returns a number rounded down to the nearest integer.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:15:51  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionCamera_FocusSobGroupWithBuffer
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_FocusSobGroupWithBuffer(<sSobGroupName>, <fBufferDistance>, <fDistance>, <fTime>)
+
+Description
+
+Moves the camera to focus on the first ship of <sSobGroupName> at <fDistance>.
+Movement is instantaneous if the camera is already within <fBufferDistance> of the sobgroup; otherwise, movement takes <fTime> seconds to complete.
+
+Example
+
+Camera_FocusSobGroupWithBuffer( "Vaygr_MakaanMothership", 2000, 2000, 2 )
+
+Arguments
+
+<sSobGroupName>: the sob group to focus on.
+<fBufferDistance>: if the camera is already within that buffer, the time will not be taken into consideration.
+<fDistance>: the distance at which to focus.
+<fTime>: the time it will take to cover the distance.
+
+Related Pages:
+
+Gamerule 
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-04-10 12:59:06  :: Owner: ThoughtProcess :: 
+:: :: 

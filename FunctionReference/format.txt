@@ -1,0 +1,38 @@
+Homeworld 2 : Functionformat
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+format(<sFormatString>, <vElement1>, <vElement2>, ...)
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Returns a formatted version of its variable number of arguments following the description given in its first argument (which must be a string). The format string follows the same rules as the printf family of standard C functions. The only differences are that the options/modifiers *, l, L, n, p, and h are not supported, and there is an extra option, q. The q option formats a string in a form suitable to be safely read back by the Lua interpreter: The string is written between double quotes, and all double quotes, returns, and backslashes in the string are correctly escaped when written. For instance, the call 
+
+
+format('%q', 'a string with "quotes" and \n new line')
+
+
+will produce the string:
+
+
+"a string with \"quotes\" and \
+new line"
+
+
+Conversions can be applied to the n-th argument in the argument list, rather than the next unused argument. In this case, the conversion character % is replaced by the sequence %d$, where d is a decimal digit in the range [1,9], giving the position of the argument in the argument list. For instance, the call format("%2$d -> %1$03d", 1, 34) will result in "34 -> 001". The same argument can be used in more than one conversion. 
+The options c, d, E, e, f, g, G, i, o, u, X, and x all expect a number as argument, whereas q and s expect a string. The * modifier can be simulated by building the appropriate format string. For example, "%*g" can be simulated with "%"..width.."g". 
+Neither the format string nor the string values to be formatted with %s can contain embedded zeros. %q handles string values with embedded zeros."
+
+Example
+
+
+Arguments
+
+<sFormatString>: the string to format.
+<vElement1> to <vElementN>: the elements to use when formatting <sFormatString>.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 13:19:51  :: Owner: ThoughtProcess :: 
+:: :: 

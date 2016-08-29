@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionFX_StopEffect
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_StopEffect(<iIndex>)
+
+Description
+
+Stops the effect previously created by FX_PlayEffectBetweenPoints.
+
+Example
+
+FX_StopEffect(Chunk1Beam)
+
+Arguments
+
+<iIndex>: the index number of the event returned by FX_PlayEffectBetweenPoints.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 05:27:58  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_Stop
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Stop(<iPlayerIndex>, <sSobGroupName>)
+
+Description
+
+Makes all ships in <sSobGroupName> stop.
+
+Example
+
+SobGroup_Stop(2, "tempSobGroup")
+
+Arguments
+
+<iPlayerIndex>: a player index number.
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-27 13:20:42  :: Owner: ThoughtProcess :: 
+:: :: 

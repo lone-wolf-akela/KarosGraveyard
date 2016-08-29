@@ -1,0 +1,35 @@
+Homeworld 2 : Functioncall
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+call(<fFunction>, <tArguments> [, <sMode> [, <fErrorHandler>]])
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Calls function <fFunction> with the arguments given by the table <tArguments>. The call is equivalent to 
+
+
+func(<tArguments>[1], <tArguments>[2], ..., <tArguments>[n])
+
+
+where n is the result of getn(<tArguments>) (see Section 6.1). All results from <fFunction> are simply returned by call.
+By default, if an error occurs during the call to <fFunction>, the error is propagated. If the string <sMode> contains "x", then the call is protected. In this mode, function call does not propagate an error, regardless of what happens during the call. Instead, it returns nil to signal the error (besides calling the appropriated error handler). 
+If <fErrorHandler> is provided, the error function _ERRORMESSAGE is temporarily set to <fErrorHandler>, while <fFunction> runs. In particular, if <fErrorHandler> is nil, no error messages will be issued during the execution of the called function."
+
+
+Example
+
+
+Arguments
+
+<fFunction>: the function to call. Note: do not use trailing parentheses when entering the function name.
+<tArguments>: a table containing the arguments to pass to <fFunction>.
+<sMode>: if "x", then the function runs in protected mode. (optional)
+<fErrorHandler>: the function to call instead of _ERRORMESSAGE in case of an error. (optional)
+
+Related Functions
+
+Function Reference 
+_ERRORMESSAGE 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 12:56:55  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,7 @@
+Homeworld 2 : FunctionSpawnShipOnDeath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Quote from evillejedi:
+"spawnshipondeath isn't a valid command anymore. it was probably taken out before release"
+Page History :: 2006-04-23 22:15:25  :: Owner: MiKail :: 
+:: :: 

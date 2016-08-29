@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_GetScreenID
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_GetScreenID(<sScreenName>)
+
+Description
+
+Returns the index number of the named screen.
+
+Example
+
+UI_GetScreenID("IPConnect")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:30:29  :: Owner: ThoughtProcess :: 
+:: :: 

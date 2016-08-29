@@ -1,0 +1,25 @@
+Homeworld 2 : Functionrandomseed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+randomseed(<fNumber>)
+
+Description
+
+Sets the seed value used by the random function.
+Note: as of the 1.1 patch, this function no longer works in gamerules.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+random 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:44:04  :: Owner: ThoughtProcess :: 
+:: :: 

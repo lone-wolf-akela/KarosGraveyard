@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_StopFlashButton
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_StopFlashButton(<sScreenName>, <sButtonName>)
+
+Description
+
+Makes button <sButtonName> on screen <sScreenName> stop flashing if started using UI_FlashButton().
+
+Example
+
+UI_StopFlashButton("NewTaskbar", "btnBuild")
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sButtonName>: the name of the button.
+
+Related Pages:
+
+UI_FlashButton() 
+Function Reference
+
+Page History :: 2005-08-22 19:16:57  :: Owner: MiKail :: 
+:: :: 

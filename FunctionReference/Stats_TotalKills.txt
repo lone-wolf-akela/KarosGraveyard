@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionStats_TotalKills
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_TotalKills(<iPlayerIndex>)
+
+Description
+
+Returns the number of ships destroyed by a player during a game (SP or skirmish). It can be called during the game.
+
+Example
+
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-12-06 08:16:34  :: Owner: ThoughtProcess :: 
+:: :: 

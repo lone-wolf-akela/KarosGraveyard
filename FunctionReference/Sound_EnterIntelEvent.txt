@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSound_EnterIntelEvent
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sound_EnterIntelEvent()
+
+Description
+
+Call this before starting an Intel event.
+It will dock all ships speech and music.
+
+Example
+
+Sound_EnterIntelEvent()
+
+Arguments
+
+none
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-11 04:10:38  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUI_SetButtonTextHotkey
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetButtonTextHotkey(<sScreenName>, <sButtonName>, <sButtonText>, <iButtonNumber?>)
+
+Description
+
+Unknown. Presumably passes the index number <iButtonNumber?> of a key on the keyboard to the string <sTextLabel> as a wildcard, and then sets the label of the button <sButtonName> on screen <sScreenName> to this string.
+
+Example
+
+UI_SetButtonTextHotkey("StrikeGroupsMenu", "btnForm1", "$2735", 28)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sButtonName>: the name of the form field element or button.
+<sButtonText>: the text string or localization ID of the button label.
+<iButtonNumber?>: presumably the index number of the key. Variables like IKEY and JKEY can presumably be used in their place.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:41:23  :: Owner: ThoughtProcess :: 
+:: :: 

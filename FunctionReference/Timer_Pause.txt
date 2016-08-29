@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionTimer_Pause
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Timer_Pause(<Index>)
+
+Description
+
+Pauses a countdown timer. Relic function included in the SCAR_Util.lua file.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Example
+
+
+Arguments
+
+<Index>: the index (integer or string) of the timer.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-18 22:15:45  :: Owner: SunTzu :: 
+:: :: 

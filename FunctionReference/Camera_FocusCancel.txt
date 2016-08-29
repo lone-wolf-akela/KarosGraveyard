@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_FocusCancel
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_FocusCancel()
+
+Description
+
+Cancels the focus on the current point and reverts back to the previous point.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:21:08  :: Owner: ThoughtProcess :: 
+:: :: 

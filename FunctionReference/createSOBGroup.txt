@@ -1,0 +1,28 @@
+Homeworld 2 : FunctioncreateSOBGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+createSOBGroup(<sSobGroupName>)
+
+Description
+
+Creates an empty sobgroup. This function can only be used in ".level" files.
+Note: use SobGroup_Create to create sobgroups in gamerule scripts.
+
+Example
+
+createSOBGroup("Mothership")
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-04-27 10:12:13  :: Owner: MiKail :: 
+:: :: 

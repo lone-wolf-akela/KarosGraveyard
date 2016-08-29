@@ -1,0 +1,31 @@
+Homeworld 2 : FunctionFX_PlayEffect
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_PlayEffect(<sEffectName>, <sVolumeName>, <fScale>)
+
+Description
+
+This command is used to display an effect at a particular location.
+Returns the ID of the effect which can be stopped with FX_StopEffect.
+
+Example
+
+If you want to trigger a large capital ship explosion ("dmg_capital_explosion_large.lua") at a point defined in a ".level" file as "ExplodePoint" with a scale of 5 times normal size the command would be:
+FX_PlayEffect( "dmg_capital_explosion_large", "ExplodePoint", 5 )
+
+Arguments
+
+<sEffectName>: the name of the effect you want to display. It must match a file name in data:art/fx/ directory.
+<sVolumeName> or <sSobGroupName>: the name of the volume or sobgroup at which the effect is to appear.
+<fScale>: a decimal number that sets the scale of the effect. Larger values increase the size of the effect.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-09-15 05:17:45  :: Owner: ThoughtProcess :: 
+:: :: 

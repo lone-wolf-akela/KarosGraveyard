@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionProfile_SetMissionsComplete
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Profile_SetMissionsComplete(<sCampaignName>, <iMissionIndex>)
+
+Description
+
+Sets all missions up to mission <iMissionIndex> in campaign <sCampaignName> to "complete" in the player's profile.
+
+Example
+
+Profile_SetMissionsComplete("Ascension", 1)
+
+Arguments
+
+<sCampaignName>: the name of the campaign.
+<iMissionIndex>: the index number of the mission.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-16 22:18:14  :: Owner: MiKail :: 
+:: :: 

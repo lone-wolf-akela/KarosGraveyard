@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_PlayerHasFocused
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_PlayerHasFocused(<sSobGroupName>)
+
+Description
+
+Returns true if the lead ship in <sSobGroupName> is in the camera's current selection history.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:31:21  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionStats_HarvestersBuilt
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Stats_HarvestersBuilt(<iPlayerIndex>)
+
+Description
+
+Returns the number of resource collectors built/created by player <iPlayerIndex>.
+
+Example
+
+Stats_HarvestersBuilt(0)
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+GameType
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-14 16:55:39  :: Owner: ThoughtProcess :: 
+:: :: 

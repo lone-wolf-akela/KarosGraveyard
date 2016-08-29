@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_DialogAcceptID
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_DialogAcceptID(<iScreenIndex>)
+
+Description
+
+Triggers an "Accept" condition in a "Yes/No" dialog on the screen with the given index number.
+
+Example
+
+onAccept = "UI_DialogAcceptID(UI_GetScreenID('IPConnect'))"
+
+Arguments
+
+<iScreenID>: the index number of a screen.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:25:37  :: Owner: ThoughtProcess :: 
+:: :: 

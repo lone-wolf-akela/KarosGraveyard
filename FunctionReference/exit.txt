@@ -1,0 +1,23 @@
+Homeworld 2 : Functionexit
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+exit([<iCode>])
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"Calls the C function exit, with an optional code, to terminate the program. The default value for <iCode> is the success code."
+
+Example
+
+
+Arguments
+
+<iCode>: an integer signifying the status of the program at the time it exited. Typically, zero signifies success, and any non-zero value signifies failure.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities 
+exit() - Other standard C functions - C Programming Reference - eLook.org
+
+Page History :: 2006-01-16 13:13:30  :: Owner: MiKail :: 
+:: :: 

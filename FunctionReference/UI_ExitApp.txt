@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_ExitApp
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ExitApp()
+
+Description
+
+Causes the game to exit to the Operating System.
+
+Example
+
+onMouseClicked = "UI_ExitApp()"
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-08-30 10:09:00  :: Owner: ThoughtProcess :: 
+:: :: 

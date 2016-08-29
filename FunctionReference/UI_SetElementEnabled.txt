@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUI_SetElementEnabled
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetElementEnabled(<sScreenName>, <sButtonName>, <bEnable>)
+
+Description
+
+Enables/disables a button of a UI screen.
+
+Example
+
+UI_SetElementEnabled("NewLaunchMenu", "launchButton", 0)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sButtonName>: the name of the button or screen element; the name must be given in the appropriate UI file.
+<bEnable>: 0 = disable, 1 = enable.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-06-27 11:17:15  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,23 @@
+Homeworld 2 : Functionabs
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+abs(<fNumber>)
+
+Description
+
+Returns the absolute value of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 12:51:01  :: Owner: ThoughtProcess :: 
+:: :: 

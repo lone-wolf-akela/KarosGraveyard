@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_IsBuilding
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsBuilding(<sSobGroupName>, <sItemName>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> is building the specified item.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:06:48  :: Owner: ThoughtProcess :: 
+:: :: 

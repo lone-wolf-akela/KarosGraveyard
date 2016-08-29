@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_GetWorldBounds
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_GetWorldBounds()
+
+Description
+
+Returns the current map size in the form of a table (e.g., {x, z, y,}).
+
+Example
+
+
+Arguments
+
+None.
+
+Notes
+
+HW 1.1 and up only.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-07-06 16:03:20  :: Owner: TamerLane :: 
+:: :: 

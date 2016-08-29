@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionsetMusicPath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setMusicPath(<sPath>)
+
+Description
+
+Sets the path that Music patches will try to use when playing music.
+
+Example
+
+
+Arguments
+
+<sPath>: the pathname that Music patches will try to use when playing music.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 17:25:40  :: Owner: ThoughtProcess :: 
+:: :: 

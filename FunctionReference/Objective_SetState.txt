@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionObjective_SetState
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Objective_SetState(<iObjectiveIndex>, <iState>)
+
+Description
+
+Sets the state of an objective.
+
+Example
+
+
+Arguments
+
+<iObjectiveIndex>: the index number of the objective (returned by Objective_Add).
+<iState>: the index number of the state. The index numbers correspond to the OS_Off, OS_Incomplete, OS_Complete and OS_Failed variables.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-04 01:05:03  :: Owner: ThoughtProcess :: 
+:: :: 

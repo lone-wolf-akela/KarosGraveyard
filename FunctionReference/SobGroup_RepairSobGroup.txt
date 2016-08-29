@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionSobGroup_RepairSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_RepairSobGroup(<sSobGroupRepairingName>, <sSobGroupTargetName>)
+
+Description
+
+Makes <sSobGroupRepairingName> repair <sSobGroupTargetName>.
+
+Example
+
+SobGroup_RepairSobGroup("Comm_Station_Repair_Group", "Communications_Station")
+
+Arguments
+
+<sSobGroupRepairingName>, <sSobGroupTargetName>: names of the sobgroups
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-27 12:45:19  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionsetNebulaAmbient
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setNebulaAmbient(<tAmbientColor>)
+
+Description
+
+Example
+
+setNebulaAmbient({0.6, 0.6, 0.6, 1,})
+
+Arguments
+
+<tAmbientColor>: a table containing RGBA color components.
+
+Related Pages
+
+Function Reference 
+Scope: Level
+
+Page History :: 2006-05-14 23:04:12  :: Owner: MiKail :: 
+:: :: 

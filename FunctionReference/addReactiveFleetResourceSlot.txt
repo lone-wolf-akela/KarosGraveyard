@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionaddReactiveFleetResourceSlot
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addReactiveFleetResourceSlot(<sResourceType>, <tPos>, ?, ?, ?)
+
+Description
+
+Example
+
+addReactiveFleetResourceSlot("Asteroid_3", {4992, 1811, 3672, }, 0, 0, 0)
+
+Arguments
+
+<sResourceType>: the type of resource. Note: Don't know if this includes salvage as well as asteroids.
+<tPos>: the XYZ coordinates of the slot.
+?: dunno.
+?: dunno.
+?: dunno.
+
+Related Pages:
+
+Function Reference 
+Scope: Level
+
+Page History :: 2006-05-14 22:53:11  :: Owner: MiKail :: 
+:: :: 

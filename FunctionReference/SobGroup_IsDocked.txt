@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_IsDocked
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsDocked(<sSobGroupName>)
+
+Description
+
+Returns true if any squadron within <sSobGroupName> is docked with any ship.
+
+Example
+
+if SobGroup_IsDocked("Convoy_1")==1 then ...code... end
+
+Arguments
+
+<sSobGroupName>: name of the sobgroup.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-29 15:22:40  :: Owner: ThoughtProcess :: 
+:: :: 

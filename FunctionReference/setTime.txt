@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetTime
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setTime(<sShipName>, <sAnimName>, <fTime>)
+
+Description
+
+Sets the current time in an animation (FF or Rew)
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+<fTime>: float Time (seconds) in animation to jump to. Will be clamped to animation bounds.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 04:02:15  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionEvent_Stop
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Event_Stop(sEventName)
+
+Description
+
+Stops an 'event' started with Event_Start.
+Mainly used in tutorial.
+
+Example
+
+Event_Stop("intelevent_intro_taskbar_active")
+
+Arguments
+
+<sEventName> string with the name of the event defined as Events.sEventName in the Events table
+
+Scope
+
+Gametype
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-12-09 08:58:25  :: Owner: ThoughtProcess :: 
+:: :: 

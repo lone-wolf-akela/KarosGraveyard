@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionaddRegion
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addRegion(<iRegionNumber>, <sTextName>, <sIconName>, <sUnknown>)
+
+Description
+
+None.
+Used in "data\ui\subtitle.lua".
+
+Example (from "data\ui\subtitle.lua")
+
+addRegion(1, "Region1_Text", "Region1_Icon", "Region1_TextNarrow")
+
+Arguments
+
+<iRegionNumber>:
+<sTextName>:
+<sIconName>:
+<sUnknown>: maybe the string name of a font style?
+
+Related Pages
+
+Function Reference
+
+Page History :: 2006-08-28 10:04:59  :: Owner: MiKail :: 
+:: :: 

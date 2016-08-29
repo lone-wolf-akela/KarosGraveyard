@@ -1,0 +1,22 @@
+Homeworld 2 : Functiontmpname
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tmpname()
+
+Description (from LUA 4 Manual: 6.4 I/O Facilities 
+"Returns a string with a file name that can safely be used for a temporary file. The file must be explicitly opened before its use and removed when no longer needed."
+
+Example
+
+
+Arguments
+
+None.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.4 I/O Facilities
+
+Page History :: 2006-01-16 14:05:31  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPing_Remove
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Ping_Remove(<iPingIndex>)
+
+Description
+
+Removes a ping.
+
+Example
+
+Ping_Remove(ping_gehenna_id)
+
+Arguments
+
+<iPingIndex>: the index number of the ping.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2007-03-23 13:31:04  :: Owner: ThoughtProcess :: 
+:: :: 

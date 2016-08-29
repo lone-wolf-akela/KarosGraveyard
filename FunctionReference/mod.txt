@@ -1,0 +1,24 @@
+Homeworld 2 : Functionmod
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+mod(<fNumber1>, <fNumber2>)
+
+Description
+
+Divides two numbers and returns only the remainder.
+
+Example
+
+
+Arguments
+
+<fNumber1>: the number to divide.
+<fNumber1>: the number to divide by.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:32:22  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionsetWorldBoundsOuter
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setWorldBoundsOuter(<tPosition>, <tDimensions>)
+
+Description
+
+Defines the area in which the camera may be moved using camera panning. The area is centered around <tPosition>, and is scaled along each axis by the vector <tDimensions>. 
+Notes: It seems to be automatically adjusted to match the inner bounds until a certain size. I don't know if this function has other effects. -SunTzu
+
+Example
+
+setWorldBoundsOuter({0, 0, 0,}, {35724.5, 35724.5, 35724.5,})
+
+Arguments
+
+<tPosition>: a table containing the center coordinates of the playing space.
+<tDimensions>: a table, or vector, containing the dimensions of the area along each axis.
+
+Related Pages:
+
+Function Reference 
+Level 
+setWorldBoundsInner
+
+Page History :: 2006-02-01 05:47:57  :: Owner: SunTzu :: 
+:: :: 

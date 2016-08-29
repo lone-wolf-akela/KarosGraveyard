@@ -1,0 +1,23 @@
+Homeworld 2 : Functionexp
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+exp(<fPower>)
+
+Description
+
+Returns e (the base of natural logarithms) raised to a power specified using <fPower>.
+
+Example
+
+
+Arguments
+
+<fPower>: the power to raise e to.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:14:38  :: Owner: ThoughtProcess :: 
+:: :: 

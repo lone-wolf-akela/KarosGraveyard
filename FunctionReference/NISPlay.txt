@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionNISPlay
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+NISPlay(<sNISPath>)
+
+Description
+
+Plays the given NIS and returns a unique index number.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+<sNISPath>: the path of the NIS file, relative to the "Data: directory, and minus the file extension.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-10 12:43:46  :: Owner: ThoughtProcess :: 
+:: :: 

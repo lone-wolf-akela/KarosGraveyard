@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionUI_SetButtonPressed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SetButtonPressed(<sScreenName>, <sButtonName>, <bPressedState>)
+
+Description
+
+Plays the "button pressed" animation for the named button on the named screen.
+Note: the effect is purely graphical - no aspects of gameplay are affected by its use.
+
+Example
+
+UI_SetButtonPressed("NewTaskbar", "btnResource", 1)
+Note: displays the highlighted "harvest" button, as if the player pressed and held it.
+
+
+UI_SetButtonPressed("NewTaskbar", "btnResource", 0)
+Note: returns the button to its original state.
+
+Arguments
+
+<sScreenName>: the name of the screen. A list of valid screens can be found in "UISettings.lua".
+<sButtonName>: the name of the button. A list of valid buttons can be found in the screen specified by <sScreenName>.
+<bPressedState>: boolean (1 = pressed, 0 = unpressed).
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2005-08-09 15:40:06  :: Owner: ThoughtProcess :: 
+:: :: 

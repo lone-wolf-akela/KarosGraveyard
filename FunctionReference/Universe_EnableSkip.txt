@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionUniverse_EnableSkip
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_EnableSkip(<bEnable>)
+
+Description
+
+Disables/enables the cut-scene skipping key (e.g., "Escape").
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+
+Scope
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:58:42  :: Owner: ThoughtProcess :: 
+:: :: 

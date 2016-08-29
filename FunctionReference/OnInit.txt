@@ -1,0 +1,6 @@
+Homeworld 2 : FunctionOnInit
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Defined in gamerule ".lua"s (and AI ".lua"s too, I think).
+Page History :: 2006-01-18 21:37:14  :: Owner: MiKail :: 
+:: :: 

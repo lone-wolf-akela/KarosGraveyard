@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_ShareVision
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_ShareVision(<iPlayer1>, <iPlayer2>, <bVisible>)
+
+Description
+
+Allows <iPlayer1> and <iPlayer2> to each see what the other sees.
+
+Example
+
+
+Arguments
+
+<iPlayer1>: the index number of Player 1.
+<iPlayer2>: the index number of PLayer 2.
+<bVisible>: 0 = disable, 1 = enable.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-03 22:50:29  :: Owner: ThoughtProcess :: 
+:: :: 

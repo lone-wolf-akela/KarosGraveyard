@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_PlayerCount
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_PlayerCount()
+
+Description
+
+Returns the total number of players (dead or alive) in the game.
+
+Example
+
+
+Arguments
+
+None.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:07:56  :: Owner: ThoughtProcess :: 
+:: :: 

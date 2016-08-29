@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCamera_ResetFocused
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Camera_ResetFocused()
+
+Description
+
+Resets the camera focus point history.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-22 19:28:10  :: Owner: ThoughtProcess :: 
+:: :: 

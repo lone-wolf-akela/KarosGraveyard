@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionRule_Add
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Rule_Add(<sRuleName>)
+
+Description
+
+Execute function <sRuleName> every game frame.
+
+Example
+
+function foo()
+
+...code...
+
+end
+
+
+Rule_Add("foo")
+
+Arguments
+
+<sRuleName>: the name of the function as a string.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-07-06 15:13:18  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionSensors_Toggle
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Sensors_Toggle(<bTurnOn>)
+
+Description
+
+Turns on/off sensors manager. Same as Sensors_Switch except that the player is not entitled to change the mode unless he has been authorised by Sensors_EnableToggle
+
+Example
+
+Sensors_Toggle(0)
+
+Arguments
+
+<bTurnOn>: boolean (0 turns off the sensors manager, 1 turns it on)
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-17 17:32:17  :: Owner: ThoughtProcess :: 
+:: :: 

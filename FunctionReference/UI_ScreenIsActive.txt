@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_ScreenIsActive
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ScreenIsActive(<sScreenName>)
+
+Description
+
+Returns true if a named screen is active (visible and, apparently, on the foreground).
+
+Example
+
+if UI_ScreenIsActive("myScreen")==1 then ... end Note: no instances of this function could be found within the game files.
+
+Arguments
+
+<sScreenName>: the name of a screen (as in data:ui/newui/uisettings.lua)
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-07-06 15:50:06  :: Owner: ThoughtProcess :: 
+:: :: 

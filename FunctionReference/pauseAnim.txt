@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionpauseAnim
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+pauseAnim(<sShipName>, <sAnimName>)
+
+Description
+
+Pauses a mesh animation. Animation need not be running.
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 03:59:43  :: Owner: MiKail :: 
+:: :: 

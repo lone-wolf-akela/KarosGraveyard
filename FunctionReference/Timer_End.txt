@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionTimer_End
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Timer_End(<Index>)
+
+Description
+
+Ends a countdown timer. Relic function included in the SCAR_Util.lua file.
+Note: this function is defined in "data\scripts\scar\scar_util.lua".
+
+Example
+
+
+Arguments
+
+<Index>: the index (integer or string) of the timer.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-18 22:18:27  :: Owner: SunTzu :: 
+:: :: 

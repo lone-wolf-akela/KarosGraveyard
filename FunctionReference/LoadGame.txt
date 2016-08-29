@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionLoadGame
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+LoadGame(<sSaveGamePath>)
+
+Description
+
+Loads a saved game.
+
+Example
+
+LoadGame("player:Campaign\\Ascension\\AutoSave_M01 1 Mission Start.sav")
+
+Arguments
+
+<sSaveGamePath>: a full path, including alias (e.g., "data:" or "player:").
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:20:07  :: Owner: MiKail :: 
+:: :: 

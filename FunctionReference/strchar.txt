@@ -1,0 +1,23 @@
+Homeworld 2 : Functionstrchar
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strchar(<iCharCode1>, [<iCharCode2>, ...])
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Receives 0 or more integers. Returns a string with length equal to the number of arguments, wherein each character has the internal numerical code equal to its correspondent argument. 
+Numerical codes are not necessarily portable across platforms."
+
+Example
+
+
+Arguments
+
+<iCharCode1> to <iCharCodeN>: the character codes to convert and concatenate into a string.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:00:28  :: Owner: ThoughtProcess :: 
+:: :: 

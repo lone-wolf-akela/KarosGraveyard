@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionstartAnim
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+startAnim(<sShipName>, <sAnimName>)
+
+Description
+
+Starts a mesh animation. Will not re-start an animation if already running. An assert will be generated if animation not found.
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 03:58:23  :: Owner: MiKail :: 
+:: :: 

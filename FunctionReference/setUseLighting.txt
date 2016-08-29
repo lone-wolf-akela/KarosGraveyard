@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionsetUseLighting
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setUseLighting(<bLighting>)
+
+Description
+
+Obsolete.
+
+Example
+
+
+Arguments
+
+<bLighting>: 0 = disable, 1 = enable.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 17:26:17  :: Owner: ThoughtProcess :: 
+:: :: 

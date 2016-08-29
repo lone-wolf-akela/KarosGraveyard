@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_Count
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Count(<sSobGroupName>)
+
+Description
+
+Returns the number of ships in <sSobGroupName>.
+Note: Ships inside Squadrons are counted (SobGroup_Count used on 1 Squad of Hgn_Interceptors = 5). -Grey_Ghost
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-06-09 20:51:59  :: Owner: ThoughtProcess :: 
+:: :: 

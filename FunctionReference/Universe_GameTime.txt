@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_GameTime
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_GameTime()
+
+Description
+
+Returns the game time in seconds.
+
+Example
+
+
+Arguments
+
+None.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:00:47  :: Owner: ThoughtProcess :: 
+:: :: 

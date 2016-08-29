@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionPlayer_HasShipWithBuildQueue
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_HasShipWithBuildQueue(<iPlayerIndex>)
+
+Description
+
+Returns true if the player has a build-capable ship. Note: this is used to assess victory conditions within the stock 'deathmatch' game rule
+
+Example
+
+if Player_HasShipWithBuildQueue(playerIndex)==0 then ...code... end
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:20:53  :: Owner: ThoughtProcess :: 
+:: :: 

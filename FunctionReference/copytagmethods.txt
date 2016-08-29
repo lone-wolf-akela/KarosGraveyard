@@ -1,0 +1,24 @@
+Homeworld 2 : Functioncopytagmethods
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+copytagmethods(<tagto>, <tagfrom>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Copies all tag methods from one tag to another; returns <tagto>."
+
+Example
+
+
+Arguments
+
+<tagto>: a tag.
+<tagfrom>: a tag.
+Note: I'm not sure what types of elements these arguments are. -Mikail
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:01:13  :: Owner: ThoughtProcess :: 
+:: :: 

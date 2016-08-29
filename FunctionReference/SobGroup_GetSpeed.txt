@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_GetSpeed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSpeed(<sSobGroupName>)
+
+Description
+
+Returns the speed, as a multiplier between 0 and 1, of the lead ship of the first squadron in <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:40:34  :: Owner: ThoughtProcess :: 
+:: :: 

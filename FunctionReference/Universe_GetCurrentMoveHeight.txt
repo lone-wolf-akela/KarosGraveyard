@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_GetCurrentMoveHeight
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_GetCurrentMoveHeight()
+
+Description
+
+Returns the current vertical Y-axis offset for an active pieplate.
+
+Example
+
+
+Arguments
+
+None.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 16:01:16  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_UnrestrictResearchOption
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_UnrestrictResearchOption(<iPlayerIndex>, <sResearch>)
+
+Description
+
+Unrestricts the named research item for the player.
+Note: will fail if the research item does not exist and is not already restricted.
+
+Example
+
+Player_UnrestrictResearchOption( 0, "IonCannonFrigateHealthUpgrade1" )
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sResearch>: the name of the research item.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:34:46  :: Owner: ThoughtProcess :: 
+:: :: 

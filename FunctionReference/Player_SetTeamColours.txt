@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionPlayer_SetTeamColours
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetTeamColours(<iPlayerIndex>, <tBaseColour>, <tStripeColour>)
+
+Description
+
+Sets the base and stripe colour for the player.
+
+Example
+
+Player_SetTeamColours(1, {30/255, 30/255, 30/255}, {225/255, 225/255, 225/255})
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<tBaseColour>: the table containing the RGB value of the color.
+<tStripeColour>: the table containing the RGB value of the color.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:33:22  :: Owner: ThoughtProcess :: 
+:: :: 

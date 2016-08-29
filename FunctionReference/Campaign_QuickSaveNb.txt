@@ -1,0 +1,40 @@
+Homeworld 2 : FunctionCampaign_QuickSaveNb
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Campaign_QuickSaveNb(<iId>, <sDescription>)
+
+Description
+
+Autosaves a campaign.
+
+Example
+
+local saveId = 1
+Campaign_QuickSaveNb(saveId, "M01 %d Mission Start")
+Note: the output, in the example above, would be "AutoSave_M01 1 Mission Start".
+
+Arguments
+
+<sDescription>: raw string or localization ID. 
+<iId>: if the description contains the string "%d" somewhere within it, then <iId> will be inserted in the place of "%d".
+
+Note
+
+Only works in Campaign mode.
+A "game saved" message will be displayed on the screen.
+The string "Autosave_" will be always be appended to the beginning of the description.
+
+Scope
+
+Discussion:
+
+function help
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2004-02-25 14:09:22  :: Owner: ThoughtProcess :: 
+:: :: 

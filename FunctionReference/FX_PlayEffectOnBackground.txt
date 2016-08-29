@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionFX_PlayEffectOnBackground
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FX_PlayEffectOnBackground(<sEffectName>, <v3Direction>, <fScale>)
+
+Description
+
+Spawns the given effect on the background.
+
+Example
+
+FX_PlayEffectOnBackground("m02_explosion_spray", { -1.5, -0.1, -1, }, 10)
+
+Arguments
+
+<sEffectName>: the name of the effect; must match a file name in data:art/fx/ directory
+<v3Direction>: a table Exact contents to be identified
+<fScale>: a float number that sets the scale of the effect. Larger values increase the size of the effect.
+
+Scope
+
+Event
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-09-15 05:23:26  :: Owner: ThoughtProcess :: 
+:: :: 

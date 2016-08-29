@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_HasUpgrade
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_HasUpgrade(<sSobGroupName>, <sUpgradeName>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> has <sUpgradeName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:04:12  :: Owner: ThoughtProcess :: 
+:: :: 

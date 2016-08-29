@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetPauseTime
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setPauseTime(<sShipName>, <sAnimName>, <fTime>)
+
+Description
+
+Specifies when the indicated animation will pause.
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+<fTime>: float Time (seconds) in animation when animation will pause. Pass a very large number to pause at the end.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 04:00:55  :: Owner: MiKail :: 
+:: :: 

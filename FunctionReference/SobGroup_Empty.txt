@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionSobGroup_Empty
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Empty(<sSobGroupName>)
+
+Description
+
+Returns true if <sSobGroupName> is empty.
+Use this instead of SobGroup_Count to check if the group contains any ships.
+
+Example
+
+if (SobGroup_Empty("MySOBGroup") == 1) then
+
+...
+
+end
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup to check.
+
+Related Pages:
+
+Function Reference 
+Scope: Gametype 
+SobGroup_Count
+
+Page History :: 2006-05-21 12:36:29  :: Owner: ThoughtProcess :: 
+:: :: 

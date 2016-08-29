@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_FillBattleScar
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FillBattleScar(<sSobGroupName>, <sScarTypeName>)
+
+Description
+
+Fills ships in <sSobGroupName> with <sScarTypeName>, up to min(health-cap, triangle-cap).
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:19:50  :: Owner: ThoughtProcess :: 
+:: :: 

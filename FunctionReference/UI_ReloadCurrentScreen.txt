@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_ReloadCurrentScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ReloadCurrentScreen(?)
+
+Description
+
+Unknown. Presumably causes the current screen to update.
+
+Example
+
+Note: no instances of this function could be found within the game files.
+
+Arguments
+
+Presumably none.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:39:09  :: Owner: ThoughtProcess :: 
+:: :: 

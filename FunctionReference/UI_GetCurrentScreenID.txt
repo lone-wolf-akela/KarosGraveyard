@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_GetCurrentScreenID
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_GetCurrentScreenID()
+
+Description
+
+Unknown. Presumably returns the index number of the current screen.
+
+Example
+
+Note: no examples of this function being used in the game can be found.
+
+Arguments
+
+Probably none.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:30:12  :: Owner: ThoughtProcess :: 
+:: :: 

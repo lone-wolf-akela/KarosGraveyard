@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionCPU_GetVarString
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_GetVarString(?)
+
+Description
+
+Unknown.
+
+Example
+
+Note: no instances of this function being used within the game files can be found.
+
+Arguments
+
+Unknown.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 14:54:21  :: Owner: ThoughtProcess :: 
+:: :: 

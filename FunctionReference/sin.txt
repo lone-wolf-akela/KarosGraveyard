@@ -1,0 +1,23 @@
+Homeworld 2 : Functionsin
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+sin(<fNumber>)
+
+Description
+
+Returns the sine (in degrees) of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 13:58:13  :: Owner: ThoughtProcess :: 
+:: :: 

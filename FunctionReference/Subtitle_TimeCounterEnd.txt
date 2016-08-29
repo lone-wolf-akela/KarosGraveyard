@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSubtitle_TimeCounterEnd
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Subtitle_TimeCounterEnd()
+
+Description:
+
+Removes the subtitle at the bottom of the screen created with Subtitle_TimeCounter.
+
+Example:
+
+Subtitle_TimeCounterEnd()
+
+Arguments:
+
+None.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-10 02:14:39  :: Owner: ThoughtProcess :: 
+:: :: 

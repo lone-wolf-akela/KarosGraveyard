@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_SetPlayerName
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_SetPlayerName(<iPlayerIndex>, <sPlayerName>)
+
+Description
+
+Sets the name of the player to <sPlayerName>.
+
+Example
+
+Player_SetPlayerName(1, "Vaygr Armada")
+
+Arguments
+
+<sPlayerIndex>: the index number of the player.
+<sPlayerName>: the name of the player. Can be a raw string or a localization ID.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 04:32:05  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctioncreateDirLight
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+createDirLight(<sLightName>, <tPosition>, <tColour>)
+
+Description
+
+Creates a new directional light.
+
+Example
+
+
+Arguments
+
+<sLightName>: the name of the light.
+<tPosition>: a table containing the XYZ coordinates of the light.
+<tColour>: a table containing the RGB components of the light's color. Values greater than 1.0 are assumed to be byte values [0..255], and get scaled. So, we get a vector instead.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 17:15:31  :: Owner: ThoughtProcess :: 
+:: :: 

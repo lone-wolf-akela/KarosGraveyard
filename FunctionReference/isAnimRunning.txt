@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionisAnimRunning
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+isAnimRunning(<sShipname>, <sAnimName>)
+
+Description
+
+Returns true if the named animation is currently running.
+
+Example
+
+if (isAnimRunning(ship, "Open") ~= 0) then
+
+...
+
+end
+
+Arguments
+
+<sShipname>: the name of the ship. I'm guessing that this is a string, and is the same as the name of the ship file (minus the extension).
+<sAnimName>: the name of the animation. This is set in the ship's .events file.
+
+Related pages:
+
+Function Reference 
+Madstate Scope
+
+Page History :: 2006-05-06 08:41:57  :: Owner: MiKail :: 
+:: :: 

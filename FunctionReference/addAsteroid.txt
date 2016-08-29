@@ -1,0 +1,39 @@
+Homeworld 2 : FunctionaddAsteroid
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addAsteroid(<sAsteroidType>, <tPosition>, <fRU>, ?, ?, ?, ?)
+
+Description
+
+Adds an asteroid to a ".level" file.
+
+Example
+
+addAsteroid("Asteroid_4", { 24124, 0, -17680, }, 75, 0, 234.238, 0, 0)
+
+Arguments
+
+<sAsteroidType>: ranges from Asteroid_1 to Asteroid_5, with 1 being the smallest and 5 being the largest. Only 3, 4 and 5 are harvestable¡ª1 and 2 are purely ornamental.
+<tPosition>: a table containing the asteroid's X, Z, and Y coordinates.
+<fRU>: a multiplier applied to the default RU amount contained by each asteroid type. The larger the asteroid, the more RU it contains by default. An RU value of 100 means 100% of this default RU count, 70 is 70%, etc. A value of 0 means that the asteroid contains no resources, and is purely ornamental. Note: by setting the default RU value (in the .resource file) to 100, one can set the exact RU value explicitely using this function. -Mikail
+?: rotation speed (uncertain)
+?: rotation axis (uncertain)
+?: rotation axis (uncertain)
+?: rotation axis (uncertain)
+Note: I have tested those last parameters -- the asteroids do spin around very slowly when you put numbers in there..just guessing which is for which though.
+
+Notes
+
+Default asteroid stats: Level 3 asteroids have 9000 RU, level 4s have 18,000 RU, and level 5s have 40,000 RU. Level 3s can support one collector, Level 4s can support two, and Level 5s can support three collectors at a time.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+Malignus's Mapping Tutorial
+
+Page History :: 2006-05-14 23:55:36  :: Owner: MiKail :: 
+:: :: 

@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_CreateSubSystem
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_CreateSubSystem(<sSobGroupName>, <sSubSystemNameOrType>)
+
+Description:
+
+Creates <sSubSystemName> on all the ships in <sSobGroupName>.
+
+Examples:
+
+SobGroup_CreateSubSystem("Mothership", "Hgn_MS_Module_Research")
+SobGroup_CreateSubSystem("EnemyCarrier", "FighterProduction")
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup in which subsystems are built
+<sSubSystemNameOrType>: this can be either the full name of a subsystem (see first example) or the generic type of the subsystem (as defined with NewSubSystemType.typeString within .subs files). The following types are available: "FighterProduction", "CorvetteProduction", "FrigateProduction", "CapShipProduction", "AdvancedArray", "CloakGenerator", "Hyperspace", "HyperspaceInhibitor", "PlatformProduction", "Research", "AdvancedResearch", "CloakSensor", "HyperspaceSensor".
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-03-07 16:44:14  :: Owner: ThoughtProcess :: 
+:: :: 

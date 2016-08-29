@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionplayBgLightAnim
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+playBgLightAnim(<sRefFxName>)
+
+Description
+
+Plays a background light animation.
+
+Example
+
+
+Arguments
+
+<sRefFxName>: the name of the effect to play.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-11-03 17:03:33  :: Owner: ThoughtProcess :: 
+:: :: 

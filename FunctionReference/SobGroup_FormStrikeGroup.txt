@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_FormStrikeGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_FormStrikeGroup(<sSobGroupName>, <sStrikeGroupType>)
+
+Description
+
+Forms <sSobGroupName> into a strike group of type <sStrikeGroupType>.
+
+Example
+
+SobGroup_FormStrikeGroup("Vgr_Gate_Attack_1", "Fighter Screen")
+
+Arguments
+
+<sSobGroupName>: the name of the sobGroup to form into a strike group.
+<sStrikeGroupType>: the type of formation to form.
+Note: in the Ascension SP campaign, the following formation types are valid: "movers", "wall", "tortoise", "inverted leaping goose" and "fighter screen". The following need to be tested: "capital phalanx" and "frigate line".
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-10 02:11:55  :: Owner: ThoughtProcess :: 
+:: :: 

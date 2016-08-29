@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionCPU_AddSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_AddSobGroup(<iPlayerIndex>, <sSobGroupName>)
+
+Description
+
+Sets or restores AI control over a sobgroup (e.g., after AI control was removed from the sobgroup using the CPU_RemoveSobGroup function).
+
+Example
+
+CPU_AddSobGroup(1, "Vgr_AI_Carrier_Load_2")
+
+Arguments
+
+<iPlayerIndex>: the index number of the CPU player.
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference 
+CPU_RemoveSobGroup
+
+Page History :: 2006-01-10 02:21:50  :: Owner: ThoughtProcess :: 
+:: :: 

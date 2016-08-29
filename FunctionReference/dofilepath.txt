@@ -1,0 +1,24 @@
+Homeworld 2 : Functiondofilepath
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+dofilepath(<sPath> .. ":" .. <sFilePath>)
+
+Description
+
+Example
+
+dofilepath("data" .. ":" .. "ModCheckList.lua")
+dofilepath("data:ModCheckList.lua")
+
+Arguments
+
+<sPath>: valid paths include: "data", "bin", "profiles", "player", "locale", "builtin", "gamerules".
+<sFilePath>: the path and filename, relative to <sPath>.
+
+Related Pages:
+
+Function Reference 
+Global LUA Functions
+
+Page History :: 2004-04-03 18:07:44  :: Owner: ThoughtProcess :: 
+:: :: 

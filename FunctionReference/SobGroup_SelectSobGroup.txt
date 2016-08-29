@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_SelectSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_SelectSobGroup(<sSobGroupName>)
+
+Description
+
+Selects all squadrons of <sSobGroupName>.
+
+Example
+
+SobGroup_SelectSobGroup("Player_Ships0")
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup to select.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-28 08:51:32  :: Owner: ThoughtProcess :: 
+:: :: 

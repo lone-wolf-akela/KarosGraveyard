@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionSobGroup_TakeDamage
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_TakeDamage(<sSobGroupName>, <fDamage>)
+
+Description
+
+Causes <fDamage> amount of damage to all ships in <sSobGroupName>.
+Note: this is a mirror function of SobGroup_SetHealth.
+
+Example
+
+SobGroup_TakeDamage("Keeper", 0.0055)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<fDamage>: a multiplier between 0 and 1.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2006-01-27 13:23:24  :: Owner: ThoughtProcess :: 
+:: :: 

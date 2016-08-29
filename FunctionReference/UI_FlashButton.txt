@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionUI_FlashButton
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_FlashButton(<sScreenName>, <sButtonName>, <iNumberOfTimes>)
+
+Description
+
+Cause the button <sButtonName> on screen <sScreenName> to flash <iNumberOfTimes> times.
+Stop the button from flashing using UI_StopFlashButton().
+
+Example
+
+UI_FlashButton("NewTaskbar", "btnBuild", 10)
+
+Arguments
+
+<sScreenName>: the name of the screen.
+<sButtonName>: the name of the button.
+<iNumberOfTimes>: the number of times to flash the button. Using -1 causes the button to flash repeatedly until clicked.
+
+Related Pages:
+
+UI_StopFlashButton() 
+Function Reference
+
+Page History :: 2005-08-22 19:19:04  :: Owner: ThoughtProcess :: 
+:: :: 

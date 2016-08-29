@@ -1,0 +1,27 @@
+Homeworld 2 : FunctionUniverse_EnableCmd
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_EnableCmd(<bEnable>, <iCommand>)
+
+Description
+
+Enables/disables a command for the player.
+
+Example
+
+
+Arguments
+
+<bEnable>: 0 = disable, 1 = enable.
+<iCommand>: the index number of the command.
+Note: should add a list of commands.
+
+Scope
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2005-07-06 15:57:24  :: Owner: ThoughtProcess :: 
+:: :: 

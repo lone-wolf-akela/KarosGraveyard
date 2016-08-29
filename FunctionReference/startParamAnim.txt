@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionstartParamAnim
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+startParamAnim(<sShipName>, <sAnimName>, <sParam>)
+
+Description
+
+Starts a parameterized mesh animation. A parameterized animation is an animation where the time is specified by a parameter which ranges from 0..1. Will not re-start an animation if already running. An assert will be generated if animation not found.
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+<sParam>: string Name of parameter. ¡°HorizontalRotation¡± and ¡°VerticalRotation¡± are built-in animations that determine the rotation based on the ship's rotational thrust, similar to how the engine glow is parameterized.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 03:57:17  :: Owner: MiKail :: 
+:: :: 

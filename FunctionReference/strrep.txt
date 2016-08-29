@@ -1,0 +1,23 @@
+Homeworld 2 : Functionstrrep
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+strrep(<sString>, <iNumber>)
+
+Description (from LUA 4 Manual: 6.2 String Manipulation 
+"Returns a string that is the concatenation of <iNumber> copies of the string <sString>."
+
+Example
+
+
+Arguments
+
+<sString>: the string to copy.
+<iNumber>: the number times to repeat the string.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.2 String Manipulation
+
+Page History :: 2006-01-16 14:02:06  :: Owner: ThoughtProcess :: 
+:: :: 

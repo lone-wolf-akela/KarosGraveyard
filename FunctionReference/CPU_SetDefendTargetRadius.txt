@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionCPU_SetDefendTargetRadius
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+CPU_SetDefendTargetRadius(<iPlayerIndex>, <iTargetIndex>, <fDistance>)
+
+Description
+
+Sets the distance within which to defend the target. In other words, the CPU will attack any enemy coming into the set range.
+
+Example
+
+CPU_SetDefendTargetRadius(1, DefendMakaanCPU1, 8000)
+
+Arguments
+
+<iPlayerIndex>: the index number of the CPU player.
+<iTargetIndex>: the index number of the target. This value is returned by CPU_AddDefendSobGroup() and other functions.
+<fDistance>: float, a distance radius.
+
+Related Pages:
+
+CPU_AddDefendSobGroup() 
+Function Reference
+
+Page History :: 2006-08-28 05:32:07  :: Owner: ThoughtProcess :: 
+:: :: 

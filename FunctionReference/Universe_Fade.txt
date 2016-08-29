@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionUniverse_Fade
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Universe_Fade(<fPercentage>, <fTime>)
+
+Description
+
+Fades the screen over the given amount of time.
+
+Example
+
+Universe_Fade( 1, 2 )
+
+Arguments
+
+<fPercentage>: must be between 0 and 1. (0 = everything visible, 1 = black screen).
+<fTime>: the amount of time in seconds it takes to complete the fade.
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+There are 2 comments on this page. [Display comments]
+Page History :: 2006-03-07 08:08:43  :: Owner: ThoughtProcess :: 
+:: :: 

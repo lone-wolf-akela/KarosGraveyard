@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionaddTheme
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+addTheme(<iThemeNumber>, <tColour>, <fFadeIn>, <fFadeOut> [, <iPlayerColour>, <sBitmapBaseName>, <iNumBitmaps>])
+
+Description
+
+None.
+Note: this function is called in "data\ui\subtitle.lua".
+
+Example (from "data\ui\subtitle.lua")
+
+addTheme(0, {255, 255, 255,}, 0.1, 0.1, 1, "fleetintel#.tga", 1)
+
+Arguments
+
+<iThemeNumber>: the index number of the theme.
+<tColour>: a table containing RGB color components.
+<fFadeIn>:
+<fFadeOut>:
+<iPlayerColour>: (optional)
+<sBitmapBaseName>: (optional)
+<iNumBitmaps>: (optional)
+
+Related Pages
+
+Function Reference
+
+Page History :: 2006-08-28 10:06:49  :: Owner: MiKail :: 
+:: :: 

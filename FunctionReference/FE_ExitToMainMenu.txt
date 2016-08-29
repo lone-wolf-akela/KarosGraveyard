@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionFE_ExitToMainMenu
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+FE_ExitToMainMenu()
+
+Description
+
+Exits the game to the main menu.
+
+Example
+
+FE_ExitToMainMenu()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:17:01  :: Owner: MiKail :: 
+:: :: 

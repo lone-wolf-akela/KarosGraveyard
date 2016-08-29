@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_GuardSobGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GuardSobGroup(<sSobGroupName>, <sSobGroupToGuardName>)
+
+Description
+
+Makes <sSobGroupName> guard <sSobGroupToGuardName>.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:35:26  :: Owner: ThoughtProcess :: 
+:: :: 

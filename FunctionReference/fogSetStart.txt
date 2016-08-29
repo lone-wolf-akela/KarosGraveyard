@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionfogSetStart
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+fogSetStart(<fStart>)
+
+Description
+
+Sets the start plane for fog.
+
+Example
+
+fogSetStart(10)
+
+Arguments
+
+<fStart>: a float value.
+
+Scope
+
+Level
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-04-14 11:51:41  :: Owner: MiKail :: 
+:: :: 

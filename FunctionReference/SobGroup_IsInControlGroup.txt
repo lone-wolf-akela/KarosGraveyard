@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionSobGroup_IsInControlGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsInControlGroup(size_t ctrlGroup, <sSobGroupName>)
+
+Description
+
+Returns true if every ship in <sSobGroupName> belongs to the specified control group (0 = no group).
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+There are 4 comments on this page. [Display comments]
+Page History :: 2004-02-21 00:06:18  :: Owner: ThoughtProcess :: 
+:: :: 

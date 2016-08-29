@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_StartGameWithSelectedLevel
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_StartGameWithSelectedLevel()
+
+Description
+
+Starts a skirmish game using the level selected using the "listLevels" drop-down list in "newmainmenu.lua".
+
+Example
+
+UI_StartGameWithSelectedLevel()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:48:32  :: Owner: ThoughtProcess :: 
+:: :: 

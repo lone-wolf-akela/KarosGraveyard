@@ -1,0 +1,23 @@
+Homeworld 2 : Functionasin
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+asin(<fNumber>)
+
+Description
+
+Returns the arcsine (in degrees) of a number.
+
+Example
+
+
+Arguments
+
+<fNumber>: a number.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.3 Mathematical Functions
+
+Page History :: 2006-01-16 12:54:28  :: Owner: ThoughtProcess :: 
+:: :: 

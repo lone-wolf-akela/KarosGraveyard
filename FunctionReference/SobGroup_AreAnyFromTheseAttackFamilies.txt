@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_AreAnyFromTheseAttackFamilies
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AreAnyFromTheseAttackFamilies(<sSobGroupName>, <sFamilies>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> belongs to any of the specified attack families.
+
+Example
+
+if SobGroup_AreAnyFromTheseAttackFamilies("Player_Ships1", "Fighter, Corvette, Frigate, Capturer, SmallCapitalShip")==0 then ... code ... end
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<sFamilies>: a comma separated string (e.g., "Frigate, Corvette, Fighter"), where each entry is an attack family name from "...\data\scripts\FamilyList.lua".
+
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-01-20 05:55:45  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_DeSelectAll
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_DeSelectAll()
+
+Description
+
+Clears the player's current selections.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-24 00:21:59  :: Owner: ThoughtProcess :: 
+:: :: 

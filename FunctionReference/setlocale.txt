@@ -1,0 +1,23 @@
+Homeworld 2 : Functionsetlocale
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setlocale(<sLocale> [, <sCategory>])
+
+Description (from LUA 4 Manual: 6.5 System Facilities 
+"This function is an interface to the ANSI C function setlocale. <sLocale> is a string specifying a locale; <sCategory> is an optional string describing which category to change: "all", "collate", "ctype", "monetary", "numeric", or "time"; the default category is "all". The function returns the name of the new locale, or nil if the request cannot be honored."
+
+Example
+
+
+Arguments
+
+<sLocale>: a string specifying a locale.
+<sCategory>: an optional string describing which category to change: "all", "collate", "ctype", "monetary", "numeric", or "time"; the default category is "all".
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.5 System Facilities
+
+Page History :: 2006-01-16 13:54:42  :: Owner: MiKail :: 
+:: :: 

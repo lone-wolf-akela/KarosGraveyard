@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_IsSelectable
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsSelectable(<sSobGroupName>)
+
+Description
+
+Returns true if the named sobgroup can be selected using the mouse.
+
+Example
+
+SobGroup_IsSelectable(missilesAccelerated[i])
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference
+
+There is one comment on this page. [Display comment]
+Page History :: 2005-08-10 12:49:22  :: Owner: MiKail :: 
+:: :: 

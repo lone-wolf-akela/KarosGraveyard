@@ -1,0 +1,28 @@
+Homeworld 2 : Functionforeachi
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+foreachi(<tTable>, <fFunction>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Executes the given <fFunction> over the numerical indices of <tTable>. For each index, the function is called with the index and respective value as arguments. Indices are visited in sequential order, from 1 to n, where n is the result of getn(<tTable>) (see Section 6.1). If the function returns any non-nil value, then the loop is broken, and this value is returned as the final value of foreachi. This function could be defined in Lua:"
+function foreachi (t, f)
+	for i=1, getn(t) do
+		local res = f(i, t[i])
+		if res then return res end
+	end
+end
+Example
+
+
+Arguments
+
+<tTable>: the table to traverse.
+<fFunction>: the function to execute over all elements of <tTable>. Note: do not add trailing parentheses when entering the function name.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 13:18:18  :: Owner: ThoughtProcess :: 
+:: :: 

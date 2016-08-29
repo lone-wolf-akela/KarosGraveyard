@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionsetDustCloudAmbient
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setDustCloudAmbient(<tAmbientColor>)
+
+Description
+
+Example
+
+setDustCloudAmbient({0.5, 0.5, 0.5, 1,})
+
+Arguments
+
+<tAmbientColor>: a table containing RGBA color components.
+
+Related Pages:
+
+Function Reference 
+Scope: Level
+
+Page History :: 2006-05-14 22:58:10  :: Owner: MiKail :: 
+:: :: 

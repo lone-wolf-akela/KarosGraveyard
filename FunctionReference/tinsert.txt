@@ -1,0 +1,38 @@
+Homeworld 2 : Functiontinsert
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+tinsert(<tTable> [, <iPos>] , <vValue>)
+
+Description (from LUA 4 Manual: 6.1 Basic Functions 
+"Inserts element <vValue> at table position <iPos>, shifting other elements to open space, if necessary. The default value for <iPos> is n+1, where n is the result of getn(<tTable>) (see Section 6.1), so that a call tinsert(t,x) inserts x at the end of table t. This function also sets or increments the field n of the table to n+1. This function is equivalent to the following Lua function, except that the table accesses are all raw (that is, without tag methods):"
+function tinsert (t, ...)
+	local pos, value
+	local n = getn(t)
+	if arg.n == 1 then
+		pos, value = n+1, arg[1]
+	else
+		pos, value = arg[1], arg[2]
+	end
+	t.n = n+1;
+	for i=n,pos,-1 do
+		t[i+1] = t[i]
+	end
+	t[pos] = value
+end
+
+Example
+
+
+Arguments
+
+<tTable>: the table to insert a new element into.
+<iPos>: the position within the table to insert the new element at. (optional)
+<vValue>: the value to set the new element to.
+
+Related Functions
+
+Function Reference 
+LUA 4 Manual: 6.1 Basic Functions
+
+Page History :: 2006-01-16 14:05:01  :: Owner: ThoughtProcess :: 
+:: :: 

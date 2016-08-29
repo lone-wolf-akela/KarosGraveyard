@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_GetSobGroupRepairingGroup
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetSobGroupRepairingGroup(<sSobGroupName>, <sOutputSobGroupName>)
+
+Description
+
+Fills <sOutputSobGroupName> with all the squadrons that are in the process of repairing <sSobGroupName> (they're repairing and latched). 
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:12:24  :: Owner: ThoughtProcess :: 
+:: :: 

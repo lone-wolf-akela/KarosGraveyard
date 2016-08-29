@@ -1,0 +1,50 @@
+Homeworld 2 : FunctionsetEngineBurn
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setEngineBurn(<rNewObjectType>, <iSparksPerPath>, <fSpeedLow>, <fSpeedHigh>, <fSparkSize>, <fSpeedSparkSize>, <fFlareMin>, <fFlarePos>, <fFlareSize>)
+
+Description
+
+Controls the flare for small craft and missiles. 
+This graphic seems to be accomplished entirely out of one round effect repeated in the below fashon. 
+
+
+This is made up of:
+One Flare of 'Flaresize' at 'FlarePos' from the engine nozzle in the .Hod. 'FlareMin' remains unknown.
+
+
+And,
+
+
+A jet; comprised of a number of sparks that reduce in Alpha/size with distance.
+This is made of 'SparksPerPath' sparks of 'SparkSize' diameter, with a pulse of 'SpeedSparkSize' diameter traveling away from the source of the jet.
+
+
+Note that a Spark and a Flare are the same graphic.
+Note that Speedlow and Speedhigh control the opacity of the primary flare as well.
+
+
+Somebody update and show what FlareMin is!
+
+Example
+
+setEngineBurn(NewShipType, 15, 0.5,1, 15, 0, 0.7, 0.1, 25)
+
+Arguments
+
+<rNewObjectType>: NewShipType or NewMissileType.
+<iSparksPerPath>: Number of flares to make the jet out of.
+<fSpeedLow>: Opacity of Jet when using Thrusters.
+<fSpeedHigh>: Opacity of Jet when using Main Engines.
+<fSparkSize>: Diameter of the flares defined by 'sparksperpath'
+<fSpeedSparkSize>: Diameter of pulse traveling down Jet. This is a Multiple of 'SparkSize' so 1.1 would be 10% larger.
+<fFlareMin>: Cannot find any effect from changing this across wide variety of tests. *unknown*
+<fFlarePos>: Offset distance from engine nozzle in Hod file. Must be greater qual to zero.
+<fFlareSize>: Diameter of Static flare. This serves as the 'corona' of the jet.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-12 20:59:51  :: Owner: ToxicFrog :: 
+:: :: 

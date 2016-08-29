@@ -1,0 +1,24 @@
+Homeworld 2 : FunctionSobGroup_IsDoingAbility
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_IsDoingAbility(<sSobGroupName>, <iAbility>)
+
+Description
+
+Returns true if any ship in <sSobGroupName> is doing the specified ability.
+
+Example
+
+
+Arguments
+
+<iAbility>: Valid abilities are:
+
+AB_None AB_Move AB_Attack AB_Guard AB_Repair AB_Cloak AB_Harvest AB_Mine AB_Capture AB_Dock AB_AcceptDocking AB_Builder AB_Stop AB_Hyperspace AB_Parade AB_FormHyperspaceGate AB_HyperspaceViaGate AB_SensorPing AB_SpecialAttack AB_Retire AB_DefenseField AB_DefenseFieldShield AB_HyperspaceInhibitor AB_Salvage AB_Steering AB_Targeting AB_Sensors AB_Lights AB_Scuttle AB_UseSpecialWeaponsInNormalAttack
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-21 00:02:15  :: Owner: ThoughtProcess :: 
+:: :: 

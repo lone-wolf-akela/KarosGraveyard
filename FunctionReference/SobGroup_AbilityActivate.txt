@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionSobGroup_AbilityActivate
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_AbilityActivate(<sSobGroupName>, <iAbilityIndex>, <bActivate>)
+
+Description
+
+Enables/disables <iAbility> for all the ships in <sSobGroupName>.
+Note: only works if the ship has the ability.
+
+Example
+
+SobGroup_AbilityActivate("Mothership", AB_Dock, 0)
+
+Arguments
+
+<sSobGroupName>: the name of the SobGroup.
+<iAbilityIndex>: the index number of the ability. See SobGroup_CanDoAbility for a list of abilities
+<bActivate>: 0 is disable, 1 is enable.
+
+Scope
+
+Gamerule
+
+Related Pages:
+
+Function Reference 
+SobGroup_CanDoAbility 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-20 13:44:52  :: Owner: ThoughtProcess :: 
+:: :: 

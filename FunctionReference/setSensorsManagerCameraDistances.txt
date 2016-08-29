@@ -1,0 +1,26 @@
+Homeworld 2 : FunctionsetSensorsManagerCameraDistances
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setSensorsManagerCameraDistances(<fMinDistance>, <fMaxDistance>)
+
+Description
+
+Defines minimum and maximum zooming distance of the camera in the sensor manager. 
+Notes: min and max distances significantly different from the standard Relic maps can cause visual bugs (like a white background and invisible ships); the bugs might be related to the camera tunable values. Tests needed.-SunTzu
+
+Example
+
+setSensorsManagerCameraDistances(9000, 40000)
+
+Arguments
+
+<fMinDistance>: mininum distance between focal point and camera when zooming in.
+<fMaxDistance>: mininum distance between focal point and camera when zooming out.
+
+Related Pages:
+
+Function Reference 
+Level
+
+Page History :: 2006-04-14 07:40:15  :: Owner: SunTzu :: 
+:: :: 

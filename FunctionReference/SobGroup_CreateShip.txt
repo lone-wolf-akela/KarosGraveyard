@@ -1,0 +1,32 @@
+Homeworld 2 : FunctionSobGroup_CreateShip
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_CreateShip(<sSobGroupName>, <sSquadronName>)
+
+Description
+
+Creates a <sSquadronName> in <sSobGroupName> and returns a runtime SobGroup containing the squadron.
+The squadron will exit the shiphold or hyperspace in, depending on its normal build behavior, as set in ship tuning.
+Note: this works only, if the original sobgroup contains a builder, e.g. a Mothership, Carrier or Shipyard. -Age2uN
+Note: if the sobgroup doesn't contain a builder, use SobGroup_SpawnNewShipInSobGroup() instead. -Mikail
+
+Example 
+
+SobGroup_CreateShip("Player_Ships0", "vgr_lasercorvette") 
+This would add a Vaygr Laser corvette to the first player in the game (player 0).
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+<sSquadronName>: the name of the squadron being created.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2007-01-10 01:39:55  :: Owner: ThoughtProcess :: 
+:: :: 

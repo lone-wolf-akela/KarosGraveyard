@@ -1,0 +1,30 @@
+Homeworld 2 : FunctionsetLoopCount
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+setLoopCount(<sShipName>, <sAnimName>, <nLoops>)
+
+Description
+
+Sets the number of times the animation will loop. 0 by default.
+Returns nothing
+
+Example
+
+
+Arguments
+
+<sShipName>: Sob* Passed from game
+<sAnimName>: string Name of mesh animation from ".mad" file.
+<nLoops>: int Number of times the animation will loop animations with no looping.
+
+Scope
+
+Madstate
+
+Related Pages:
+
+Function Reference 
+HW2_MadState.pdf
+
+Page History :: 2004-02-23 04:03:39  :: Owner: MiKail :: 
+:: :: 

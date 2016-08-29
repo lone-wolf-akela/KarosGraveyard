@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_Clear
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_Clear(<sSobGroupName>)
+
+Description
+
+Clears <sSobGroupName> of all ships.
+
+Example
+
+
+Arguments
+
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2004-02-23 23:46:57  :: Owner: ThoughtProcess :: 
+:: :: 

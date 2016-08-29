@@ -1,0 +1,28 @@
+Homeworld 2 : FunctionPlayer_GetNumberOfSquadronsOfTypeAwakeOrSleeping
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(<iPlayerIndex>, <sShipType>)
+
+Description
+
+Returns the total number of squadrons belonging to <iPlayerIndex> that contain ships of type <sShipType>. Counts both awake and sleeping squadrons.
+
+Example
+
+Player_GetNumberOfSquadronsOfTypeAwakeOrSleeping(0, "Hgn_AttackBomber")
+
+Arguments
+
+<iPlayerIndex>: the index number of the player.
+<sShipType>: the type of ship.
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-01-24 03:53:31  :: Owner: ThoughtProcess :: 
+:: :: 

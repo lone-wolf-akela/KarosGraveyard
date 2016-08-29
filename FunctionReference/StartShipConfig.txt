@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionStartShipConfig
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+StartShipConfig()
+
+Description
+
+Instantiates and returns a Ship object to build a ship around. This is always the first non-commented line in a .ship file.
+
+Example
+
+NewShipType = StartShipConfig()
+
+Arguments
+
+None.
+
+Related Pages:
+
+StartMissileConfig() 
+Ship Variable Reference 
+Function Reference
+
+Page History :: 2005-07-06 16:41:57  :: Owner: ToxicFrog :: 
+:: :: 

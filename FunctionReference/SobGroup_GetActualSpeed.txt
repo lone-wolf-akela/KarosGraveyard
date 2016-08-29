@@ -1,0 +1,22 @@
+Homeworld 2 : FunctionSobGroup_GetActualSpeed
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_GetActualSpeed(<sSobGroupName>)
+
+Description
+
+Returns the actual speed of the lead ship of the first squadron in <sSobGroupName>.
+
+Example
+
+
+Arguments
+
+:
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2004-02-20 23:42:09  :: Owner: ThoughtProcess :: 
+:: :: 

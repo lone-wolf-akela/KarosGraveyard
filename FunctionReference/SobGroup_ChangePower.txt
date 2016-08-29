@@ -1,0 +1,29 @@
+Homeworld 2 : FunctionSobGroup_ChangePower
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_ChangePower(<sSobGroupName>, <sJointName>, <bWeaponPower>)
+
+Description
+
+Enables or disables all weapons mounted on <sJointName> on all the squadrons in <sSobGroupName>.
+
+Example
+
+SobGroup_ChangePower("Dreadnaught", "Weapon_HullDefense1", 0)
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup to change the power of the weapons on.
+<sJointName>: name of the joint where the weapon is mounted
+<bWeaponPower>: 0 = disable, 1 = enable
+
+Scope
+
+
+Related Pages:
+
+Function Reference 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-10-11 00:53:48  :: Owner: ThoughtProcess :: 
+:: :: 

@@ -1,0 +1,25 @@
+Homeworld 2 : FunctionSobGroup_OwnedBy
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+SobGroup_OwnedBy(<sSobGroupName>)
+
+Description
+
+Returns the index number of the player who owns <sSobGroupName>.
+Returns the owner of the first owned ship in <sSobGroupName>, in the case of mixed ownership.
+
+Example
+
+
+Arguments
+
+<sSobGroupName>: the name of the sobgroup.
+
+Related Pages:
+
+Function Reference 
+Scope: Gametype 
+SCAR (SCripting at Relic) Reference
+
+Page History :: 2006-06-22 23:12:17  :: Owner: ThoughtProcess :: 
+:: :: 

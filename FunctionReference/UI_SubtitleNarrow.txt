@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_SubtitleNarrow
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_SubtitleNarrow()
+
+Description
+
+Unknown.
+
+Example
+
+UI_SubtitleNarrow()
+
+Arguments
+
+None.
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2005-08-09 15:48:58  :: Owner: ThoughtProcess :: 
+:: :: 

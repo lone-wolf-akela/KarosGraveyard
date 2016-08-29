@@ -1,0 +1,23 @@
+Homeworld 2 : FunctionUI_ReloadScreen
+Karos Graveyard :: 
+Function Reference :: Scope Reference :: Variable Reference 
+UI_ReloadScreen(<sScreenName>)
+
+Description
+
+Reloads <sScreenName> from the script (thereby cancelling any modifications made after loading).
+
+Example
+
+UI_ReloadScreen('myScreen') Note: no instances of this function could be found within the game files.
+
+Arguments
+
+<sScreenName>: the name of the screen (as in data:ui/mainui/uisettings.lua)
+
+Related Pages:
+
+Function Reference
+
+Page History :: 2006-07-03 07:29:02  :: Owner: ThoughtProcess :: 
+:: :: 
