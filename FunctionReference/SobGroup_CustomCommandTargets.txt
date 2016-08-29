@@ -1,20 +1,16 @@
 SobGroup_CustomCommandTargets(<specialAttackers>, <targets>)
 
 Description
-
-	（未验证）使制定舰船对另一舰船使用指向性的CustomCommand
+	（未验证）使指定舰船对另一舰船使用指向性的CustomCommand
 
 Example
-
 	SobGroup_CustomCommandTargets(specialAttackers, targets) ——（Data:scripts\scar\kasutil.lua）
 
 Arguments
-
 	<specialAttackers>: (string)包含需要使用CustomCommand的舰船的SobGroup名
 	<targets>: (string)包含CustomCommand使用对象的SobGroup名
 
 Scope
-
 	Gamerule
 
 Related Functions:
