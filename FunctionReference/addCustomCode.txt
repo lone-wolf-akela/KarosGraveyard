@@ -1,0 +1,42 @@
+addCustomCode(NewShipType, <CustomCodePath>, <FunctionLoad>, <FunctionCreate>, <FunctionUpdate>, <FunctionDestroy>, <CustomGroup>, <iRefreshTime>)
+
+Description
+	为舰船添加CustomCode脚本
+
+Example
+	addCustomCode(NewShipType,"data:Ship/Kus_Mothership/Kus_Mothership.lua","Load_Kus_Mothership","Create_Kus_Mothership","Update_Kus_Mothership","Destroy_Kus_Mothership","Kus_Mothership",4)
+		——（Data:Ship/Kus_Mothership/Kus_Mothership.ship）
+
+Arguments
+	<CustomCodePath>：(string)该型船只调用的自定义代码文件路径。
+
+	<FunctionLoad>：(string)该型船只的ship文件在游戏中被每个玩家初次读取加载时（通常是一场游戏开始时）呼叫的函式名称。
+
+	<FunctionCreate>：(string)任意该型船只第一次在游戏中出现时呼叫的函式名称。
+
+	<FunctionUpdate>：(string)任意该型船只在游戏中反复呼叫的函式名称。
+
+	<FunctionDestroy>：(string)任意该型船只死亡时呼叫的函式名称。
+
+	<CustomGroup>：(string)在执行<FunctionCreate>, <FunctionUpdate>, <FunctionDestroy>指定的函数时，将会自动建立一个名为<CustomGroup>的临时Sobgroup并将调用CustomCode的那艘船添加进这个Sobgroup，同时<CustomGroup>的值将作为参数传递给<FunctionCreate>, <FunctionUpdate>, <FunctionDestroy>。
+		通常将CustomGroup设置为船只的文件名称。
+
+	<iRefreshTime>：(number)游戏中反复呼叫<FunctionUpdate>的时间间隔（单位秒）。
+
+Scope
+	Ship
+
+Note
+	关于<FunctionLoad>, <FunctionCreate>, <FunctionUpdate>, <FunctionDestroy>四个函数：
+	这四个函数都应定义于<CustomCodePath>指定的脚本文件中。其中<FunctionLoad>格式为：
+	<FunctionLoad>(playerIndex)，参数(number)playerIndex为呼叫该函数的玩家编号；（示例：function Load_Kus_Mothership(playerIndex)）
+	其余三个函数格式为：
+	<FunctionCreate/FunctionUpdate/FunctionDestroy>(CustomGroup, playerIndex, shipID)，
+		参数(string)CustomGroup为呼叫该函数的addCustomCode函数中指定的<CustomGroup>；
+		参数(number)playerIndex为呼叫该函数的玩家编号；
+		参数(number)shipID是一个整数，对于不同的呼叫该函数的船只，该数值是唯一且确定的，因此可以用于标识同种船只的不同个体；
+		（示例：function Create_Kus_Mothership(CustomGroup, playerIndex, shipID) ）
+
+	要注意到<FunctionLoad>与其他三个函数的不同。对于每一个玩家，在每场比赛中<FunctionLoad>至多执行一次，但是每一艘同种船只的不同个体都会各自独立的呼叫剩余的三个函数。
+	
+Related Functions:
