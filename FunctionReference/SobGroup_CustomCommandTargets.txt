@@ -1,16 +1,17 @@
 SobGroup_CustomCommandTargets(<specialAttackers>, <targets>)
 
 Description
-	£¨Î´ÑéÖ¤£©Ê¹Ö¸¶¨½¢´¬¶ÔÁíÒ»½¢´¬Ê¹ÓÃÖ¸ÏòĞÔµÄCustomCommand
+	ï¼ˆæœªéªŒè¯ï¼‰ä½¿æŒ‡å®šèˆ°èˆ¹å¯¹å¦ä¸€èˆ°èˆ¹ä½¿ç”¨æŒ‡å‘æ€§çš„CustomCommand
 
 Example
-	SobGroup_CustomCommandTargets(specialAttackers, targets) ¡ª¡ª£¨Data:scripts\scar\kasutil.lua£©
+	SobGroup_CustomCommandTargets(specialAttackers, targets) â€”â€”ï¼ˆData:scripts\scar\kasutil.luaï¼‰
 
 Arguments
-	<specialAttackers>: (string)°üº¬ĞèÒªÊ¹ÓÃCustomCommandµÄ½¢´¬µÄSobGroupÃû
-	<targets>: (string)°üº¬CustomCommandÊ¹ÓÃ¶ÔÏóµÄSobGroupÃû
+	<specialAttackers>: (string)åŒ…å«éœ€è¦ä½¿ç”¨CustomCommandçš„èˆ°èˆ¹çš„SobGroupå
+	<targets>: (string)åŒ…å«CustomCommandä½¿ç”¨å¯¹è±¡çš„SobGroupå
 
 Scope
 	Gamerule
 
 Related Functions:
+	SobGroup_CustomCommand
