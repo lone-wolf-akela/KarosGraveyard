@@ -314,8 +314,39 @@ Abilities
 			这是HWRM中增加的一代救援艇使用的捕捉能力
 			
 	CustomCommand
-		addAbility(NewShipType,"CustomCommand",<bIsActive>,"Drones",1,0,<fCapacity>,<fEnergyCutoff>,<fEnergyCost>,<fEnergyRegen>,<fEnergyMinimum>,<sCustomCodePath>,<sFunctionStart>,<sFunctionDo>,<sFunctionFinish>,<sCustomGroup>,<fRefreshTime>,<iCmdIndex>,<?bExplode?latent?>)
+		addAbility(NewShipType,"CustomCommand",<bIsActive>,<sName>,<numUnknown1>,<numUnknown2>,<fCapacity>,<fEnergyCutoff>,<fEnergyCost>,<fEnergyRegen>,<fEnergyMinimum>,<sCustomCodePath>,<sFunctionStart>,<sFunctionDo>,<sFunctionFinish>,<sCustomGroup>,<fRefreshTime>,<iCmdIndex>,<?bLatent?bExplode?>)
 		Example
 			addAbility(NewShipType,"CustomCommand",1,"Drones",1,0,1000,200,0.35,2.8,0,"data:Ship/Kus_DroneFrigate/Kus_DroneFrigate.lua","Start_DroneFrigate","Do_DroneFrigate","Finish_DroneFrigate","Kus_DroneFrigate",1.15,2,1)
 			addAbility(NewShipType,"CustomCommand",1,"$3191",1,0,300,1,0.65,0.0,300,"data:Ship/Kus_GravWellGenerator/Kus_GravWellGenerator.lua","Start_Kus_GravWellGenerator","Do_Kus_GravWellGenerator","Finish_Kus_GravWellGenerator","Kus_GravWellGenerator",1.9,1,1,1,1)
-未完待续
+		Note
+			注意<iCmdIndex>之后的参数并不是很清楚。事实上在上面的示例中你可以看到有两种不同的用法，一种是填1个1，一种是填3个1。在与GBX程序员pdeupree对话中他提到有<bLatent>和<bExplode>两个参数，但是我们依然不能确定到底哪个是哪个。
+		Arguments
+			<bIsActive>: 1代表单位默认拥有此能力，0代表单位默认不拥有该能力，但可通过其他方法获得该能力（如研究或子系统，具体获得方式目前尚不明确）
+			<sName>: 作用不明。似乎是自定义命令的名字。官方文件中有时会使用$开头的本土化字符串。
+			<numUnknown1>: 作用不明，通常填1。
+			<numUnknown2>: 作用不明，通常填0。
+			<fCapacity>: 总能量（这里和单位的防御场能力的参数类似，自定义命令生效期间，会消耗“能量”能量耗尽后自定义命令停止执行）
+			<fEnergyCutoff>: 当能量小于或等于这个值时，可以手动解除自定义命令
+			<fEnergyCost>: 每0.1秒消耗的能量数。
+			<fEnergyRegen>: 解除自定义命令时每0.1秒回复的能量数。
+			<fEnergyMinimum>: 执行自定义命令所需的最小剩余能量。
+			<sCustomCodePath>: 调用的自定义命令代码文件路径。
+			<sFunctionStart>: 自定义命令开始执行时调用的函式名称，函式在自定义命令代码文件中定义。
+			<sFunctionDo>: 自定义命令执行过程中调用的函式名称，函式在自定义命令代码文件中定义。
+			<sFunctionFinish>: 自定义命令停止执行时调用的函式名称，函式在自定义命令代码文件中定义。
+			<sCustomGroup>: 在执行<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>指定的函数时，将会自动建立一个名为<sCustomGroup>的临时Sobgroup并将调用CustomCommand的那艘船添加进这个Sobgroup，同时<sCustomGroup>的值将作为参数传递给<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>。
+				通常将CustomGroup设置为船只的文件名称。
+			<fRefreshTime>: 自定义命令执行过程中调用函式的频率，单位s
+			<iCmdIndex>: 决定自定义命令的执行按钮调用哪个图标（在ui\newui\taskbar\tb_commandpanel.lua中定义）
+			<bLatent>: custom command flag to make it run as latent - If true, this custom command can run while another command is active (used to allow commands to keep running while you move ships, attack, etc).
+			<bExplode>: custom command flag to destroy ship when depleted - When usage energy runs out, ship will explode.
+		Note2
+			关于<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>三个函数：
+			这四个函数都应定义于<sCustomCodePath>指定的脚本文件中。函数格式为：
+			<sFunctionStart/sFunctionDo/sFunctionFinish>(CustomGroup, playerIndex, shipID)，
+				参数(string)CustomGroup为呼叫该函数的CustomCommand函数中指定的<sCustomGroup>；
+				参数(number)playerIndex为呼叫该函数的玩家编号；
+				参数(number)shipID是一个整数，对于不同的呼叫该函数的船只，该数值是唯一且确定的，因此可以用于标识同种船只的不同个体；
+				（示例：Do_DroneFrigate(CustomGroup, playerIndex, shipID)）
+			同时，在Madstate文件中，有CustomCommandActivate和CustomCommandDeActivate两个state可以配合使用。
+			
