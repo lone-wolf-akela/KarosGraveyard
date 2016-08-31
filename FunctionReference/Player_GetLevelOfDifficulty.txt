@@ -1,0 +1,25 @@
+Player_GetLevelOfDifficulty(<iPlayerIndex>)
+
+Description
+	获取指定编号的玩家的AI难度等级。
+	可能的返回值包括：
+		0：人类
+		1：简单AI
+		2：标准AI
+		3：困难AI
+		4：专家AI
+
+Example
+	if Player_GetLevelOfDifficulty(playerIndex) > 0 then ... end
+		——（Data:ship/kus_dronefrigate/kus_dronefrigate.lua）
+
+Arguments
+	<iPlayerIndex>: 玩家编号
+
+Scope
+	Gamerule
+	
+Note
+	这个函数是在HWRM中新增的。在经典版HW2中有一个函数CPU_Exist可以用于判断一个玩家是人类还是AI，但是那个函数似乎会造成联机超出同步。而Player_GetLevelOfDifficulty并不会造成超同，所以最好在所有需要判断玩家为人类还是AI的代码中都使用Player_GetLevelOfDifficulty而非CPU_Exist
+
+Related Functions:
