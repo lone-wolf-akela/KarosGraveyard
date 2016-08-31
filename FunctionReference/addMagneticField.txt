@@ -12,5 +12,8 @@ Arguments
 
 Scope
 	Ship
+	
+Note
+	似乎在madstate里有MagneticFieldActivate和MagneticFieldDeActivate两个state，然而因为这个盾是永久的所以并不确定这两个state到底有没有作用。（meshanimation.lua文件里似乎也没有这两个state）
 
 Related Functions:
