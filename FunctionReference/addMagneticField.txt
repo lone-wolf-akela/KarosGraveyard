@@ -1,0 +1,16 @@
+addMagneticField(NewShipType, <sFieldname>, <fRadius>, <fMissileBlockPercent>, <sMissileBlockedEffect>, <fBulletBlockPercent>, <sBulletBlockedEffect>, <fInstantBlockPercent>, <sInstantBlockEffect>, <sFieldEffect>)
+
+Description
+	为舰船添加一个永久性的护盾
+
+Example
+	addMagneticField(NewShipType,"MagneticField",1000,99,"defenseField_generic",15,"defenseField_generic",99,"plasma_hit_spray_MagneticField","defensefield_sphere_spray_TFF");
+		——（Data:ship/tai_fieldfrigate/tai_fieldfrigate.ship）
+
+Arguments
+	有空再填（不过看参数名字已经很明白了吧）
+
+Scope
+	Ship
+
+Related Functions:
