@@ -1,0 +1,21 @@
+SobGroup_GetShipType(<sSobGroup>)
+
+Description
+  获取<sSobGroup>指定的SobGroup内船只的名字。
+  如果指定的SobGroup内有多艘船只，则只会返回其中某一种船只的名字。
+  返回值是类似于"Vgr_ResourceCollector"这样的字符串
+  
+Example
+	dockingType = SobGroup_GetShipType(docking)
+		——（Data:scripts/scar/singleplayerflow.lua）
+
+Arguments
+	<sSobGroup>: SobGroup名
+
+Scope
+	Gamerule
+	
+Note
+	这个函数是在HWRM中新增的
+
+Related Functions:
