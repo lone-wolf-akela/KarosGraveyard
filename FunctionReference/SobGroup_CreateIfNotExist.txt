@@ -1,6 +1,6 @@
 SobGroup_CreateIfNotExist(<sSobGroupName>)
 
 Description
-	�����Ϊ<sSobGroupName>��SobGroup�����ڣ��򴴽�һ���յ���Ϊ<sSobGroupName>��SobGroup��
+	如果名为<sSobGroupName>的SobGroup不存在，则创建一个空的名为<sSobGroupName>的SobGroup。
 
-	�ƺ���SobGroup_Create()Ч����ȫ��ͬ��
+	似乎与SobGroup_Create()效果完全相同。

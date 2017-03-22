@@ -1,6 +1,6 @@
 SobGroup_Create(<sSobGroupName>)
 
 Description
-	Áî<sSobGroupName>ÖÐµÄËùÓÐ½¢´¬Á¢¿ÌËÀÍö¡£
+	ä»¤<sSobGroupName>ä¸­çš„æ‰€æœ‰èˆ°èˆ¹ç«‹åˆ»æ­»äº¡ã€‚
 
-	²»Í¬ÓÚSobGroup_SetHealth(<sSobGroupName>, 0)ºÍSobGroup_TakeDamage(<sSobGroupName>, 1)£¬SobGroup_Create()º¯Êý²¢²»»á´¥·¢µ¥Î»µÄËÀÍöÌØÐ§£¬¶øÊÇÊ¹µ¥Î»´ÓµØÍ¼ÉÏË²¼äÏûÊ§¡£
+	ä¸åŒäºŽSobGroup_SetHealth(<sSobGroupName>, 0)å’ŒSobGroup_TakeDamage(<sSobGroupName>, 1)ï¼ŒSobGroup_Create()å‡½æ•°å¹¶ä¸ä¼šè§¦å‘å•ä½çš„æ­»äº¡ç‰¹æ•ˆï¼Œè€Œæ˜¯ä½¿å•ä½ä»Žåœ°å›¾ä¸Šçž¬é—´æ¶ˆå¤±ã€‚

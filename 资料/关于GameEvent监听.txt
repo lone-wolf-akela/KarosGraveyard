@@ -1,8 +1,8 @@
-�ţ���������Ҫ�����ǹ������µ�����������
+嗯，所以我们要讲的是关于以下的三个函数：
 	GameEvent_Listen(<iEventID>,<sCallback>)
 	GameEvent_IsListening(<iEventID>)
 	GameEvent_UnListen(<iEventID>)
-��һ�����׵����ͳ�����
+和一堆配套的整型常量：
 	GE_CloakingStatusChange = 29
 	GE_CloudEvent = 43 
 	GE_Combat = 36 
@@ -37,34 +37,34 @@
 	GE_TacticsSet = 32 
 	GE_UnitCapsReached = 42 
 
-���ν���������������
+依次解释下这三个函数
 GameEvent_Listen(<iEventID>,<sCallback>)
-	����<iEventID>���������¼���ţ������г�����Щ����������Ч���¼�ID
-	����<sCallback>���ַ������ص���������������Rule_Add()������һ���ַ���ָ��һ��������
-	�޷���ֵ
-	������
-		�����������������<iEventID>ָ���ġ��¼����ļ���������<sCallback>ָ���ĺ�����<iEventID>��Ӧ���¼����󶨡������<iEventID>ָ����ֵ����Ч���¼�ID������<sCallback>ָ���ĺ���ȷʵ���ڵĻ���һ��ս���ϣ��ƺ���������һ����ң�Ҳ�����Ƿ��ڵ�ǰ�����Ұ�ڣ�������ָ�����¼����������<sCallback>������
-		������<iEventID>��Ӧ���¼��ļ����Ѿ����������ٴε��øú����Ὣ���¼���֮ǰ�趨�Ļص�������󣬲����½����¼������趨��<sCallback>�󶨡�
+	参数<iEventID>：整数，事件编号，上面列出的那些常量都是有效的事件ID
+	参数<sCallback>：字符串，回调函数名（类似于Rule_Add()那种用一个字符串指定一个函数）
+	无返回值
+	描述：
+		这个函数会启动对于<iEventID>指定的“事件”的监听，并将<sCallback>指定的函数与<iEventID>对应的事件“绑定”。如果<iEventID>指定的值是有效的事件ID，并且<sCallback>指定的函数确实存在的话，一旦战场上（似乎无论是哪一个玩家，也无论是否在当前玩家视野内）发生了指定的事件，都会呼叫<sCallback>函数。
+		如果针对<iEventID>对应的事件的监听已经启动过，再次调用该函数会将该事件与之前设定的回调函数解绑，并重新将该事件与新设定的<sCallback>绑定。
 		
 GameEvent_IsListening(<iEventID>)
-	����<iEventID>���������¼����
-	����ֵ���ַ�������
-	������
-		��������᷵����GameEvent_Listen�ж�ָ����<iEventID>�󶨵�<sCallback>��ֵ��
-		�����ָ��<iEventID>�ļ�����δ��������ô����ֵ���ǿ��ַ���("")
+	参数<iEventID>：整数，事件编号
+	返回值：字符串类型
+	描述：
+		这个函数会返回在GameEvent_Listen中对指定的<iEventID>绑定的<sCallback>的值。
+		如果对指定<iEventID>的监听尚未启动，那么返回值会是空字符串("")
 		
 GameEvent_UnListen(<iEventID>)
-	����<iEventID>���������¼����
-	�޷���ֵ
-	������
-		���<iEventID>ָ���¼������Ӧ��<sCallback>�İ󶨣���ֹͣ��<iEventID>�ļ�����
-		ע��ʹ�ô˺���ʱ���뱣֤��<iEventID>�ļ����Ѿ�������������Ϸ�ᱨ��������
+	参数<iEventID>：整数，事件编号
+	无返回值
+	描述：
+		解除<iEventID>指定事件与其对应的<sCallback>的绑定，并停止对<iEventID>的监听。
+		注意使用此函数时必须保证对<iEventID>的监听已经启动，否则游戏会报错跳出。
 	
-���彲��һ�¹���<iEventID>��<sCallback>��
-	���ȣ���Rule_Add()���ຯ����ͬ��<sCallback>ָ���ĺ������Խ��������ַ�����������Ӧ�󲿷�<iEventID>������������������ǿ��ַ���������������SalCap��ص��¼�������1��2��������ʱ��sobgroup�����֣���һ��sobgroup����ִ��SalCap�Ĵ�����Ԯͧ�����ڶ����������ץ���Ǹ���ֻ������һЩ��Dock��ص��¼�����һ������ָ����sobgroup��������ͣ��/��ɵĵ�λ������С�ɻ��������ڶ�������ָ����sobgroup���������ͣ���ĵ�λ�����纽ĸ����
-	����û�в��Թ����е��¼�ID���������Թ���ID��ֻ��SalCap��Dock��صĻᴫ��sobgroup�����ص�������
-	���������ӣ�
-	��gamerule�ڣ�
+具体讲解一下关于<iEventID>和<sCallback>：
+	首先，和Rule_Add()这类函数不同，<sCallback>指定的函数可以接受两个字符串参数。对应大部分<iEventID>，传入的这两个参数是空字符串，但对于所有SalCap相关的事件，参数1、2是两个临时的sobgroup的名字，第一个sobgroup包含执行SalCap的船（救援艇），第二个则包含被抓的那个船只；对于一些与Dock相关的事件，第一个参数指定的sobgroup包含正在停泊/起飞的单位（例如小飞机），而第二个参数指定的sobgroup则包含接受停泊的单位（例如航母）。
+	（我没有测试过所有的事件ID，但是我试过的ID里只有SalCap和Dock相关的会传递sobgroup名给回调函数）
+	举以下例子：
+	（gamerule内）
 	......
 	function testFunc(a,b)
 		SobGroup_TakeDamage(b, 1)
@@ -72,41 +72,41 @@ GameEvent_UnListen(<iEventID>)
 	function OnInit()
 		GameEvent_Listen(GE_SalCapStarting,"testFunc")
 	......
-	�����趨��һ������������Ҷ��Լ��ľ�Ԯͧ�´ﲶ׽ĳ�ҵн�������ʱ����ָ���ĵн������̱�ը��
+	这样设定后，一旦场上任意玩家对自己的救援艇下达捕捉某艘敌舰的命令时，被指定的敌舰会立刻爆炸。
 	
-	����<iEventID>���ܽ����£���û�����Թ���һ�űꡰδ֪������Ȼ�м�����ܴ������Ͽ��Ѿ�����Ȼ�ˣ���
-		GE_CloakingStatusChange��δ֪
-		GE_CloudEvent��δ֪
-		GE_Combat���ƺ����ڳ����������������������������ʱ�ᱻ�������������´﹥��������׼����û�����ʱ���ᴥ������ս������ʱ����������ر�������
-		GE_CommandCancelled��δ֪
-		GE_CommandComplete��δ֪
-		GE_CommandCouldNotBeIssued��δ֪
-		GE_CommandGiven���������κ���ң��ƺ�����AI�����κε�λ�´�ָ��ʱ���ش���
-		GE_DefenseFieldStatusChange���κη������������ķ������������ر�ʱ���ش���
-		GE_EngagementRangeForceSet��δ֪
-		GE_EngagementRangeSet��δ֪ 
-		GE_Hyperspace�������д�ֻ������ʱ�򴥷���ÿֻ�����Ĵ����ظ��Դ���һ�Ρ����������볡���Ǵγ���Ҳ��Ч��
-		GE_PlayerAlliance��δ֪ 
-		GE_ResourceCollection��δ֪ 
-		GE_SalCapCapturedTarget����SalCap�Ĵ�ֻ�ġ�ϴ�ԡ��Ѿ����ʱ����������<sCallback>���ݲ�����
-		GE_SalCapGrabbedTarget��δ֪ 
-		GE_SalCapHandoffTarget��δ֪ 
-		GE_SalCapHarvestedTech��δ֪ 
-		GE_SalCapLatchedTarget����Ԯͧ��ȫ�����ϡ��н�ʱ����������<sCallback>���ݲ�����
-		GE_SalCapReturningTarget����Ԯͧ��ʼ���ŵн�����ʱ����������<sCallback>���ݲ�����
-		GE_SalCapStarting��������´ﲶ׽����ʱ������ע��������ͬʱѡ�������Ԯͧһͬ�´������ôֻ��ȷʵ���ж��ľ�Ԯͧ�ᴥ�����¼�������˵����ѡ����12�Ҿ�Ԯͧ���Ҽ���̩̹�ɼ�������Ϊ�ɼ�����Ҫ���Ҿ�Ԯͧ���ˣ����Ի������Ҿ�Ԯͧ�ֱ������һ�θ��¼���ͬʱע���¼��Ĵ��������εģ�Ҳ����˵������ǰ����Ǹ��õн���ը�����ӣ������ѡ����12�Ҿ�Ԯͧ���Ҽ���̩̹�ɼ����������ҵ�һ�Ҳɼ����ᴥ���¼���Ȼ��н���ը���ˣ����Բ������еڶ��Ҳɼ��������¼�������<sCallback>���ݲ�����
-		GE_SalCapTechnologyReturned��δ֪ 
-		GE_SalCapWaiting ��δ֪ 
-		GE_ShipCaptured��δ֪ 
-		GE_ShipCaptureFailed��δ֪ 
-		GE_ShipDocked�����д�ֻͣ����������ֻʱ������Ӧ������ͣ���ɹ��������ǻ���ͣ����·�ϣ�ʱ����������<sCallback>���ݲ�����
-		GE_ShipLaunched������ԭ������ͣ��״̬�Ĵ�ֻ����ʱ����������<sCallback>���ݲ�����
-		GE_ShipRepairs������ά�ޡ�����ʱ�������ƺ����Ҳ�̫ȷ����ֻ�Զ������͵�ά����Ч�����������´�ά��ָ���ʱ�򴥷��������ڲɼ���ȷʵ������ȥ��ʼ�Ż𻨺��ӵ�ʱ�򴥷���
-		GE_SpecialSpeech��δ֪ 
-		GE_SquadronSpotted��δ֪ 
-		GE_StrikeGroupFormed���������Ϊ��λѡ�����͵�ʱ�򴥷������ƺ����ڵ�λ��ȫ��λ�����齨���ʱ�Ŵ����������Ҳ�̫ȷ����
-		GE_SubSystem���ƺ������������굥��ѡ���κ���ϵͳʱ����������ȷ�����Ҿ��Թ�һ�Σ�
-		GE_TacticsSet��������޸ĵ�λ��Tactics����Ȼ��2.x�汾����ROE��ʱ������
-		GE_UnitCapsReached��δ֪ 
+	对于<iEventID>，总结如下（我没具体试过的一概标“未知”，虽然有几项可能从名字上看已经很显然了）：
+		GE_CloakingStatusChange：未知
+		GE_CloudEvent：未知
+		GE_Combat：似乎是在场上有武器射击或者是有武器命中时会被触发。单纯的下达攻击命令瞄准但是没有射击时不会触发。在战斗持续时会持续反复地被触发。
+		GE_CommandCancelled：未知
+		GE_CommandComplete：未知
+		GE_CommandCouldNotBeIssued：未知
+		GE_CommandGiven：场上有任何玩家（似乎包括AI）对任何单位下达指令时都回触发
+		GE_DefenseFieldStatusChange：任何防御场护卫舰的防御场启动、关闭时都回触发
+		GE_EngagementRangeForceSet：未知
+		GE_EngagementRangeSet：未知 
+		GE_Hyperspace：场上有船只超跳的时候触发。每只超跳的船都回各自触发一次。包括开局入场的那次超跳也有效。
+		GE_PlayerAlliance：未知 
+		GE_ResourceCollection：未知 
+		GE_SalCapCapturedTarget：被SalCap的船只的“洗脑”已经完成时触发。会向<sCallback>传递参数。
+		GE_SalCapGrabbedTarget：未知 
+		GE_SalCapHandoffTarget：未知 
+		GE_SalCapHarvestedTech：未知 
+		GE_SalCapLatchedTarget：救援艇完全“贴上”敌舰时触发。会向<sCallback>传递参数。
+		GE_SalCapReturningTarget：救援艇开始扛着敌舰返回时触发。会向<sCallback>传递参数。
+		GE_SalCapStarting：当玩家下达捕捉命令时触发。注意如果玩家同时选定多个救援艇一同下达命令，那么只有确实会行动的救援艇会触发该事件。举例说，我选择了12艘救援艇并右键敌泰坦采集船，因为采集船需要两艘救援艇搬运，所以会有两艘救援艇分别各触发一次该事件。同时注意事件的触发是依次的，也就是说，比如前面的那个让敌舰爆炸的例子，如果我选择了12艘救援艇并右键敌泰坦采集船，首先我的一艘采集船会触发事件，然后敌舰就炸掉了，所以不会再有第二艘采集船触发事件。会向<sCallback>传递参数。
+		GE_SalCapTechnologyReturned：未知 
+		GE_SalCapWaiting ：未知 
+		GE_ShipCaptured：未知 
+		GE_ShipCaptureFailed：未知 
+		GE_ShipDocked：当有船只停泊到其他船只时触发，应当是在停泊成功（而不是还在停泊的路上）时触发。会向<sCallback>传递参数。
+		GE_ShipLaunched：当有原本处于停泊状态的船只发射时触发。会向<sCallback>传递参数。
+		GE_ShipRepairs：当“维修”发生时触发。似乎（我不太确定）只对二代类型的维修有效。并不是在下达维修指令的时候触发，而是在采集船确实地贴上去开始放火花焊接的时候触发。
+		GE_SpecialSpeech：未知 
+		GE_SquadronSpotted：未知 
+		GE_StrikeGroupFormed：当有玩家为单位选定阵型的时候触发。（似乎是在单位完全到位阵型组建完成时才触发，不过我不太确定）
+		GE_SubSystem：似乎是在有玩家鼠标单击选定任何子系统时触发。（不确定，我就试过一次）
+		GE_TacticsSet：在玩家修改单位的Tactics（当然在2.x版本上是ROE）时触发。
+		GE_UnitCapsReached：未知 
 		
-����ᵽһ����Ȥ���÷����Ǿ���GameEvent_Listen��������ʱ�趨��<iEventID>����һ��Ҫ��һ����Ч���¼���ţ�ֻ��Ҫ�Ǹ������Ϳ����ˣ���<sCallback>Ҳ��һ����Ҫһ��ȷʵ���ڵĺ�����ֻҪ�Ǹ��ַ����Ϳ����ˣ�����ַ����������԰����ո񣩡���Ȼ�����Ļ��������������������ᱻ�����ˣ�������Ȥ����GameEvent_IsListening��Ȼ���Է���֮ǰ��GameEvent_Listen�趨���Ǹ��ַ�����ֵ�����ң��ر�ģ�������������rule��customcode������Χ�ڶ�����ʹ�ö�������ͨ�ġ�Ҳ����˵���������rule��дGameEvent_Listen(12345,"Go up the mountain and hit the tiger")��Ȼ����customcode��GameEvent_IsListening(12345)��Ȼ�����᷵�� "Go up the mountain and hit the tiger"����Ӧ�ÿ���������������Χ��ͨ�š�
+最后提到一点有趣的用法。那就是GameEvent_Listen函数调用时设定的<iEventID>并不一定要是一个有效的事件编号（只需要是个整数就可以了），<sCallback>也不一定是要一个确实存在的函数（只要是个字符串就可以了，这个字符串甚至可以包括空格）。当然这样的话无论如何这个监听都不会被触发了，但是有趣的是GameEvent_IsListening依然可以返回之前用GameEvent_Listen设定的那个字符串的值。而且，特别的，这三个函数在rule和customcode两个范围内都可以使用而且是相通的。也就是说，你可以在rule里写GameEvent_Listen(12345,"Go up the mountain and hit the tiger")，然后在customcode里GameEvent_IsListening(12345)，然后函数会返回 "Go up the mountain and hit the tiger"。这应该可以用于在两个范围间通信。

@@ -48,7 +48,7 @@ Abilities
 			<sDockFamilies>: a comma-separated list of dock families that may stay in the shiphold when docked.
 			<fRepairRate>: the number of HP repaired per second (or per turn. dunno).
 			<tRepairException1> thru <tRepairException4>: exceptions that override <fRepairRate> for the specified dock family.
-			PS：原卡洛斯坟场中的这段参数描述似乎有些混乱，不过这里的<tRepairException1> thru <tRepairException4>应该就是指<sDockFamilyList>
+			PS锛氬師鍗℃礇鏂潫鍦轰腑鐨勮繖娈靛弬鏁版弿杩颁技涔庢湁浜涙贩涔憋紝涓嶈繃杩欓噷鐨?tRepairException1> thru <tRepairException4>搴旇灏辨槸鎸?sDockFamilyList>
 
 	ParadeCommand
 		addAbility(<rShip>, "ParadeCommand", <bIsActive>)
@@ -104,7 +104,7 @@ Abilities
 				<fDistanceMultiplier>: the distance multiplier from target before attack styles get control.
 				<sAttackFamilies>: a comma-separated list of attack families, in order of highest to lowest attack priority.
 				----------------------------------------------------------------
-				注意，以下内容引自https://forums.gearboxsoftware.com/t/official-homeworld-balance-mod/552219；我不确定这些是从HWRM的哪个版本开始就可以使用的，不过我很确定1.30版本里这些就已经可以使用了。			
+				娉ㄦ剰锛屼互涓嬪唴瀹瑰紩鑷猦ttps://forums.gearboxsoftware.com/t/official-homeworld-balance-mod/552219锛涙垜涓嶇‘瀹氳繖浜涙槸浠嶩WRM鐨勫摢涓増鏈紑濮嬪氨鍙互浣跨敤鐨勶紝涓嶈繃鎴戝緢纭畾1.30鐗堟湰閲岃繖浜涘氨宸茬粡鍙互浣跨敤浜嗐€?		
 				Dynamic Target Priorities
 					In conjunction with AttackPriorityMultiplier, the Balance Mod updates many ships with the ability to make smarter choices when attacking ships they are less effective against.
 
@@ -200,7 +200,7 @@ Abilities
 		Arguments
 			No additional arguments.
 
-	RepairCommand（重载1）	
+	RepairCommand锛堥噸杞?锛?
 		addAbility(<rShip>, "RepairCommand", <bIsActive>, <fHoverDistance>, <fRepairRate>, <tRepairException1>, ..., <tRepairExceptionN>)
 		Example
 			addAbility(NewShipType, "RepairCommand", 0, 500, 9, {SuperCap = "18",}, {Flagship = "18",})
@@ -210,7 +210,7 @@ Abilities
 			<fRepairRate>: number of HP restored per turn (1 turn = 0.1 seconds).
 			<tRepairException1> thru <tRepairExceptionN>: overrides <fRepairRate> for the named dock family.
 
-	RepairCommand（重载2）	
+	RepairCommand锛堥噸杞?锛?
 		Example
 			addAbility(NewShipType,"RepairCommand",1,750,1,1,"Frontal_RepairCorvette",
 				{Flagship=2.0},
@@ -228,8 +228,8 @@ Abilities
 				{Mothership="Frontal_RepairCorvette_Mothership"});
 				addAbility(NewShipType,"RetireAbility",1,0);
 		Note
-			这是在HWRM中为一代维修火炬类型的维修方式而设置的能力参数，其具体的参数设置内容还不太清楚，不过似乎是RepairCommand（重载1）和CanAttack的某种结合。
-			这个ability似乎应该配合一个负攻击力的武器使用。
+			杩欐槸鍦℉WRM涓负涓€浠ｇ淮淇伀鐐被鍨嬬殑缁翠慨鏂瑰紡鑰岃缃殑鑳藉姏鍙傛暟锛屽叾鍏蜂綋鐨勫弬鏁拌缃唴瀹硅繕涓嶅お娓呮锛屼笉杩囦技涔庢槸RepairCommand锛堥噸杞?锛夊拰CanAttack鐨勬煇绉嶇粨鍚堛€?
+			杩欎釜ability浼间箮搴旇閰嶅悎涓€涓礋鏀诲嚮鍔涚殑姝﹀櫒浣跨敤銆?
 
 	CloakAbility
 		addAbility(<rShip>, "CloakAbility", <bIsActive>, <iCloakNumber>, <fCloakRadius>, <fEnergyCutoff>, <fEnergyUsage>, <fEnergyCost>, <fEnergyRegen>, <fEnergyMinimum>)
@@ -269,7 +269,7 @@ Abilities
 			<bIsActive>: is the ability active by default? (0 = inactive, 1 = active)
 			<bTimeToLay>: the amount of time required to lay a mine (in seconds).
 			Note: this ability must be enable if you want the ship able to shoot attackable missile
-			Note2: 从HWRM2.0开始我们有其他的方法打导弹了，不再需要为反导单位添加MinelayerAbility
+			Note2: 浠嶩WRM2.0寮€濮嬫垜浠湁鍏朵粬鐨勬柟娉曟墦瀵煎脊浜嗭紝涓嶅啀闇€瑕佷负鍙嶅鍗曚綅娣诲姞MinelayerAbility
 
 	DefenseFieldAbility
 		addAbility(<rShip>, "DefenseFieldAbility", <bIsActive>, <bIsEngaged>, <fFieldRadius>, <fEnergyUsage>, <fEnergyCutoff>, <fEnergyCost>, <fEnergyRegen>, <fEnergyMinimum>, <sEffectName>)
@@ -281,8 +281,8 @@ Abilities
 			<fFieldRadius>: the radius within which other ships will be defended.
 			<fEnergyUsage>: amount of energy.
 			<fEnergyCutoff>: if the remaining energy is <=[maximum - this] , you can disengage manually the ability.
-			<fEnergyCost>: amount of energy used per 十分之一秒.
-			<fEnergyRegen>: amount of energy recharged per 十分之一秒 when ability is off.
+			<fEnergyCost>: amount of energy used per 鍗佸垎涔嬩竴绉?
+			<fEnergyRegen>: amount of energy recharged per 鍗佸垎涔嬩竴绉?when ability is off.
 			<fEnergyMinimum>: if the remaining energy is >=[maximum - this] , you can engage the ability.
 			<sEffectName>: the name of the effect that determines the appearance of the field.
 
@@ -309,9 +309,9 @@ Abilities
 		Example
 			addAbility(NewShipType,"SalCapCommand",1,500,0,0)
 		Arguments
-			未知
+			鏈煡
 		Note
-			这是HWRM中增加的一代救援艇使用的捕捉能力
+			杩欐槸HWRM涓鍔犵殑涓€浠ｆ晳鎻磋墖浣跨敤鐨勬崟鎹夎兘鍔?
 			
 	CustomCommand
 		addAbility(NewShipType,"CustomCommand",<bIsActive>,<sName>,<numUnknown1>,<numUnknown2>,<fCapacity>,<fEnergyCutoff>,<fEnergyCost>,<fEnergyRegen>,<fEnergyMinimum>,<sCustomCodePath>,<sFunctionStart>,<sFunctionDo>,<sFunctionFinish>,<sCustomGroup>,<fRefreshTime>,<iCmdIndex>,<?bLatent?bExplode?>)
@@ -319,34 +319,34 @@ Abilities
 			addAbility(NewShipType,"CustomCommand",1,"Drones",1,0,1000,200,0.35,2.8,0,"data:Ship/Kus_DroneFrigate/Kus_DroneFrigate.lua","Start_DroneFrigate","Do_DroneFrigate","Finish_DroneFrigate","Kus_DroneFrigate",1.15,2,1)
 			addAbility(NewShipType,"CustomCommand",1,"$3191",1,0,300,1,0.65,0.0,300,"data:Ship/Kus_GravWellGenerator/Kus_GravWellGenerator.lua","Start_Kus_GravWellGenerator","Do_Kus_GravWellGenerator","Finish_Kus_GravWellGenerator","Kus_GravWellGenerator",1.9,1,1,1,1)
 		Note
-			注意<iCmdIndex>之后的参数并不是很清楚。事实上在上面的示例中你可以看到有两种不同的用法，一种是填1个1，一种是填3个1。在与GBX程序员pdeupree对话中他提到有<bLatent>和<bExplode>两个参数，但是我们依然不能确定到底哪个是哪个。
+			娉ㄦ剰<iCmdIndex>涔嬪悗鐨勫弬鏁板苟涓嶆槸寰堟竻妤氥€備簨瀹炰笂鍦ㄤ笂闈㈢殑绀轰緥涓綘鍙互鐪嬪埌鏈変袱绉嶄笉鍚岀殑鐢ㄦ硶锛屼竴绉嶆槸濉?涓?锛屼竴绉嶆槸濉?涓?銆傚湪涓嶨BX绋嬪簭鍛榩deupree瀵硅瘽涓粬鎻愬埌鏈?bLatent>鍜?bExplode>涓や釜鍙傛暟锛屼絾鏄垜浠緷鐒朵笉鑳界‘瀹氬埌搴曞摢涓槸鍝釜銆?
 		Arguments
-			<bIsActive>: 1代表单位默认拥有此能力，0代表单位默认不拥有该能力，但可通过其他方法获得该能力（如研究或子系统，具体获得方式目前尚不明确）
-			<sName>: 作用不明。似乎是自定义命令的名字。官方文件中有时会使用$开头的本土化字符串。
-			<numUnknown1>: 作用不明，通常填1。
-			<numUnknown2>: 作用不明，通常填0。
-			<fCapacity>: 总能量（这里和单位的防御场能力的参数类似，自定义命令生效期间，会消耗“能量”能量耗尽后自定义命令停止执行）
-			<fEnergyCutoff>: 当能量小于或等于这个值时，可以手动解除自定义命令
-			<fEnergyCost>: 每0.1秒消耗的能量数。
-			<fEnergyRegen>: 解除自定义命令时每0.1秒回复的能量数。
-			<fEnergyMinimum>: 执行自定义命令所需的最小剩余能量。
-			<sCustomCodePath>: 调用的自定义命令代码文件路径。
-			<sFunctionStart>: 自定义命令开始执行时调用的函式名称，函式在自定义命令代码文件中定义。
-			<sFunctionDo>: 自定义命令执行过程中调用的函式名称，函式在自定义命令代码文件中定义。
-			<sFunctionFinish>: 自定义命令停止执行时调用的函式名称，函式在自定义命令代码文件中定义。
-			<sCustomGroup>: 在执行<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>指定的函数时，将会自动建立一个名为<sCustomGroup>的临时Sobgroup并将调用CustomCommand的那艘船添加进这个Sobgroup，同时<sCustomGroup>的值将作为参数传递给<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>。
-				通常将CustomGroup设置为船只的文件名称。
-			<fRefreshTime>: 自定义命令执行过程中调用函式的频率，单位s
-			<iCmdIndex>: 决定自定义命令的执行按钮调用哪个图标（在ui\newui\taskbar\tb_commandpanel.lua中定义）
+			<bIsActive>: 1浠ｈ〃鍗曚綅榛樿鎷ユ湁姝よ兘鍔涳紝0浠ｈ〃鍗曚綅榛樿涓嶆嫢鏈夎鑳藉姏锛屼絾鍙€氳繃鍏朵粬鏂规硶鑾峰緱璇ヨ兘鍔涳紙濡傜爺绌舵垨瀛愮郴缁燂紝鍏蜂綋鑾峰緱鏂瑰紡鐩墠灏氫笉鏄庣‘锛?
+			<sName>: 浣滅敤涓嶆槑銆備技涔庢槸鑷畾涔夊懡浠ょ殑鍚嶅瓧銆傚畼鏂规枃浠朵腑鏈夋椂浼氫娇鐢?寮€澶寸殑鏈湡鍖栧瓧绗︿覆銆?
+			<numUnknown1>: 浣滅敤涓嶆槑锛岄€氬父濉?銆?
+			<numUnknown2>: 浣滅敤涓嶆槑锛岄€氬父濉?銆?
+			<fCapacity>: 鎬昏兘閲忥紙杩欓噷鍜屽崟浣嶇殑闃插尽鍦鸿兘鍔涚殑鍙傛暟绫讳技锛岃嚜瀹氫箟鍛戒护鐢熸晥鏈熼棿锛屼細娑堣€椻€滆兘閲忊€濊兘閲忚€楀敖鍚庤嚜瀹氫箟鍛戒护鍋滄鎵ц锛?
+			<fEnergyCutoff>: 褰撹兘閲忓皬浜庢垨绛変簬杩欎釜鍊兼椂锛屽彲浠ユ墜鍔ㄨВ闄よ嚜瀹氫箟鍛戒护
+			<fEnergyCost>: 姣?.1绉掓秷鑰楃殑鑳介噺鏁般€?
+			<fEnergyRegen>: 瑙ｉ櫎鑷畾涔夊懡浠ゆ椂姣?.1绉掑洖澶嶇殑鑳介噺鏁般€?
+			<fEnergyMinimum>: 鎵ц鑷畾涔夊懡浠ゆ墍闇€鐨勬渶灏忓墿浣欒兘閲忋€?
+			<sCustomCodePath>: 璋冪敤鐨勮嚜瀹氫箟鍛戒护浠ｇ爜鏂囦欢璺緞銆?
+			<sFunctionStart>: 鑷畾涔夊懡浠ゅ紑濮嬫墽琛屾椂璋冪敤鐨勫嚱寮忓悕绉帮紝鍑藉紡鍦ㄨ嚜瀹氫箟鍛戒护浠ｇ爜鏂囦欢涓畾涔夈€?
+			<sFunctionDo>: 鑷畾涔夊懡浠ゆ墽琛岃繃绋嬩腑璋冪敤鐨勫嚱寮忓悕绉帮紝鍑藉紡鍦ㄨ嚜瀹氫箟鍛戒护浠ｇ爜鏂囦欢涓畾涔夈€?
+			<sFunctionFinish>: 鑷畾涔夊懡浠ゅ仠姝㈡墽琛屾椂璋冪敤鐨勫嚱寮忓悕绉帮紝鍑藉紡鍦ㄨ嚜瀹氫箟鍛戒护浠ｇ爜鏂囦欢涓畾涔夈€?
+			<sCustomGroup>: 鍦ㄦ墽琛?sFunctionStart>, <sFunctionDo>, <sFunctionFinish>鎸囧畾鐨勫嚱鏁版椂锛屽皢浼氳嚜鍔ㄥ缓绔嬩竴涓悕涓?sCustomGroup>鐨勪复鏃禨obgroup骞跺皢璋冪敤CustomCommand鐨勯偅鑹樿埞娣诲姞杩涜繖涓猄obgroup锛屽悓鏃?sCustomGroup>鐨勫€煎皢浣滀负鍙傛暟浼犻€掔粰<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>銆?
+				閫氬父灏咰ustomGroup璁剧疆涓鸿埞鍙殑鏂囦欢鍚嶇О銆?
+			<fRefreshTime>: 鑷畾涔夊懡浠ゆ墽琛岃繃绋嬩腑璋冪敤鍑藉紡鐨勯鐜囷紝鍗曚綅s
+			<iCmdIndex>: 鍐冲畾鑷畾涔夊懡浠ょ殑鎵ц鎸夐挳璋冪敤鍝釜鍥炬爣锛堝湪ui\newui\taskbar\tb_commandpanel.lua涓畾涔夛級
 			<bLatent>: custom command flag to make it run as latent - If true, this custom command can run while another command is active (used to allow commands to keep running while you move ships, attack, etc).
 			<bExplode>: custom command flag to destroy ship when depleted - When usage energy runs out, ship will explode.
 		Note2
-			关于<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>三个函数：
-			这四个函数都应定义于<sCustomCodePath>指定的脚本文件中。函数格式为：
-			<sFunctionStart/sFunctionDo/sFunctionFinish>(CustomGroup, playerIndex, shipID)，
-				参数(string)CustomGroup为呼叫该函数的CustomCommand函数中指定的<sCustomGroup>；
-				参数(number)playerIndex为呼叫该函数的玩家编号；
-				参数(number)shipID是一个整数，对于不同的呼叫该函数的船只，该数值是唯一且确定的，因此可以用于标识同种船只的不同个体；
-				（示例：Do_DroneFrigate(CustomGroup, playerIndex, shipID)）
-			同时，在Madstate文件中，有CustomCommandActivate和CustomCommandDeActivate两个state可以配合使用。
+			鍏充簬<sFunctionStart>, <sFunctionDo>, <sFunctionFinish>涓変釜鍑芥暟锛?
+			杩欏洓涓嚱鏁伴兘搴斿畾涔変簬<sCustomCodePath>鎸囧畾鐨勮剼鏈枃浠朵腑銆傚嚱鏁版牸寮忎负锛?
+			<sFunctionStart/sFunctionDo/sFunctionFinish>(CustomGroup, playerIndex, shipID)锛?
+				鍙傛暟(string)CustomGroup涓哄懠鍙鍑芥暟鐨凜ustomCommand鍑芥暟涓寚瀹氱殑<sCustomGroup>锛?
+				鍙傛暟(number)playerIndex涓哄懠鍙鍑芥暟鐨勭帺瀹剁紪鍙凤紱
+				鍙傛暟(number)shipID鏄竴涓暣鏁帮紝瀵逛簬涓嶅悓鐨勫懠鍙鍑芥暟鐨勮埞鍙紝璇ユ暟鍊兼槸鍞竴涓旂‘瀹氱殑锛屽洜姝ゅ彲浠ョ敤浜庢爣璇嗗悓绉嶈埞鍙殑涓嶅悓涓綋锛?
+				锛堢ず渚嬶細Do_DroneFrigate(CustomGroup, playerIndex, shipID)锛?
+			鍚屾椂锛屽湪Madstate鏂囦欢涓紝鏈塁ustomCommandActivate鍜孋ustomCommandDeActivate涓や釜state鍙互閰嶅悎浣跨敤銆?
 			

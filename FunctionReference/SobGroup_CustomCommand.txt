@@ -1,13 +1,13 @@
 SobGroup_CustomCommand(<specialGroup>)
 
 Description
-	（未验证）激活指定舰船的CustomCommand
+	锛堟湭楠岃瘉锛夋縺娲绘寚瀹氳埌鑸圭殑CustomCommand
 
 Example
-	SobGroup_CustomCommand(specialGroup) ——（Data:scripts\scar\kasutil.lua）
+	SobGroup_CustomCommand(specialGroup) 鈥斺€旓紙Data:scripts\scar\kasutil.lua锛?
 
 Arguments
-	<specialGroup>: (string)包含需要使用CustomCommand的舰船的SobGroup名
+	<specialGroup>: (string)鍖呭惈闇€瑕佷娇鐢–ustomCommand鐨勮埌鑸圭殑SobGroup鍚?
 
 Scope
 	Gamerule

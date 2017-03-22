@@ -1,20 +1,20 @@
 BKG_MeshSetSurface("KharakBurn", "bg_planetmelted")
 BKG_MeshSetSurface("KharakBurn", "bg_planetmelt")
 Description
-  将地图背景中的卡拉克星球切换到烧玻璃后的样子。
+  灏嗗湴鍥捐儗鏅腑鐨勫崱鎷夊厠鏄熺悆鍒囨崲鍒扮儳鐜荤拑鍚庣殑鏍峰瓙銆?
   
 Example
   BKG_MeshSetSurface("KharakBurn", "bg_planetmelt")
   BKG_MeshSetSurface("KharakBurn", "bg_planetmelted")
-		——（Data:scripts/scar/singleplayerflow.lua）
+		鈥斺€旓紙Data:scripts/scar/singleplayerflow.lua锛?
 
 Arguments
-	"KharakBurn"：猜测这应该是地图背景HOD里的一个Material的名字
-  "bg_planetmelt"/"bg_planetmelted"：和shader相关的东西
+	"KharakBurn"锛氱寽娴嬭繖搴旇鏄湴鍥捐儗鏅疕OD閲岀殑涓€涓狹aterial鐨勫悕瀛?
+  "bg_planetmelt"/"bg_planetmelted"锛氬拰shader鐩稿叧鐨勪笢瑗?
 Scope
 	Gamerule
 	
 Note
-	这个函数实际上应该是为特定Mesh更换了surfaceShader
+	杩欎釜鍑芥暟瀹為檯涓婂簲璇ユ槸涓虹壒瀹歁esh鏇存崲浜唖urfaceShader
 
 Related Functions:

@@ -1,16 +1,16 @@
 GameEvent_Listen(<iEventID>,<sCallback>)
 
 Description
-	Îª<iEventID>Öµ±íÊ¾µÄÊÂ¼ş°ó¶¨¼à¿Øº¯Êı<sCallback>¡£
+	ä¸º<iEventID>å€¼è¡¨ç¤ºçš„äº‹ä»¶ç»‘å®šç›‘æ§å‡½æ•°<sCallback>ã€‚
 	
-	Ïê¼û ×ÊÁÏ£º¹ØÓÚGameEvent¼àÌı ÖĞµÄËµÃ÷¡£
+	è¯¦è§ èµ„æ–™ï¼šå…³äºGameEventç›‘å¬ ä¸­çš„è¯´æ˜ã€‚
 	
 Arguments
-	<iEventID>: ÊÂ¼ş±àºÅ
-	<sCallback>: »Øµ÷º¯ÊıÃû
+	<iEventID>: äº‹ä»¶ç¼–å·
+	<sCallback>: å›è°ƒå‡½æ•°å
 	
 Note
-	Õâ¸öº¯ÊıÊÇÔÚHWRMÖĞĞÂÔöµÄ¡£
+	è¿™ä¸ªå‡½æ•°æ˜¯åœ¨HWRMä¸­æ–°å¢çš„ã€‚
 	
 Related Functions
 	GameEvent_IsListening(<iEventID>), GameEvent_UnListen(<iEventID>)

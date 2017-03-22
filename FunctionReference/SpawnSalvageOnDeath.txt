@@ -17,7 +17,7 @@ Note: there are (sometimes rather severe) radomizations applied to all arguments
 NewShipType 
 The type of resource/salvage. 
 The number of chunks to spawn (integer). 
-The percent of the total ship RU value. the total value governed by build cost and multiplier in tuning.lua / If all chunks don¡ät add up to 100% the engine will re-assign percentages evenly 
+The percent of the total ship RU value. the total value governed by build cost and multiplier in tuning.lua / If all chunks donâ€²t add up to 100% the engine will re-assign percentages evenly 
 x-location 
 y-location All locations relative to the spawning ship 
 z-location 

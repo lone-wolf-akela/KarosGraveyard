@@ -13,7 +13,7 @@ addAsteroid("Asteroid_4", { 24124, 0, -17680, }, 75, 0, 234.238, 0, 0)
 
 Arguments
 
-<sAsteroidType>: ranges from Asteroid_1 to Asteroid_5, with 1 being the smallest and 5 being the largest. Only 3, 4 and 5 are harvestable¡ª1 and 2 are purely ornamental.
+<sAsteroidType>: ranges from Asteroid_1 to Asteroid_5, with 1 being the smallest and 5 being the largest. Only 3, 4 and 5 are harvestableâ€”1 and 2 are purely ornamental.
 <tPosition>: a table containing the asteroid's X, Z, and Y coordinates.
 <fRU>: a multiplier applied to the default RU amount contained by each asteroid type. The larger the asteroid, the more RU it contains by default. An RU value of 100 means 100% of this default RU count, 70 is 70%, etc. A value of 0 means that the asteroid contains no resources, and is purely ornamental. Note: by setting the default RU value (in the .resource file) to 100, one can set the exact RU value explicitely using this function. -Mikail
 ?: rotation speed (uncertain)

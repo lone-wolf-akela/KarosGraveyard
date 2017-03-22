@@ -1,31 +1,31 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-RND tools Maya3.0 pluginµÄ°²×°
+RND tools Maya3.0 pluginçš„å®‰è£…
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-×÷Õß£º´óÃ¨
-³ö´¦£º¼ÒÔ°¹Ù·½ÂÛÌ³
+ä½œè€…ï¼šå¤§çŒ«
+å‡ºå¤„ï¼šå®¶å›­å®˜æ–¹è®ºå›
 
-Ê¹ÓÃRND TOOLS µÄMAYA PLUGIN£¬¿ÉÒÔ×öºÜ¶à¶«Î÷±ÈÈçĞÂµ¥Î»(ĞÂÕ½»ú£¬ĞÂÕ½½¢...)£¬ µØÍ¼£¬ÈÎÎñ£¬NIS(¹ı³¡¶¯»­ÉõÖÁÕ½»úÕ½½¢µÄFlightManeuvers(»ú¶¯)...µÈµÈ.
-°²×°¿ÉÒÔ²Î¿¼RND TOOLSÀïÌá¹©µÄHW2_Maya_Install_Doc.pdfËµÃ÷È¥×°£¬µ«Õâ¸ö·½·¨ÓĞĞ©È±Ïİ.ÏÂÃæ¸ø³öÎÒµÄ·½·¨.
-ÒÔÏÂÀı×Ó¼ÙÉè ¼ÒÔ°2×°ÔÚc:\homeworld2; MAYA3.0×°ÔÚC:\AW\MAYA3.0; RND TOOLSÒÑ°²×°£¬²¢ÇÒÒÑ°Ñrnd toolsµÄ mayaÄ¿Â¼copyµ½c:\homeworld2ÏÂ.
+ä½¿ç”¨RND TOOLS çš„MAYA PLUGINï¼Œå¯ä»¥åšå¾ˆå¤šä¸œè¥¿æ¯”å¦‚æ–°å•ä½(æ–°æˆ˜æœºï¼Œæ–°æˆ˜èˆ°...)ï¼Œ åœ°å›¾ï¼Œä»»åŠ¡ï¼ŒNIS(è¿‡åœºåŠ¨ç”»ç”šè‡³æˆ˜æœºæˆ˜èˆ°çš„FlightManeuvers(æœºåŠ¨)...ç­‰ç­‰.
+å®‰è£…å¯ä»¥å‚è€ƒRND TOOLSé‡Œæä¾›çš„HW2_Maya_Install_Doc.pdfè¯´æ˜å»è£…ï¼Œä½†è¿™ä¸ªæ–¹æ³•æœ‰äº›ç¼ºé™·.ä¸‹é¢ç»™å‡ºæˆ‘çš„æ–¹æ³•.
+ä»¥ä¸‹ä¾‹å­å‡è®¾ å®¶å›­2è£…åœ¨c:\homeworld2; MAYA3.0è£…åœ¨C:\AW\MAYA3.0; RND TOOLSå·²å®‰è£…ï¼Œå¹¶ä¸”å·²æŠŠrnd toolsçš„ mayaç›®å½•copyåˆ°c:\homeworld2ä¸‹.
 
-1. ÉèÖÃ»·¾³±äÁ¿: 
-ÓÒ¼üÑ¡¡°ÎÒµÄµçÄÔ¡°£¬Ñ¡ÊôĞÔ--¸ß¼¶--»·¾³±äÁ¿£¬Ôö¼Ó»·¾³±äÁ¿:
+1. è®¾ç½®ç¯å¢ƒå˜é‡: 
+å³é”®é€‰â€œæˆ‘çš„ç”µè„‘â€œï¼Œé€‰å±æ€§--é«˜çº§--ç¯å¢ƒå˜é‡ï¼Œå¢åŠ ç¯å¢ƒå˜é‡:
 HW2_ROOT--C:\Homeworld2
 MAYA_INSTALL_DIR--c:\AW\MAYA3.0
-¹Ù·½ËµÃ÷ÕâÀï»á¼ÓÉÏ MAYA_APP_DIR£¬ÕâÑù×ö²¢²»ºÃ£¬»áÆÆ»µMAYAµÄÄ¬ÈÏÖµ£¬Ê¹ÓĞĞ©¹¤¾ßÀ¸(shelf)ÎŞĞ§.
+å®˜æ–¹è¯´æ˜è¿™é‡Œä¼šåŠ ä¸Š MAYA_APP_DIRï¼Œè¿™æ ·åšå¹¶ä¸å¥½ï¼Œä¼šç ´åMAYAçš„é»˜è®¤å€¼ï¼Œä½¿æœ‰äº›å·¥å…·æ (shelf)æ— æ•ˆ.
 
-2. ½« c:\homeworld2\maya\3.0\plugin ÏÂµÄmsvci70.dll copy µ½ c:\aw\maya3.0\bin
-Relic¹Ù·½Ìá¹©µÄimfpsd.dll(mayaÖ§³Öpsd¸ñÊ½µÄplugin)Êµ¼ÊÉÏÎŞ·¨Ê¹ÓÃ£¬´ó¼Ò¿Éµ½(Ñ¹Ëõ°üÄÚÒÑ¸½´Ë²å¼ş)
+2. å°† c:\homeworld2\maya\3.0\plugin ä¸‹çš„msvci70.dll copy åˆ° c:\aw\maya3.0\bin
+Relicå®˜æ–¹æä¾›çš„imfpsd.dll(mayaæ”¯æŒpsdæ ¼å¼çš„plugin)å®é™…ä¸Šæ— æ³•ä½¿ç”¨ï¼Œå¤§å®¶å¯åˆ°(å‹ç¼©åŒ…å†…å·²é™„æ­¤æ’ä»¶)
 http://www.highend3d.com/maya/plugins/?section=rendering#1773
-ÕÒÒ»¸öIMFPsd v1.1À´Ìæ´úRelicÌá¹©µÄÄÇ¸öimfpsd.dll.
-½«imfpsd.dll copy µ½ c:\aw\maya3.0\bin\plug-ins\image .
+æ‰¾ä¸€ä¸ªIMFPsd v1.1æ¥æ›¿ä»£Relicæä¾›çš„é‚£ä¸ªimfpsd.dll.
+å°†imfpsd.dll copy åˆ° c:\aw\maya3.0\bin\plug-ins\image .
 
-3. ½« c:\homeworld2\maya\3.0\ÏÂµÄmaya.envÎÄ¼şºÍprefs£¬scriptsÄ¿Â¼copyµ½ c:\Documents and Settings\Administrator(»òÄãµÄÓÃ»§Ãû)\My Documents\maya\3.0\
-ÓÃ¼ÇÊÂ±¾´ò¿ªmaya.env£¬½«%MAYA_APP_DIR%¸ÄÎªc:\homeworld2\maya
+3. å°† c:\homeworld2\maya\3.0\ä¸‹çš„maya.envæ–‡ä»¶å’Œprefsï¼Œscriptsç›®å½•copyåˆ° c:\Documents and Settings\Administrator(æˆ–ä½ çš„ç”¨æˆ·å)\My Documents\maya\3.0\
+ç”¨è®°äº‹æœ¬æ‰“å¼€maya.envï¼Œå°†%MAYA_APP_DIR%æ”¹ä¸ºc:\homeworld2\maya
 
-½«\homeworld2\bin\release\ÏÂµÄmsvcp70.dll msvcr70.dll copyµ½ winnt\system\system32ÏÂ.
+å°†\homeworld2\bin\release\ä¸‹çš„msvcp70.dll msvcr70.dll copyåˆ° winnt\system\system32ä¸‹.
 
-4 ÔËĞĞmaya£¬ Ñ¡Ôñ windows\settings\preferences\Plug-in Manager£¬ ½«
+4 è¿è¡Œmayaï¼Œ é€‰æ‹© windows\settings\preferences\Plug-in Managerï¼Œ å°†
 AnimExport.mll 
 Annotation.mll 
 FlightManeuversExport.mll 
@@ -34,14 +34,14 @@ Homeworld2Export.mll
 HW2GetBB.mll 
 LeverExport.mll 
 Shizoom.mll
-ºóÃæµÄ auto load´òÉÏ¹´.È»ºóÍË³ömaya
+åé¢çš„ auto loadæ‰“ä¸Šå‹¾.ç„¶åé€€å‡ºmaya
 
-5.ÔËĞĞmaya£¬Ñ¡Ôñ windows\settings\preferences\Plug-in Manager ½«ËùÓĞRND tools maya pluginºóÃæµÄ auto load ´òÉÏ¹´£¬
+5.è¿è¡Œmayaï¼Œé€‰æ‹© windows\settings\preferences\Plug-in Manager å°†æ‰€æœ‰RND tools maya pluginåé¢çš„ auto load æ‰“ä¸Šå‹¾ï¼Œ
 
-ÕâÑù£¬ÒÔºóÃ¿´ÎÔËĞĞMAYA£¬¾Í»á×Ô¶¯¼ÓÔØ RND TOOLS MAYA PLUGIN.
+è¿™æ ·ï¼Œä»¥åæ¯æ¬¡è¿è¡ŒMAYAï¼Œå°±ä¼šè‡ªåŠ¨åŠ è½½ RND TOOLS MAYA PLUGIN.
 
-°Ñ Display\UI Elements\Layer Bar Ñ¡ÉÏ ¾Í¿ÉÒÔÏÔÊ¾²ã
+æŠŠ Display\UI Elements\Layer Bar é€‰ä¸Š å°±å¯ä»¥æ˜¾ç¤ºå±‚
 
-                                                            --×ÊÁÏÓÉ¡¶¼ÒÔ°2¡·ModÑĞ¾¿Ğ¡×éÕûÀí
-                                                              Ö÷Ò³:www.hw2mod.cn
-                                                              ½»Á÷Èº£º11673427 68305300
+                                                            --èµ„æ–™ç”±ã€Šå®¶å›­2ã€‹Modç ”ç©¶å°ç»„æ•´ç†
+                                                              ä¸»é¡µ:www.hw2mod.cn
+                                                              äº¤æµç¾¤ï¼š11673427 68305300

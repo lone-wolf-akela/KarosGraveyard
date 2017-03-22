@@ -15,7 +15,7 @@ Arguments
 
 <sShipName>: Sob* Passed from game
 <sAnimName>: string Name of mesh animation from ".mad" file.
-<sParam>: string Name of parameter. ¡°HorizontalRotation¡± and ¡°VerticalRotation¡± are built-in animations that determine the rotation based on the ship's rotational thrust, similar to how the engine glow is parameterized.
+<sParam>: string Name of parameter. â€œHorizontalRotationâ€ and â€œVerticalRotationâ€ are built-in animations that determine the rotation based on the ship's rotational thrust, similar to how the engine glow is parameterized.
 
 Scope
 
