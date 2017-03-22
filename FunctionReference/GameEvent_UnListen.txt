@@ -1,0 +1,16 @@
+GameEvent_UnListen(<iEventID>)
+
+Description
+	为<iEventID>值表示的事件解除与监控函数的绑定。
+	若当前该事件没有被绑定，则游戏会报错跳出。
+	
+	详见 资料：关于GameEvent监听 中的说明。
+	
+Arguments
+	<iEventID>: 事件编号
+	
+Note
+	这个函数是在HWRM中新增的。
+	
+Related Functions
+	GameEvent_Listen(<iEventID>,<sCallback>), GameEvent_IsListening(<iEventID>)

@@ -1,0 +1,16 @@
+GameEvent_Listen(<iEventID>,<sCallback>)
+
+Description
+	为<iEventID>值表示的事件绑定监控函数<sCallback>。
+	
+	详见 资料：关于GameEvent监听 中的说明。
+	
+Arguments
+	<iEventID>: 事件编号
+	<sCallback>: 回调函数名
+	
+Note
+	这个函数是在HWRM中新增的。
+	
+Related Functions
+	GameEvent_IsListening(<iEventID>), GameEvent_UnListen(<iEventID>)

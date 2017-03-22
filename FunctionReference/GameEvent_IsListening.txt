@@ -1,0 +1,16 @@
+GameEvent_IsListening(<iEventID>)
+
+Description
+	返回当前为<iEventID>值表示的事件绑定的监控函数。
+	返回值为一字符串，是当前该事件的监控函数的名称。如果当前该事件未被绑定，则返回空字符串("")
+	
+	详见 资料：关于GameEvent监听 中的说明。
+	
+Arguments
+	<iEventID>: 事件编号
+	
+Note
+	这个函数是在HWRM中新增的。
+	
+Related Functions
+	GameEvent_Listen(<iEventID>,<sCallback>), GameEvent_UnListen(<iEventID>)

@@ -1,0 +1,47 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RND tools Maya3.0 plugin的安装
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+作者：大猫
+出处：家园官方论坛
+
+使用RND TOOLS 的MAYA PLUGIN，可以做很多东西比如新单位(新战机，新战舰...)， 地图，任务，NIS(过场动画甚至战机战舰的FlightManeuvers(机动)...等等.
+安装可以参考RND TOOLS里提供的HW2_Maya_Install_Doc.pdf说明去装，但这个方法有些缺陷.下面给出我的方法.
+以下例子假设 家园2装在c:\homeworld2; MAYA3.0装在C:\AW\MAYA3.0; RND TOOLS已安装，并且已把rnd tools的 maya目录copy到c:\homeworld2下.
+
+1. 设置环境变量: 
+右键选“我的电脑“，选属性--高级--环境变量，增加环境变量:
+HW2_ROOT--C:\Homeworld2
+MAYA_INSTALL_DIR--c:\AW\MAYA3.0
+官方说明这里会加上 MAYA_APP_DIR，这样做并不好，会破坏MAYA的默认值，使有些工具栏(shelf)无效.
+
+2. 将 c:\homeworld2\maya\3.0\plugin 下的msvci70.dll copy 到 c:\aw\maya3.0\bin
+Relic官方提供的imfpsd.dll(maya支持psd格式的plugin)实际上无法使用，大家可到(压缩包内已附此插件)
+http://www.highend3d.com/maya/plugins/?section=rendering#1773
+找一个IMFPsd v1.1来替代Relic提供的那个imfpsd.dll.
+将imfpsd.dll copy 到 c:\aw\maya3.0\bin\plug-ins\image .
+
+3. 将 c:\homeworld2\maya\3.0\下的maya.env文件和prefs，scripts目录copy到 c:\Documents and Settings\Administrator(或你的用户名)\My Documents\maya\3.0\
+用记事本打开maya.env，将%MAYA_APP_DIR%改为c:\homeworld2\maya
+
+将\homeworld2\bin\release\下的msvcp70.dll msvcr70.dll copy到 winnt\system\system32下.
+
+4 运行maya， 选择 windows\settings\preferences\Plug-in Manager， 将
+AnimExport.mll 
+Annotation.mll 
+FlightManeuversExport.mll 
+FreezeShipScale.mll 
+Homeworld2Export.mll 
+HW2GetBB.mll 
+LeverExport.mll 
+Shizoom.mll
+后面的 auto load打上勾.然后退出maya
+
+5.运行maya，选择 windows\settings\preferences\Plug-in Manager 将所有RND tools maya plugin后面的 auto load 打上勾，
+
+这样，以后每次运行MAYA，就会自动加载 RND TOOLS MAYA PLUGIN.
+
+把 Display\UI Elements\Layer Bar 选上 就可以显示层
+
+                                                            --资料由《家园2》Mod研究小组整理
+                                                              主页:www.hw2mod.cn
+                                                              交流群：11673427 68305300
