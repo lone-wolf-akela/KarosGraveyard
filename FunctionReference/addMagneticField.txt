@@ -1,19 +1,19 @@
 addMagneticField(NewShipType, <sFieldname>, <fRadius>, <fMissileBlockPercent>, <sMissileBlockedEffect>, <fBulletBlockPercent>, <sBulletBlockedEffect>, <fInstantBlockPercent>, <sInstantBlockEffect>, <sFieldEffect>)
 
 Description
-	涓鸿埌鑸规坊鍔犱竴涓案涔呮€х殑鎶ょ浘
+	为舰船添加一个永久性的护盾。
 
 Example
 	addMagneticField(NewShipType,"MagneticField",1000,99,"defenseField_generic",15,"defenseField_generic",99,"plasma_hit_spray_MagneticField","defensefield_sphere_spray_TFF");
-		鈥斺€旓紙Data:ship/tai_fieldfrigate/tai_fieldfrigate.ship锛?
+		——（Data:ship/tai_fieldfrigate/tai_fieldfrigate.ship）
 
 Arguments
-	鏈夌┖鍐嶅～锛堜笉杩囩湅鍙傛暟鍚嶅瓧宸茬粡寰堟槑鐧戒簡鍚э級
+	有空再填（不过看参数名字已经很明白了吧）
 
 Scope
 	Ship
 	
 Note
-	浼间箮鍦╩adstate閲屾湁MagneticFieldActivate鍜孧agneticFieldDeActivate涓や釜state锛岀劧鑰屽洜涓鸿繖涓浘鏄案涔呯殑鎵€浠ュ苟涓嶇‘瀹氳繖涓や釜state鍒板簳鏈夋病鏈変綔鐢ㄣ€傦紙meshanimation.lua鏂囦欢閲屼技涔庝篃娌℃湁杩欎袱涓猻tate锛?
+	似乎在madstate里有MagneticFieldActivate和MagneticFieldDeActivate两个state，然而因为这个盾是永久的所以并不确定这两个state到底有没有作用。（meshanimation.lua文件里似乎也没有这两个state）
 
 Related Functions:

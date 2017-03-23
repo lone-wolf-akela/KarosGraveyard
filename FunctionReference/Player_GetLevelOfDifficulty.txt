@@ -1,25 +1,25 @@
 Player_GetLevelOfDifficulty(<iPlayerIndex>)
 
 Description
-	鑾峰彇鎸囧畾缂栧彿鐨勭帺瀹剁殑AI闅惧害绛夌骇銆?
-	鍙兘鐨勮繑鍥炲€煎寘鎷細
-		0锛氫汉绫?
-		1锛氱畝鍗旳I
-		2锛氭爣鍑咥I
-		3锛氬洶闅続I
-		4锛氫笓瀹禔I
+	获取指定编号的玩家的AI难度等级。
+	可能的返回值包括：
+		0：人类
+		1：简单AI
+		2：标准AI
+		3：困难AI
+		4：专家AI
 
 Example
 	if Player_GetLevelOfDifficulty(playerIndex) > 0 then ... end
-		鈥斺€旓紙Data:ship/kus_dronefrigate/kus_dronefrigate.lua锛?
+		——（Data:ship/kus_dronefrigate/kus_dronefrigate.lua）
 
 Arguments
-	<iPlayerIndex>: 鐜╁缂栧彿
+	<iPlayerIndex>: 玩家编号
 
 Scope
 	Gamerule
 	
 Note
-	杩欎釜鍑芥暟鏄湪HWRM涓柊澧炵殑銆傚湪缁忓吀鐗圚W2涓湁涓€涓嚱鏁癈PU_Exist鍙互鐢ㄤ簬鍒ゆ柇涓€涓帺瀹舵槸浜虹被杩樻槸AI锛屼絾鏄偅涓嚱鏁颁技涔庝細閫犳垚鑱旀満瓒呭嚭鍚屾銆傝€孭layer_GetLevelOfDifficulty骞朵笉浼氶€犳垚瓒呭悓锛屾墍浠ユ渶濂藉湪鎵€鏈夐渶瑕佸垽鏂帺瀹朵负浜虹被杩樻槸AI鐨勪唬鐮佷腑閮戒娇鐢≒layer_GetLevelOfDifficulty鑰岄潪CPU_Exist
+	这个函数是在HWRM中新增的。在经典版HW2中有一个函数CPU_Exist可以用于判断一个玩家是人类还是AI，但是那个函数似乎会造成联机超出同步。而Player_GetLevelOfDifficulty并不会造成超同，所以最好在所有需要判断玩家为人类还是AI的代码中都使用Player_GetLevelOfDifficulty而非CPU_Exist
 
 Related Functions
