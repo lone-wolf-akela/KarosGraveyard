@@ -1,0 +1,386 @@
+globals = 
+ { 
+     AsteroidStatic =    -- table, tag: 12 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     ClassTable =    -- table, tag: 4 
+     { 
+         _generated_ = 1,    -- number, tag: 2 
+         [6] =    -- table, tag: 6 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [7] =    -- table, tag: 7 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [8] =    -- table, tag: 8 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [9] =    -- table, tag: 9 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [10] =    -- table, tag: 10 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [11] =    -- table, tag: 11 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [12] =    -- table, tag: 12 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [13] =    -- table, tag: 13 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [14] =    -- table, tag: 14 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [15] =    -- table, tag: 15 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [16] =    -- table, tag: 16 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [17] =    -- table, tag: 17 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [18] =    -- table, tag: 18 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [19] =    -- table, tag: 19 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+         [20] =    -- table, tag: 20 
+         { 
+             _name_ = _name_,    -- function, tag: 5 
+             _generated_ = _generated_,    -- function, tag: 5 
+             _base_ = _base_,    -- function, tag: 5 
+             _get_ = _get_,    -- function, tag: 5 
+             _set_ = _set_,    -- function, tag: 5 
+         }, 
+     }, 
+     CloudStatic =    -- table, tag: 15 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     DustCloudStatic =    -- table, tag: 14 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     MissileStatic =    -- table, tag: 20 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     NebulaStatic =    -- table, tag: 17 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     NewResourceType =    -- table, tag: 13 
+     { 
+         _ptr_ = nil,    -- nil, tag: 1 
+     }, 
+     NewShipType =    -- table, tag: 7 
+     { 
+         _ptr_ = nil,    -- nil, tag: 1 
+     }, 
+     PebbleStatic =    -- table, tag: 16 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     ResourceStatic =    -- table, tag: 11 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SalvageStatic =    -- table, tag: 13 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     settagmethod_hook =    -- table, tag: 4 
+     { 
+         tostring = tostring,    -- function, tag: 5 
+     }, 
+     ShipStatic =    -- table, tag: 7 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SobPointMassStatic =    -- table, tag: 10 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SobRigidBodyStatic =    -- table, tag: 9 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SobStatic =    -- table, tag: 6 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SobWithMeshStatic =    -- table, tag: 19 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     SubSystemStatic =    -- table, tag: 18 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _base_ = _base_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     tostring_hook =    -- table, tag: 4 
+     { 
+     }, 
+     WeaponStatic =    -- table, tag: 8 
+     { 
+         _name_ = _name_,    -- function, tag: 5 
+         _generated_ = _generated_,    -- function, tag: 5 
+         _get_ = _get_,    -- function, tag: 5 
+         _set_ = _set_,    -- function, tag: 5 
+     }, 
+     _ALERT = _ALERT,    -- function, tag: 5 
+     _ERRORMESSAGE = _ERRORMESSAGE,    -- function, tag: 5 
+     addAbility = addAbility,    -- function, tag: 5 
+     addAnimTurretSound = addAnimTurretSound,    -- function, tag: 5 
+     addCustomCode = addCustomCode,    -- function, tag: 5 
+     addMagneticField = addMagneticField,    -- function, tag: 5 
+     AddNebulaAbility = AddNebulaAbility,    -- function, tag: 5 
+     AddNebulaMultiplier = AddNebulaMultiplier,    -- function, tag: 5 
+     addShaderProp = addShaderProp,    -- function, tag: 5 
+     addShield = addShield,    -- function, tag: 5 
+     AddShipAbility = AddShipAbility,    -- function, tag: 5 
+     AddShipMultiplier = AddShipMultiplier,    -- function, tag: 5 
+     AddSubSystemAbility = AddSubSystemAbility,    -- function, tag: 5 
+     AddSubSystemMultiplier = AddSubSystemMultiplier,    -- function, tag: 5 
+     AddWeaponResult = AddWeaponResult,    -- function, tag: 5 
+     assert = assert,    -- function, tag: 5 
+     call = call,    -- function, tag: 5 
+     collectgarbage = collectgarbage,    -- function, tag: 5 
+     copytagmethods = copytagmethods,    -- function, tag: 5 
+     doesShipHaveTag = doesShipHaveTag,    -- function, tag: 5 
+     dofile = dofile,    -- function, tag: 5 
+     doRulesHaveTag = doRulesHaveTag,    -- function, tag: 5 
+     dostring = dostring,    -- function, tag: 5 
+     error = error,    -- function, tag: 5 
+     foreach = foreach,    -- function, tag: 5 
+     foreachi = foreachi,    -- function, tag: 5 
+     foreachvar = foreachvar,    -- function, tag: 5 
+     gcinfo = gcinfo,    -- function, tag: 5 
+     getglobal = getglobal,    -- function, tag: 5 
+     getn = getn,    -- function, tag: 5 
+     getRulesFormat = getRulesFormat,    -- function, tag: 5 
+     getRulesName = getRulesName,    -- function, tag: 5 
+     getRulesNum = getRulesNum,    -- function, tag: 5 
+     getRulesStr = getRulesStr,    -- function, tag: 5 
+     getShipNum = getShipNum,    -- function, tag: 5 
+     getShipStr = getShipStr,    -- function, tag: 5 
+     gettagmethod = gettagmethod,    -- function, tag: 5 
+     globals = globals,    -- function, tag: 5 
+     import = import,    -- function, tag: 5 
+     LoadHODFile = LoadHODFile,    -- function, tag: 5 
+     loadLatchPointList = loadLatchPointList,    -- function, tag: 5 
+     LoadModel = LoadModel,    -- function, tag: 5 
+     LoadSharedModel = LoadSharedModel,    -- function, tag: 5 
+     loadShipPatchList = loadShipPatchList,    -- function, tag: 5 
+     mc = mc,    -- function, tag: 5 
+     mc_init = mc_init,    -- function, tag: 5 
+     newtag = newtag,    -- function, tag: 5 
+     next = next,    -- function, tag: 5 
+     nextvar = nextvar,    -- function, tag: 5 
+     p_import = p_import,    -- function, tag: 5 
+     p_setpath = p_setpath,    -- function, tag: 5 
+     print = print,    -- function, tag: 5 
+     printShipsFile = printShipsFile,    -- function, tag: 5 
+     rawget = rawget,    -- function, tag: 5 
+     rawgetglobal = rawgetglobal,    -- function, tag: 5 
+     rawgettable = rawgettable,    -- function, tag: 5 
+     rawset = rawset,    -- function, tag: 5 
+     rawsetglobal = rawsetglobal,    -- function, tag: 5 
+     rawsettable = rawsettable,    -- function, tag: 5 
+     resourceAttackMode = resourceAttackMode,    -- function, tag: 5 
+     setAccuracy = setAccuracy,    -- function, tag: 5 
+     setAccuracyFalloff = setAccuracyFalloff,    -- function, tag: 5 
+     setAngles = setAngles,    -- function, tag: 5 
+     setBallistics = setBallistics,    -- function, tag: 5 
+     setCollisionDamageFromModifier = setCollisionDamageFromModifier,    -- function, tag: 5 
+     setCollisionDamageToModifier = setCollisionDamageToModifier,    -- function, tag: 5 
+     setConcurrentBuildLimit = setConcurrentBuildLimit,    -- function, tag: 5 
+     setDamageFalloff = setDamageFalloff,    -- function, tag: 5 
+     setDamageMultFactor = setDamageMultFactor,    -- function, tag: 5 
+     setEngineBurn = setEngineBurn,    -- function, tag: 5 
+     setEngineGlow = setEngineGlow,    -- function, tag: 5 
+     setEngineTrail = setEngineTrail,    -- function, tag: 5 
+     setFireMultFactor = setFireMultFactor,    -- function, tag: 5 
+     setFrustratedTimers = setFrustratedTimers,    -- function, tag: 5 
+     setglobal = setglobal,    -- function, tag: 5 
+     setGrouping = setGrouping,    -- function, tag: 5 
+     setLeading = setLeading,    -- function, tag: 5 
+     setLifetimeMult = setLifetimeMult,    -- function, tag: 5 
+     setMagneticFieldPenetration = setMagneticFieldPenetration,    -- function, tag: 5 
+     setMiscValues = setMiscValues,    -- function, tag: 5 
+     setMissileKiller = setMissileKiller,    -- function, tag: 5 
+     setMissProperties = setMissProperties,    -- function, tag: 5 
+     setPenetration = setPenetration,    -- function, tag: 5 
+     setRangeBoost = setRangeBoost,    -- function, tag: 5 
+     setRangeByStance = setRangeByStance,    -- function, tag: 5 
+     setShaderChannels = setShaderChannels,    -- function, tag: 5 
+     setSpecialDieTime = setSpecialDieTime,    -- function, tag: 5 
+     setSpeedvsAccuracyAgainst = setSpeedvsAccuracyAgainst,    -- function, tag: 5 
+     setSpeedvsAccuracyApplied = setSpeedvsAccuracyApplied,    -- function, tag: 5 
+     setSupplyValue = setSupplyValue,    -- function, tag: 5 
+     setTacticsMults = setTacticsMults,    -- function, tag: 5 
+     settag = settag,    -- function, tag: 5 
+     settagmethod = settagmethod,    -- function, tag: 5 
+     setTargetAxis = setTargetAxis,    -- function, tag: 5 
+     setTargetBox = setTargetBox,    -- function, tag: 5 
+     sort = sort,    -- function, tag: 5 
+     SpawnAsteroidOnDeath = SpawnAsteroidOnDeath,    -- function, tag: 5 
+     SpawnDustCloudOnDeath = SpawnDustCloudOnDeath,    -- function, tag: 5 
+     SpawnSalvageOnDeath = SpawnSalvageOnDeath,    -- function, tag: 5 
+     StartAsteroidConfig = StartAsteroidConfig,    -- function, tag: 5 
+     StartCloudConfig = StartCloudConfig,    -- function, tag: 5 
+     StartDustCloudConfig = StartDustCloudConfig,    -- function, tag: 5 
+     StartMissileConfig = StartMissileConfig,    -- function, tag: 5 
+     StartNebulaConfig = StartNebulaConfig,    -- function, tag: 5 
+     StartPebbleConfig = StartPebbleConfig,    -- function, tag: 5 
+     StartSalvageConfig = StartSalvageConfig,    -- function, tag: 5 
+     StartShipConfig = StartShipConfig,    -- function, tag: 5 
+     StartShipHardPointConfig = StartShipHardPointConfig,    -- function, tag: 5 
+     StartShipWeaponConfig = StartShipWeaponConfig,    -- function, tag: 5 
+     StartSubSystemConfig = StartSubSystemConfig,    -- function, tag: 5 
+     StartSubSystemWeaponConfig = StartSubSystemWeaponConfig,    -- function, tag: 5 
+     StartWeaponConfig = StartWeaponConfig,    -- function, tag: 5 
+     tag = tag,    -- function, tag: 5 
+     tinsert = tinsert,    -- function, tag: 5 
+     tonumber = tonumber,    -- function, tag: 5 
+     tostring = tostring,    -- function, tag: 5 
+     tremove = tremove,    -- function, tag: 5 
+     type = type,    -- function, tag: 5 
+     typeid = typeid,    -- function, tag: 5 
+     ForceAttack = 1,    -- number, tag: 2 
+     HW2_FullPath = 1,    -- number, tag: 2 
+     numPrints = 0,    -- number, tag: 2 
+     RegularAttack = 2,    -- number, tag: 2 
+     RF_CAMPAIGN = 0,    -- number, tag: 2 
+     RF_MULTIPLAYER = 2,    -- number, tag: 2 
+     RF_SKIRMISH = 1,    -- number, tag: 2 
+     Unattackable = 0,    -- number, tag: 2 
+     _VERSION = "Lua 4.0",    -- string, tag: 3 
+ } 
