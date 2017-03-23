@@ -1,0 +1,277 @@
+﻿Homeworld 2 : VariableShip
+Karos Graveyard :: Page Index :: Recent Changes :: Recently Commented :: Log In 
+Function Reference :: Scope Reference :: Variable Reference
+Ship Variables
+
+Syntax
+<ShipTable> = StartShipConfig()
+<ShipTable>.<Variable> = <Value>
+(Can also be written as <ShipTable>["<Variable>"] = <Value>)
+
+Description
+Within every ".ship" file, there are over a hundred variables defining such things as the ship's health (armor), maximum speed and manuverability, as well as many unseen statistics. They are all initialized using the StartShipConfig function, and are stored within a table-type variable, called NewShipType. (See the Table Constructorhttp://www.lua.org/manual/4.0/manual.html#tableconstructor section in the Lua 4 Manualhttp://www.lua.org/manual/4.0/manual.html for more information on table type variables.)
+
+Example
+NewShipType = StartShipConfig()
+NewShipType.mainEngineMaxSpeed = 215
+
+Variables
+See below...
+
+
+The following list needs a lot of work. If anyone with information about any of these values, please help fill in the details. Thanks!
+Much of this information can also be found in "ShipTuning.xls", or Mikail's Updated ShipTuning.xlshttp://www.geocities.com/Area51/Quadrant/3864/homeworld.htm.
+A complete list of variables can also be found in the Objects Dumphttp://forums.relicnews.com/showthread.php?t=26309 (in the "ShipStatic" table).
+
+Variables
+Basic Ship Stats
+displayedName = <sShipName>: The name of the ship, displayed when you select the unit. Normally, the name is a reference to the "buildresearch.ucs" file with a value of "$1234", where 1234 is some number. However, you may use normal text here instead of the language table reference, such as "Hiigaran Battlecruiser". According to "ShipTuning.xls", it is not used in the game currently.
+sobDescription = <sDescription>: A brief description of the ship, displayed when you select the unit. Normally, the name is a reference to the "buildresearch.ucs" file with a value of "$1234", where $1234 is a localization ID.
+maxhealth = <iHealth>: Maximum health, or armor, of the ship.
+regentime = <fTime>: The time, in seconds, to repair the ship from 0 health to maximum health. If set to 0, the ship does not repair itself.
+minRegenTime = <fTime>: The minimum time, in seconds, to repair the ship from 0 health to maximum health. This caps the modifiers to health regeneration.
+sideArmourDamage = <fMultiplier>: Damage to the side of the ship is multiplied by this amount.
+rearArmourDamage = <fMultiplier>: Damage to the rear of the ship is multiplied by this amount.
+isTransferable = <bFlag>: If 1, can be transferred to allies in multiplayer. If 0, it can't.
+useEngagementRanges = <bFlag>: If 1, can use engagement ranges. If 0, it can't.
+unitCapsNumber = <iUnitCapsNumber>
+addedUnitCaps = <iUnitCapsNumber>
+
+
+Formations
+paradeData = <sName>: Supports Parade, such as Carrier, Building emplacements, etc. (e.g. "vgr_mothership_parade")
+SquadronSize = <iSize>: Number of ships in the squadron when the unit is first built.
+formationSpacing = <fDistance>: Distance between ships when in formation.
+passiveFormation = <sFormationName>: Formation used when in passive attack mode.
+defensiveFormation = <sFormationName>: Formation used when in defensive attack mode.
+aggressiveFormation = <sFormationName>: Formation used when in aggressive attack mode.
+
+
+Ship Physics
+Mass
+mass = <fMass>: Mass in kilograms of the ship. Used to determine damage in a collision.
+collisionMultiplier = <fMultiplier>: Multiplier to collision damage from a kamikaze attack.
+
+Maximum Speeds
+thrusterMaxSpeed = <fSpeed>: Maximum forward speed in meters/second when the target is not in the forward cone (see acceleration Angle) [Changed by TheBlind]
+mainEngineMaxSpeed = <fSpeed>: Maximum forward speed in meters/second.
+rotationMaxSpeed = <fSpeed>: Maximum turning speed in degrees/second.
+
+Accelerations
+thrusterAccelTime = <fTime>: Time, in seconds, it takes to accelerate to maximum speed when the target is not in the forward cone.
+thrusterBrakeTime = <fTime>: Time, in seconds, it takes to stop when the target is not in the forward cone.
+mainEngineAccelTime = <fTime>: Time, in seconds, it takes to accelerate to maximum speed.
+mainEngineBrakeTime = <fTime>: Time, in seconds, it takes to stop.
+rotationAccelTime = <fTime>: Time, in seconds, it takes to accelerate to maximum rotation (turning) speed.
+rotationBrakeTime = <fTime>: Time, in seconds, it takes to accelerate to stop rotating (turning).
+
+Misc
+thrusterUsage = <fPercent> Float value between 0 and 1.
+accelerationAngle = <fAngle>: The angle (in degrees) of the forward cone of the ship that determines when a ship starts accelerating towards the goal. For fighter, this is usually a high number, because you want them to speed up immediately, while for a battlecruiser this is usually a low number, because the turning speed of the BC is so slow that you want to be pointing more at the target before it accelerates. [Description by TheDutch]
+mirrorAngle = <fAngle>: The angle of the cone behind the ship. If you give a move order within this cone behind the ship, the ships will to a mirror-maneuver, which is also defined in the ship file. [Description by TheDutch]
+secondaryTurnAngle = <fAngle>
+maxBankingAmount = <fAngle>
+descendPitch = <fAngle>: If set to 360, along with maxBankingAmount, ships can achieve rolls/dives/etc, however, depending on the ship, this can be really undesirable.
+goalReachEpsilon = <fDistance>: The minimal distance in meters between a ship and it's destination, before it is said to have reached that destination.
+slideMoveRange = <iRange>: vgr_shipyard=600 and hgn_scout=0 ; seemingly INT, as no hw2 ships use FL
+controllerType = <sControllerType>: (e.g. "Ship")
+
+Death Tumble
+tumbleStaticX = <fAmount> Pitch.
+tumbleStaticY = <fAmount> Heading.
+tumbleStaticZ = <fAmount> Roll.
+tumbleDynamicX = <fAmount> Pitch.
+tumbleDynamicY = <fAmount> Heading.
+tumbleDynamicZ = <fAmount> Roll.
+tumbleSpecialDynamicX = <fAmount> Pitch.
+tumbleSpecialDynamicY = <fAmount> Heading.
+tumbleSpecialDynamicZ = <fAmount> Roll.
+
+Relative Move Factor
+relativeMoveFactor = <fMultiplier>: The value is multiplied by the ship's radius to determine how close, in meters, the ship can get to a piece of terrain, such as an asteroid.
+
+Swaying
+swayUpdateTime = <fTime>
+swayOffsetRandomX = <fAmount>
+swayOffsetRandomY = <fAmount>
+swayOffsetRandomZ = <fAmount>
+swayBobbingFactor = <fAmount> Looks to be between 0 and 1.
+swayRotateFactor = <fAmount> Looks to be between 0 and 1.
+
+
+Targeting
+TargetRandom 
+useTargetRandom = <bEnable> 1 or 0. Activate or desactivate target random. If not activated, enemy ships will shoot toward the ship root point position, if activated, enemy ships shoot at random points in a box defined by the parameters below
+targetRandomPointXMin = <fAmount> theoretically values between 0 and 1 but greater number seems to work. DON'T KNOW how work exactly this values.use negative value to go left from the root position and positive for right.this is the left side position of the random shooting box.
+targetRandomPointXMax = <fAmount> this is the right side position of the random shooting box
+targetRandomPointYMin = <fAmount> use negative value to go down and positive to go up. this is the bottom position of the random shooting box
+targetRandomPointYMax = <fAmount> this is the top position of the random shooting box
+targetRandomPointZMin = <fAmount> use negative value to go back and positive to go front.this is the back position of the random shooting box
+targetRandomPointZMax = <fAmount> this is the front position of the random shooting box
+
+
+DustCloud and Nebula Damage
+dustCloudDamageTime = <fTime>
+nebulaDamageTime = <fTime>
+
+
+Avoidance
+Avoidance Capsule
+MinimalFamilyToFindPathAround = <sFamilyName>: The minimal family of ships that this ship will fly around instead of attempting to fly past. See AvoidanceFamily in the "familylist.lua" file for possible values.
+
+
+Flight Maneuvers
+Maneuvers
+mirrorAboveManeuver = <sManeuverName>: The ship performs the specified flight maneuver when an enemy is above it.
+mirrorBelowManeuver = <sManeuverName>: The ship performs the specified flight maneuver when an enemy is below it.
+
+
+Families
+BuildFamily = <sBuildFamilyName>: Race-specific build family. See the "familylist.lua" file for possible values.
+AttackFamily = <sAttackFamilyName>: Determines how the AI reacts to the unit in combat. See the "familylist.lua" file for possible values.
+DockFamily = <sDockFamilyName>: See the "familylist.lua" file for possible values.
+AvoidanceFamily = <sAvoidanceFamilyName>: See the "familylist.lua" file for possible values.
+DisplayFamily = <sDisplayFamilyName>: See the "familylist.lua" file for possible values.
+AutoFormationFamily = <sAutoFormationFamilyName>: See the "familylist.lua" file for possible values.
+CollisionFamily = <sCollisionFamilyName>: See the "familylist.lua" file for possible values.
+ArmourFamily = <sArmuorFamilyName>: The type of armor the ship has. See the "familylist.lua" file for possible values.
+UnitCapsFamily = <sUnitCapsFamilyName>: The family toward which this unit applies for purposes of unit caps. See the "familylist.lua" file for possible values.
+UnitCapsShipType = <sUnitCapsShipType>: special unit caps. exemple: battlecruiser uses capital unit caps, but it has a second limit defined by this variable.See the "familylist.lua" file for possible values.
+
+
+Ship Counter Rating
+fighterValue = <fAmount>
+corvetteValue = <fAmount>
+frigateValue = <fAmount>
+neutralValue = <fAmount>
+antiFighterValue = <fAmount>
+antiCorvetteValue = <fAmount>
+antiFrigateValue = <fAmount>
+totalValue = <fAmount>
+
+
+Construction
+buildCost = <iCost>: RU cost to build the unit.
+buildTime = <fTime>: How long it takes, in seconds, to build the unit.
+buildPriorityOrder = <iOrder> The order by which the ships will be displayed in the global build queue UI. The mothership is at the top of the list so it gets the lowest value. This value is only applicable to ships with build queues.
+
+
+Sensors
+retaliationRange = <fRange>: Distance to an enemy unit within which this ship will move to engage if this ship is set to defensive or aggressive attack mode.
+retaliationDistanceFromGoal = <fDistance>:
+visualRange = <fRange>:
+prmSensorRange = <fRange>: Range of the primary sensors, shown in the Sensor Manager by the blue sphere.
+secSensorRange = <fRange>: Range of the secondary sensors. This range is always greater than the primary sensors range. Secondary sensors are not shown in the Sensors Manager, and not all enemy ships appear in the secondary sensors range.
+detectionStrength = <fStrength> Detection strength used on ships in visual range.
+If the detection on a ship is higher than the cloaking, then it is visible.
+
+
+UI / Rendering
+TOIcon = <sIconName>: The Tactical Overlay icon to use. Known values are "InvertedY", "Square", "Diamond", "Hexagon", "InvertedPentagon", "Triangle", "Parallelogram", and "Rectangle".
+TOScale = <fScale>: Ship's screen size multiplied by this scale for final on-screen size.
+TODistanceFade0 = <fDistance>
+TODistanceDisappear0 = <fDistance>
+TODistanceFade1 = <fDistance>
+TODistanceDisappear1 = <fDistance>
+TODistanceFade2 = <fDistance>
+TODistanceDisappear2 = <fDistance>
+TOGroupScale = <fScale>: Group's screen size multiplied by this for final on-screen size.
+TOGroupMergeSize = <fSize>: Screen size at which a group's TOs will be merged. Measured in percentage of screen size.
+mouseOverMinFadeSize = <fSize>: Size of ship where the mouseover starts to fade, in screen percentage. Must be smaller that "MouseOver Max Fade Size".
+mouseOverMaxFadeSize = <fSize>: Size of ship where the mouseover is totally faded.
+healthBarStyle = <iStyle> The visual style of the health bar. By default this can only be either 0, 1, or 2.
+nlips = <fScale>: The non-linear scaling factor.
+nlipsRange = <fRange>: If the camera distance is less than this entry, then the N-LIPS value is used.
+nlipsFar = <fRange>: The second stage N-LIPS value. This is used when objects are within this distance.
+nlipsFarRange = <fRange>: The camera distance at which the N-LIPS Far value kicks in. Between N-LIPS Range and N-LIPS Far Range, the nlips value is linearly interpolated between N-LIPS and N-LIPS Far.
+SMRepresentation = <sRepresentation>: The appearance of the ship on the Sensor Manager. ? Can be either HardDot or Mesh -thesamonthemoon
+AlwaysInRenderList = <bAlways>: 1 or 0, if set to 1 the ship will be always visible in the detector map even for enemies
+meshRenderLimit = <fDistance>: The screenspace size that defines when the mesh stops rendering and only TO remains. ? The distance at which the ship disappears from view. - thesamonthemoon.
+dotRenderLimit = <fDistance>: The camera distance at which the dot stops being rendered.
+visibleInSecondary = <bVisible>: Relic User: Is this object's mesh visible when spotted with secondary sensors? 0 = Not visible in secondary sensors. 1 = Visible in secondary sensors. ? [Need to verify.]
+minLOD = <fLevel>: Minimum level of detail. Range: 0 - 1. Default: 0.1.
+goblinsStartFade = <fDistance>: rsaville: at this distance the goblins will start to fade off the ship. ? The distance at which the ship's textures begin to fade. -thesamonthemoon
+goblinsOff = <fDistance>: rsaville: At this distance the goblins turn off. ? The distance at which the ship's textures disappear. - thesamonthemoon
+upLOD = <nDistance>: When the camera moves closer than this, increase the LOD. Not sure if it's a Float or an Int. Can be defined multiple times for multiple levels of detail; most ships have three upLOD and downLOD lines.
+downLOD = <nDistance>: Similar to above, but decreases the LOD when the camera moves farther than the specified distance.
+detailLevel = <fLevel>: LOD detail multiplier. Higher values = more detail. Lower values = less detail. Default = 0.5.
+minimumZoomFactor = <fFactor>: Adjusts how close the camera can get to a ship. 1.0 is normal, 0.75 means the camera can get 75% closer. for example. MinimumZoomFactor is based on the collision sphere of the ship. So 1.0 is zoomed in all the way such that the collision sphere hits the edges of the screen.
+selectionLimit = <fRange>: Screen area below which object is unselectable, in normalized screen area. The object may only be selected when its distance from the camera is less than or equal to this number in meters.
+preciseSelectionLimit = <fRange>: Screen area above which to do precise selections, in normalized screen area.
+preciseATILimit = <fRange> Some sort of a range.
+selectionPriority = <iPriority> Some type of a priority. 0 means you can't select a ship using the mouse.
+militaryUnit = <bIsMilitary>: 1 if it's a military unit, 0 if it's civilian (harvesters, etc). Only of relevance for the Military Selection Priority setting as far as I know.
+blobNamePriority = <iPriority>
+alternativeHyperspaceV = <sHyperspaceVisual>: Hyperspace visual effect file. Overrides "race.lua".
+alternativeHyperspaceA = <sHyperspaceSound>: Hyperspace audio effect file. Overrides "race.lua".
+alternativeHyperspaceTime = <fHyperspaceTime>: Hyperspace effect duration. Overrides "race.lua".
+canBlink = <bEnable>: Can Blink in Sensors Manager. This is how many seconds it will take for a ship to go from no thrust to 100% thrust. Looks like descriptions for two different things -Mikail.
+canHaveFog = <bEnable>
+canHaveShadows = <bEnable>
+SMHighlightDistMin = <fDistance>: Cedric Lee: Minimum distance between ship and camera before SM ship highlighting starts kicking in. Leave this blank for no highlighting.
+SMHighlightDistMax = <fDistance>: Cedric Lee: Maximum distance between ship and camera at which the SM ship highlighting reaches its max. The max alpha is a SM specific tuning value. Leave this blank for no highlighting.
+nbRestrictedHardpoints = <iNumberOfHardpoints>: Number of Restricted Hardpoints. smmatte: currently only used by the mothership because of keeper subsystem.
+
+
+Commands & Abilities
+Docking
+dockTimeBetweenTwoFormations = <fTime>
+dockTimeBeforeStart = <fTime>
+dockNrOfShipsInDockFormation = <iNumberOfShips>
+dockFormation = <sFormationName>: Formation used while the ship waits to dock. Typically has a value of dockline.
+queueFormation = <sFormationName> (e.g. "dockline")
+dontDockWithOtherRaceShips = <bEnable>: This allows you to disable docking with ships that are not of the same race. Needs to be enabled for most frigate and up ships, except the single player ships. (Otherwise, you would be able to recycle ships.)
+ignoreRaceWhenDocking = <bEnable>: 0 = cannot dock with allies of another race, 1 = can dock with allies of another race.
+
+Launch Command
+launchTimeBetweenTwoFormations = <fTime>
+launchTimeBeforeStart = <fTime>
+launchNrOfShipsInDockFormation = <iNumberOfShips>
+launchFormation = <sFormationName>: Formation used after the ship launches. Typically has a value of dockline.
+
+
+Effects
+battleScarMaxTriBase = <iNumberOfTriangles>: clee: Maximum number of battle scar triangles per ship. This is the base value. The actual max is ( base + (inc * multiplier) ). Set this to zero for ships that do not get battle scars.
+battleScarMaxTriInc = <iNumberOfTriangles>: clee: The maximum number of battle scar triangles may be scaled up by adding a multiple of this to the base value. Set this and the base value to zero for ships that do not take battle scars.
+sobDieTime = <fTime>: Time between when a ship loses all it's health and when the ship is removed from the renderlist.
+sobSpecialDieTime = <fTime>
+specialDeathSpeed = <fSpeed>: Speed above which there will be a chance on a special death (used for interceptors spawning a fire trail
+chanceOfSpecialDeath = <fChance>: Chance of a special death. Must be between 0 and 1.
+
+deadSobFadeTime = <fMultiplier>: Multiplier [0..1] that is used to compute the time it takes for a dead sob to fade out. The fade time is computed by multiplying this with sobDieTime.
+
+
+Shared Model Options
+shipHoldActive = <bEnable>: By default, ship holds are active if the ship hold ability is present. Set this to 0 to disable docking-mouse-over.
+
+
+Spawn Salvage When Killed
+Skeleton
+spawnShipOnDeath = <sShipName>: This spawns a Skeleton ship when this ship is blown up. The skeleton can be used for debris that dead motherships leave behind. The debris will basically be treated as a megalith. Noone owns it, and noone can select it. The name is tha name of the HOD file to load.
+
+
+Missing from Ship-Tuning These variables are not described in the Ship-Tuning, but are present in the dump.
+selectionSizeMax
+selectionSizeMin
+pixelColour
+
+
+Related Pages:
+StartShipConfig
+Variable Reference
+ Comments [Hide comments/form]
+Renamed page to VariableShip.
+-- ThoughtProcess (2003-10-14 18:27:02)
+Thrusters and main engine speeds are used regardless of the accelerationAngle cone. See the tanis shipyard for more info in a thread called "thruster vs engine". Komninosm
+-- ppp72-182.patras.access.acn.gr (2003-11-29 15:36:27)
+The munition-specific Ship variables (clusterDistance, proximityDetonationDist, numberSubMunitions, etc.) are missing. These should probably either be added here, or a new variable page created for them.
+-- RN243-153.resnet.uoguelph.ca (2003-12-03 22:50:34)
+You could add them here, but place <Munition-Ship Only>, or something, in the description.
+-- MiKail (2004-01-24 16:50:12)
+Added spawnShipOnDeath, selectionSizeMax, selectionSizeMin and pixelColour.
+-- MiKail (2006-01-29 03:19:09)
+This page should be renamed VariableObjectShip.
+-- MiKail (2006-01-29 03:21:02)
+Page History :: 2006-04-24 23:30:27 XML :: Owner: RangerHW :: Search: 
+Valid XHTML 1.0 Transitionalhttp://validator.w3.org/check/referer :: Valid CSShttp://jigsaw.w3.org/css-validator/check/referer :: Powered by Wikka Wakka Wiki 1.1.6.1http://wikka.jsnx.com/
+Page was generated in 0.1942 seconds
