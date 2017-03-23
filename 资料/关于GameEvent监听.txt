@@ -81,11 +81,11 @@ GameEvent_UnListen(<iEventID>)
 		GE_CommandCancelled：未知
 		GE_CommandComplete：未知
 		GE_CommandCouldNotBeIssued：未知
-		GE_CommandGiven：场上有任何玩家（似乎包括AI）对任何单位下达指令时都回触发
-		GE_DefenseFieldStatusChange：任何防御场护卫舰的防御场启动、关闭时都回触发
+		GE_CommandGiven：场上有任何玩家（似乎包括AI）对任何单位下达指令时都会触发
+		GE_DefenseFieldStatusChange：任何防御场护卫舰的防御场启动、关闭时都会触发
 		GE_EngagementRangeForceSet：未知
 		GE_EngagementRangeSet：未知 
-		GE_Hyperspace：场上有船只超跳的时候触发。每只超跳的船都回各自触发一次。包括开局入场的那次超跳也有效。
+		GE_Hyperspace：场上有船只超跳的时候触发。每只超跳的船都会各自触发一次。包括开局入场的那次超跳也有效。
 		GE_PlayerAlliance：未知 
 		GE_ResourceCollection：未知 
 		GE_SalCapCapturedTarget：被SalCap的船只的“洗脑”已经完成时触发。会向<sCallback>传递参数。
