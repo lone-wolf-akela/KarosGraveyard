@@ -1,0 +1,16 @@
+Player_GetShipsByFilterExclude(<iPlayerIndex>, <sSobGroupNameOut>, <sFilterTypeString>, <sFilterParam>)
+
+Description
+
+
+Arguments
+
+
+Returned Value:
+
+Related Functions:
+	SobGroup_FilterInclude
+	SobGroup_FilterExclude
+	Player_GetShipsByFilterInclude
+
+	

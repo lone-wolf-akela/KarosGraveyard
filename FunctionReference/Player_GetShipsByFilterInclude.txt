@@ -1,0 +1,24 @@
+Player_GetShipsByFilterInclude(<iPlayerIndex>, <sSobGroupNameOut>, <sFilterTypeString>, <sFilterParam>)
+
+Description
+
+	从<iPlayerIndex>所指定序号的玩家的所有船只中，挑选出符合<sFilterTypeString>和<sFilterParam>指定条件的船只，放入<sSobGroupNameOut>中。
+
+Arguments
+
+	<iPlayerIndex>：以该参数指定的玩家的所有船只为来源进行过滤
+	<sSobGroupNameOut>：存放结果的SobGroup
+	<sFilterTypeString>：过滤条件类型
+	<sFilterParam>：过滤条件参数
+
+Returned Value:
+	返回一个整数，为最终放入<sSobGroupNameOut>的船只数量
+
+Related Functions:
+	SobGroup_FilterInclude
+	SobGroup_FilterExclude
+	Player_GetShipsByFilterExclude
+
+说明：
+	关于<sFilterTypeString>和<sFilterParam>的可能取值，参见SobGroup_FilterInclude函数页面。
+	

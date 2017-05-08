@@ -36,7 +36,14 @@
 	GE_SubSystem = 41 
 	GE_TacticsSet = 32 
 	GE_UnitCapsReached = 42 
-
+	NDGE_BattleStatus = 49, 
+  NDGE_BuildingUnit = 52,   
+  NDGE_HotkeyGroupSelected = 46,  
+  NDGE_Objectives = 50,    
+  NDGE_PlayerNameChanged = 53,     
+  NDGE_RenderModel = 51,   
+  NDGE_ShipsSelected = 47,   
+  NDGE_SubsysSelected = 48,   
 依次解释下这三个函数
 GameEvent_Listen(<iEventID>,<sCallback>)
 	参数<iEventID>：整数，事件编号，上面列出的那些常量都是有效的事件ID
@@ -108,5 +115,7 @@ GameEvent_UnListen(<iEventID>)
 		GE_SubSystem：似乎是在有玩家鼠标单击选定任何子系统时触发。（不确定，我就试过一次）
 		GE_TacticsSet：在玩家修改单位的Tactics（当然在2.x版本上是ROE）时触发。
 		GE_UnitCapsReached：未知 
+		NDGE_BattleStatus：在有单位被敌军击毁时触发？（不确定）。不会向<sCallback>传递参数。
+		
 		
 最后提到一点有趣的用法。那就是GameEvent_Listen函数调用时设定的<iEventID>并不一定要是一个有效的事件编号（只需要是个整数就可以了），<sCallback>也不一定是要一个确实存在的函数（只要是个字符串就可以了，这个字符串甚至可以包括空格）。当然这样的话无论如何这个监听都不会被触发了，但是有趣的是GameEvent_IsListening依然可以返回之前用GameEvent_Listen设定的那个字符串的值。而且，特别的，这三个函数在rule和customcode两个范围内都可以使用而且是相通的。也就是说，你可以在rule里写GameEvent_Listen(12345,"Go up the mountain and hit the tiger")，然后在customcode里GameEvent_IsListening(12345)，然后函数会返回 "Go up the mountain and hit the tiger"。这应该可以用于在两个范围间通信。

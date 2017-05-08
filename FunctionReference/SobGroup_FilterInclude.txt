@@ -1,0 +1,66 @@
+SobGroup_FilterInclude(<sSobGroupNameOut>, <sSobGroupNameIn>, <sFilterTypeString>, <sFilterParam>)
+
+Description
+
+	从<sSobGroupNameIn>中，挑选出符合<sFilterTypeString>和<sFilterParam>指定条件的船只，放入<sSobGroupNameOut>中。
+
+Arguments
+
+	<sSobGroupNameOut>：存放结果的SobGroup
+	<sSobGroupNameIn>：用于过滤的源SobGroup
+	<sFilterTypeString>：过滤条件类型
+	<sFilterParam>：过滤条件参数
+
+Returned Value:
+	返回一个整数，为最终放入<sSobGroupNameOut>的船只数量
+
+Related Functions:
+	SobGroup_FilterExclude
+	Player_GetShipsByFilterInclude
+	Player_GetShipsByFilterExclude
+
+说明：
+	已知<sFilterTypeString>和<sFilterParam>可以取以下值：
+	
+		FilterType              FilterParam
+	========================================
+	"Ability"
+	                        "SalCapCommand"
+	                        "RepairCommand"
+	                        "CustomCommand"
+	                        "MoveCommand"
+	                        "CloakAbility"
+	                        "CanDock"
+	                        "HyperSpaceCommand"
+	                        "ParadeCommand"
+	                        "CanBuildShips"
+	                        
+	"CurrentCommand"        
+	                        "COMMAND_Attack"
+	                        "COMMAND_SalCap"
+	                        "COMMAND_Hyperspace"
+	                        "COMMAND_Dock"
+	                        "COMMAND_Launch"
+	                        
+	"CurrentCommandState"
+	                        "SALCAPSTATE_ReturningToBaseWithTech"
+	                        "LAUNCHSTATE_Queue"
+	                        
+	"NoFilter"
+	                        ""
+
+	"attackFamily"
+	                        (attackFamily)
+	                        
+	"displayFamily"
+	                        (displayFamily)
+	                        
+	"ShipType"              
+	                        (ShipType)
+	                        
+	"PlayerOwner"
+	                        (""..iPlayerIndex)
+	                        
+	"Docked"
+	                        ""
+				

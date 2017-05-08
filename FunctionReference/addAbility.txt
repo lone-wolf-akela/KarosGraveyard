@@ -137,7 +137,7 @@ Abilities
 			<fCapacity>: the ship can carry this many RUs before having to go unload.
 			<fHarvestRate>: the collector can harvest this many RUs per second.
 			<fHarvestRadius>: the distance from the resource object that the ship will hover while harvesting.
-
+			Note by 孤狼：怀疑<fHarvestRadius>参数已失效
 	CanBuildShips
 		addAbility(<rShip>, "CanBuildShips", <bIsActive>, <sBuildFamilies>, <sDisplayFamilies>)
 		Example

@@ -1,0 +1,24 @@
+SobGroup_FilterExclude(<sSobGroupNameOut>, <sSobGroupNameIn>, <sFilterTypeString>, <sFilterParam>)
+
+Description
+
+	从<sSobGroupNameIn>中，挑选出不符合<sFilterTypeString>和<sFilterParam>指定条件的船只，放入<sSobGroupNameOut>中。
+
+Arguments
+
+	<sSobGroupNameOut>：存放结果的SobGroup
+	<sSobGroupNameIn>：用于过滤的源SobGroup
+	<sFilterTypeString>：过滤条件类型
+	<sFilterParam>：过滤条件参数
+
+Returned Value:
+	返回一个整数，为最终放入<sSobGroupNameOut>的船只数量
+
+Related Functions:
+	SobGroup_FilterInclude
+	Player_GetShipsByFilterInclude
+	Player_GetShipsByFilterExclude
+
+说明：
+	关于<sFilterTypeString>和<sFilterParam>的可能取值，参见SobGroup_FilterInclude函数页面。
+	
