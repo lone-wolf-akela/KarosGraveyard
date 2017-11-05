@@ -11,6 +11,10 @@
 - &lt;iIndex&gt;: 整数。TargetBox编号。由0开始，最大为4。
 - &lt;fXmin&gt;, &lt;fYmin&gt;, &lt;fZmin&gt;, &lt;fXmax&gt;, &lt;fYmax&gt;, &lt;fZmax&gt;: 浮点数。TargetBox长方体区域的六个面的边界位置。其数值单位应该是以碰撞盒对应方向边长为单位1。
 
+## 可用范围 ##
+- Ship
+- ?Subsystem
+
 ## 相关函数 ##
 无
 
