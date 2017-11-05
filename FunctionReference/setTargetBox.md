@@ -1,7 +1,7 @@
 # setTargetBox(&lt;iIndex&gt;, &lt;fXmin&gt;, &lt;fYmin&gt;, &lt;fZmin&gt;, &lt;fXmax&gt;, &lt;fYmax&gt;, &lt;fZmax&gt;) #
 
 ## 描述 ##
-在.ship文件中使用，设置该船的TargetBox。其他船只在攻击该船时会瞄准设置的TargetBox攻击。
+在.ship文件中使用，设置该船的TargetBox。其他船只在攻击该船时会瞄准设置的TargetBox攻击。</br>
 同一艘船最多设置5个不同的TargetBox，其<iIndex>参数由0到4。
 
 ## 示例 ##
